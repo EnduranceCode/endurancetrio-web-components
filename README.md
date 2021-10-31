@@ -1,6 +1,12 @@
 # EnduranceTrio Race Results
 
+## Introduction
+
 **EnduranceTrio Race Results** is a component to display race results on a website.
+
+## Styling
+
+[Bulma](https://bulma.io/) is the CSS Framework chosen for the styling of **EnduranceTrio Race Results** sample page.
 
 ## Development
 
@@ -14,18 +20,18 @@ The main [npm](https://www.npmjs.com/) packages used for the development of **En
 
 + [webpack](https://www.npmjs.com/package/webpack);
 + [webpack-cli](https://www.npmjs.com/package/webpack-cli);
-+ [webpack-dev-server](https://www.npmjs.com/package/webpack-dev-server);
++ [webpack-dev-server](https://www.npmjs.com/package/webpack-dev-server).
 
 #### webpack HTML plugin
 
-+ [html-webpack-plugin](https://www.npmjs.com/package/html-webpack-plugin);
++ [html-webpack-plugin](https://www.npmjs.com/package/html-webpack-plugin).
 
 #### CSS
 
 + [sass](https://www.npmjs.com/package/sass);
 + [sass-loader](https://www.npmjs.com/package/sass-loader);
 + [css-loader](https://www.npmjs.com/package/css-loader);
-+ [mini-css-extract-plugin](https://www.npmjs.com/package/mini-css-extract-plugin);
++ [mini-css-extract-plugin](https://www.npmjs.com/package/mini-css-extract-plugin).
 
 #### Code formating and linting
 
