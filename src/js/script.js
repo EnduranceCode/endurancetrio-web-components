@@ -5,3 +5,7 @@
  */
 
 import '../css/style.scss';
+
+import displayResults from './components/race-results.js';
+
+displayResults();
