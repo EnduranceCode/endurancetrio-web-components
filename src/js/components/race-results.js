@@ -4,32 +4,42 @@
  * Licensed under MIT (https://github.com/EnduranceCode/endurancetrio-race-results/blob/master/LICENSE)
  */
 
-const SAMPLE_FILE_REFERENCE = '2021051601F';
+const SAMPLE_DATA_FOLDER_URL =
+  'https://raw.githubusercontent.com/EnduranceCode/endurancetrio-race-results/master/data/';
 
-function getUrl(fileReference) {
-  return (
-    'https://raw.githubusercontent.com/EnduranceCode/endurancetrio-race-results/master/data/' + fileReference + '.json'
-  );
+const resultsMap = new Map();
+
+function getUrl(resultsReference) {
+  return SAMPLE_DATA_FOLDER_URL + resultsReference + '.json';
 }
 
-function getResults(fileReference, callback) {
-  const url = getUrl(fileReference);
+function getResults(resultsReference, callback) {
+  const url = getUrl(resultsReference);
 
   fetch(url)
     .then((response) => {
       if (!response.ok) throw Error(response.statusText);
       return response.json();
     })
-    .then((jsonResults) => {
-      callback(jsonResults);
+    .then((results) => {
+      callback(resultsReference, results);
     });
 }
 
-function logResults(jsonResults) {
-  const myResults = jsonResults;
-  console.log(myResults);
+function populateTable(resultsReference, results) {
+  resultsMap.set(resultsReference, results);
+
+  console.log(resultsMap.get(resultsReference));
+  console.log(results);
 }
 
 export default function displayResults() {
-  getResults(SAMPLE_FILE_REFERENCE, logResults);
+  const resultTables = Array.prototype.slice.call(document.querySelectorAll('[data-result-reference]'), 0);
+
+  if (resultTables.length > 0) {
+    resultTables.forEach((table) => {
+      const resultReference = table.getAttribute('data-result-reference');
+      getResults(resultReference, populateTable);
+    });
+  }
 }
