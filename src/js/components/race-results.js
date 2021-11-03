@@ -29,8 +29,30 @@ function getResults(resultsReference, callback) {
 function populateTable(resultsReference, results) {
   resultsMap.set(resultsReference, results);
 
-  console.log(resultsMap.get(resultsReference));
-  console.log(results);
+  const table = document.querySelector(`[data-result-reference='${resultsReference}']`);
+
+  // Populate results table body
+  results.forEach((element) => {
+    let tableRow = table.insertRow();
+    for (const key in element) {
+      let cell = tableRow.insertCell();
+      let value = document.createTextNode(element[key]);
+      cell.appendChild(value);
+    }
+  });
+
+  // Get columns labels
+  const columnsLabels = Object.keys(results[0]);
+
+  // Populate table head
+  let thead = table.createTHead();
+  let tr = thead.insertRow();
+  columnsLabels.forEach((label) => {
+    let th = document.createElement('th');
+    let value = document.createTextNode(label);
+    th.appendChild(value);
+    tr.appendChild(th);
+  });
 }
 
 export default function displayResults() {
