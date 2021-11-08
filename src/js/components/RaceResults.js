@@ -21,19 +21,18 @@ class RaceResults {
         if (!response.ok) throw Error(response.statusText);
         return response.json();
       })
-      .then((results) => {
-        callback(resultsReference, results);
+      .then((resultsData) => {
+        this.resultsMap.set(resultsReference, resultsData);
+        callback(resultsReference, resultsData);
       });
   }
 
-  populateTable(resultsReference, results) {
-    this.resultsMap.set(resultsReference, results);
-
-    const table = document.querySelector(`[data-result-reference='${resultsReference}']`);
+  buildResultsView(resultsReference, resultsData) {
+    const overAllResultsTable = document.querySelector(`[data-result-reference='${resultsReference}']`);
 
     // Populate table body
-    results.forEach((element) => {
-      let tableRow = table.insertRow();
+    resultsData.forEach((element) => {
+      let tableRow = overAllResultsTable.insertRow();
       for (const key in element) {
         let cell = tableRow.insertCell();
         let value = document.createTextNode(element[key]);
@@ -42,10 +41,10 @@ class RaceResults {
     });
 
     // Get columns labels
-    const columnsLabels = Object.keys(results[0]);
+    const columnsLabels = Object.keys(resultsData[0]);
 
     // Populate table head
-    let thead = table.createTHead();
+    let thead = overAllResultsTable.createTHead();
     let tr = thead.insertRow();
     columnsLabels.forEach((label) => {
       let th = document.createElement('th');
@@ -61,7 +60,7 @@ class RaceResults {
     if (resultTables.length > 0) {
       resultTables.forEach((table) => {
         const resultReference = table.getAttribute('data-result-reference');
-        this.getResults(resultReference, this.populateTable.bind(this));
+        this.getResults(resultReference, this.buildResultsView.bind(this));
       });
     }
   }
