@@ -6,6 +6,6 @@
 
 import '../css/style.scss';
 
-import displayResults from './components/race-results.js';
+import { RaceResults } from './components/RaceResults';
 
-displayResults();
+new RaceResults().displayResults();
