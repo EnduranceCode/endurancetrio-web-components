@@ -41,10 +41,12 @@ class RaceResults {
     ResultsTable.populateResultsTableBody(overallResultsTable, overallResultsData);
     ResultsTable.populateResultsTableHead(overallResultsTable, this.resultsTableLabels.get(overallResultsReference));
 
-    this.ageGroupsMap.set(overallResultsReference, this.getAgeGroups(overallResultsData));
+    this.setAgeGroups(overallResultsReference);
+    this.setAgeGroupsResults(overallResultsReference);
   }
 
-  getAgeGroups(overallResultsData) {
+  setAgeGroups(overallResultsReference) {
+    const overallResultsData = this.resultsMap.get(overallResultsReference);
     const officialAgeGroups = AgeGroups.officialAgeGroups;
     const ageGroups = [];
 
@@ -62,7 +64,39 @@ class RaceResults {
       return a.order - b.order;
     });
 
-    return ageGroups;
+    this.ageGroupsMap.set(overallResultsReference, ageGroups);
+  }
+
+  setAgeGroupsResults(overallResultsReference) {
+    const ageGroups = this.ageGroupsMap.get(overallResultsReference);
+
+    ageGroups.forEach((ageGroup) => {
+      const ageGroupResultsData = this.resultsMap.get(overallResultsReference).filter((element) => {
+        return element.ageGroup == ageGroup.name;
+      });
+
+      this.sortResultsDataByRank(ageGroupResultsData);
+
+      this.setAgeGroupRank(ageGroupResultsData);
+
+      this.resultsMap.set(overallResultsReference + '-' + ageGroup.name, ageGroupResultsData);
+    });
+  }
+
+  sortResultsDataByRank(resultsData) {
+    resultsData.sort((a, b) => {
+      return a.rank - b.rank;
+    });
+  }
+
+  setAgeGroupRank(resultsData) {
+    let rank = 1;
+    resultsData.forEach((result) => {
+      if (typeof result.rank == 'number') {
+        result.rank = rank;
+        rank = rank + 1;
+      }
+    });
   }
 
   displayResults() {
