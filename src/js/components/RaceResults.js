@@ -5,6 +5,7 @@
  */
 
 import { ResultsTable } from '../utils/ResultsTable';
+import { AgeGroups } from '../utils/AgeGroups';
 
 class RaceResults {
   static SAMPLE_DATA_FOLDER_URL =
@@ -12,6 +13,7 @@ class RaceResults {
 
   resultsMap = new Map();
   resultsTableLabels = new Map();
+  ageGroupsMap = new Map();
 
   getUrl(overallResultsReference) {
     return RaceResults.SAMPLE_DATA_FOLDER_URL + overallResultsReference + '.json';
@@ -38,6 +40,29 @@ class RaceResults {
     this.resultsTableLabels.set(overallResultsReference, ResultsTable.getResultsTableLabels(overallResultsData));
     ResultsTable.populateResultsTableBody(overallResultsTable, overallResultsData);
     ResultsTable.populateResultsTableHead(overallResultsTable, this.resultsTableLabels.get(overallResultsReference));
+
+    this.ageGroupsMap.set(overallResultsReference, this.getAgeGroups(overallResultsData));
+  }
+
+  getAgeGroups(overallResultsData) {
+    const officialAgeGroups = AgeGroups.officialAgeGroups;
+    const ageGroups = [];
+
+    overallResultsData.forEach((result) => {
+      let ageGroupObject = officialAgeGroups.find((element) => {
+        return element.name == result.ageGroup;
+      });
+
+      if (!ageGroups.includes(ageGroupObject)) {
+        ageGroups.push(ageGroupObject);
+      }
+    });
+
+    ageGroups.sort((a, b) => {
+      return a.order - b.order;
+    });
+
+    return ageGroups;
   }
 
   displayResults() {
