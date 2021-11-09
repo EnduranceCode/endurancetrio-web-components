@@ -5,7 +5,9 @@
  */
 
 import { ResultsTable } from '../utils/ResultsTable';
+import { ResultsTabs } from '../utils/ResultsTabs';
 import { AgeGroups } from '../utils/AgeGroups';
+import { BulmaTabs } from '../bulma/BulmaTabs';
 
 class RaceResults {
   static SAMPLE_DATA_FOLDER_URL =
@@ -34,15 +36,12 @@ class RaceResults {
   }
 
   buildResultsView(overallResultsReference) {
-    const overallResultsTable = document.querySelector(`[data-result-reference='${overallResultsReference}']`);
-    const overallResultsData = this.resultsMap.get(overallResultsReference);
-
-    this.resultsTableLabels.set(overallResultsReference, ResultsTable.getResultsTableLabels(overallResultsData));
-    ResultsTable.populateResultsTableBody(overallResultsTable, overallResultsData);
-    ResultsTable.populateResultsTableHead(overallResultsTable, this.resultsTableLabels.get(overallResultsReference));
+    this.buildOverallResultsView(overallResultsReference);
 
     this.setAgeGroups(overallResultsReference);
     this.setAgeGroupsResults(overallResultsReference);
+
+    this.buildAgeGroupsResultsView(overallResultsReference);
   }
 
   setAgeGroups(overallResultsReference) {
@@ -97,6 +96,31 @@ class RaceResults {
         rank = rank + 1;
       }
     });
+  }
+
+  buildOverallResultsView(overallResultsReference) {
+    const overallResultsTable = document.querySelector(`[data-result-reference='${overallResultsReference}']`);
+    const overallResultsData = this.resultsMap.get(overallResultsReference);
+
+    this.resultsTableLabels.set(overallResultsReference, ResultsTable.getResultsTableLabels(overallResultsData));
+    ResultsTable.populateResultsTableBody(overallResultsTable, overallResultsData);
+    ResultsTable.populateResultsTableHead(overallResultsTable, this.resultsTableLabels.get(overallResultsReference));
+  }
+
+  buildAgeGroupsResultsView(overallResultsReference) {
+    const ageGroupsResultsTabList = document.getElementById(overallResultsReference + '-LST');
+    const ageGroupsResultsTabContent = document.getElementById(overallResultsReference + '-DIV');
+    const ageGroupsList = this.ageGroupsMap.get(overallResultsReference);
+
+    ResultsTabs.populateTabsList(ageGroupsResultsTabList, overallResultsReference, ageGroupsList);
+    ResultsTabs.populateTabsContent(
+      ageGroupsResultsTabContent,
+      overallResultsReference,
+      ageGroupsList,
+      this.resultsMap
+    );
+
+    new BulmaTabs(ageGroupsResultsTabList.children, ageGroupsResultsTabContent.children).init();
   }
 
   displayResults() {
