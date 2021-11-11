@@ -6,6 +6,13 @@
 
 import '../css/style.scss';
 
-import { RaceResults } from './components/RaceResults';
+import { RaceService } from './service/RaceService';
 
-new RaceResults().displayResults();
+const raceComponents = Array.prototype.slice.call(document.querySelectorAll('[data-result-reference]'), 0);
+
+if (raceComponents.length > 0) {
+  raceComponents.forEach((component) => {
+    const raceReference = component.getAttribute('data-result-reference');
+    new RaceService().getResults(raceReference);
+  });
+}
