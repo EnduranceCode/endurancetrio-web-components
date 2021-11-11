@@ -6,10 +6,10 @@
 
 import { ResultsTable } from '../utils/ResultsTable';
 import { ResultsTabs } from '../utils/ResultsTabs';
-import { AgeGroups } from '../utils/AgeGroups';
+import { AgeGroups } from '../model/AgeGroups';
 import { BulmaTabs } from '../bulma/BulmaTabs';
 
-class RaceResults {
+class RaceResultsView {
   static SAMPLE_DATA_FOLDER_URL =
     'https://raw.githubusercontent.com/EnduranceCode/endurancetrio-race-results/master/data/';
 
@@ -17,8 +17,14 @@ class RaceResults {
   resultsTableLabels = new Map();
   ageGroupsMap = new Map();
 
+  resultModel;
+
+  constructor(raceModel) {
+    this.raceModel = raceModel;
+  }
+
   getUrl(overallResultsReference) {
-    return RaceResults.SAMPLE_DATA_FOLDER_URL + overallResultsReference + '.json';
+    return RaceResultsView.SAMPLE_DATA_FOLDER_URL + overallResultsReference + '.json';
   }
 
   getOverallResults(overallResultsReference, callbackFunction) {
@@ -35,18 +41,18 @@ class RaceResults {
       });
   }
 
-  buildResultsView(overallResultsReference) {
-    this.buildOverallResultsView(overallResultsReference);
+  buildResultsView(raceReference) {
+    this.buildOverallResultsView(raceReference);
 
-    this.setAgeGroups(overallResultsReference);
-    this.setAgeGroupsResults(overallResultsReference);
+    this.setAgeGroups(raceReference);
+    this.setAgeGroupsResults(raceReference);
 
-    this.buildAgeGroupsResultsView(overallResultsReference);
+    this.buildAgeGroupsResultsView(raceReference);
   }
 
   setAgeGroups(overallResultsReference) {
     const overallResultsData = this.resultsMap.get(overallResultsReference);
-    const officialAgeGroups = AgeGroups.officialAgeGroups;
+    const officialAgeGroups = AgeGroups.officialTriathlonAgeGroups;
     const ageGroups = [];
 
     overallResultsData.forEach((result) => {
@@ -135,4 +141,4 @@ class RaceResults {
   }
 }
 
-export { RaceResults };
+export { RaceResultsView };
