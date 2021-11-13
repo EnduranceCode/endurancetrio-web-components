@@ -8,11 +8,11 @@ import '../css/style.scss';
 
 import { RaceService } from './service/RaceService';
 
-const raceComponents = Array.prototype.slice.call(document.querySelectorAll('[data-result-reference]'), 0);
+const raceComponents = Array.prototype.slice.call(document.querySelectorAll('[data-race-reference]'), 0);
 
 if (raceComponents.length > 0) {
   raceComponents.forEach((component) => {
-    const raceReference = component.getAttribute('data-result-reference');
+    const raceReference = component.getAttribute('data-race-reference');
     new RaceService().getResults(raceReference);
   });
 }

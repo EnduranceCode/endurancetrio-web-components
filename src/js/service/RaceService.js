@@ -12,14 +12,8 @@ class RaceService {
   static SAMPLE_DATA_FOLDER_URL =
     'https://raw.githubusercontent.com/EnduranceCode/endurancetrio-race-results/master/data/';
 
-  raceModel;
-
   getResults(raceReference) {
     this.getOverallResultsFromFile(raceReference, this.getRaceModel.bind(this));
-  }
-
-  getUrl(raceReference) {
-    return RaceService.SAMPLE_DATA_FOLDER_URL + raceReference + '.json';
   }
 
   getOverallResultsFromFile(raceReference, callback) {
@@ -37,28 +31,29 @@ class RaceService {
       });
   }
 
+  getUrl(raceReference) {
+    return RaceService.SAMPLE_DATA_FOLDER_URL + raceReference + '.json';
+  }
+
   getRaceModel(raceReference, overallResults) {
-    this.raceModel = new RaceModel(raceReference);
-    this.raceModel.results.overall = overallResults;
+    const raceModel = new RaceModel(raceReference);
+    raceModel.results.overall = overallResults;
 
-    this.raceModel.ageGroupsList = this.getAgeGroups(overallResults);
+    raceModel.ageGroupsList = this.getAgeGroups(overallResults);
 
-    const clonedOverallResults = overallResults.map((result) => {
-      return Object.assign({}, result);
-    });
-    this.raceModel.ageGroupsList.forEach((ageGroup) => {
-      const ageGroupResults = clonedOverallResults.filter((result) => {
+    raceModel.ageGroupsList.forEach((ageGroup) => {
+      const ageGroupResults = raceModel.results.overall.filter((result) => {
         return result.ageGroup == ageGroup.name;
       });
 
       this.sortResultsDataByRank(ageGroupResults);
       this.setAgeGroupRank(ageGroupResults);
 
-      this.raceModel.results[ageGroup.name] = ageGroupResults;
+      raceModel.results[ageGroup.name] = ageGroupResults;
     });
 
-    const raceResultsView = new RaceResultsView(this.raceModel);
-    raceResultsView.displayResults(this.raceModel);
+    const raceResultsView = new RaceResultsView(raceModel);
+    raceResultsView.render();
   }
 
   getAgeGroups(overallResultsData) {
