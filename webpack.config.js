@@ -1,6 +1,6 @@
 const path = require('path');
-const htmlWebpackPlugin = require('html-webpack-plugin');
-const miniCssExtractPlugin = require('mini-css-extract-plugin');
+const HtmlWebpackPlugin = require('html-webpack-plugin');
+const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 
 module.exports = {
   entry: { index: path.resolve(__dirname, 'src', 'js', 'script.js') },
@@ -16,20 +16,27 @@ module.exports = {
       {
         test: /\.scss$/,
         use: [
-          miniCssExtractPlugin.loader,
+          MiniCssExtractPlugin.loader,
           { loader: 'css-loader' },
           { loader: 'sass-loader', options: { sourceMap: true } },
         ],
+      },
+      {
+        test: /\.(woff|woff2|eot|ttf|otf)$/,
+        type: 'asset/resource',
+        generator: {
+          filename: 'fonts/[name][ext][query]',
+        },
       },
     ],
   },
 
   plugins: [
-    new htmlWebpackPlugin({
+    new HtmlWebpackPlugin({
       template: path.resolve(__dirname, 'src', 'index.html'),
     }),
 
-    new miniCssExtractPlugin({
+    new MiniCssExtractPlugin({
       filename: 'css/style.css',
     }),
   ],
