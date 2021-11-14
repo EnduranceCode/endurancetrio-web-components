@@ -41,8 +41,13 @@ class RaceService {
 
     raceModel.ageGroupsList = this.getAgeGroups(overallResults);
 
+    /* Clone overallResults following the sugestion at https://stackoverflow.com/a/40283265 */
+    const overallResultsClone = overallResults.map((result) => {
+      return Object.assign({}, result);
+    });
+
     raceModel.ageGroupsList.forEach((ageGroup) => {
-      const ageGroupResults = raceModel.results.overall.filter((result) => {
+      const ageGroupResults = overallResultsClone.filter((result) => {
         return result.ageGroup == ageGroup.name;
       });
 
