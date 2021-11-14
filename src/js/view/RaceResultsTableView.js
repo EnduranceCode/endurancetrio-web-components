@@ -32,6 +32,7 @@ class RaceResultsTableView {
 
     columnsLabels.forEach((label) => {
       const th = document.createElement('th');
+      th.classList.add('results-table__th', 'results-table__th--sort');
       const textNode = document.createTextNode(label);
       th.appendChild(textNode);
       tr.appendChild(th);

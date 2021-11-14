@@ -11,7 +11,7 @@
 
 // ~bulma/sass/base  */
 @import '~bulma/sass/base/_all';
-@import '../css/scss/elements/generic.scss';
+@import '../css/scss/elements/generic';
 
 /* MaterialDesignIcons.com */
 @import '~@mdi/font/scss/variables';
@@ -26,6 +26,7 @@
 @import '~bulma/sass/elements/container';
 @import '~bulma/sass/elements/progress';
 @import '~bulma/sass/elements/table';
+@import './scss/elements/table';
 @import '~bulma/sass/elements/title';
 
 /* ~bulma/sass/form */
