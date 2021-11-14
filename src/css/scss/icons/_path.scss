@@ -1,0 +1,32 @@
+/*!
+ * # Webfont - Material Design Icons
+ * 
+ * Webfont distribution for the [Material Design Icons](https://materialdesignicons.com).
+ * 
+ * This file replaces the correspondent file on the @mdi/font distributed by the project
+ * Material Design Icons(https://github.com/Templarian/MaterialDesign/) repo to report issues.
+ *
+ * This replacement is done in order make the webpack build work properly.
+ * In order to make the webpack configuration work, it's necessary to copy the folder "./node_modules/@mdi/font/fonts"
+ * to the "src" folder of this repository.
+ * 
+ * License: https://github.com/Templarian/MaterialDesign/blob/master/LICENSE
+ */
+
+$mdi-font-path: '../fonts';
+$mdi-version: '6.5.95' !default;
+
+@font-face {
+  font-family: '#{$mdi-font-name}';
+  src: url('#{$mdi-font-path}/#{$mdi-filename}-webfont.eot?v=#{$mdi-version}');
+  src: url('#{$mdi-font-path}/#{$mdi-filename}-webfont.eot?#iefix&v=#{$mdi-version}')
+      format('embedded-opentype'),
+    url('#{$mdi-font-path}/#{$mdi-filename}-webfont.woff2?v=#{$mdi-version}')
+      format('woff2'),
+    url('#{$mdi-font-path}/#{$mdi-filename}-webfont.woff?v=#{$mdi-version}')
+      format('woff'),
+    url('#{$mdi-font-path}/#{$mdi-filename}-webfont.ttf?v=#{$mdi-version}')
+      format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}

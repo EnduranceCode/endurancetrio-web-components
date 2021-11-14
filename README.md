@@ -32,6 +32,7 @@ The main [npm](https://www.npmjs.com/) packages used for the development of **En
 + [sass-loader](https://www.npmjs.com/package/sass-loader);
 + [css-loader](https://www.npmjs.com/package/css-loader);
 + [mini-css-extract-plugin](https://www.npmjs.com/package/mini-css-extract-plugin).
++ [@mdi/font v6.5.95](https://www.npmjs.com/package/@mdi/font/v/6.5.95).
 
 #### Code formating and linting
 
@@ -47,3 +48,5 @@ To start developing **EnduranceTrio Race Results**, clone this repository and in
     git clone git@github.com:EnduranceCode/endurancetrio-race-results.git
     cd endurancetrio-race-results
     npm install
+
+It is also necessary to copy the folder `node_modules/@mdi/font/fonts` to the folder [`src`](./src) of this repository.

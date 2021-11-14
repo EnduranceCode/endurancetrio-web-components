@@ -15,26 +15,17 @@
       <div class="hero-body">
         <h1 class="title">EnduranceTrio Race Results</h1>
         <p class="subtitle">A JavaScript component to display race results</p>
+        <div>
+          <span class="mdi mdi-sort mr-2"></span
+          ><span class="mdi mdi-sort-ascending mr-2"></span
+          ><span class="mdi mdi-sort-descending mr-2"></span>
+        </div>
       </div>
     </section>
 
     <main class="container is-full-fullhd">
-      <section class="section">
-        <!-- Overall Results Table-->
-        <div class="table-container">
-          <table
-            data-result-reference="2021051601F"
-            class="table is-fullwidth is-striped is-narrow is-hoverable"
-          ></table>
-        </div>
-
-        <!-- Age Groups Results tabs list-->
-        <div class="tabs is-centered is-toggle">
-          <ul id="2021051601F-LST" class="tabs-menu"></ul>
-        </div>
-
-        <!-- Age Groups Results tabs content -->
-        <div id="2021051601F-DIV"></div>
+      <section data-race-reference="2021051601F" class="section">
+        <progress class="progress is-info"></progress>
       </section>
     </main>
   </body>

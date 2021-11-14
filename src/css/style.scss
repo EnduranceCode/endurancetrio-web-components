@@ -13,6 +13,15 @@
 @import '~bulma/sass/base/_all';
 @import '../css/scss/elements/generic.scss';
 
+/* MaterialDesignIcons.com */
+@import '~@mdi/font/scss/variables';
+@import '~@mdi/font/scss/functions';
+@import './scss/icons/path';
+@import '~@mdi/font/scss/core';
+@import '~@mdi/font/scss/icons';
+@import '~@mdi/font/scss/extras';
+@import '~@mdi/font/scss/animated';
+
 // ~bulma/sass/elements */
 @import '~bulma/sass/elements/container';
 @import '~bulma/sass/elements/progress';

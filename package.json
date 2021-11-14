@@ -1,6 +1,6 @@
 {
   "name": "endurancetrio-race-results",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Component for race results display",
   "main": "index.js",
   "scripts": {
@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/EnduranceCode/endurancetrio-race-results#readme",
   "devDependencies": {
+    "@mdi/font": "6.5.95",
     "bulma": "^0.9.3",
     "css-loader": "^6.5.0",
     "eslint": "^8.1.0",
