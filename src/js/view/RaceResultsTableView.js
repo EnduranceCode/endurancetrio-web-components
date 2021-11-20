@@ -37,6 +37,10 @@ class RaceResultsTableView {
       th.appendChild(textNode);
       tr.appendChild(th);
     });
+
+    const rankColumn = tr.firstChild;
+    rankColumn.classList.remove('results-table__th--sort');
+    rankColumn.classList.add('results-table__th--sort-ascending');
   }
 
   static appendResultsTableBody(table, resultsData) {
