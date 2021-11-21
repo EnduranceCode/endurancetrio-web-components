@@ -265,26 +265,28 @@ p {
 
 /* MaterialDesignIcons.com */
 /*!
- * Webfont - Material Design Icons (https://materialdesignicons.com).
- * License: https://github.com/Templarian/MaterialDesign/blob/master/LICENSE
- *
- * Used by:
  * EnduranceTrio Race Results
  * Copyright 2021 Ricardo do Canto
  * Licensed under MIT (https://github.com/EnduranceCode/endurancetrio-race-results/blob/master/LICENSE)
  *
- * This file is used to style only the used icons and avoiding a CSS file bigger than necessary
+ * Using:
+ * Webfont - Material Design Icons (https://materialdesignicons.com).
+ * License: https://github.com/Templarian/MaterialDesign/blob/master/LICENSE
+ *
+ * This file is set in place to style only the used icons and avoiding a CSS file bigger than necessary
  */
-/* List only the used icons */
+/* ---------------------------------------------------------------------------------------------------------------------
+ * List of used Material Design Icons
+ */
 /*!
- * Webfont - Material Design Icons (https://materialdesignicons.com).
- * License: https://github.com/Templarian/MaterialDesign/blob/master/LICENSE
- *
- * Used by:
  * EnduranceTrio Race Results
  * Copyright 2021 Ricardo do Canto
  * Licensed under MIT (https://github.com/EnduranceCode/endurancetrio-race-results/blob/master/LICENSE)
- * 
+ *
+ * Using:
+ * Webfont - Material Design Icons (https://materialdesignicons.com).
+ * License: https://github.com/Templarian/MaterialDesign/blob/master/LICENSE
+ *
  * This file replaces the correspondent file on the @mdi/font project distributed by
  * Material Design Icons (https://github.com/Templarian/MaterialDesign/).
  *
@@ -293,8 +295,7 @@ p {
  */
 @font-face {
   font-family: "Material Design Icons";
-  src: url(../fonts/materialdesignicons-webfont.eot?v=6.5.95);
-  src: url(../fonts/materialdesignicons-webfont.eot?#iefix&v=6.5.95) format("embedded-opentype"), url(../fonts/materialdesignicons-webfont.woff2?v=6.5.95) format("woff2"), url(../fonts/materialdesignicons-webfont.woff?v=6.5.95) format("woff"), url(../fonts/materialdesignicons-webfont.ttf?v=6.5.95) format("truetype");
+  src: url(../fonts/materialdesignicons-webfont.woff2?v=6.5.95) format("woff2"), url(../fonts/materialdesignicons-webfont.woff?v=6.5.95) format("woff");
   font-weight: normal;
   font-style: normal;
 }
@@ -957,9 +958,8 @@ p {
  * Copyright 2021 Ricardo do Canto
  * Licensed under MIT (https://github.com/EnduranceCode/endurancetrio-race-results/blob/master/LICENSE)
  */
-/* -------------
+/* ---------------------------------------------------------------------------------------------------------------------
  * Results Table
- * -------------
  */
 .results-table__th {
   cursor: pointer;
@@ -980,14 +980,6 @@ p {
 
 .results-table__th--sort-descending::after {
   content: "\f04bd";
-}
-
-.table.is-hoverable tbody tr:not(.is-selected):active {
-  background-color: #fff;
-}
-
-.table.is-hoverable.is-striped tbody tr:not(.is-selected):active {
-  background-color: #fff;
 }
 
 .title,
