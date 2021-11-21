@@ -66,7 +66,7 @@ The variable `$mdi-icons` in the file [_variables.scss](./src/css/scss/icons/_va
 
 ### Installation
 
-To start developing **EnduranceTrio Race Results**, clone this repository and install the required [npm](https://www.npmjs.com/) with the following command:
+To start developing **EnduranceTrio Race Results**, clone this repository and install the required [npm](https://www.npmjs.com/) packages with the following command:
 
     git clone git@github.com:EnduranceCode/endurancetrio-race-results.git
     cd endurancetrio-race-results
