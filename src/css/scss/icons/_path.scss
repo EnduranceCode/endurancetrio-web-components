@@ -1,16 +1,17 @@
 /*!
- * # Webfont - Material Design Icons
- * 
- * Webfont distribution for the [Material Design Icons](https://materialdesignicons.com).
- * 
- * This file replaces the correspondent file on the @mdi/font distributed by the project
- * Material Design Icons(https://github.com/Templarian/MaterialDesign/) repo to report issues.
+ * EnduranceTrio Race Results
+ * Copyright 2021 Ricardo do Canto
+ * Licensed under MIT (https://github.com/EnduranceCode/endurancetrio-race-results/blob/master/LICENSE)
  *
- * This replacement is done in order make the webpack build work properly.
- * In order to make the webpack configuration work, it's necessary to copy the folder "./node_modules/@mdi/font/fonts"
- * to the "src" folder of this repository.
- * 
+ * Using:
+ * Webfont - Material Design Icons (https://materialdesignicons.com).
  * License: https://github.com/Templarian/MaterialDesign/blob/master/LICENSE
+ *
+ * This file replaces the correspondent file on the @mdi/font project distributed by
+ * Material Design Icons (https://github.com/Templarian/MaterialDesign/).
+ *
+ * This replacement is done in order make the webpack build work properly. It is also necessary
+ * to copy the folder "./node_modules/@mdi/font/fonts" to the "src" folder of this repository.
  */
 
 $mdi-font-path: '../fonts';
