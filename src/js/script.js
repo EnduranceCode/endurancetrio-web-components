@@ -4,6 +4,7 @@
  * Licensed under MIT (https://github.com/EnduranceCode/endurancetrio-race-results/blob/master/LICENSE)
  */
 
+import '../app/race-results';
 import '../css/style.scss';
 
 import { RaceService } from './service/RaceService';
