@@ -5,7 +5,6 @@
  */
 
 import '../app/race-results';
-import '../css/style.scss';
 
 import { RaceService } from './service/RaceService';
 

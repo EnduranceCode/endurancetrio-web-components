@@ -2,7 +2,7 @@
 
 ## Introduction
 
-**EnduranceTrio Race Results** is a component to display race results on a website.
+**EnduranceTrio Race Results** is a Lit component to display race results on a website.
 
 ## Styling
 
@@ -16,6 +16,17 @@ For the development of **EnduranceTrio Race Results**, [webpack](https://webpack
 
 The main [npm](https://www.npmjs.com/) packages used for the development of **EnduranceTrio Race Results* are listed here.
 
+#### Web Components
+
++ [lit](https://www.npmjs.com/package/lit).
+
+#### CSS
+
++ [bulma](https://www.npmjs.com/package/bulma);
++ [css-loader](https://www.npmjs.com/package/css-loader);
++ [sass](https://www.npmjs.com/package/sass);
++ [sass-loader](https://www.npmjs.com/package/sass-loader).
+
 #### webpack and webpack DevServer
 
 + [webpack](https://www.npmjs.com/package/webpack);
@@ -26,43 +37,12 @@ The main [npm](https://www.npmjs.com/) packages used for the development of **En
 
 + [html-webpack-plugin](https://www.npmjs.com/package/html-webpack-plugin).
 
-#### CSS
-
-+ [sass](https://www.npmjs.com/package/sass);
-+ [sass-loader](https://www.npmjs.com/package/sass-loader);
-+ [css-loader](https://www.npmjs.com/package/css-loader);
-+ [mini-css-extract-plugin](https://www.npmjs.com/package/mini-css-extract-plugin).
-
-##### Icons and webfonts
-
-+ [@mdi/font v6.5.95](https://www.npmjs.com/package/@mdi/font/v/6.5.95);
-+ [mdi-font-build-subset](https://www.npmjs.com/package/mdi-font-build-subset).
-
 #### Code formating and linting
 
 + [eslint](https://www.npmjs.com/package/eslint);
 + [eslint-config-prettier](https://www.npmjs.com/package/eslint-config-prettier);
 + [prettier](https://www.npmjs.com/package/prettier);
 + [eslint-plugin-prettier](https://www.npmjs.com/package/eslint-plugin-prettier).
-
-### Webfont custom build
-
-The size optimization of the files with the webfont ([Material Design Icons](https://materialdesignicons.com/)), used by **EnduranceTrio Race Results**, is obtained with the package [mdi-font-build-subset](https://www.npmjs.com/package/mdi-font-build-subset).
-
-The file [subset.json](./src/fonts/subset.json) stored in the folder [src/font](./src/fonts/) must list all the icons used in the code (and also the top 3 that are already listed).
-
-Every time that an icon is added to the file [subset.json](./src/fonts/subset.json), it's necessary to generate the new [Material Design Icons](https://materialdesignicons.com/) webfont files. That can be done with the following commands:
-
-    cp src/fonts/subset.json node_modules/mdi-font-build-subset/
-    cd node_modules/mdi-font-build-subset/
-    npm install
-    npm run build
-    cd ../../
-    cp node_modules/mdi-font-build-subset/dist/fonts/* src/fonts/
-
-The command `npm install` is only necessary for the first time that the webfont is generated.
-
-The variable `$mdi-icons` in the file [_variables.scss](./src/css/scss/icons/_variables.scss) must also be edited in order to include all the desired icons (the ones already listed on the file [subset.json](./node_modules/mdi-font-build-subset/subset.json)).
 
 ### Installation
 
