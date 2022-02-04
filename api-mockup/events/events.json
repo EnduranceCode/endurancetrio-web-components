@@ -1,0 +1,155 @@
+[
+  {
+    "eventReference": "20210516FTP001",
+    "event": {
+      "id": 1,
+      "title": "Triatlo de Oeiras",
+      "startDate": "16-05-2021",
+      "endDate": "16-05-2021",
+      "county": "Oeiras",
+      "district": "Lisboa",
+      "races": [
+        {
+          "id": 1,
+          "title": "Campeonato Nacional Individual Triatlo Sprint Elite Feminino",
+          "gender": "F",
+          "championships": [
+            {
+              "id": 1,
+              "title": "Campeonato Nacional Individual Triatlo Sprint Elite Feminino",
+              "season": "2021",
+              "division": "FTP",
+              "gender": "F"
+            },
+            {
+              "id": 2,
+              "title": "Campeonato Nacional Individual Triatlo Sprint Junior Feminino",
+              "season": "2021",
+              "division": "FTP",
+              "gender": "F"
+            }
+          ],
+          "scheduleDate": "16-05-2021",
+          "actualDate": "16-05-2021",
+          "scheduleTime": "10:30:00",
+          "actualTime": "10:31:25",
+          "sport": "TRIATHLON",
+          "distanceType": "SPRINT",
+          "swimDistance": 750,
+          "cyclingDistance": 19400,
+          "runDistance": 5000,
+          "resultsReference": "20210516FTP001-001",
+          "resultsTimeSplits": ["SWIM", "T1", "BIKE", "T2", "RUN", "TOTAL"]
+        },
+        {
+          "id": 2,
+          "title": "Campeonato Nacional Individual Triatlo Sprint Elite Masculino",
+          "gender": "M",
+          "championships": [
+            {
+              "id": 1,
+              "title": "Campeonato Nacional Individual Triatlo Sprint Elite Masculino",
+              "season": "2021",
+              "gender": "M"
+            },
+            {
+              "id": 2,
+              "title": "Campeonato Nacional Individual Triatlo Sprint Junior Masculino",
+              "season": "2021",
+              "division": "FTP",
+              "gender": "M"
+            }
+          ],
+          "scheduleDate": "16-05-2021",
+          "actualDate": "16-05-2021",
+          "scheduleTime": "9:00:00",
+          "actualTime": "9:01:53",
+          "sport": "TRIATHLON",
+          "distanceType": "SPRINT",
+          "swimDistance": 750,
+          "cyclingDistance": 19400,
+          "runDistance": 5000,
+          "resultsReference": "20210516FTP001-002",
+          "resultsTimeSplits": ["SWIM", "T1", "BIKE", "T2", "RUN", "TOTAL"]
+        }
+      ]
+    }
+  },
+  {
+    "eventReference": "20211016FTP002",
+    "event": {
+      "id": 2,
+      "title": "Triatlo de Portimão",
+      "startDate": "16-10-2021",
+      "endDate": "17-10-2021",
+      "county": "Portimão",
+      "district": "Faro",
+      "races": [
+        {
+          "id": 3,
+          "title": "Campeonato Nacional Individual Triatlo Standard Elite Feminino",
+          "gender": "F",
+          "championships": [
+            {
+              "id": 3,
+              "title": "Campeonato Nacional Individual Triatlo Standard Elite Feminino",
+              "season": "2021",
+              "division": "FTP",
+              "gender": "F"
+            },
+            {
+              "id": 4,
+              "title": "Campeonato Nacional Individual Triatlo Standard Junior Feminino",
+              "season": "2021",
+              "division": "FTP",
+              "gender": "F"
+            }
+          ],
+          "scheduleDate": "16-10-2021",
+          "actualDate": "16-10-2021",
+          "scheduleTime": "16:00:00",
+          "actualTime": "16:02:09",
+          "sport": "TRIATHLON",
+          "distanceType": "STANDARD",
+          "swimDistance": 1500,
+          "cyclingDistance": 40000,
+          "runDistance": 10000,
+          "resultsReference": "20211016FTP001-001",
+          "resultsTimeSplits": ["SWIM", "T1", "BIKE", "T2", "RUN", "TOTAL"]
+        },
+        {
+          "id": 4,
+          "title": "Campeonato Nacional Individual Triatlo Standard Elite Masculino",
+          "gender": "M",
+          "championships": [
+            {
+              "id": 1,
+              "title": "Campeonato Nacional Individual Triatlo Standard Elite Elite Masculino",
+              "season": "2021",
+              "division": "FTP",
+              "gender": "M"
+            },
+            {
+              "id": 2,
+              "title": "Campeonato Nacional Individual Triatlo Standard Elite Junior Masculino",
+              "season": "2021",
+              "division": "FTP",
+              "gender": "M"
+            }
+          ],
+          "scheduleDate": "16-10-2021",
+          "actualDate": "16-10-2021",
+          "scheduleTime": "14:30:00",
+          "actualTime": "14:31:34",
+          "sport": "TRIATHLON",
+          "distanceType": "STANDARD",
+          "swimDistance": 1500,
+          "cyclingDistance": 40000,
+          "runDistance": 10000,
+          "resultsReference": "20211016FTP001-002",
+          "resultsTimeSplits": ["SWIM", "T1", "BIKE", "T2", "RUN", "TOTAL"]
+        }
+      ]
+    }
+  }
+]

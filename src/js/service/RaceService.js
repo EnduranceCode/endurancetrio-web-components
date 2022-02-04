@@ -10,7 +10,7 @@ import { RaceResultsView } from '../view/RaceResultsView';
 
 class RaceService {
   static SAMPLE_DATA_FOLDER_URL =
-    'https://raw.githubusercontent.com/EnduranceCode/endurancetrio-race-results/master/data/';
+    'https://raw.githubusercontent.com/EnduranceCode/endurancetrio-race-results/master/api-mockup/results/';
 
   getResults(raceReference) {
     this.getOverallResultsFromFile(raceReference, this.getRaceModel.bind(this));
