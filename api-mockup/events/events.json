@@ -4,8 +4,8 @@
     "event": {
       "id": 1,
       "title": "Triatlo de Oeiras",
-      "startDate": "16-05-2021",
-      "endDate": "16-05-2021",
+      "startDate": "2021-05-16",
+      "endDate": "2021-05-16",
       "county": "Oeiras",
       "district": "Lisboa",
       "races": [
@@ -29,8 +29,8 @@
               "gender": "F"
             }
           ],
-          "scheduleDate": "16-05-2021",
-          "actualDate": "16-05-2021",
+          "scheduleDate": "2021-05-16",
+          "actualDate": "2021-05-16",
           "scheduleTime": "10:30:00",
           "actualTime": "10:31:25",
           "sport": "TRIATHLON",
@@ -60,8 +60,8 @@
               "gender": "M"
             }
           ],
-          "scheduleDate": "16-05-2021",
-          "actualDate": "16-05-2021",
+          "scheduleDate": "2021-05-16",
+          "actualDate": "2021-05-16",
           "scheduleTime": "9:00:00",
           "actualTime": "9:01:53",
           "sport": "TRIATHLON",
@@ -80,8 +80,8 @@
     "event": {
       "id": 2,
       "title": "Triatlo de Portimão",
-      "startDate": "16-10-2021",
-      "endDate": "17-10-2021",
+      "startDate": "2021-10-16",
+      "endDate": "2021-10-17",
       "county": "Portimão",
       "district": "Faro",
       "races": [
@@ -105,8 +105,8 @@
               "gender": "F"
             }
           ],
-          "scheduleDate": "16-10-2021",
-          "actualDate": "16-10-2021",
+          "scheduleDate": "2021-10-16",
+          "actualDate": "2021-10-16",
           "scheduleTime": "16:00:00",
           "actualTime": "16:02:09",
           "sport": "TRIATHLON",
@@ -137,8 +137,8 @@
               "gender": "M"
             }
           ],
-          "scheduleDate": "16-10-2021",
-          "actualDate": "16-10-2021",
+          "scheduleDate": "2021-10-16",
+          "actualDate": "2021-10-16",
           "scheduleTime": "14:30:00",
           "actualTime": "14:31:34",
           "sport": "TRIATHLON",
