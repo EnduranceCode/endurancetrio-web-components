@@ -5,30 +5,38 @@
  */
 
 import { getErrorMessage, errorMessagesKeys } from '../i18n/error-messages';
+import { getEndpoint } from '../properties/endpoints';
 
 class EventService {
-  static ENDPOINT_EVENTS =
-    'https://raw.githubusercontent.com/EnduranceCode/endurancetrio-race-results/master/api-mockup/events/events.json';
-
+  /**
+   * Returns the event with the given reference
+   *
+   * @param {String} eventReference reference of the event to fetch
+   * @returns the desired event
+   */
   static async getEventByReference(eventReference) {
     const results = await this.getEvents();
 
     if (results.error) {
       return results;
     } else {
-      let requestedEvent = {};
+      let requestedEvent = { error: getErrorMessage(errorMessagesKeys.eventNotFound) };
       results.map((result) => {
         if (result.eventReference == eventReference) {
           requestedEvent = result.event;
         }
       });
-      console.log(requestedEvent);
       return requestedEvent;
     }
   }
 
+  /**
+   * Fetchs all events that are stored on the server
+   *
+   * @returns the all events stored on the server
+   */
   static async getEvents() {
-    return fetch(this.ENDPOINT_EVENTS)
+    return fetch(getEndpoint('events'))
       .then((response) => {
         if (response.ok) {
           return response.json();
