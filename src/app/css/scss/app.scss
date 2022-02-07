@@ -2,6 +2,8 @@
  * EnduranceTrio Race Results
  * Copyright 2021 Ricardo do Canto
  * Licensed under MIT (https://github.com/EnduranceCode/endurancetrio-race-results/blob/master/LICENSE)
+ *
+ * The CSS of this app is based on the Bulma CSS Framework (https://bulma.io/)
  */
 
 @charset "utf-8";
@@ -27,21 +29,21 @@
 // @import "bulma/sass/elements/content";
 // @import "bulma/sass/elements/icon";
 // @import "bulma/sass/elements/image";
-// @import "bulma/sass/elements/notification";
-// => @import 'bulma/sass/elements/progress';
+@import 'bulma/sass/elements/notification';
+@import 'bulma/sass/elements/progress';
 // => @import 'bulma/sass/elements/table';
 // => @import 'elements/table';
 // @import "bulma/sass/elements/tag";
-// => @import 'bulma/sass/elements/title';
+@import 'bulma/sass/elements/title';
 //@import "bulma/sass/elements/other"
 
 /* Form */
-// @import "bulma/sass/form/shared";
-// @import "bulma/sass/form/input-textarea";
-// @import "bulma/sass/form/checkbox-radio";
-// @import "bulma/sass/form/select";
-// @import "bulma/sass/form/file";
-// @import "bulma/sass/form/tools";
+@import 'bulma/sass/form/shared';
+@import 'bulma/sass/form/input-textarea';
+// @import 'bulma/sass/form/checkbox-radio';
+@import 'bulma/sass/form/select';
+// @import 'bulma/sass/form/file';
+@import 'bulma/sass/form/tools';
 
 /* Components */
 // @import 'bulma/sass/components/breadcrumb';
@@ -68,7 +70,7 @@
 // @import 'bulma/sass/helpers/other';
 // @import 'bulma/sass/helpers/overflow';
 // @import 'bulma/sass/helpers/position';
-// @import 'bulma/sass/helpers/spacing';
+@import 'bulma/sass/helpers/spacing';
 // @import 'bulma/sass/helpers/typography';
 // @import 'bulma/sass/helpers/visibility';
 

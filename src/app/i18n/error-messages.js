@@ -1,7 +1,10 @@
 const navigatorLanguages = window.navigator.language;
 
 /**
- * Objet with the keys for each error message
+ * Objet with the keys for each error message.
+ *
+ * The content for error message key added here must be added to the
+ * uiMesssages object.
  */
 export const errorMessagesKeys = {
   eventNotFound: 'eventNotFound',
@@ -10,7 +13,7 @@ export const errorMessagesKeys = {
 };
 
 /**
- * Returns the error message for the given key
+ * Returns the error message for the given key.
  *
  * @param {String} key of the error
  * @returns the fetched error message
@@ -24,7 +27,7 @@ export function getErrorMessage(key) {
 }
 
 /**
- * Object with the error messages content
+ * Object with the error messages content.
  */
 const errorMessages = {
   pt_PT: {
