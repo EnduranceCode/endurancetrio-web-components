@@ -6,6 +6,7 @@
 
 import { LitElement, html } from 'lit';
 import { appStyles } from '../../css/app-style';
+import { Utils } from '../../utils/Utils';
 import { uiMessagesKeys, getUiMessage } from '../../i18n/ui-messages';
 
 class EventHeader extends LitElement {
@@ -22,7 +23,9 @@ class EventHeader extends LitElement {
 
   render() {
     return html`
-      <section class="box mb-5">${this.event ? this.buildEventHeader() : this.buildProgressBar()}</section>
+      <section class="box has-background-link-light mb-4">
+        ${Utils.isObjectEmpty(this.event) ? this.buildProgressBar() : this.buildEventHeader()}
+      </section>
     `;
   }
 
