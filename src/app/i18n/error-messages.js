@@ -13,6 +13,17 @@ export const errorMessagesKeys = {
 };
 
 /**
+ * Object with the error messages content.
+ */
+const errorMessages = {
+  pt_PT: {
+    eventNotFound: 'O evento escolhido não existe.',
+    networkError: 'Erro de conexão, não foi possível ligar ao servidor.',
+    serverError: 'Não foi possível obter a lista de eventos.',
+  },
+};
+
+/**
  * Returns the error message for the given key.
  *
  * @param {String} key of the error
@@ -25,14 +36,3 @@ export function getErrorMessage(key) {
       return errorMessages.pt_PT[key];
   }
 }
-
-/**
- * Object with the error messages content.
- */
-const errorMessages = {
-  pt_PT: {
-    eventNotFound: 'O evento escolhido não existe.',
-    networkError: 'Erro de conexão, não foi possível ligar ao servidor.',
-    serverError: 'Não foi possível obter a lista de eventos.',
-  },
-};

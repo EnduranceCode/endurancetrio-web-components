@@ -14,6 +14,34 @@ class Utils {
   static isObjectEmpty(object) {
     return object && Object.keys(object).length === 0 && object.constructor === Object;
   }
+
+  /**
+   * Concatenates 'city', 'county' and 'city' with comas
+   *
+   * @param {String} city The city String to concat
+   * @param {String} county The county String to concatenate
+   * @param {String} district The district String to concatenate
+   * @returns the given places concatenated with comas
+   */
+  static getComposedLocation(city, county, district) {
+    function concatPlacesWithComa(firstPlace, secondPlace) {
+      if (firstPlace) {
+        return secondPlace ? firstPlace.concat(', ', secondPlace) : firstPlace;
+      } else {
+        return secondPlace;
+      }
+    }
+
+    let composedEventLocation = city ? city : '';
+
+    composedEventLocation =
+      county === composedEventLocation ? composedEventLocation : concatPlacesWithComa(composedEventLocation, county);
+
+    composedEventLocation =
+      district === county ? composedEventLocation : concatPlacesWithComa(composedEventLocation, district);
+
+    return composedEventLocation;
+  }
 }
 
 export { Utils };

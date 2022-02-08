@@ -5,11 +5,13 @@
  */
 
 import { LitElement, html } from 'lit';
+
 import { appStyles } from './css/app-style';
+import { Utils } from './utils/Utils';
+import { EventService } from './service/EventService';
 
 import './components/event-header/EventHeader';
-
-import { EventService } from './service/EventService';
+import './components/results-header/ResultsHeader';
 
 class RaceResults extends LitElement {
   static styles = [appStyles];
@@ -32,8 +34,11 @@ class RaceResults extends LitElement {
       <article>
         <event-header .event="${this.event}"></event-header>
 
-        <section class="section mb-5">Results Header</section>
-        <section class="section mb-5">Results</section>
+        <results-header
+          location="${Utils.getComposedLocation(this.event.city, this.event.county, this.event.district)}"
+          .race="${this.race}"
+        ></results-header>
+        <section class="section mb-6">Results</section>
       </article>
     `;
   }

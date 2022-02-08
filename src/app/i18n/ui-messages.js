@@ -7,9 +7,36 @@ const navigatorLanguages = window.navigator.language;
  * uiMesssages object.
  */
 export const uiMessagesKeys = {
+  cycling: 'cycling',
+  date: 'date',
   error: 'error',
+  firstRun: 'firstRun',
+  location: 'location',
   results: 'results',
+  run: 'run',
   resultsPlaceholder: 'resultsPlaceholder',
+  secondRun: 'secondRun',
+  swim: 'swim',
+  time: 'time',
+};
+
+/**
+ * Object with the UI messages/texts content.
+ */
+const uiMessages = {
+  pt_PT: {
+    cycling: 'Ciclismo',
+    date: 'Data',
+    error: 'Erro',
+    firstRun: 'Primeira Corrida',
+    location: 'Local',
+    results: 'Resultados',
+    resultsPlaceholder: 'Escolher uma prova',
+    run: 'Corrida',
+    secondRun: 'Segunda Corrida',
+    swim: 'Natação',
+    time: 'Hora',
+  },
 };
 
 /**
@@ -25,14 +52,3 @@ export function getUiMessage(key) {
       return uiMessages.pt_PT[key];
   }
 }
-
-/**
- * Object with the UI messages/texts content.
- */
-const uiMessages = {
-  pt_PT: {
-    error: 'Erro',
-    results: 'Resultados',
-    resultsPlaceholder: 'Escolher uma prova',
-  },
-};

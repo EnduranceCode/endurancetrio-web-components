@@ -5,6 +5,7 @@
  */
 
 import { LitElement, html } from 'lit';
+
 import { appStyles } from '../../css/app-style';
 import { Utils } from '../../utils/Utils';
 import { uiMessagesKeys, getUiMessage } from '../../i18n/ui-messages';
@@ -30,16 +31,17 @@ class EventHeader extends LitElement {
   }
 
   buildEventHeader() {
+    const composedEventDate = this.getComposedEventDate();
+    const composedEventLocation = Utils.getComposedLocation(this.event.city, this.event.county, this.event.district);
     if (this.event.error) {
       return html`${this.buildErrorMessage()}`;
     } else {
       return html`
         <h3 class="title is-3">${this.event.title}</h3>
         <p class="subtitle is-5">
-          <span>${this.getComposedEventDate()}</span>
-          ${this.getComposedEventDate() && this.getComposedEventLocation ? ' | ' : ''}<span
-            >${this.getComposedEventLocation()}</span
-          >
+          <span>${composedEventDate}</span>
+          ${composedEventDate && composedEventLocation ? ' | ' : ''}
+          <span>${Utils.getComposedLocation(this.event.city, this.event.county, this.event.district)}</span>
         </p>
 
         <form>
@@ -66,8 +68,8 @@ class EventHeader extends LitElement {
   }
 
   getComposedEventDate() {
-    const startDate = new Date(this.event.startDate + 'Z');
-    const endDate = new Date(this.event.endDate + 'Z');
+    const startDate = new Date(this.event.startDate);
+    const endDate = new Date(this.event.endDate);
     let eventDate = '';
 
     if (startDate.getTime() == endDate.getTime()) {
@@ -83,18 +85,6 @@ class EventHeader extends LitElement {
     }
 
     return eventDate;
-  }
-
-  getComposedEventLocation() {
-    let eventLocation = '';
-
-    if (this.event.county && this.event.district) {
-      eventLocation = this.event.county.concat(', ', this.event.district);
-    } else if (this.event.county || this.event.district) {
-      eventLocation = this.event.county ? this.event.county : this.event.district;
-    }
-
-    return eventLocation;
   }
 
   buildAvailableRaceOptions() {
