@@ -28,14 +28,22 @@ class ResultsHeader extends LitElement {
   }
 
   buildRaceHeader() {
+    const distanceNumberFormat = new Intl.NumberFormat('pt-PT', {
+      locales: 'lookup',
+      style: 'unit',
+      unit: 'meter',
+      useGrouping: 'always',
+    });
+
     return html`
       <section class="box has-text-link">
         ${this.buildRaceTitle()} ${this.buildRaceSubtitle()}
         <div class="tile is-ancestor">${this.buildRaceLocation()} ${this.buildRaceDate()} ${this.buildRaceTime()}</div>
 
         <div class="tile is-ancestor">
-          ${this.buildSwimDistance()} ${this.buildFirstRunDistance()} ${this.buildCyclingDistance()}
-          ${this.buildRunDistance()} ${this.buildSecondRunDistance()}
+          ${this.buildSwimDistance(distanceNumberFormat)} ${this.buildFirstRunDistance(distanceNumberFormat)}
+          ${this.buildCyclingDistance(distanceNumberFormat)} ${this.buildRunDistance(distanceNumberFormat)}
+          ${this.buildSecondRunDistance(distanceNumberFormat)}
         </div>
       </section>
     `;
@@ -49,7 +57,7 @@ class ResultsHeader extends LitElement {
 
   buildRaceSubtitle() {
     if (this.race.subtitle) {
-      return html`<h5 class="subtitle is-6  has-text-centered has-text-link">Elite Femenino</h5>`;
+      return html`<h5 class="subtitle is-5  has-text-centered has-text-link">${this.race.subtitle}</h5>`;
     }
   }
 
@@ -92,65 +100,65 @@ class ResultsHeader extends LitElement {
     }
   }
 
-  buildSwimDistance() {
+  buildSwimDistance(distanceNumberFormat) {
     if (this.race.swimDistance) {
       return html`
         <div class="tile is-parent">
           <dl class="tile is-child has-text-centered">
             <dt class="heading">${getUiMessage(uiMessagesKeys.swim)}</dt>
-            <dd class="title is-6">${this.race.swimDistance} m</dd>
+            <dd class="title is-6">${distanceNumberFormat.format(this.race.swimDistance)}</dd>
           </dl>
         </div>
       `;
     }
   }
 
-  buildFirstRunDistance() {
+  buildFirstRunDistance(distanceNumberFormat) {
     if (this.race.firstRunDistance) {
       return html`
         <div class="tile is-parent">
           <dl class="tile is-child has-text-centered">
             <dt class="heading">${getUiMessage(uiMessagesKeys.firstRun)}</dt>
-            <dd class="title is-6">${this.race.firstRunDistance} m</dd>
+            <dd class="title is-6">${distanceNumberFormat.format(this.race.firstRunDistance)}</dd>
           </dl>
         </div>
       `;
     }
   }
 
-  buildCyclingDistance() {
+  buildCyclingDistance(distanceNumberFormat) {
     if (this.race.cyclingDistance) {
       return html`
         <div class="tile is-parent">
           <dl class="tile is-child has-text-centered">
             <dt class="heading">${getUiMessage(uiMessagesKeys.cycling)}</dt>
-            <dd class="title is-6">${this.race.cyclingDistance} m</dd>
+            <dd class="title is-6">${distanceNumberFormat.format(this.race.cyclingDistance)}</dd>
           </dl>
         </div>
       `;
     }
   }
 
-  buildRunDistance() {
+  buildRunDistance(distanceNumberFormat) {
     if (this.race.runDistance) {
       return html`
         <div class="tile is-parent">
           <dl class="tile is-child has-text-centered">
             <dt class="heading">${getUiMessage(uiMessagesKeys.run)}</dt>
-            <dd class="title is-6">${this.race.runDistance} m</dd>
+            <dd class="title is-6">${distanceNumberFormat.format(this.race.runDistance)}</dd>
           </dl>
         </div>
       `;
     }
   }
 
-  buildSecondRunDistance() {
+  buildSecondRunDistance(distanceNumberFormat) {
     if (this.race.secondRunDistance) {
       return html`
         <div class="tile is-parent">
           <dl class="tile is-child has-text-centered">
             <dt class="heading">${getUiMessage(uiMessagesKeys.secondRun)}</dt>
-            <dd class="title is-6">${this.race.secondRunDistance} m</dd>
+            <dd class="title is-6">${distanceNumberFormat.format(this.race.secondRunDistance)}</dd>
           </dl>
         </div>
       `;

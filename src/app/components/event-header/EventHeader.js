@@ -33,6 +33,7 @@ class EventHeader extends LitElement {
   buildEventHeader() {
     const composedEventDate = this.getComposedEventDate();
     const composedEventLocation = Utils.getComposedLocation(this.event.city, this.event.county, this.event.district);
+
     if (this.event.error) {
       return html`${this.buildErrorMessage()}`;
     } else {
@@ -41,7 +42,7 @@ class EventHeader extends LitElement {
         <p class="subtitle is-5">
           <span>${composedEventDate}</span>
           ${composedEventDate && composedEventLocation ? ' | ' : ''}
-          <span>${Utils.getComposedLocation(this.event.city, this.event.county, this.event.district)}</span>
+          <span>${composedEventLocation}</span>
         </p>
 
         <form>
@@ -89,13 +90,12 @@ class EventHeader extends LitElement {
 
   buildAvailableRaceOptions() {
     if (this.event.races && this.event.races.length > 0) {
-      this.event.races.map((race) => {
-        return html`<option value="${race.resultsReference}">${race.title}</option>`;
-      });
-
-      return html`${this.event.races.map((race) => {
-        return html`<option value="${race.resultsReference}">${race.title}</option>`;
-      })}`;
+      return html`
+        ${this.event.races.map((race) => {
+          const optionText = race.subtitle ? race.title.concat(' - ', race.subtitle) : race.title;
+          return html`<option value="${race.resultsReference}">${optionText}</option>`;
+        })}
+      `;
     }
   }
 
