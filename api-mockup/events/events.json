@@ -6,12 +6,14 @@
       "title": "Triatlo de Oeiras",
       "startDate": "2021-05-16",
       "endDate": "2021-05-16",
+      "city": "Oeiras",
       "county": "Oeiras",
       "district": "Lisboa",
       "races": [
         {
           "id": 1,
-          "title": "Campeonato Nacional Individual Triatlo Sprint Elite Feminino",
+          "title": "Campeonato Nacional Individual Triatlo Sprint",
+          "subtitle": "Elite Feminino",
           "gender": "F",
           "championships": [
             {
@@ -43,7 +45,8 @@
         },
         {
           "id": 2,
-          "title": "Campeonato Nacional Individual Triatlo Sprint Elite Masculino",
+          "title": "Campeonato Nacional Individual Triatlo Sprint",
+          "subtitle": "Elite Masculino",
           "gender": "M",
           "championships": [
             {
@@ -82,12 +85,14 @@
       "title": "Triatlo de Portimão",
       "startDate": "2021-10-16",
       "endDate": "2021-10-17",
+      "city": "Praia da Rocha",
       "county": "Portimão",
       "district": "Faro",
       "races": [
         {
           "id": 3,
-          "title": "Campeonato Nacional Individual Triatlo Standard Elite Feminino",
+          "title": "Campeonato Nacional Individual Triatlo Standard",
+          "subtitle": "Elite Feminino",
           "gender": "F",
           "championships": [
             {
@@ -119,7 +124,8 @@
         },
         {
           "id": 4,
-          "title": "Campeonato Nacional Individual Triatlo Standard Elite Masculino",
+          "title": "Campeonato Nacional Individual Triatlo Standard",
+          "subtitle": "Elite Masculino",
           "gender": "M",
           "championships": [
             {
