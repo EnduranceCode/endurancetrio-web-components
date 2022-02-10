@@ -41,7 +41,7 @@
           "cyclingDistance": 19400,
           "runDistance": 5000,
           "resultsReference": "20210516FTP001-001",
-          "resultsTimeSplits": ["SWIM", "T1", "BIKE", "T2", "RUN", "TOTAL"]
+          "results": {}
         },
         {
           "id": 2,
@@ -73,7 +73,7 @@
           "cyclingDistance": 19400,
           "runDistance": 5000,
           "resultsReference": "20210516FTP001-002",
-          "resultsTimeSplits": ["SWIM", "T1", "BIKE", "T2", "RUN", "TOTAL"]
+          "results": {}
         }
       ]
     }
@@ -120,7 +120,7 @@
           "cyclingDistance": 40000,
           "runDistance": 10000,
           "resultsReference": "20211016FTP001-001",
-          "resultsTimeSplits": ["SWIM", "T1", "BIKE", "T2", "RUN", "TOTAL"]
+          "results": {}
         },
         {
           "id": 4,
@@ -153,7 +153,7 @@
           "cyclingDistance": 40000,
           "runDistance": 10000,
           "resultsReference": "20211016FTP001-002",
-          "resultsTimeSplits": ["SWIM", "T1", "BIKE", "T2", "RUN", "TOTAL"]
+          "results": {}
         }
       ]
     }
