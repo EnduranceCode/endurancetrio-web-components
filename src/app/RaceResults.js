@@ -4,29 +4,42 @@
  * Licensed under MIT (https://github.com/EnduranceCode/endurancetrio-race-results/blob/master/LICENSE)
  */
 
-import { LitElement, html } from 'lit';
+import { LitElement, html, css } from 'lit';
 
 import { appStyles } from './css/app-style';
 import { Utils } from './utils/Utils';
 import { EventService } from './service/EventService';
 
 import './components/event-header/EventHeader';
-import './components/results-header/ResultsHeader';
+import './components/results-data/RaceData';
 
 class RaceResults extends LitElement {
-  static styles = [appStyles];
+  static styles = [
+    css`
+      :host {
+        display: block;
+      }
+
+      :host([hidden]) {
+        display: none;
+      }
+    `,
+    appStyles,
+  ];
 
   static properties = {
-    eventReference: { attribute: 'event-reference' },
     event: {},
+    eventReference: { attribute: 'event-reference' },
     race: {},
+    resultsReference: {},
   };
 
   constructor() {
     super();
-    this.eventReference = '';
     this.event = {};
+    this.eventReference = '';
     this.race = {};
+    this.resultsReference = '';
   }
 
   render() {
@@ -34,11 +47,10 @@ class RaceResults extends LitElement {
       <article>
         <event-header .event="${this.event}"></event-header>
 
-        <results-header
+        <race-data
           location="${Utils.getComposedLocation(this.event.city, this.event.county, this.event.district)}"
           .race="${this.race}"
-        ></results-header>
-        <section class="section mb-6">Results</section>
+        ></race-data>
       </article>
     `;
   }
@@ -49,8 +61,9 @@ class RaceResults extends LitElement {
       this.event = result;
     });
 
-    this.addEventListener('changed-race', (e) => {
+    this.addEventListener('change-race', (e) => {
       this.race = e.detail.race;
+      this.resultsReference = e.detail.race.resultsReference;
     });
   }
 }

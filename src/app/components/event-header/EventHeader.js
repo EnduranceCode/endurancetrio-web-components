@@ -4,14 +4,25 @@
  * Licensed under MIT (https://github.com/EnduranceCode/endurancetrio-race-results/blob/master/LICENSE)
  */
 
-import { LitElement, html } from 'lit';
+import { LitElement, html, css } from 'lit';
 
 import { appStyles } from '../../css/app-style';
 import { Utils } from '../../utils/Utils';
 import { uiMessagesKeys, getUiMessage } from '../../i18n/ui-messages';
 
 class EventHeader extends LitElement {
-  static styles = [appStyles];
+  static styles = [
+    css`
+      :host {
+        display: block;
+      }
+
+      :host([hidden]) {
+        display: none;
+      }
+    `,
+    appStyles,
+  ];
 
   static properties = {
     event: {},
@@ -123,7 +134,7 @@ class EventHeader extends LitElement {
     }
 
     this.dispatchEvent(
-      new CustomEvent('changed-race', { bubbles: true, composed: true, detail: { race: selectedRace } })
+      new CustomEvent('change-race', { bubbles: true, composed: true, detail: { race: selectedRace } })
     );
   }
 }

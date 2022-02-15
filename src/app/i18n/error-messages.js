@@ -8,8 +8,9 @@ const navigatorLanguages = window.navigator.language;
  */
 export const errorMessagesKeys = {
   eventNotFound: 'eventNotFound',
+  eventsListNotFound: 'eventsListNotFound',
   networkError: 'networkError',
-  serverError: 'serverError',
+  resultsNotFound: 'resultsNotFound',
 };
 
 /**
@@ -18,8 +19,9 @@ export const errorMessagesKeys = {
 const errorMessages = {
   pt_PT: {
     eventNotFound: 'O evento escolhido não existe.',
+    eventsListNotFound: 'Não foi possível obter a lista de eventos.',
     networkError: 'Erro de conexão, não foi possível ligar ao servidor.',
-    serverError: 'Não foi possível obter a lista de eventos.',
+    resultsNotFound: 'Não foi possível obter os resultados pretendidos, ainda não estão disponíveis.',
   },
 };
 

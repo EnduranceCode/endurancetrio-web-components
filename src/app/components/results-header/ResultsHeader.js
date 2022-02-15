@@ -4,13 +4,24 @@
  * Licensed under MIT (https://github.com/EnduranceCode/endurancetrio-race-results/blob/master/LICENSE)
  */
 
-import { LitElement, html } from 'lit';
+import { LitElement, html, css } from 'lit';
 import { appStyles } from '../../css/app-style';
 import { Utils } from '../../utils/Utils';
 import { getUiMessage, uiMessagesKeys } from '../../i18n/ui-messages';
 
 class ResultsHeader extends LitElement {
-  static styles = [appStyles];
+  static styles = [
+    css`
+      :host {
+        display: block;
+      }
+
+      :host([hidden]) {
+        display: none;
+      }
+    `,
+    appStyles,
+  ];
 
   static properties = {
     location: {},
@@ -25,6 +36,20 @@ class ResultsHeader extends LitElement {
 
   render() {
     return html`<section class="mb-4">${Utils.isObjectEmpty(this.race) ? null : this.buildRaceHeader()}</section>`;
+  }
+
+  connectedCallback() {
+    super.connectedCallback();
+
+    document.addEventListener('update-race', () => {
+      this.update();
+    });
+  }
+
+  disconnectedCallback() {
+    document.removeEventListener('update-race', () => {
+      this.update();
+    });
   }
 
   buildRaceHeader() {
@@ -75,12 +100,12 @@ class ResultsHeader extends LitElement {
   }
 
   buildRaceDate() {
-    if (this.race.actualDate) {
+    if (this.race.scheduleDate || this.race.actualDate) {
       return html`
         <div class="tile is-parent">
           <dl class="tile is-child has-text-centered">
             <dt class="heading">${getUiMessage(uiMessagesKeys.location)}</dt>
-            <dd class="title is-6">${this.race.actualDate}</dd>
+            <dd class="title is-6">${this.race.actualDate ? this.race.actualDate : this.race.scheduleDate}</dd>
           </dl>
         </div>
       `;
@@ -88,12 +113,12 @@ class ResultsHeader extends LitElement {
   }
 
   buildRaceTime() {
-    if (this.race.actualTime) {
+    if (this.race.scheduleTime || this.race.actualTime) {
       return html`
         <div class="tile is-parent">
           <dl class="tile is-child has-text-centered">
             <dt class="heading">${getUiMessage(uiMessagesKeys.time)}</dt>
-            <dd class="title is-6">${this.race.actualTime}</dd>
+            <dd class="title is-6">${this.race.actualTime ? this.race.actualTime : this.race.scheduleTime}</dd>
           </dl>
         </div>
       `;

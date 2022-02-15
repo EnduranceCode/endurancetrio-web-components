@@ -4,8 +4,8 @@
  * Licensed under MIT (https://github.com/EnduranceCode/endurancetrio-race-results/blob/master/LICENSE)
  */
 
-import { getErrorMessage, errorMessagesKeys } from '../i18n/error-messages';
 import { getEndpoint } from '../properties/endpoints';
+import { getErrorMessage, errorMessagesKeys } from '../i18n/error-messages';
 
 class EventService {
   /**
@@ -36,12 +36,12 @@ class EventService {
    * @returns the all events stored on the server
    */
   static async getEvents() {
-    return fetch(getEndpoint('events'))
+    return fetch(getEndpoint('events', 'events'))
       .then((response) => {
         if (response.ok) {
           return response.json();
         } else {
-          return { error: getErrorMessage(errorMessagesKeys.serverError) };
+          return { error: getErrorMessage(errorMessagesKeys.eventsListNotFound) };
         }
       })
       .catch(() => {

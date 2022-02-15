@@ -19,15 +19,17 @@ const BASE_URL = MOCKUP_API_URL_DEV;
  * Object that stores the API endpoints
  */
 const endpoints = {
-  events: 'events/events.json',
+  events: 'events/',
+  results: 'results/',
 };
 
 /**
  * Returns the URL of the endpoint to perform the desired query
  *
- * @param {String} key
+ * @param {String} key The key of the desired endpoin
+ * @param {String} filename The neme of the file that contains the requeired data
  * @returns the endpoint to be queried
  */
-export function getEndpoint(key) {
-  return BASE_URL.concat(endpoints[key]);
+export function getEndpoint(key, filename) {
+  return BASE_URL.concat(endpoints[key], filename, '.json');
 }
