@@ -9,6 +9,7 @@ import { appStyles } from '../../css/app-style';
 import { Utils } from '../../utils/Utils';
 import { ResultsService } from '../../service/ResultsService';
 
+import '../results-tab/ResultsTab';
 import '../results-table/ResultsTable';
 
 class ResultsBody extends LitElement {
@@ -59,10 +60,21 @@ class ResultsBody extends LitElement {
       if (this.race.results.has('error')) {
         return this.buildErrorMessage();
       } else {
-        return html`<results-table
-          .labels=${getResultsTableColumnLabels(this.race.results.get('overall'))}
-          .results=${this.race.results.get('overall')}
-        ></results-table>`;
+        if (this.race.results.size <= 1) {
+          return html`
+            <results-table
+              .labels=${getResultsTableColumnLabels(this.race.results.get('overall'))}
+              .results=${this.race.results.get('overall')}
+            ></results-table>
+          `;
+        } else {
+          return html`
+            <results-tab
+              .labels=${getResultsTableColumnLabels(this.race.results.get('overall'))}
+              .results=${this.race.results}
+            ></results-tab>
+          `;
+        }
       }
     }
   }

@@ -50,6 +50,7 @@ class ResultsHeader extends LitElement {
     document.removeEventListener('update-race', () => {
       this.update();
     });
+    super.disconnectedCallback();
   }
 
   buildRaceHeader() {
