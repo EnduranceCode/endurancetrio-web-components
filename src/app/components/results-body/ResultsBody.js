@@ -9,6 +9,8 @@ import { appStyles } from '../../css/app-style';
 import { Utils } from '../../utils/Utils';
 import { ResultsService } from '../../service/ResultsService';
 
+import '../results-table/ResultsTable';
+
 class ResultsBody extends LitElement {
   static styles = [
     css`
@@ -57,9 +59,10 @@ class ResultsBody extends LitElement {
       if (this.race.results.has('error')) {
         return this.buildErrorMessage();
       } else {
-        if (this.race.results.size > 1) {
-          return html` <!-- Results --> `;
-        }
+        return html`<results-table
+          .labels=${getResultsTableColumnLabels(this.race.results.get('overall'))}
+          .results=${this.race.results.get('overall')}
+        ></results-table>`;
       }
     }
   }
@@ -85,6 +88,23 @@ class ResultsBody extends LitElement {
 function updateRaceWithActualData(race, apiData) {
   race.actualDate = apiData.actualDate ? apiData.actualDate : race.actualDate;
   race.actualTime = apiData.actualTime ? apiData.actualTime : race.actualTime;
+}
+
+/**
+ * Gets the labels for the columns of the results table
+ *
+ * @param {Array} results
+ * @returns The labels for the columns of the results table
+ */
+function getResultsTableColumnLabels(results) {
+  const labels = {};
+  const resultKeys = Object.keys(results[0]);
+
+  resultKeys.map((key) => {
+    labels[key] = key;
+  });
+
+  return labels;
 }
 
 customElements.define('results-body', ResultsBody);
