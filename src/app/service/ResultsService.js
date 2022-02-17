@@ -50,6 +50,7 @@ class ResultsService {
 
       sortResultsByRank(ageGroupResults);
       setSequentialRank(ageGroupResults);
+      calculateAgeGroupGaps(ageGroupResults);
 
       results.set(ageGroup.shortName, ageGroupResults);
     });
@@ -128,6 +129,31 @@ function setSequentialRank(resultsData) {
     if (typeof result.rank == 'number') {
       result.rank = rank;
       rank = rank + 1;
+    }
+  });
+}
+
+/**
+ * Sets the correct time gap in the Age Groups results
+ *
+ * @param {Array} resultsData Results array to be set with the correct time gap for the Age Groups results
+ */
+function calculateAgeGroupGaps(resultsData) {
+  const winnerTotal = new Date(Date.parse('1984-08-15T' + resultsData[0].total + 'Z'));
+  const hourInMiliseconds = 60 * 60 * 1000;
+  const minuteInMiliseconds = 60 * 1000;
+
+  resultsData.map((result) => {
+    const resultTotalTime = Date.parse('1984-08-15T' + result.total + 'Z');
+    if (resultTotalTime) {
+      const gapMilisecons = new Date(resultTotalTime) - winnerTotal;
+
+      const numberFormart = new Intl.NumberFormat('pt-PT', { minimumIntegerDigits: 2 });
+      const diffHours = numberFormart.format(Math.floor(gapMilisecons / hourInMiliseconds));
+      const diffMinutes = numberFormart.format(Math.floor(gapMilisecons / minuteInMiliseconds) - diffHours * 60);
+      const diffSeconds = numberFormart.format(Math.floor(gapMilisecons / 1000) - diffHours * 3600 - diffMinutes * 60);
+
+      result.gap = diffHours.concat(':', diffMinutes, ':', diffSeconds);
     }
   });
 }
