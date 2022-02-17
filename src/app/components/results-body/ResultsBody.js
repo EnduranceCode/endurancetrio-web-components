@@ -109,11 +109,11 @@ function updateRaceWithActualData(race, apiData) {
  * @returns The labels for the columns of the results table
  */
 function getResultsTableColumnLabels(results) {
-  const labels = {};
+  const labels = [];
   const resultKeys = Object.keys(results[0]);
 
   resultKeys.map((key) => {
-    labels[key] = key;
+    labels.push(key);
   });
 
   return labels;

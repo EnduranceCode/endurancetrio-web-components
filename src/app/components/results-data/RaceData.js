@@ -1,3 +1,9 @@
+/*!
+ * EnduranceTrio Race Results
+ * Copyright 2021 Ricardo do Canto
+ * Licensed under MIT (https://github.com/EnduranceCode/endurancetrio-race-results/blob/master/LICENSE)
+ */
+
 import { LitElement, html, css } from 'lit';
 import { appStyles } from '../../css/app-style';
 

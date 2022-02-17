@@ -1,3 +1,9 @@
+/*!
+ * EnduranceTrio Race Results
+ * Copyright 2021 Ricardo do Canto
+ * Licensed under MIT (https://github.com/EnduranceCode/endurancetrio-race-results/blob/master/LICENSE)
+ */
+
 import { LitElement, html, css } from 'lit';
 import { ifDefined } from 'lit/directives/if-defined.js';
 import { styleMap } from 'lit/directives/style-map.js';
@@ -25,7 +31,7 @@ class ResultsTab extends LitElement {
 
   constructor() {
     super();
-    this.labels = {};
+    this.labels = [];
     this.results = [];
     this._activeTab = 'overall';
   }
@@ -34,7 +40,6 @@ class ResultsTab extends LitElement {
     const ageGroupLabels = Array.from(this.results.keys());
     const resultsEntries = Array.from(this.results.entries());
 
-    console.log(Array.from(this.results.entries()));
     return html`
       <div class="tabs is-boxed">
         <ul>
