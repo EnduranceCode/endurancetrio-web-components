@@ -40,7 +40,6 @@ class ResultsTab extends LitElement {
   render() {
     const ageGroupLabels = Array.from(this.results.keys());
     const resultsEntries = Array.from(this.results.entries());
-    console.log(ageGroupLabels);
 
     return html`
       <div class="tabs is-boxed">
