@@ -8,6 +8,7 @@ import { LitElement, html, css } from 'lit';
 import { ifDefined } from 'lit/directives/if-defined.js';
 import { styleMap } from 'lit/directives/style-map.js';
 import { appStyles } from '../../css/app-style';
+import { uiMessagesKeys, getUiMessage } from '../../i18n/ui-messages';
 
 class ResultsTab extends LitElement {
   static styles = [
@@ -39,6 +40,7 @@ class ResultsTab extends LitElement {
   render() {
     const ageGroupLabels = Array.from(this.results.keys());
     const resultsEntries = Array.from(this.results.entries());
+    console.log(ageGroupLabels);
 
     return html`
       <div class="tabs is-boxed">
@@ -47,7 +49,9 @@ class ResultsTab extends LitElement {
             const classes = ageGroupTitle.toLowerCase() === this._activeTab ? 'is-active' : null;
             return html`
               <li class=${ifDefined(classes)}>
-                <a id=${ageGroupTitle.toLowerCase()} @click=${this.toggleActiveTab}>${ageGroupTitle}</a>
+                <a id=${ageGroupTitle.toLowerCase()} @click=${this.toggleActiveTab}
+                  >${ageGroupTitle === 'overall' ? getUiMessage(uiMessagesKeys[ageGroupTitle]) : ageGroupTitle}</a
+                >
               </li>
             `;
           })}
@@ -69,7 +73,6 @@ class ResultsTab extends LitElement {
 
   toggleActiveTab(event) {
     this._activeTab = event.target.id;
-    this.requestUpdate();
   }
 }
 
