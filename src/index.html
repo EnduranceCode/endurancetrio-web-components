@@ -9,19 +9,33 @@
       name="description"
       content="Sample page for the EnduranceTrio Race Results component"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css"
+    />
   </head>
   <body>
-    <section class="hero is-info">
+    <section class="hero is-info" style="margin-bottom: 2em">
       <div class="hero-body">
         <h1 class="title">EnduranceTrio Race Results</h1>
-        <p class="subtitle">A JavaScript component to display race results</p>
+        <p class="subtitle">A Lit component to display race results</p>
       </div>
     </section>
 
     <main class="container is-fullhd">
-      <section data-race-reference="20210516FTP001-002" class="section">
-        <progress class="progress is-info"></progress>
-      </section>
+      <race-results event-reference="20210516FTP001"></race-results>
     </main>
+
+    <footer class="footer">
+      <div class="section has-text-centered">
+        <p>
+          <strong>EnduranceTrio Race Results</strong> is developed by
+          <a href="https://twitter.com/endurancecodept" target="_blank"
+            >EnduranceCode</a
+          >. The source code is licensed
+          <a href="http://opensource.org/licenses/mit-license.php">MIT</a>.
+        </p>
+      </div>
+    </footer>
   </body>
 </html>
