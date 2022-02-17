@@ -54,7 +54,7 @@ class ResultsTable extends LitElement {
         <table class="table is-fullwidth is-striped is-narrow is-hoverable">
           <thead>
             ${this.labels.map((label) => {
-              return html`<th id=${label} @click=${this.sortTable}>${label}</th>`;
+              return html`<th id=${label.key} @click=${this.sortTable}>${label.label}</th>`;
             })}
           </thead>
           <tbody>
@@ -62,7 +62,7 @@ class ResultsTable extends LitElement {
               return html`
                 <tr>
                   ${this.labels.map((label) => {
-                    return html`<td>${result[label]}</td>`;
+                    return html`<td>${result[label.key]}</td>`;
                   })}
                 </tr>
               `;

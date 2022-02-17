@@ -1,3 +1,11 @@
+/*!
+ * EnduranceTrio Race Results
+ * Copyright 2021 Ricardo do Canto
+ * Licensed under MIT (https://github.com/EnduranceCode/endurancetrio-race-results/blob/master/LICENSE)
+ *
+ * The CSS of this app is based on the Bulma CSS Framework (https://bulma.io/)
+ */
+
 const navigatorLanguages = window.navigator.language;
 
 /**

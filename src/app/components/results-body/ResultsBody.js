@@ -7,6 +7,7 @@
 import { LitElement, html, css } from 'lit';
 import { appStyles } from '../../css/app-style';
 import { Utils } from '../../utils/Utils';
+import { uiMessagesKeys, getUiMessage } from '../../i18n/ui-messages';
 import { ResultsService } from '../../service/ResultsService';
 
 import '../results-tab/ResultsTab';
@@ -113,7 +114,7 @@ function getResultsTableColumnLabels(results) {
   const resultKeys = Object.keys(results[0]);
 
   resultKeys.map((key) => {
-    labels.push(key);
+    labels.push({ key: key, label: getUiMessage(uiMessagesKeys[key]) });
   });
 
   return labels;
