@@ -1,6 +1,6 @@
 {
   "name": "endurancetrio-race-results",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Component for race results display",
   "main": "index.js",
   "scripts": {

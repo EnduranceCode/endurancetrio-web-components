@@ -105,7 +105,7 @@ class ResultsHeader extends LitElement {
       return html`
         <div class="tile is-parent">
           <dl class="tile is-child has-text-centered">
-            <dt class="heading">${getUiMessage(uiMessagesKeys.location)}</dt>
+            <dt class="heading">${getUiMessage(uiMessagesKeys.date)}</dt>
             <dd class="title is-6">${this.race.actualDate ? this.race.actualDate : this.race.scheduleDate}</dd>
           </dl>
         </div>
