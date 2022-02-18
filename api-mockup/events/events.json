@@ -157,5 +157,70 @@
         }
       ]
     }
+  },
+  {
+    "eventReference": "20220220FTP001",
+    "event": {
+      "id": 3,
+      "title": "II Triatlo da Quinta do Lago",
+      "startDate": "2022-02-20",
+      "endDate": "2022-02-20",
+      "city": "Quinta do Lago",
+      "county": "Loulé",
+      "district": "Faro",
+      "races": [
+        {
+          "id": 1,
+          "title": "Taça de Portugal",
+          "subtitle": "Feminino",
+          "gender": "F",
+          "championships": [
+            {
+              "id": 1,
+              "title": "Taça de Portugal",
+              "season": "2022",
+              "division": "FTP",
+              "gender": "F"
+            }
+          ],
+          "scheduleDate": "2022-02-20",
+          "scheduleTime": "11:20:00",
+          "actualDate": "",
+          "actualTime": "",
+          "sport": "TRIATHLON",
+          "distanceType": "SPRINT",
+          "swimDistance": 750,
+          "cyclingDistance": 20000,
+          "runDistance": 5000,
+          "resultsReference": "20220220FTP001-001",
+          "results": {}
+        },
+        {
+          "id": 2,
+          "title": "Taça de Portugal",
+          "subtitle": "Masculino",
+          "gender": "M",
+          "championships": [
+            {
+              "id": 1,
+              "title": "Taça de Portugal",
+              "season": "2022",
+              "gender": "M"
+            }
+          ],
+          "scheduleDate": "2022-02-20",
+          "scheduleTime": "9:00:00",
+          "actualDate": "",
+          "actualTime": "",
+          "sport": "TRIATHLON",
+          "distanceType": "SPRINT",
+          "swimDistance": 750,
+          "cyclingDistance": 20000,
+          "runDistance": 5000,
+          "resultsReference": "20220220FTP001-002",
+          "results": {}
+        }
+      ]
+    }
   }
 ]
