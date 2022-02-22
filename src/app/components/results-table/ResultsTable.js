@@ -9,6 +9,8 @@ import { appStyles } from '../../css/app-style';
 
 import naturalSort from '../../vendor/naturalSort';
 
+import '../table-header/TableHeader';
+
 class ResultsTable extends LitElement {
   static styles = [
     css`
@@ -54,7 +56,16 @@ class ResultsTable extends LitElement {
         <table class="table is-fullwidth is-striped is-narrow is-hoverable">
           <thead>
             ${this.labels.map((label) => {
-              return html`<th id=${label.key} @click=${this.sortTable}>${label.label}</th>`;
+              return html`
+                <th>
+                  <table-header
+                    id=${label.key}
+                    label=${label.label}
+                    sorting-index=${this.getSortingIndex(label.key)}
+                    @click=${this.sortTable}
+                  ></table-header>
+                </th>
+              `;
             })}
           </thead>
           <tbody>
@@ -88,6 +99,16 @@ class ResultsTable extends LitElement {
       return this._sortingOrder * naturalSort(row1[event.target.id], row2[event.target.id]);
     });
     this._sortColumn = event.target.id;
+  }
+
+  /**
+   * Get the order index of the given column
+   *
+   * @param {String} columnKey The column key
+   * @returns The order index of the given column
+   */
+  getSortingIndex(columnKey) {
+    return this._sortColumn === columnKey ? this._sortingOrder : 0;
   }
 }
 
