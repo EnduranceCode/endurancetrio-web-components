@@ -42,13 +42,13 @@ class ResultsHeader extends LitElement {
   connectedCallback() {
     super.connectedCallback();
 
-    document.addEventListener('update-race', () => {
+    document.addEventListener('results-body-update-race', () => {
       this.update();
     });
   }
 
   disconnectedCallback() {
-    document.removeEventListener('update-race', () => {
+    document.removeEventListener('results-body-update-race', () => {
       this.update();
     });
     super.disconnectedCallback();
