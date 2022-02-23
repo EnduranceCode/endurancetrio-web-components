@@ -126,7 +126,7 @@ class EventHeader extends LitElement {
     }
 
     this.dispatchEvent(
-      new CustomEvent('change-race', { bubbles: true, composed: true, detail: { race: selectedRace } })
+      new CustomEvent('event-header-change-race', { bubbles: true, composed: true, detail: { race: selectedRace } })
     );
   }
 }

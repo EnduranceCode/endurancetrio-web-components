@@ -52,7 +52,7 @@ class ResultsBody extends LitElement {
         updateRaceWithActualData(this.race, apiData);
         this.race.results = apiData.results;
         this.dispatchEvent(
-          new CustomEvent('update-race', { bubbles: true, composed: true, detail: { race: this.race } })
+          new CustomEvent('results-body-update-race', { bubbles: true, composed: true, detail: { race: this.race } })
         );
         this._lastFetchedRaceReference = this.race.raceReference;
       });

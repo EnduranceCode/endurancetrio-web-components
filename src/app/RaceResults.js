@@ -61,7 +61,7 @@ class RaceResults extends LitElement {
       this.event = result;
     });
 
-    this.addEventListener('change-race', (e) => {
+    this.addEventListener('event-header-change-race', (e) => {
       this.race = e.detail.race;
       this.raceReference = e.detail.race.raceReference;
     });
