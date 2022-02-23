@@ -7,6 +7,7 @@
 import { LitElement, html, css } from 'lit';
 import { ifDefined } from 'lit/directives/if-defined.js';
 import { styleMap } from 'lit/directives/style-map.js';
+
 import { appStyles } from '../../css/app-style';
 import { uiMessagesKeys, getUiMessage } from '../../i18n/ui-messages';
 
@@ -70,6 +71,11 @@ class ResultsTab extends LitElement {
     `;
   }
 
+  /**
+   * Toggles the Age Group active tab
+   *
+   * @param {Event} event The click event on the tabs menu
+   */
   toggleActiveTab(event) {
     this._activeTab = event.target.id;
   }

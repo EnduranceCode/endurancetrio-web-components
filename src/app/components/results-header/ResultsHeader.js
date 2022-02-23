@@ -5,9 +5,10 @@
  */
 
 import { LitElement, html, css } from 'lit';
+
 import { appStyles } from '../../css/app-style';
-import { Utils } from '../../utils/Utils';
 import { getUiMessage, uiMessagesKeys } from '../../i18n/ui-messages';
+import { Utils } from '../../utils/Utils';
 
 class ResultsHeader extends LitElement {
   static styles = [
@@ -35,25 +36,30 @@ class ResultsHeader extends LitElement {
   }
 
   render() {
-    return html`<section class="mb-4">${Utils.isObjectEmpty(this.race) ? null : this.buildRaceHeader()}</section>`;
+    return html`<section class="mb-4">${Utils.isObjectEmpty(this.race) ? null : this.renderRaceHeader()}</section>`;
   }
 
   connectedCallback() {
     super.connectedCallback();
 
-    document.addEventListener('update-race', () => {
+    document.addEventListener('results-body-update-race', () => {
       this.update();
     });
   }
 
   disconnectedCallback() {
-    document.removeEventListener('update-race', () => {
+    document.removeEventListener('results-body-update-race', () => {
       this.update();
     });
     super.disconnectedCallback();
   }
 
-  buildRaceHeader() {
+  /**
+   * Renders the Race Header template
+   *
+   * @returns The Race Header template
+   */
+  renderRaceHeader() {
     const distanceNumberFormat = new Intl.NumberFormat('pt-PT', {
       locales: 'lookup',
       style: 'unit',
@@ -63,31 +69,29 @@ class ResultsHeader extends LitElement {
 
     return html`
       <section class="box has-text-link">
-        ${this.buildRaceTitle()} ${this.buildRaceSubtitle()}
-        <div class="tile is-ancestor">${this.buildRaceLocation()} ${this.buildRaceDate()} ${this.buildRaceTime()}</div>
+        <h4 class="title is-4 has-text-centered has-text-link">${this.race.title}</h4>
+        <h5 class="subtitle is-5  has-text-centered has-text-link">${this.race.subtitle}</h5>
 
         <div class="tile is-ancestor">
-          ${this.buildSwimDistance(distanceNumberFormat)} ${this.buildFirstRunDistance(distanceNumberFormat)}
-          ${this.buildCyclingDistance(distanceNumberFormat)} ${this.buildRunDistance(distanceNumberFormat)}
-          ${this.buildSecondRunDistance(distanceNumberFormat)}
+          ${this.renderRaceLocation()} ${this.renderRaceDate()} ${this.renderRaceTime()}
+        </div>
+
+        <div class="tile is-ancestor">
+          ${this.renderSwimDistance(distanceNumberFormat)} ${this.renderFirstRunDistance(distanceNumberFormat)}
+          ${this.renderCyclingDistance(distanceNumberFormat)} ${this.renderRunDistance(distanceNumberFormat)}
+          ${this.renderSecondRunDistance(distanceNumberFormat)}
         </div>
       </section>
     `;
   }
 
-  buildRaceTitle() {
-    if (this.race.title) {
-      return html` <h4 class="title is-4 has-text-centered has-text-link">${this.race.title}</h4> `;
-    }
-  }
-
-  buildRaceSubtitle() {
-    if (this.race.subtitle) {
-      return html`<h5 class="subtitle is-5  has-text-centered has-text-link">${this.race.subtitle}</h5>`;
-    }
-  }
-
-  buildRaceLocation() {
+  /**
+   * Renders the Race Location template.
+   * The template is rendered only when the race data includes a location.
+   *
+   * @returns The Race Location template.
+   */
+  renderRaceLocation() {
     if (this.location) {
       return html`
         <div class="tile is-parent">
@@ -100,7 +104,13 @@ class ResultsHeader extends LitElement {
     }
   }
 
-  buildRaceDate() {
+  /**
+   * Renders the Race Date template.
+   * The template is rendered only when the race data includes a date.
+   *
+   * @returns The Race Date template
+   */
+  renderRaceDate() {
     if (this.race.scheduleDate || this.race.actualDate) {
       return html`
         <div class="tile is-parent">
@@ -113,7 +123,13 @@ class ResultsHeader extends LitElement {
     }
   }
 
-  buildRaceTime() {
+  /**
+   * Renders the Race Time template.
+   * The template is rendered only when the race data includes a time.
+   *
+   * @returns The Race Time template.
+   */
+  renderRaceTime() {
     if (this.race.scheduleTime || this.race.actualTime) {
       return html`
         <div class="tile is-parent">
@@ -126,7 +142,14 @@ class ResultsHeader extends LitElement {
     }
   }
 
-  buildSwimDistance(distanceNumberFormat) {
+  /**
+   * Renders the race's Swim Distance template.
+   * The template is rendered only when the race data includes a swim distance.
+   *
+   * @param {NumberFormat} distanceNumberFormat The Number Format to be used for the race swim distance.
+   * @returns The Swim Distance template.
+   */
+  renderSwimDistance(distanceNumberFormat) {
     if (this.race.swimDistance) {
       return html`
         <div class="tile is-parent">
@@ -139,7 +162,14 @@ class ResultsHeader extends LitElement {
     }
   }
 
-  buildFirstRunDistance(distanceNumberFormat) {
+  /**
+   * Renders the race's First Run Distance template.
+   * The template is rendered only when the race data includes a first run distance.
+   *
+   * @param {NumberFormat} distanceNumberFormat The Number Format to be used for the race first run distance.
+   * @returns The First Run Distance template
+   */
+  renderFirstRunDistance(distanceNumberFormat) {
     if (this.race.firstRunDistance) {
       return html`
         <div class="tile is-parent">
@@ -152,7 +182,14 @@ class ResultsHeader extends LitElement {
     }
   }
 
-  buildCyclingDistance(distanceNumberFormat) {
+  /**
+   * Renders the race's Cycling Distance template.
+   * The template is rendered only when the race data includes a cycling distance.
+   *
+   * @param {NumberFormat} distanceNumberFormat The Number Format to be used for the race cycling distance.
+   * @returns The Cycling Distance template.
+   */
+  renderCyclingDistance(distanceNumberFormat) {
     if (this.race.cyclingDistance) {
       return html`
         <div class="tile is-parent">
@@ -165,7 +202,14 @@ class ResultsHeader extends LitElement {
     }
   }
 
-  buildRunDistance(distanceNumberFormat) {
+  /**
+   * Renders the race's Run Distance template.
+   * The template is rendered only when the race data includes a run distance.
+   *
+   * @param {NumberFormat} distanceNumberFormat The Number Format to be used for the race run distance.
+   * @returns The race's run distance template.
+   */
+  renderRunDistance(distanceNumberFormat) {
     if (this.race.runDistance) {
       return html`
         <div class="tile is-parent">
@@ -178,7 +222,14 @@ class ResultsHeader extends LitElement {
     }
   }
 
-  buildSecondRunDistance(distanceNumberFormat) {
+  /**
+   * Renders the race's Second Run Distance template.
+   * The template is rendered only when the race data includes a second run distance.
+   *
+   * @param {NumberFormat} distanceNumberFormat The Number Format to be used for the race second run distance.
+   * @returns The race's second run distance template.
+   */
+  renderSecondRunDistance(distanceNumberFormat) {
     if (this.race.secondRunDistance) {
       return html`
         <div class="tile is-parent">

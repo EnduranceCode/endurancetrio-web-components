@@ -26,6 +26,7 @@ class MdIcon extends LitElement {
     super();
     this.path = svg``;
   }
+
   render() {
     return html`
       <svg

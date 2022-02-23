@@ -5,6 +5,7 @@
  */
 
 import { LitElement, html, css } from 'lit';
+
 import { appStyles } from '../../css/app-style';
 import { Utils } from '../../utils/Utils';
 import { uiMessagesKeys, getUiMessage } from '../../i18n/ui-messages';
@@ -47,19 +48,19 @@ class ResultsBody extends LitElement {
         updateRaceWithActualData(this.race, apiData);
         this.race.results = apiData.results;
         this.dispatchEvent(
-          new CustomEvent('update-race', { bubbles: true, composed: true, detail: { race: this.race } })
+          new CustomEvent('results-body-update-race', { bubbles: true, composed: true, detail: { race: this.race } })
         );
         this._lastFetchedResultsReference = this.race.resultsReference;
       });
     }
 
     if (hasRace && Utils.isObjectEmpty(this.race.results)) {
-      return html`${this.buildProgressBar()}`;
+      return html`${this.renderProgressBar()}`;
     }
 
     if (hasRace) {
       if (this.race.results.has('error')) {
-        return this.buildErrorMessage();
+        return this.renderErrorMessage();
       } else {
         if (this.race.results.size <= 1) {
           return html`
@@ -80,11 +81,21 @@ class ResultsBody extends LitElement {
     }
   }
 
-  buildProgressBar() {
+  /**
+   * Renders the Progress Bar template
+   *
+   * @returns The Progress Bar template
+   */
+  renderProgressBar() {
     return html`<progress class="progress is-info"></progress>`;
   }
 
-  buildErrorMessage() {
+  /**
+   * Renders the Error Message template
+   *
+   * @returns The Error Message template
+   */
+  renderErrorMessage() {
     return html`
       <div class="notification is-warning">
         <p>${this.race.results.get('error')}</p>

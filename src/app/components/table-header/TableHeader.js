@@ -5,6 +5,7 @@
  */
 
 import { LitElement, html, css } from 'lit';
+
 import { mdiArrowUpDownBold } from '@mdi/js';
 import { mdiArrowUpBold } from '@mdi/js';
 import { mdiArrowDownBold } from '@mdi/js';
