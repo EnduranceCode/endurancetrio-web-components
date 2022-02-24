@@ -8,6 +8,7 @@ import { LitElement, html, css } from 'lit';
 
 import { appStyles } from './css/app-style';
 import { Utils } from './utils/Utils';
+
 import { EventService } from './service/EventService';
 
 import './components/event-header/EventHeader';

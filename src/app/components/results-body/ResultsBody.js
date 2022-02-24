@@ -7,8 +7,10 @@
 import { LitElement, html, css } from 'lit';
 
 import { appStyles } from '../../css/app-style';
+import { getErrorMessage, errorMessagesKeys } from '../../i18n/error-messages';
+import { getUiMessage, uiMessagesKeys } from '../../i18n/ui-messages';
 import { Utils } from '../../utils/Utils';
-import { uiMessagesKeys, getUiMessage } from '../../i18n/ui-messages';
+
 import { ResultsService } from '../../service/ResultsService';
 
 import '../results-tab/ResultsTab';
@@ -58,7 +60,7 @@ class ResultsBody extends LitElement {
       });
     }
 
-    if (hasRace && Utils.isObjectEmpty(this.race.results)) {
+    if (hasRace && !('results' in this.race)) {
       return html`${this.renderProgressBar()}`;
     }
 
@@ -66,52 +68,68 @@ class ResultsBody extends LitElement {
       if (this.race.results.has('error')) {
         return this.renderErrorMessage();
       } else {
-        if (this.race.results.size <= 1) {
-          return html`
-            <results-table
-              .labels=${getResultsTableColumnLabels(this.race.results.get('overall'))}
-              .results=${this.race.results.get('overall')}
-            ></results-table>
-          `;
-        } else {
-          return html`
-            <results-tab
-              .labels=${getResultsTableColumnLabels(this.race.results.get('overall'))}
-              .results=${this.race.results}
-            ></results-tab>
-          `;
+        switch (this.race.results.size) {
+          case 0:
+            return html`${this.renderNoResultsMessage()}`;
+          case 1:
+            return html`
+              <results-table
+                .labels=${getResultsTableColumnLabels(this.race.results.get('overall'))}
+                .results=${this.race.results.get('overall')}
+              ></results-table>
+            `;
+          default:
+            return html`
+              <results-tab
+                .labels=${getResultsTableColumnLabels(this.race.results.get('overall'))}
+                .results=${this.race.results}
+              ></results-tab>
+            `;
         }
       }
     }
   }
 
   /**
-   * Renders the Progress Bar template
+   * Renders the Progress Bar template.
    *
-   * @returns The Progress Bar template
+   * @returns The Progress Bar template.
    */
   renderProgressBar() {
     return html`<progress class="progress is-info"></progress>`;
   }
 
   /**
-   * Renders the Error Message template
+   * Renders the Error Message template.
    *
-   * @returns The Error Message template
+   * @returns The Error Message template.
    */
   renderErrorMessage() {
     return html`
-      <div class="notification is-warning">
+      <div class="notification is-warning mt-6">
         <p>${this.race.results.get('error')}</p>
+      </div>
+    `;
+  }
+
+  /**
+   * Renders the Results Not found Message template.
+   *
+   * @returns the Results Not Found Message Template.
+   */
+  renderNoResultsMessage() {
+    return html`
+      <div class="notification is-warning mt-6">
+        <p>${getErrorMessage(errorMessagesKeys['resultsNotFound'])}</p>
       </div>
     `;
   }
 }
 
 /**
- * Updates the Race data with the data retrieved from the API Backend
+ * Updates the Race data with the data retrieved from the API Backend.
  *
- * @param {Object} apiData the Race data retrieved from the API Backend
+ * @param {Object} apiData the Race data retrieved from the API Backend.
  */
 function updateRaceWithActualData(race, apiData) {
   race.actualDate = apiData.actualDate ? apiData.actualDate : race.actualDate;
@@ -119,10 +137,10 @@ function updateRaceWithActualData(race, apiData) {
 }
 
 /**
- * Gets the labels for the columns of the results table
+ * Gets the labels for the columns of the results table.
  *
  * @param {Array} results
- * @returns The labels for the columns of the results table
+ * @returns The labels for the columns of the results table.
  */
 function getResultsTableColumnLabels(results) {
   const labels = [];
