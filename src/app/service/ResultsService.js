@@ -4,18 +4,17 @@
  * Licensed under MIT (https://github.com/EnduranceCode/endurancetrio-race-results/blob/master/LICENSE)
  */
 
-import { getEndpoint } from '../properties/endpoints';
 import { getErrorMessage, errorMessagesKeys } from '../i18n/error-messages';
-
+import { getEndpoint } from '../properties/endpoints';
 import { Constants } from '../utils/Constants';
 
 class ResultsService {
   /**
    * Fetchs the overall results for the given results reference
-   * and sets results for each Age Group present
+   * and sets results for each Age Group present.
    *
-   * @param {String} resultsReference The results reference of the desired results
-   * @returns the results of the given results reference
+   * @param {String} resultsReference The results reference of the desired results.
+   * @returns the results of the given results reference.
    */
   static async getResultsByReference(resultsReference) {
     const apiData = await ResultsService.getResultsByReferenceFromJsonFile(resultsReference);
@@ -59,10 +58,10 @@ class ResultsService {
   }
 
   /**
-   * Fetchs, from a JSON file, the overall results for the given results reference
+   * Fetchs, from a JSON file, the overall results for the given results reference.
    *
-   * @param {String} resultsReference The results reference of the desired results
-   * @returns
+   * @param {String} resultsReference The results reference of the desired results.
+   * @returns The overall results of the given results reference.
    */
   static async getResultsByReferenceFromJsonFile(resultsReference) {
     const url = getEndpoint('results', resultsReference);
@@ -82,10 +81,10 @@ class ResultsService {
 }
 
 /**
- * Gets the list ao all Age Groups on the overall results
+ * Gets the list ao all Age Groups on the overall results.
  *
- * @param {Array} overallResultsData The overall results of the race
- * @returns The list of all Age Groups on the overall results
+ * @param {Array} overallResultsData The overall results of the race.
+ * @returns The list of all Age Groups on the overall results.
  */
 function getAgeGroups(overallResultsData) {
   const ageGroupsList = [];
@@ -108,9 +107,9 @@ function getAgeGroups(overallResultsData) {
 }
 
 /**
- * Sorts the given results by rank
+ * Sorts the given results by rank.
  *
- * @param {Array} resultsData Results array to be sorted by rank
+ * @param {Array} resultsData Results array to be sorted by rank.
  */
 function sortResultsByRank(resultsData) {
   resultsData.sort((a, b) => {
@@ -119,9 +118,9 @@ function sortResultsByRank(resultsData) {
 }
 
 /**
- * Sets the given results rank with sequential numbers
+ * Sets the given results rank with sequential numbers.
  *
- * @param {Array} resultsData Results array to be set with a sequential rank
+ * @param {Array} resultsData Results array to be set with a sequential rank.
  */
 function setSequentialRank(resultsData) {
   let rank = 1;
@@ -134,9 +133,9 @@ function setSequentialRank(resultsData) {
 }
 
 /**
- * Sets the correct time gap in the Age Groups results
+ * Sets the correct time gap in the Age Groups results.
  *
- * @param {Array} resultsData Results array to be set with the correct time gap for the Age Groups results
+ * @param {Array} resultsData Results array to be set with the correct time gap for the Age Groups results.
  */
 function calculateAgeGroupGaps(resultsData) {
   const winnerTotal = new Date(Date.parse('1984-08-15T' + resultsData[0].total + 'Z'));

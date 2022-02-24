@@ -36,8 +36,8 @@ const errorMessages = {
 /**
  * Returns the error message for the given key.
  *
- * @param {String} key of the error
- * @returns the fetched error message
+ * @param {String} key of the error.
+ * @returns the fetched error message.
  */
 export function getErrorMessage(key) {
   switch (navigatorLanguages) {
