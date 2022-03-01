@@ -11,14 +11,14 @@ import { Constants } from '../utils/Constants';
 
 class ResultsService {
   /**
-   * Fetchs the overall results for the given results reference
+   * Fetchs the overall results for the given race reference
    * and sets results for each Age Group present
    *
-   * @param {String} resultsReference The results reference of the desired results
-   * @returns the results of the given results reference
+   * @param {String} raceReference The race reference of the desired results
+   * @returns the results of the given race reference
    */
-  static async getResultsByReference(resultsReference) {
-    const apiData = await ResultsService.getResultsByReferenceFromJsonFile(resultsReference);
+  static async getResultsByReference(raceReference) {
+    const apiData = await ResultsService.getResultsByReferenceFromJsonFile(raceReference);
 
     const results = new Map();
 
@@ -59,13 +59,13 @@ class ResultsService {
   }
 
   /**
-   * Fetchs, from a JSON file, the overall results for the given results reference
+   * Fetchs, from a JSON file, the overall results for the given race reference
    *
-   * @param {String} resultsReference The results reference of the desired results
+   * @param {String} raceReference The race reference of the desired results
    * @returns
    */
-  static async getResultsByReferenceFromJsonFile(resultsReference) {
-    const url = getEndpoint('results', resultsReference);
+  static async getResultsByReferenceFromJsonFile(raceReference) {
+    const url = getEndpoint('results', raceReference);
 
     return fetch(url)
       .then((response) => {

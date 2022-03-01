@@ -104,7 +104,7 @@ class EventHeader extends LitElement {
       return html`
         ${this.event.races.map((race) => {
           const optionText = race.subtitle ? race.title.concat(' - ', race.subtitle) : race.title;
-          return html`<option value="${race.resultsReference}">${optionText}</option>`;
+          return html`<option value="${race.raceReference}">${optionText}</option>`;
         })}
       `;
     }
@@ -127,7 +127,7 @@ class EventHeader extends LitElement {
     let selectedRace = {};
     if (this.event.races && this.event.races.length > 0) {
       this.event.races.map((race) => {
-        if (race.resultsReference == e.target.value) {
+        if (race.raceReference == e.target.value) {
           selectedRace = race;
         }
       });

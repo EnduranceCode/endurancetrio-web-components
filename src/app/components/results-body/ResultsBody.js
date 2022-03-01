@@ -29,27 +29,31 @@ class ResultsBody extends LitElement {
 
   static properties = {
     race: {},
-    _lastFetchedResultsReference: { attribute: false, state: true },
+    _lastFetchedRaceReference: { attribute: false, state: true },
   };
 
   constructor() {
     super();
     this.race = {};
-    this._lastFetchedResultsReference = '';
+    this._lastFetchedRaceReference = '';
   }
 
   render() {
     const hasRace = !Utils.isObjectEmpty(this.race);
-    const hasResults = hasRace && !Utils.isObjectEmpty(this.race.results) && !this.race.results.has('error');
+    const hasResults =
+      hasRace &&
+      !Utils.isObjectEmpty(this.race.results) &&
+      this.race.results instanceof Map &&
+      !this.race.results.has('error');
 
-    if (hasRace && !hasResults && this._lastFetchedResultsReference != this.race.resultsReference) {
-      ResultsService.getResultsByReference(this.race.resultsReference).then((apiData) => {
+    if (hasRace && !hasResults && this._lastFetchedRaceReference != this.race.raceReference) {
+      ResultsService.getResultsByReference(this.race.raceReference).then((apiData) => {
         updateRaceWithActualData(this.race, apiData);
         this.race.results = apiData.results;
         this.dispatchEvent(
           new CustomEvent('update-race', { bubbles: true, composed: true, detail: { race: this.race } })
         );
-        this._lastFetchedResultsReference = this.race.resultsReference;
+        this._lastFetchedRaceReference = this.race.raceReference;
       });
     }
 
@@ -57,7 +61,7 @@ class ResultsBody extends LitElement {
       return html`${this.buildProgressBar()}`;
     }
 
-    if (hasRace) {
+    if (hasRace && this.race.results instanceof Map) {
       if (this.race.results.has('error')) {
         return this.buildErrorMessage();
       } else {

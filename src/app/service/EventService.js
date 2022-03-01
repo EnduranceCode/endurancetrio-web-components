@@ -23,7 +23,7 @@ class EventService {
       let requestedEvent = { error: getErrorMessage(errorMessagesKeys.eventNotFound) };
       results.map((result) => {
         if (result.eventReference == eventReference) {
-          requestedEvent = result.event;
+          requestedEvent = result;
         }
       });
       return requestedEvent;

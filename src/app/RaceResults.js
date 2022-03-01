@@ -31,7 +31,7 @@ class RaceResults extends LitElement {
     event: {},
     eventReference: { attribute: 'event-reference' },
     race: {},
-    resultsReference: {},
+    raceReference: {},
   };
 
   constructor() {
@@ -39,7 +39,7 @@ class RaceResults extends LitElement {
     this.event = {};
     this.eventReference = '';
     this.race = {};
-    this.resultsReference = '';
+    this.raceReference = '';
   }
 
   render() {
@@ -63,7 +63,7 @@ class RaceResults extends LitElement {
 
     this.addEventListener('change-race', (e) => {
       this.race = e.detail.race;
-      this.resultsReference = e.detail.race.resultsReference;
+      this.raceReference = e.detail.race.raceReference;
     });
   }
 }
