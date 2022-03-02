@@ -1,0 +1,18 @@
+{
+  "id": 0,
+  "title": "<TÍTULO>",
+  "subtitle": "<SUBTÍTULO>",
+  "swimDistance": "",
+  "swimLaps": "",
+  "cynclingDistance": "",
+  "cyclingLaps": "",
+  "runDistance": "",
+  "runLaps": "",
+  "actualDate": "<ACTUAL_DATE>",
+  "actualTime": "<ACTUAL_TIME>",
+  "airTemperature": "",
+  "waterTemperature": "",
+  "wetSuit": "",
+  "raceReference": "<RACE_REFERENCE>",
+  "results": []
+}
