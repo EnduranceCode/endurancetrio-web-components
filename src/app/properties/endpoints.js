@@ -20,6 +20,7 @@ const BASE_URL = MOCKUP_API_URL_DEV;
  */
 const endpoints = {
   events: 'events/',
+  event: 'events/',
   results: 'results/',
 };
 

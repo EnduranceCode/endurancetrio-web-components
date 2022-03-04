@@ -14,5 +14,237 @@
   "waterTemperature": "",
   "wetSuit": "",
   "raceReference": "20220226LAA001-007",
-  "results": []
+  "results": [
+    {
+      "rank": "1",
+      "licence": "102370",
+      "raceNumber": "875",
+      "name": "Sofia Sousa",
+      "ageGroup": "JUV",
+      "team": "Outsystems Olímpico de Oeiras",
+      "total": "00:32:10",
+      "gap": "00:00:00",
+      "points": "150"
+    },
+    {
+      "rank": "2",
+      "licence": "102291",
+      "raceNumber": "799",
+      "name": "Letícia Magalhães",
+      "ageGroup": "JUV",
+      "team": "Sport Lisboa e Benfica",
+      "total": "00:32:55",
+      "gap": "00:00:45",
+      "points": "140"
+    },
+    {
+      "rank": "3",
+      "licence": "104678",
+      "raceNumber": "907",
+      "name": "Maria do Carmo Vitorino",
+      "ageGroup": "JUV",
+      "team": "Alhandra Sporting Club",
+      "total": "00:33:28",
+      "gap": "00:01:18",
+      "points": "130"
+    },
+    {
+      "rank": "4",
+      "licence": "104484",
+      "raceNumber": "609",
+      "name": "Catarina Santos",
+      "ageGroup": "JUV",
+      "team": "Sport Lisboa e Benfica",
+      "total": "00:35:43",
+      "gap": "00:03:33",
+      "points": "125"
+    },
+    {
+      "rank": "5",
+      "licence": "103627",
+      "raceNumber": "576",
+      "name": "Bruna Albuquerque",
+      "ageGroup": "JUV",
+      "team": "Alhandra Sporting Club",
+      "total": "00:36:04",
+      "gap": "00:03:54",
+      "points": "120"
+    },
+    {
+      "rank": "6",
+      "licence": "105701",
+      "raceNumber": "1284",
+      "name": "Beatriz Almeida",
+      "ageGroup": "JUV",
+      "team": "Outsystems Olímpico de Oeiras",
+      "total": "00:36:36",
+      "gap": "00:04:26",
+      "points": "115"
+    },
+    {
+      "rank": "7",
+      "licence": "107001",
+      "raceNumber": "686",
+      "name": "Carolina Namora",
+      "ageGroup": "JUV",
+      "team": "Alhandra Sporting Club",
+      "total": "00:36:56",
+      "gap": "00:04:46",
+      "points": "110"
+    },
+    {
+      "rank": "8",
+      "licence": "107121",
+      "raceNumber": "830",
+      "name": "Alice Leite",
+      "ageGroup": "JUV",
+      "team": "Outsystems Olímpico de Oeiras",
+      "total": "00:37:05",
+      "gap": "00:04:55",
+      "points": "108"
+    },
+    {
+      "rank": "9",
+      "licence": "102025",
+      "raceNumber": "634",
+      "name": "Joana Alves",
+      "ageGroup": "JUV",
+      "team": "Sporting Clube de Portugal",
+      "total": "00:37:31",
+      "gap": "00:05:21",
+      "points": "106"
+    },
+    {
+      "rank": "10",
+      "licence": "107566",
+      "raceNumber": "242",
+      "name": "Inês Costa",
+      "ageGroup": "JUV",
+      "team": "Sporting Clube de Portugal",
+      "total": "00:37:59",
+      "gap": "00:05:49",
+      "points": "104"
+    },
+    {
+      "rank": "11",
+      "licence": "102478",
+      "raceNumber": "809",
+      "name": "Leonor Pedro",
+      "ageGroup": "JUV",
+      "team": "CNCVG",
+      "total": "00:38:19",
+      "gap": "00:06:09",
+      "points": "102"
+    },
+    {
+      "rank": "12",
+      "licence": "105132",
+      "raceNumber": "638",
+      "name": "Camila Dias",
+      "ageGroup": "JUV",
+      "team": "GDR Manique de Cima",
+      "total": "00:38:52",
+      "gap": "00:06:42",
+      "points": "100"
+    },
+    {
+      "rank": "13",
+      "licence": "105919",
+      "raceNumber": "1120",
+      "name": "Beatriz Cruz",
+      "ageGroup": "JUV",
+      "team": "GDR Manique de Cima",
+      "total": "00:39:23",
+      "gap": "00:07:13",
+      "points": "98"
+    },
+    {
+      "rank": "14",
+      "licence": "104431",
+      "raceNumber": "547",
+      "name": "Mariana Amaral",
+      "ageGroup": "JUV",
+      "team": "CNCVG",
+      "total": "00:39:30",
+      "gap": "00:07:20",
+      "points": "96"
+    },
+    {
+      "rank": "15",
+      "licence": "107077",
+      "raceNumber": "754",
+      "name": "Alice Barreto",
+      "ageGroup": "JUV",
+      "team": "Palmela Desporto / Tripla Rotação",
+      "total": "00:40:20",
+      "gap": "00:08:10",
+      "points": "94"
+    },
+    {
+      "rank": "16",
+      "licence": "104486",
+      "raceNumber": "620",
+      "name": "Luna Pereira Crispim",
+      "ageGroup": "JUV",
+      "team": "Sport Lisboa e Benfica",
+      "total": "00:42:18",
+      "gap": "00:10:08",
+      "points": "92"
+    },
+    {
+      "rank": "17",
+      "licence": "107057",
+      "raceNumber": "737",
+      "name": "Matilde Almeida",
+      "ageGroup": "JUV",
+      "team": "Estoril Praia Credibom",
+      "total": "00:43:59",
+      "gap": "00:11:49",
+      "points": "90"
+    },
+    {
+      "rank": "18",
+      "licence": "107073",
+      "raceNumber": "750",
+      "name": "Maria Almeida",
+      "ageGroup": "JUV",
+      "team": "Estoril Praia Credibom",
+      "total": "00:44:16",
+      "gap": "00:12:06",
+      "points": "88"
+    },
+    {
+      "rank": "19",
+      "licence": "104072",
+      "raceNumber": "983",
+      "name": "Mariana Pinto",
+      "ageGroup": "JUV",
+      "team": "GDR Manique de Cima",
+      "total": "00:44:21",
+      "gap": "00:12:11",
+      "points": "86"
+    },
+    {
+      "rank": "20",
+      "licence": "105894",
+      "raceNumber": "1096",
+      "name": "Daniela Filipe",
+      "ageGroup": "JUV",
+      "team": "GDR Manique de Cima",
+      "total": "00:44:42",
+      "gap": "00:12:32",
+      "points": "84"
+    },
+    {
+      "rank": "21",
+      "licence": "EXTRA",
+      "raceNumber": "8088",
+      "name": "Teresa Rodrigues dos Santos",
+      "ageGroup": "JUV",
+      "team": "X Não Federado",
+      "total": "00:48:44",
+      "gap": "00:16:34",
+      "points": ""
+    }
+  ]
 }

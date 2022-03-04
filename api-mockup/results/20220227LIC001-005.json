@@ -1,5 +1,5 @@
 {
-  "id": 31,
+  "id": "31",
   "title": "Campeonato Litoral Interior Centro Jovem",
   "subtitle": "Iniciados Femininos",
   "swimDistance": "",
@@ -14,5 +14,149 @@
   "waterTemperature": "",
   "wetSuit": "",
   "raceReference": "20220227LIC001-005",
-  "results": []
+  "results": [
+    {
+      "rank": "1",
+      "licence": "103919",
+      "raceNumber": "879",
+      "name": "Francisca Leirião",
+      "ageGroup": "INI",
+      "team": "Clube de Natação de Torres Novas",
+      "total": "00:15:09",
+      "gap": "00:00:00",
+      "points": "150"
+    },
+    {
+      "rank": "2",
+      "licence": "EXTRA",
+      "raceNumber": "5817",
+      "name": "Inês Fonseca",
+      "ageGroup": "INI",
+      "team": "X Não Federado",
+      "total": "00:15:22",
+      "gap": "00:00:13",
+      "points": ""
+    },
+    {
+      "rank": "3",
+      "licence": "107944",
+      "raceNumber": "695",
+      "name": "Cristina Rilo",
+      "ageGroup": "INI",
+      "team": "Pimpões Triatlo",
+      "total": "00:15:41",
+      "gap": "00:00:32",
+      "points": "140"
+    },
+    {
+      "rank": "4",
+      "licence": "EXTRA",
+      "raceNumber": "5809",
+      "name": "Beatriz Rodrigues",
+      "ageGroup": "INI",
+      "team": "X Não Federado",
+      "total": "00:16:52",
+      "gap": "00:01:43",
+      "points": ""
+    },
+    {
+      "rank": "5",
+      "licence": "105589",
+      "raceNumber": "1033",
+      "name": "Matilde Albuquerque",
+      "ageGroup": "INI",
+      "team": "Pedrógão Triatlo",
+      "total": "00:17:04",
+      "gap": "00:01:55",
+      "points": "130"
+    },
+    {
+      "rank": "6",
+      "licence": "107579",
+      "raceNumber": "258",
+      "name": "Margarida Calhau",
+      "ageGroup": "INI",
+      "team": "BEST",
+      "total": "00:17:35",
+      "gap": "00:02:26",
+      "points": "125"
+    },
+    {
+      "rank": "7",
+      "licence": "105569",
+      "raceNumber": "1019",
+      "name": "Leonor Gonçalves",
+      "ageGroup": "INI",
+      "team": "Pedrógão Triatlo",
+      "total": "00:17:50",
+      "gap": "00:02:41",
+      "points": "120"
+    },
+    {
+      "rank": "8",
+      "licence": "107143",
+      "raceNumber": "867",
+      "name": "Maria Lourenço",
+      "ageGroup": "INI",
+      "team": "Peniche A. C.",
+      "total": "00:18:07",
+      "gap": "00:02:58",
+      "points": "115"
+    },
+    {
+      "rank": "9",
+      "licence": "108236",
+      "raceNumber": "961",
+      "name": "Mariana Lopes",
+      "ageGroup": "INI",
+      "team": "Tramagal Sport União",
+      "total": "00:18:37",
+      "gap": "00:03:28",
+      "points": "110"
+    },
+    {
+      "rank": "10",
+      "licence": "107926",
+      "raceNumber": "677",
+      "name": "Leonor Santos",
+      "ageGroup": "INI",
+      "team": "Pedrógão Triatlo",
+      "total": "00:18:47",
+      "gap": "00:03:38",
+      "points": "108"
+    },
+    {
+      "rank": "11",
+      "licence": "107948",
+      "raceNumber": "703",
+      "name": "Alice Costa",
+      "ageGroup": "INI",
+      "team": "BEST",
+      "total": "00:18:52",
+      "gap": "00:03:43",
+      "points": "106"
+    },
+    {
+      "rank": "12",
+      "licence": "107947",
+      "raceNumber": "701",
+      "name": "Diana Bernardes",
+      "ageGroup": "INI",
+      "team": "BEST",
+      "total": "00:19:25",
+      "gap": "00:04:16",
+      "points": "104"
+    },
+    {
+      "rank": "13",
+      "licence": "107695",
+      "raceNumber": "5890",
+      "name": "Mariana Franco",
+      "ageGroup": "INI",
+      "team": "BEST",
+      "total": "00:22:36",
+      "gap": "00:07:27",
+      "points": "102"
+    }
+  ]
 }

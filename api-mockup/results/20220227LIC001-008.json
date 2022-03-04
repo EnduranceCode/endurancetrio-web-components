@@ -1,5 +1,5 @@
 {
-  "id": 34,
+  "id": "34",
   "title": "Campeonato Litoral Interior Centro Jovem",
   "subtitle": "Juvenis Masculinos",
   "swimDistance": "",
@@ -14,5 +14,193 @@
   "waterTemperature": "",
   "wetSuit": "",
   "raceReference": "20220227LIC001-008",
-  "results": []
+  "results": [
+    {
+      "rank": "1",
+      "licence": "101594",
+      "raceNumber": "663",
+      "name": "Francisco Carvalho",
+      "ageGroup": "JUV",
+      "team": "Clube de Natação de Torres Novas",
+      "total": "00:32:50",
+      "gap": "00:00:00",
+      "points": "150"
+    },
+    {
+      "rank": "2",
+      "licence": "103366",
+      "raceNumber": "272",
+      "name": "Dinis Ferreira",
+      "ageGroup": "JUV",
+      "team": "Clube de Natação de Torres Novas",
+      "total": "00:36:09",
+      "gap": "00:03:19",
+      "points": "140"
+    },
+    {
+      "rank": "3",
+      "licence": "104478",
+      "raceNumber": "596",
+      "name": "António Gasalho",
+      "ageGroup": "JUV",
+      "team": "Pedrógão Triatlo",
+      "total": "00:37:11",
+      "gap": "00:04:21",
+      "points": "130"
+    },
+    {
+      "rank": "4",
+      "licence": "102636",
+      "raceNumber": "249",
+      "name": "Dinis Carvalhinho",
+      "ageGroup": "JUV",
+      "team": "Pimpões Triatlo",
+      "total": "00:37:33",
+      "gap": "00:04:43",
+      "points": "125"
+    },
+    {
+      "rank": "5",
+      "licence": "104433",
+      "raceNumber": "548",
+      "name": "Simão Vieira",
+      "ageGroup": "JUV",
+      "team": "Pedrógão Triatlo",
+      "total": "00:38:29",
+      "gap": "00:05:39",
+      "points": "120"
+    },
+    {
+      "rank": "6",
+      "licence": "107723",
+      "raceNumber": "385",
+      "name": "Rodrigo Vicente",
+      "ageGroup": "JUV",
+      "team": "Pedrógão Triatlo",
+      "total": "00:38:59",
+      "gap": "00:06:09",
+      "points": "115"
+    },
+    {
+      "rank": "7",
+      "licence": "106269",
+      "raceNumber": "1280",
+      "name": "António Leão",
+      "ageGroup": "JUV",
+      "team": "Pedrógão Triatlo",
+      "total": "00:39:25",
+      "gap": "00:06:35",
+      "points": "110"
+    },
+    {
+      "rank": "8",
+      "licence": "103909",
+      "raceNumber": "844",
+      "name": "Mateus Nascimento",
+      "ageGroup": "JUV",
+      "team": "Clube de Natação de Torres Novas",
+      "total": "00:39:55",
+      "gap": "00:07:05",
+      "points": "108"
+    },
+    {
+      "rank": "9",
+      "licence": "108235",
+      "raceNumber": "960",
+      "name": "João Gabriel Lopes",
+      "ageGroup": "JUV",
+      "team": "Tramagal Sport União",
+      "total": "00:40:21",
+      "gap": "00:07:31",
+      "points": "106"
+    },
+    {
+      "rank": "10",
+      "licence": "EXTRA",
+      "raceNumber": "5812",
+      "name": "Tiago Fino",
+      "ageGroup": "JUV",
+      "team": "X Não Federado",
+      "total": "00:40:44",
+      "gap": "00:07:54",
+      "points": ""
+    },
+    {
+      "rank": "11",
+      "licence": "104109",
+      "raceNumber": "21",
+      "name": "Afonso Farto",
+      "ageGroup": "JUV",
+      "team": "Peniche A. C.",
+      "total": "00:41:44",
+      "gap": "00:08:54",
+      "points": "104"
+    },
+    {
+      "rank": "12",
+      "licence": "107144",
+      "raceNumber": "869",
+      "name": "Martin Lourenço",
+      "ageGroup": "JUV",
+      "team": "Peniche A. C.",
+      "total": "00:41:45",
+      "gap": "00:08:55",
+      "points": "102"
+    },
+    {
+      "rank": "13",
+      "licence": "EXTRA",
+      "raceNumber": "5855",
+      "name": "David Santos Carvalhinho",
+      "ageGroup": "JUV",
+      "team": "X Não Federado",
+      "total": "00:43:21",
+      "gap": "00:10:31",
+      "points": ""
+    },
+    {
+      "rank": "14",
+      "licence": "102147",
+      "raceNumber": "857",
+      "name": "Francisco Frazão",
+      "ageGroup": "JUV",
+      "team": "FET-Fátima Escola de Triatlo",
+      "total": "00:46:18",
+      "gap": "00:13:28",
+      "points": "100"
+    },
+    {
+      "rank": "15",
+      "licence": "106238",
+      "raceNumber": "1273",
+      "name": "Gonçalo Nogueira",
+      "ageGroup": "JUV",
+      "team": "Clube Triatlo de Abrantes",
+      "total": "00:52:14",
+      "gap": "00:19:24",
+      "points": "98"
+    },
+    {
+      "rank": "16",
+      "licence": "107914",
+      "raceNumber": "657",
+      "name": "Lucas Neves",
+      "ageGroup": "JUV",
+      "team": "Pimpões Triatlo",
+      "total": "00:57:26",
+      "gap": "00:24:36",
+      "points": "96"
+    },
+    {
+      "rank": "17",
+      "licence": "EXTRA",
+      "raceNumber": "5870",
+      "name": "Martim Fragoso do Céu",
+      "ageGroup": "JUV",
+      "team": "X Não Federado",
+      "total": "00:58:54",
+      "gap": "00:26:04",
+      "points": ""
+    }
+  ]
 }

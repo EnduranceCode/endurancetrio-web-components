@@ -1,5 +1,5 @@
 {
-  "id": 12,
+  "id": "12",
   "title": "Prova Aberta",
   "subtitle": "Masculinos",
   "swimDistance": "",
@@ -14,5 +14,76 @@
   "waterTemperature": "",
   "wetSuit": "",
   "raceReference": "20220213FTP001-008",
-  "results": []
+  "results": [
+    {
+      "rank": "1",
+      "raceNumber": "8018",
+      "name": "João Pedro Pereira",
+      "ageGroup": "35-39",
+      "team": "Não Federado",
+      "firstRun": "00:15:14",
+      "t1": "00:00:39",
+      "bike": "00:39:16",
+      "t2": "00:00:35",
+      "secondRun": "00:09:39",
+      "total": "01:05:23",
+      "gap": "00:00:00"
+    },
+    {
+      "rank": "2",
+      "raceNumber": "8013",
+      "name": "Ivo Gomes",
+      "ageGroup": "40-44",
+      "team": "Não Federado",
+      "firstRun": "00:19:11",
+      "t1": "00:00:52",
+      "bike": "00:48:11",
+      "t2": "00:01:01",
+      "secondRun": "00:12:21",
+      "total": "01:21:36",
+      "gap": "00:16:13"
+    },
+    {
+      "rank": "3",
+      "raceNumber": "8019",
+      "name": "Leonardo Sousa",
+      "ageGroup": "CAD",
+      "team": "Não Federado",
+      "firstRun": "00:17:46",
+      "t1": "00:00:35",
+      "bike": "00:57:22",
+      "t2": "00:00:36",
+      "secondRun": "00:12:06",
+      "total": "01:28:25",
+      "gap": "00:23:02"
+    },
+    {
+      "rank": "4",
+      "raceNumber": "8007",
+      "name": "Fábio Ferrão",
+      "ageGroup": "35-39",
+      "team": "Não Federado",
+      "firstRun": "00:21:42",
+      "t1": "00:01:08",
+      "bike": "00:59:17",
+      "t2": "00:01:01",
+      "secondRun": "00:13:59",
+      "total": "01:37:07",
+      "gap": "00:31:44"
+    },
+    {
+      "rank": "5",
+      "raceNumber": "8034",
+      "name": "Renato Castanheira",
+      "ageGroup": "40-44",
+      "team": "Não Federado",
+      "firstRun": "00:22:13",
+      "t1": "00:01:25",
+      "bike": "00:59:04",
+      "t2": "00:01:46",
+      "secondRun": "00:14:50",
+      "total": "01:39:18",
+      "gap": "00:33:55"
+    }
+  ]
 }

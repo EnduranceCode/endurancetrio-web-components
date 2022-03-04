@@ -1,5 +1,5 @@
 {
-  "id": 32,
+  "id": "32",
   "title": "Campeonato Litoral Interior Centro Jovem",
   "subtitle": "Iniciados Masculinos",
   "swimDistance": "",
@@ -14,5 +14,237 @@
   "waterTemperature": "",
   "wetSuit": "",
   "raceReference": "20220227LIC001-006",
-  "results": []
+  "results": [
+    {
+      "rank": "1",
+      "licence": "104103",
+      "raceNumber": "965",
+      "name": "Nuno Fernandes",
+      "ageGroup": "INI",
+      "team": "Peniche A. C.",
+      "total": "00:14:02",
+      "gap": "00:00:00",
+      "points": "150"
+    },
+    {
+      "rank": "2",
+      "licence": "105568",
+      "raceNumber": "1018",
+      "name": "Tomé Sentieiro",
+      "ageGroup": "INI",
+      "team": "Pedrógão Triatlo",
+      "total": "00:14:14",
+      "gap": "00:00:12",
+      "points": "140"
+    },
+    {
+      "rank": "3",
+      "licence": "EXTRA",
+      "raceNumber": "5880",
+      "name": "Pedro Galvão",
+      "ageGroup": "INI",
+      "team": "X Não Federado",
+      "total": "00:14:30",
+      "gap": "00:00:28",
+      "points": ""
+    },
+    {
+      "rank": "4",
+      "licence": "104632",
+      "raceNumber": "852",
+      "name": "Luiz Viriato",
+      "ageGroup": "INI",
+      "team": "Pedrógão Triatlo",
+      "total": "00:15:27",
+      "gap": "00:01:25",
+      "points": "130"
+    },
+    {
+      "rank": "5",
+      "licence": "107763",
+      "raceNumber": "437",
+      "name": "João Neves",
+      "ageGroup": "INI",
+      "team": "FET-Fátima Escola de Triatlo",
+      "total": "00:16:02",
+      "gap": "00:02:00",
+      "points": "125"
+    },
+    {
+      "rank": "6",
+      "licence": "107171",
+      "raceNumber": "931",
+      "name": "Santiago Ruivo",
+      "ageGroup": "INI",
+      "team": "Pedrógão Triatlo",
+      "total": "00:16:31",
+      "gap": "00:02:29",
+      "points": "120"
+    },
+    {
+      "rank": "7",
+      "licence": "107578",
+      "raceNumber": "250",
+      "name": "António Leandro",
+      "ageGroup": "INI",
+      "team": "BEST",
+      "total": "00:16:44",
+      "gap": "00:02:42",
+      "points": "115"
+    },
+    {
+      "rank": "8",
+      "licence": "107894",
+      "raceNumber": "633",
+      "name": "Tomás Silva",
+      "ageGroup": "INI",
+      "team": "Pedrógão Triatlo",
+      "total": "00:16:47",
+      "gap": "00:02:45",
+      "points": "110"
+    },
+    {
+      "rank": "9",
+      "licence": "107169",
+      "raceNumber": "902",
+      "name": "Gabriel Ferreira da Silva",
+      "ageGroup": "INI",
+      "team": "Pedrógão Triatlo",
+      "total": "00:16:52",
+      "gap": "00:02:50",
+      "points": "108"
+    },
+    {
+      "rank": "10",
+      "licence": "106171",
+      "raceNumber": "1254",
+      "name": "Duarte Teixeira",
+      "ageGroup": "INI",
+      "team": "Pedrógão Triatlo",
+      "total": "00:17:03",
+      "gap": "00:03:01",
+      "points": "106"
+    },
+    {
+      "rank": "11",
+      "licence": "107225",
+      "raceNumber": "1005",
+      "name": "Rodrigo Miranda",
+      "ageGroup": "INI",
+      "team": "Clube de Natação de Torres Novas",
+      "total": "00:17:35",
+      "gap": "00:03:33",
+      "points": "104"
+    },
+    {
+      "rank": "12",
+      "licence": "107562",
+      "raceNumber": "236",
+      "name": "Tomás Cerejo",
+      "ageGroup": "INI",
+      "team": "BEST",
+      "total": "00:18:47",
+      "gap": "00:04:45",
+      "points": "102"
+    },
+    {
+      "rank": "13",
+      "licence": "107558",
+      "raceNumber": "219",
+      "name": "André Duarte",
+      "ageGroup": "INI",
+      "team": "BEST",
+      "total": "00:19:19",
+      "gap": "00:05:17",
+      "points": "100"
+    },
+    {
+      "rank": "14",
+      "licence": "107589",
+      "raceNumber": "275",
+      "name": "Martim Batista",
+      "ageGroup": "INI",
+      "team": "BEST",
+      "total": "00:19:24",
+      "gap": "00:05:22",
+      "points": "98"
+    },
+    {
+      "rank": "15",
+      "licence": "107561",
+      "raceNumber": "233",
+      "name": "Dinis Marques",
+      "ageGroup": "INI",
+      "team": "BEST",
+      "total": "00:19:35",
+      "gap": "00:05:33",
+      "points": "96"
+    },
+    {
+      "rank": "16",
+      "licence": "108224",
+      "raceNumber": "937",
+      "name": "Matias Balau",
+      "ageGroup": "INI",
+      "team": "Peniche A. C.",
+      "total": "00:19:48",
+      "gap": "00:05:46",
+      "points": "94"
+    },
+    {
+      "rank": "17",
+      "licence": "107559",
+      "raceNumber": "223",
+      "name": "Tiago Tavares",
+      "ageGroup": "INI",
+      "team": "BEST",
+      "total": "00:20:00",
+      "gap": "00:05:58",
+      "points": "92"
+    },
+    {
+      "rank": "18",
+      "licence": "EXTRA",
+      "raceNumber": "5861",
+      "name": "Leonardo Carquejeiro",
+      "ageGroup": "INI",
+      "team": "X Não Federado",
+      "total": "00:20:29",
+      "gap": "00:06:27",
+      "points": ""
+    },
+    {
+      "rank": "19",
+      "licence": "107395",
+      "raceNumber": "8",
+      "name": "Afonso Matos Gomes",
+      "ageGroup": "INI",
+      "team": "Clube Triatlo de Abrantes",
+      "total": "00:21:31",
+      "gap": "00:07:29",
+      "points": "90"
+    },
+    {
+      "rank": "20",
+      "licence": "107699",
+      "raceNumber": "5805",
+      "name": "João Oliveira Ribeiro",
+      "ageGroup": "INI",
+      "team": "BEST",
+      "total": "00:21:51",
+      "gap": "00:07:49",
+      "points": "88"
+    },
+    {
+      "rank": "21",
+      "licence": "107051",
+      "raceNumber": "727",
+      "name": "Miguel Oliveira",
+      "ageGroup": "INF",
+      "team": "Pimpões Triatlo",
+      "total": "00:27:59",
+      "gap": "00:13:57",
+      "points": "86"
+    }
+  ]
 }

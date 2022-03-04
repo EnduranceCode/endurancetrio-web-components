@@ -1,5 +1,5 @@
 {
-  "id": 35,
+  "id": "35",
   "title": "Campeonato Litoral Interior Centro Jovem",
   "subtitle": "Cadetes Femininos",
   "swimDistance": "",
@@ -14,5 +14,39 @@
   "waterTemperature": "",
   "wetSuit": "",
   "raceReference": "20220227LIC001-009",
-  "results": []
+  "results": [
+    {
+      "rank": "1",
+      "licence": "107943",
+      "raceNumber": "1922",
+      "name": "Inês Rilo",
+      "ageGroup": "CAD",
+      "team": "Pimpões Triatlo",
+      "total": "00:43:34",
+      "gap": "00:00:00",
+      "points": "150"
+    },
+    {
+      "rank": "2",
+      "licence": "108393",
+      "raceNumber": "1553",
+      "name": "Luísa Burguette Cunha",
+      "ageGroup": "CAD",
+      "team": "Tramagal Sport União",
+      "total": "00:53:33",
+      "gap": "00:09:59",
+      "points": "140"
+    },
+    {
+      "rank": "3",
+      "licence": "107782",
+      "raceNumber": "1920",
+      "name": "Gabriela Inácio",
+      "ageGroup": "CAD",
+      "team": "Pedrógão Triatlo",
+      "total": "01:02:11",
+      "gap": "00:18:37",
+      "points": "130"
+    }
+  ]
 }

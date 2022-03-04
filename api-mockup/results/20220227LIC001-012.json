@@ -1,5 +1,5 @@
 {
-  "id": 37,
+  "id": "37",
   "title": "Campeonato Litoral Interior Centro Absoluto",
   "subtitle": "Femininos",
   "swimDistance": "",
@@ -14,5 +14,86 @@
   "waterTemperature": "",
   "wetSuit": "",
   "raceReference": "20220227LIC001-012",
-  "results": []
+  "results": [
+    {
+      "rank": "1",
+      "licence": "103427",
+      "raceNumber": "2862",
+      "name": "Beatriz Ferreira",
+      "ageGroup": "20-24",
+      "team": "Clube de Natação de Torres Novas",
+      "total": "01:20:42",
+      "gap": "00:00:00"
+    },
+    {
+      "rank": "2",
+      "licence": "100760",
+      "raceNumber": "2254",
+      "name": "Catarina Moutinho",
+      "ageGroup": "JUN",
+      "team": "Clube de Natação de Torres Novas",
+      "total": "01:37:35",
+      "gap": "00:16:53"
+    },
+    {
+      "rank": "3",
+      "licence": "102221",
+      "raceNumber": "1511",
+      "name": "Raquel Vital",
+      "ageGroup": "CAD",
+      "team": "Clube Triatlo de Abrantes",
+      "total": "01:39:53",
+      "gap": "00:19:11"
+    },
+    {
+      "rank": "4",
+      "licence": "103813",
+      "raceNumber": "1918",
+      "name": "Matilde Moita",
+      "ageGroup": "CAD",
+      "team": "Pedrógão Triatlo",
+      "total": "01:41:42",
+      "gap": "00:21:00"
+    },
+    {
+      "rank": "5",
+      "licence": "106619",
+      "raceNumber": "3903",
+      "name": "Catarina Oliveira",
+      "ageGroup": "25-29",
+      "team": "Clube Triatlo de Abrantes",
+      "total": "01:53:05",
+      "gap": "00:32:23"
+    },
+    {
+      "rank": "6",
+      "licence": "104698",
+      "raceNumber": "1901",
+      "name": "Cláudia Orvalho",
+      "ageGroup": "CAD",
+      "team": "Clube de Natação de Torres Novas",
+      "total": "01:54:26",
+      "gap": "00:33:44"
+    },
+    {
+      "rank": "7",
+      "licence": "106617",
+      "raceNumber": "3901",
+      "name": "Marina Brunheta",
+      "ageGroup": "20-24",
+      "team": "Clube Triatlo de Abrantes",
+      "total": "01:56:18",
+      "gap": "00:35:36"
+    },
+    {
+      "rank": "8",
+      "licence": "105579",
+      "raceNumber": "5872",
+      "name": "Margarida Cancela",
+      "ageGroup": "CAD",
+      "team": "Pedrógão Triatlo",
+      "total": "02:02:05",
+      "gap": "00:41:23"
+    }
+  ]
 }

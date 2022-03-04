@@ -1,5 +1,5 @@
 {
-  "id": 11,
+  "id": "11",
   "title": "Prova Aberta",
   "subtitle": "Femininos",
   "swimDistance": "",
@@ -14,5 +14,34 @@
   "waterTemperature": "",
   "wetSuit": "",
   "raceReference": "20220213FTP001-007",
-  "results": []
+  "results": [
+    {
+      "rank": "1",
+      "raceNumber": "8036",
+      "name": "Sónia Ribeiro",
+      "ageGroup": "35-39",
+      "team": "Não Federado",
+      "firstRun": "00:20:24",
+      "t1": "00:00:47",
+      "bike": "01:00:23",
+      "t2": "00:00:44",
+      "secondRun": "00:12:53",
+      "total": "01:35:11",
+      "gap": "00:00:00"
+    },
+    {
+      "rank": "2",
+      "raceNumber": "8000",
+      "name": "Ana Damas",
+      "ageGroup": "35-39",
+      "team": "Não Federado",
+      "firstRun": "00:22:31",
+      "t1": "00:00:45",
+      "bike": "01:13:03",
+      "t2": "00:00:42",
+      "secondRun": "00:14:50",
+      "total": "01:51:51",
+      "gap": "00:16:40"
+    }
+  ]
 }

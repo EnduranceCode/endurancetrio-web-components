@@ -1,0 +1,154 @@
+{
+  "id": "3",
+  "eventReference": "20220220FTP001",
+  "title": "II Triatlo Quinta do Lago",
+  "startDate": "2022-02-20",
+  "endDate": "2022-02-20",
+  "city": "Quinta do Lago",
+  "county": "Loulé",
+  "district": "Faro",
+  "eventFiles": [
+    {
+      "id": "7",
+      "eventID": "3",
+      "title": "Regulamento",
+      "revision": "1",
+      "active": "SIM",
+      "filename": "20220220FTP001-REG001-01.pdf",
+      "fileType": "RULES"
+    },
+    {
+      "id": "8",
+      "eventID": "3",
+      "title": "Percursos",
+      "revision": "1",
+      "active": "SIM",
+      "filename": "20220220FTP001-MAP001-01.pdf",
+      "fileType": "COURSE_MAPS"
+    },
+    {
+      "id": "9",
+      "eventID": "3",
+      "title": "Cartaz",
+      "revision": "1",
+      "active": "SIM",
+      "filename": "20220220FTP001-IMG001-01.png",
+      "fileType": "COVER_IMAGE"
+    }
+  ],
+  "organizers": [],
+  "races": [
+    {
+      "id": "13",
+      "raceReference": "20220220FTP001-001",
+      "title": "Taça de Portugal",
+      "subtitle": "Femininos",
+      "sport": "TRIATHLON",
+      "distanceType": "SPRINT",
+      "gender": "FEMALE",
+      "ageGroup": "OVERALL",
+      "teamRanks": "SIM",
+      "scheduleDate": "2022-02-20",
+      "scheduleTime": "11:20:00",
+      "swimDistance": "750",
+      "swimLaps": "1",
+      "firstRunDistance": "",
+      "firstRunLaps": "",
+      "cyclingDistance": "20000",
+      "cyclingLaps": "2",
+      "runDistance": "5000",
+      "runLaps": "2",
+      "secondRunDistance": "",
+      "secondRunLaps": "",
+      "actualDate": "2022-02-20",
+      "actualTime": "11:20:07",
+      "airTemperature": "",
+      "waterTemperature": "",
+      "wetSuit": "",
+      "eventID": "3",
+      "championships": "",
+      "technicalDelegate": "",
+      "headReferee": "",
+      "competitionJury": "",
+      "results": ""
+    },
+    {
+      "id": "14",
+      "raceReference": "20220220FTP001-002",
+      "title": "Taça de Portugal",
+      "subtitle": "Masculinos",
+      "sport": "TRIATHLON",
+      "distanceType": "SPRINT",
+      "gender": "MALE",
+      "ageGroup": "OVERALL",
+      "teamRanks": "SIM",
+      "scheduleDate": "2022-02-20",
+      "scheduleTime": "09:00:00",
+      "swimDistance": "750",
+      "swimLaps": "1",
+      "firstRunDistance": "",
+      "firstRunLaps": "",
+      "cyclingDistance": "20000",
+      "cyclingLaps": "2",
+      "runDistance": "5000",
+      "runLaps": "2",
+      "secondRunDistance": "",
+      "secondRunLaps": "",
+      "actualDate": "2022-02-20",
+      "actualTime": "09:01:11",
+      "airTemperature": "",
+      "waterTemperature": "",
+      "wetSuit": "",
+      "eventID": "3",
+      "championships": "",
+      "technicalDelegate": "",
+      "headReferee": "",
+      "competitionJury": "",
+      "results": ""
+    }
+  ],
+  "resultsFiles": [
+    {
+      "id": "18",
+      "eventID": "3",
+      "title": "Taça de Portugal",
+      "subtitle": "Absolutos Femininos",
+      "fileName": "20220220FTP001-001-01.pdf"
+    },
+    {
+      "id": "19",
+      "eventID": "3",
+      "title": "Taça de Portugal",
+      "subtitle": "Absolutos Masculinos",
+      "fileName": "20220220FTP001-002-01.pdf"
+    },
+    {
+      "id": "20",
+      "eventID": "3",
+      "title": "Taça de Portugal",
+      "subtitle": "Escalões Femininos",
+      "fileName": "20220220FTP001-003-01.pdf"
+    },
+    {
+      "id": "21",
+      "eventID": "3",
+      "title": "Taça de Portugal",
+      "subtitle": "Escalões Masculinos",
+      "fileName": "20220220FTP001-004-01.pdf"
+    },
+    {
+      "id": "22",
+      "eventID": "3",
+      "title": "Taça de Portugal",
+      "subtitle": "Clubes Femininos",
+      "fileName": "20220220FTP001-005-01.pdf"
+    },
+    {
+      "id": "23",
+      "eventID": "3",
+      "title": "Taça de Portugal",
+      "subtitle": "Clubes Masculinos",
+      "fileName": "20220220FTP001-006-01.pdf"
+    }
+  ]
+}

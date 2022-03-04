@@ -15,19 +15,19 @@ class EventService {
    * @returns the desired event
    */
   static async getEventByReference(eventReference) {
-    const results = await this.getEvents();
-
-    if (results.error) {
-      return results;
-    } else {
-      let requestedEvent = { error: getErrorMessage(errorMessagesKeys.eventNotFound) };
-      results.map((result) => {
-        if (result.eventReference == eventReference) {
-          requestedEvent = result;
+    const result = await fetch(getEndpoint('events', eventReference))
+      .then((response) => {
+        if (response.ok) {
+          return response.json();
+        } else {
+          return { error: getErrorMessage(errorMessagesKeys.eventNotFound) };
         }
+      })
+      .catch(() => {
+        return { error: getErrorMessage(errorMessagesKeys.networkError) };
       });
-      return requestedEvent;
-    }
+
+    return result;
   }
 
   /**

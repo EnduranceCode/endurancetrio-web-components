@@ -1,5 +1,5 @@
 {
-  "id": 28,
+  "id": "28",
   "title": "Campeonato Litoral Interior Centro Jovem",
   "subtitle": "Benjamins Masculinos",
   "swimDistance": "",
@@ -14,5 +14,204 @@
   "waterTemperature": "",
   "wetSuit": "",
   "raceReference": "20220227LIC001-002",
-  "results": []
+  "results": [
+    {
+      "rank": "1",
+      "licence": "107553",
+      "raceNumber": "202",
+      "name": "Guilherme Silva",
+      "ageGroup": "BEN",
+      "team": "BEST",
+      "total": "00:07:02",
+      "gap": "00:00:00",
+      "points": "150"
+    },
+    {
+      "rank": "2",
+      "licence": "107145",
+      "raceNumber": "880",
+      "name": "Belchior Baltazar",
+      "ageGroup": "BEN",
+      "team": "Peniche A. C.",
+      "total": "00:07:18",
+      "gap": "00:00:16",
+      "points": "140"
+    },
+    {
+      "rank": "3",
+      "licence": "107159",
+      "raceNumber": "891",
+      "name": "Diogo Neves",
+      "ageGroup": "BEN",
+      "team": "Peniche A. C.",
+      "total": "00:07:28",
+      "gap": "00:00:26",
+      "points": "130"
+    },
+    {
+      "rank": "4",
+      "licence": "EXTRA",
+      "raceNumber": "5815",
+      "name": "Gonçalo Luciano",
+      "ageGroup": "BEN",
+      "team": "X Não Federado",
+      "total": "00:07:33",
+      "gap": "00:00:31",
+      "points": ""
+    },
+    {
+      "rank": "5",
+      "licence": "107945",
+      "raceNumber": "698",
+      "name": "Javier Rilo",
+      "ageGroup": "BEN",
+      "team": "Pimpões Triatlo",
+      "total": "00:07:57",
+      "gap": "00:00:55",
+      "points": "125"
+    },
+    {
+      "rank": "6",
+      "licence": "107193",
+      "raceNumber": "946",
+      "name": "Afonso Lopes",
+      "ageGroup": "BEN",
+      "team": "Pedrógão Triatlo",
+      "total": "00:07:59",
+      "gap": "00:00:57",
+      "points": "120"
+    },
+    {
+      "rank": "7",
+      "licence": "107816",
+      "raceNumber": "463",
+      "name": "Moisés Lopes",
+      "ageGroup": "BEN",
+      "team": "Pedrógão Triatlo",
+      "total": "00:08:10",
+      "gap": "00:01:08",
+      "points": "115"
+    },
+    {
+      "rank": "8",
+      "licence": "107140",
+      "raceNumber": "855",
+      "name": "Xavier Santos",
+      "ageGroup": "BEN",
+      "team": "Peniche A. C.",
+      "total": "00:08:24",
+      "gap": "00:01:22",
+      "points": "110"
+    },
+    {
+      "rank": "9",
+      "licence": "EXTRA",
+      "raceNumber": "5867",
+      "name": "Gustavo Matos",
+      "ageGroup": "BEN",
+      "team": "X Não Federado",
+      "total": "00:08:28",
+      "gap": "00:01:26",
+      "points": ""
+    },
+    {
+      "rank": "10",
+      "licence": "107214",
+      "raceNumber": "987",
+      "name": "Gabriel Gonçalves",
+      "ageGroup": "BEN",
+      "team": "FET-Fátima Escola de Triatlo",
+      "total": "00:08:36",
+      "gap": "00:01:34",
+      "points": "108"
+    },
+    {
+      "rank": "11",
+      "licence": "108385",
+      "raceNumber": "390",
+      "name": "Tomé Leirião",
+      "ageGroup": "BEN",
+      "team": "BEST",
+      "total": "00:08:51",
+      "gap": "00:01:49",
+      "points": "106"
+    },
+    {
+      "rank": "12",
+      "licence": "107195",
+      "raceNumber": "949",
+      "name": "Manuel Sardinha",
+      "ageGroup": "BEN",
+      "team": "Pedrógão Triatlo",
+      "total": "00:09:24",
+      "gap": "00:02:22",
+      "points": "104"
+    },
+    {
+      "rank": "13",
+      "licence": "108241",
+      "raceNumber": "967",
+      "name": "Lourenço Fernandes",
+      "ageGroup": "BEN",
+      "team": "Tramagal Sport União",
+      "total": "00:09:33",
+      "gap": "00:02:31",
+      "points": "102"
+    },
+    {
+      "rank": "14",
+      "licence": "108105",
+      "raceNumber": "5897",
+      "name": "Tiago Vicente",
+      "ageGroup": "BEN",
+      "team": "Pedrógão Triatlo",
+      "total": "00:10:12",
+      "gap": "00:03:10",
+      "points": "100"
+    },
+    {
+      "rank": "15",
+      "licence": "107907",
+      "raceNumber": "648",
+      "name": "Tomás Vieira",
+      "ageGroup": "BEN",
+      "team": "Pedrógão Triatlo",
+      "total": "00:10:19",
+      "gap": "00:03:17",
+      "points": "98"
+    },
+    {
+      "rank": "16",
+      "licence": "108387",
+      "raceNumber": "655",
+      "name": "João Moita",
+      "ageGroup": "BEN",
+      "team": "Pedrógão Triatlo",
+      "total": "00:10:30",
+      "gap": "00:03:28",
+      "points": "96"
+    },
+    {
+      "rank": "17",
+      "licence": "107761",
+      "raceNumber": "435",
+      "name": "Ricardo Kandungu",
+      "ageGroup": "BEN",
+      "team": "FET-Fátima Escola de Triatlo",
+      "total": "00:10:38",
+      "gap": "00:03:36",
+      "points": "94"
+    },
+    {
+      "rank": "18",
+      "licence": "107071",
+      "raceNumber": "746",
+      "name": "Pedro Afonso Ferreira",
+      "ageGroup": "BEN",
+      "team": "Pedrógão Triatlo",
+      "total": "00:15:02",
+      "gap": "00:08:00",
+      "points": "92"
+    }
+  ]
 }

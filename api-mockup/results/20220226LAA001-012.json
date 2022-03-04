@@ -1,5 +1,5 @@
 {
-  "id": 25,
+  "id": "25",
   "title": "Campeonato Lisboa e Alto Alentejo Absoluto",
   "subtitle": "Femininos",
   "swimDistance": "",
@@ -14,5 +14,86 @@
   "waterTemperature": "",
   "wetSuit": "",
   "raceReference": "20220226LAA001-012",
-  "results": []
+  "results": [
+    {
+      "rank": "1",
+      "licence": "102529",
+      "raceNumber": "5110",
+      "name": "Patricia Rivotti",
+      "ageGroup": "45-49",
+      "team": "SUC - Silvestre Festas / Moonsport Innerme",
+      "total": "01:11:18",
+      "gap": "00:00:00"
+    },
+    {
+      "rank": "2",
+      "licence": "107607",
+      "raceNumber": "8200",
+      "name": "Sandra Cristina Fernandes Rodrigues",
+      "ageGroup": "45-49",
+      "team": "AmoraSub/Associação Naval Amorense",
+      "total": "01:17:15",
+      "gap": "00:05:57"
+    },
+    {
+      "rank": "3",
+      "licence": "101176",
+      "raceNumber": "2817",
+      "name": "Margarida Lopes",
+      "ageGroup": "20-24",
+      "team": "GDR Manique de Cima",
+      "total": "01:20:44",
+      "gap": "00:09:26"
+    },
+    {
+      "rank": "4",
+      "licence": "108040",
+      "raceNumber": "5674",
+      "name": "Cacau Figueiredo",
+      "ageGroup": "45-49",
+      "team": "AmoraSub/Associação Naval Amorense",
+      "total": "01:21:30",
+      "gap": "00:10:12"
+    },
+    {
+      "rank": "5",
+      "licence": "106714",
+      "raceNumber": "5525",
+      "name": "Tânia Rodrigues",
+      "ageGroup": "40-44",
+      "team": "AmoraSub/Associação Naval Amorense",
+      "total": "01:22:20",
+      "gap": "00:11:02"
+    },
+    {
+      "rank": "6",
+      "licence": "108394",
+      "raceNumber": "3444",
+      "name": "Neuza Silva",
+      "ageGroup": "35-39",
+      "team": "REPSOL TRIATLO",
+      "total": "01:23:29",
+      "gap": "00:12:11"
+    },
+    {
+      "rank": "7",
+      "licence": "100472",
+      "raceNumber": "2274",
+      "name": "Mariana Silva",
+      "ageGroup": "JUN",
+      "team": "SFRAA TRIATLO",
+      "total": "01:33:06",
+      "gap": "00:21:48"
+    },
+    {
+      "rank": "8",
+      "licence": "101156",
+      "raceNumber": "3128",
+      "name": "Cátia Costa",
+      "ageGroup": "20-24",
+      "team": "GDR Manique de Cima",
+      "total": "01:33:27",
+      "gap": "00:22:09"
+    }
+  ]
 }

@@ -1,5 +1,5 @@
 {
-  "id": 5,
+  "id": "5",
   "title": "Campeonato Nacional Jovem",
   "subtitle": "Iniciados Femininos",
   "swimDistance": "",
@@ -14,5 +14,375 @@
   "waterTemperature": "",
   "wetSuit": "",
   "raceReference": "20220205FTP001-005",
-  "results": []
+  "results": [
+    {
+      "rank": "1",
+      "licence": "103735",
+      "raceNumber": "704",
+      "name": "Ana Fung",
+      "team": "Alhandra Sporting Club",
+      "total": "00:20:47",
+      "gap": "00:00:00"
+    },
+    {
+      "rank": "2",
+      "licence": "103919",
+      "raceNumber": "879",
+      "name": "Francisca Leirião",
+      "team": "Clube de Natação de Torres Novas",
+      "total": "00:21:14",
+      "gap": "00:00:27"
+    },
+    {
+      "rank": "3",
+      "licence": "105897",
+      "raceNumber": "1099",
+      "name": "Beatriz Silva",
+      "team": "CAPGE",
+      "total": "00:21:20",
+      "gap": "00:00:33"
+    },
+    {
+      "rank": "4",
+      "licence": "",
+      "raceNumber": "8006",
+      "name": "Beatriz Rodrigues",
+      "team": "Não Federado",
+      "total": "00:21:41",
+      "gap": "00:00:54"
+    },
+    {
+      "rank": "5",
+      "licence": "107944",
+      "raceNumber": "695",
+      "name": "Cristina Rilo",
+      "team": "Pimpões Triatlo",
+      "total": "00:21:45",
+      "gap": "00:00:58"
+    },
+    {
+      "rank": "6",
+      "licence": "105068",
+      "raceNumber": "484",
+      "name": "Lara Santos",
+      "team": "Alhandra Sporting Club",
+      "total": "00:21:58",
+      "gap": "00:01:11"
+    },
+    {
+      "rank": "7",
+      "licence": "107883",
+      "raceNumber": "622",
+      "name": "Leonor Ferreira",
+      "team": "AmoraSub/Associação Naval Amorense",
+      "total": "00:22:00",
+      "gap": "00:01:13"
+    },
+    {
+      "rank": "8",
+      "licence": "105054",
+      "raceNumber": "475",
+      "name": "Mariana MacKay",
+      "team": "Sporting Clube de Portugal",
+      "total": "00:22:04",
+      "gap": "00:01:17"
+    },
+    {
+      "rank": "9",
+      "licence": "104753",
+      "raceNumber": "96",
+      "name": "Maria Sousa",
+      "team": "Pedrógão Triatlo",
+      "total": "00:22:15",
+      "gap": "00:01:28"
+    },
+    {
+      "rank": "10",
+      "licence": "103257",
+      "raceNumber": "109",
+      "name": "Benedita Pedro",
+      "team": "SFRAA TRIATLO",
+      "total": "00:22:46",
+      "gap": "00:01:59"
+    },
+    {
+      "rank": "11",
+      "licence": "107239",
+      "raceNumber": "1055",
+      "name": "Joana Raimundo",
+      "team": "CAPGE",
+      "total": "00:23:26",
+      "gap": "00:02:39"
+    },
+    {
+      "rank": "12",
+      "licence": "105589",
+      "raceNumber": "1033",
+      "name": "Matilde Albuquerque",
+      "team": "Pedrógão Triatlo",
+      "total": "00:24:04",
+      "gap": "00:03:17"
+    },
+    {
+      "rank": "13",
+      "licence": "104447",
+      "raceNumber": "561",
+      "name": "Catarina Silva",
+      "team": "SFRAA TRIATLO",
+      "total": "00:24:11",
+      "gap": "00:03:24"
+    },
+    {
+      "rank": "14",
+      "licence": "104274",
+      "raceNumber": "364",
+      "name": "Zofie Pacheco",
+      "team": "Peniche A. C.",
+      "total": "00:25:02",
+      "gap": "00:04:15"
+    },
+    {
+      "rank": "15",
+      "licence": "105569",
+      "raceNumber": "1019",
+      "name": "Leonor Gonçalves",
+      "team": "Pedrógão Triatlo",
+      "total": "00:25:10",
+      "gap": "00:04:23"
+    },
+    {
+      "rank": "16",
+      "licence": "103342",
+      "raceNumber": "235",
+      "name": "Ema Maria",
+      "team": "Clube de Triatlo do Fundão",
+      "total": "00:25:58",
+      "gap": "00:05:11"
+    },
+    {
+      "rank": "17",
+      "licence": "107143",
+      "raceNumber": "867",
+      "name": "Maria Lourenço",
+      "team": "Peniche A. C.",
+      "total": "00:26:23",
+      "gap": "00:05:36"
+    },
+    {
+      "rank": "18",
+      "licence": "105219",
+      "raceNumber": "771",
+      "name": "Rita Ferraz",
+      "team": "Mirachoro Hotels - Centro Ciclismo Portimão - Churrasqueira do Vau",
+      "total": "00:26:48",
+      "gap": "00:06:01"
+    },
+    {
+      "rank": "19",
+      "licence": "108272",
+      "raceNumber": "1022",
+      "name": "Laura Valentim",
+      "team": "BEST",
+      "total": "00:27:01",
+      "gap": "00:06:14"
+    },
+    {
+      "rank": "20",
+      "licence": "106343",
+      "raceNumber": "1396",
+      "name": "Gabriela Ribeiro",
+      "team": "Outsystems Olímpico de Oeiras",
+      "total": "00:27:17",
+      "gap": "00:06:30"
+    },
+    {
+      "rank": "21",
+      "licence": "108277",
+      "raceNumber": "1042",
+      "name": "Matilde Leote Francisco",
+      "team": "Sport Lisboa e Benfica",
+      "total": "00:27:35",
+      "gap": "00:06:48"
+    },
+    {
+      "rank": "22",
+      "licence": "107579",
+      "raceNumber": "258",
+      "name": "Margarida Calhau",
+      "team": "BEST",
+      "total": "00:28:08",
+      "gap": "00:07:21"
+    },
+    {
+      "rank": "23",
+      "licence": "104751",
+      "raceNumber": "92",
+      "name": "Maria Filipa Sousa",
+      "team": "Pedrógão Triatlo",
+      "total": "00:28:33",
+      "gap": "00:07:46"
+    },
+    {
+      "rank": "24",
+      "licence": "107948",
+      "raceNumber": "703",
+      "name": "Alice Costa",
+      "team": "BEST",
+      "total": "00:28:33",
+      "gap": "00:07:46"
+    },
+    {
+      "rank": "25",
+      "licence": "107926",
+      "raceNumber": "8030",
+      "name": "Leonor Santos",
+      "team": "Pedrógão Triatlo",
+      "total": "00:29:49",
+      "gap": "00:09:02"
+    },
+    {
+      "rank": "26",
+      "licence": "107568",
+      "raceNumber": "244",
+      "name": "Camila Franco",
+      "team": "Sport Lisboa e Benfica",
+      "total": "00:29:51",
+      "gap": "00:09:04"
+    },
+    {
+      "rank": "27",
+      "licence": "107756",
+      "raceNumber": "429",
+      "name": "Madalena Almeida",
+      "team": "Outsystems Olímpico de Oeiras",
+      "total": "00:30:04",
+      "gap": "00:09:17"
+    },
+    {
+      "rank": "28",
+      "licence": "107947",
+      "raceNumber": "701",
+      "name": "Diana Bernardes",
+      "team": "BEST",
+      "total": "00:30:25",
+      "gap": "00:09:38"
+    },
+    {
+      "rank": "29",
+      "licence": "106753",
+      "raceNumber": "259",
+      "name": "Soraia Sobral Lobato",
+      "team": "Sport Lisboa e Benfica",
+      "total": "00:30:52",
+      "gap": "00:10:05"
+    },
+    {
+      "rank": "30",
+      "licence": "107022",
+      "raceNumber": "707",
+      "name": "Milena Melim",
+      "team": "TRIATLO - Santo André Sport Club",
+      "total": "00:31:44",
+      "gap": "00:10:57"
+    },
+    {
+      "rank": "31",
+      "licence": "108254",
+      "raceNumber": "981",
+      "name": "Inês Pinho",
+      "team": "CAPGE",
+      "total": "00:32:23",
+      "gap": "00:11:36"
+    },
+    {
+      "rank": "DNS",
+      "licence": "104692",
+      "raceNumber": "940",
+      "name": "Gabriela Santos",
+      "team": "Sport Lisboa e Benfica",
+      "total": "",
+      "gap": ""
+    },
+    {
+      "rank": "DNS",
+      "licence": "107103",
+      "raceNumber": "789",
+      "name": "Alice Aniceto",
+      "team": "Alhandra Sporting Club",
+      "total": "",
+      "gap": ""
+    },
+    {
+      "rank": "DNS",
+      "licence": "107792",
+      "raceNumber": "451",
+      "name": "Barbara Mendes",
+      "team": "Clube de Natação de Torres Novas",
+      "total": "",
+      "gap": ""
+    },
+    {
+      "rank": "DNS",
+      "licence": "107793",
+      "raceNumber": "454",
+      "name": "Bianca Mendes",
+      "team": "Clube de Natação de Torres Novas",
+      "total": "",
+      "gap": ""
+    },
+    {
+      "rank": "DNS",
+      "licence": "108176",
+      "raceNumber": "871",
+      "name": "Helena Lachman",
+      "team": "Palmela Desporto / Tripla Rotação",
+      "total": "",
+      "gap": ""
+    },
+    {
+      "rank": "DNS",
+      "licence": "104691",
+      "raceNumber": "936",
+      "name": "Maria Inês Nogueira",
+      "team": "Sport Lisboa e Benfica",
+      "total": "",
+      "gap": ""
+    },
+    {
+      "rank": "DNS",
+      "licence": "108236",
+      "raceNumber": "961",
+      "name": "Mariana Lopes",
+      "team": "Tramagal Sport União",
+      "total": "",
+      "gap": ""
+    },
+    {
+      "rank": "DNS",
+      "licence": "108279",
+      "raceNumber": "1047",
+      "name": "Sofia Gaspar Pires",
+      "team": "Sport Lisboa e Benfica",
+      "total": "",
+      "gap": ""
+    },
+    {
+      "rank": "DNS",
+      "licence": "105843",
+      "raceNumber": "1075",
+      "name": "Joana Torres",
+      "team": "Clube Triatlo de Abrantes",
+      "total": "",
+      "gap": ""
+    },
+    {
+      "rank": "DNS",
+      "licence": "106414",
+      "raceNumber": "1415",
+      "name": "Beatrice Mazilu",
+      "team": "REPSOL TRIATLO",
+      "total": "",
+      "gap": ""
+    }
+  ]
 }

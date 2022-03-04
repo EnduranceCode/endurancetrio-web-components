@@ -1,5 +1,5 @@
 {
-  "id": 1,
+  "id": "1",
   "title": "Campeonato Nacional Jovem",
   "subtitle": "Benjamins Femininos",
   "swimDistance": "",
@@ -14,5 +14,276 @@
   "waterTemperature": "",
   "wetSuit": "",
   "raceReference": "20220205FTP001-001",
-  "results": []
+  "results": [
+    {
+      "rank": "1",
+      "licence": "107302",
+      "raceNumber": "1210",
+      "name": "Áurea Augusto",
+      "team": "Palmela Desporto / Tripla Rotação",
+      "total": "00:08:02",
+      "gap": "00:00:00"
+    },
+    {
+      "rank": "2",
+      "licence": "107352",
+      "raceNumber": "1322",
+      "name": "Constança Jerónimo",
+      "team": "Sporting Clube de Portugal",
+      "total": "00:08:39",
+      "gap": "00:00:37"
+    },
+    {
+      "rank": "3",
+      "licence": "107875",
+      "raceNumber": "605",
+      "name": "Matilde Chan",
+      "team": "AmoraSub/Associação Naval Amorense",
+      "total": "00:08:45",
+      "gap": "00:00:43"
+    },
+    {
+      "rank": "4",
+      "licence": "107569",
+      "raceNumber": "245",
+      "name": "Yara Neves",
+      "team": "Sport Lisboa e Benfica",
+      "total": "00:08:49",
+      "gap": "00:00:47"
+    },
+    {
+      "rank": "5",
+      "licence": "107526",
+      "raceNumber": "159",
+      "name": "Maria Inês Bilé",
+      "team": "Clube 4 Estilos",
+      "total": "00:08:52",
+      "gap": "00:00:50"
+    },
+    {
+      "rank": "6",
+      "licence": "107858",
+      "raceNumber": "581",
+      "name": "Mariana Santos",
+      "team": "AmoraSub/Associação Naval Amorense",
+      "total": "00:09:08",
+      "gap": "00:01:06"
+    },
+    {
+      "rank": "7",
+      "licence": "107520",
+      "raceNumber": "155",
+      "name": "Matilde Paulo",
+      "team": "AmoraSub/Associação Naval Amorense",
+      "total": "00:09:11",
+      "gap": "00:01:09"
+    },
+    {
+      "rank": "8",
+      "licence": "107114",
+      "raceNumber": "933",
+      "name": "Leonor Costa",
+      "team": "CICONIA CICONIA",
+      "total": "00:09:14",
+      "gap": "00:01:12"
+    },
+    {
+      "rank": "9",
+      "licence": "107672",
+      "raceNumber": "311",
+      "name": "Sofia Ferreira",
+      "team": "Peniche A. C.",
+      "total": "00:09:26",
+      "gap": "00:01:24"
+    },
+    {
+      "rank": "10",
+      "licence": "107495",
+      "raceNumber": "129",
+      "name": "Maria Silva",
+      "team": "SFRAA TRIATLO",
+      "total": "00:09:32",
+      "gap": "00:01:30"
+    },
+    {
+      "rank": "11",
+      "licence": "107951",
+      "raceNumber": "710",
+      "name": "Joana Madeira",
+      "team": "BEST",
+      "total": "00:09:36",
+      "gap": "00:01:34"
+    },
+    {
+      "rank": "12",
+      "licence": "107537",
+      "raceNumber": "182",
+      "name": "Linda Vicente",
+      "team": "AmoraSub/Associação Naval Amorense",
+      "total": "00:09:46",
+      "gap": "00:01:44"
+    },
+    {
+      "rank": "13",
+      "licence": "",
+      "raceNumber": "288",
+      "name": "Madalena Palma",
+      "team": "Não Federado",
+      "total": "00:09:58",
+      "gap": "00:01:56"
+    },
+    {
+      "rank": "14",
+      "licence": "107146",
+      "raceNumber": "888",
+      "name": "Sofia Santos",
+      "team": "Peniche A. C.",
+      "total": "00:10:01",
+      "gap": "00:01:59"
+    },
+    {
+      "rank": "15",
+      "licence": "107505",
+      "raceNumber": "148",
+      "name": "Caetana Faustino",
+      "team": "AmoraSub/Associação Naval Amorense",
+      "total": "00:10:02",
+      "gap": "00:02:00"
+    },
+    {
+      "rank": "16",
+      "licence": "107876",
+      "raceNumber": "607",
+      "name": "Leonor Chan",
+      "team": "AmoraSub/Associação Naval Amorense",
+      "total": "00:10:02",
+      "gap": "00:02:00"
+    },
+    {
+      "rank": "17",
+      "licence": "",
+      "raceNumber": "1028",
+      "name": "Francisca Amaral",
+      "team": "Não Federado",
+      "total": "00:10:10",
+      "gap": "00:02:08"
+    },
+    {
+      "rank": "18",
+      "licence": "107567",
+      "raceNumber": "243",
+      "name": "Leonor Marta",
+      "team": "Sporting Clube de Portugal",
+      "total": "00:10:23",
+      "gap": "00:02:21"
+    },
+    {
+      "rank": "19",
+      "licence": "107108",
+      "raceNumber": "821",
+      "name": "Isa Nunes",
+      "team": "Alhandra Sporting Club",
+      "total": "00:10:24",
+      "gap": "00:02:22"
+    },
+    {
+      "rank": "20",
+      "licence": "0",
+      "raceNumber": "1030",
+      "name": "Maria Cunha",
+      "team": "Não Federado",
+      "total": "00:11:09",
+      "gap": "00:03:07"
+    },
+    {
+      "rank": "21",
+      "licence": "107274",
+      "raceNumber": "1165",
+      "name": "Clara Cochicho",
+      "team": "GDR Manique de Cima",
+      "total": "00:11:12",
+      "gap": "00:03:10"
+    },
+    {
+      "rank": "22",
+      "licence": "107570",
+      "raceNumber": "247",
+      "name": "Carolina Cruz",
+      "team": "GDR Manique de Cima",
+      "total": "00:15:04",
+      "gap": "00:07:02"
+    },
+    {
+      "rank": "DNF",
+      "licence": "107043",
+      "raceNumber": "713",
+      "name": "Maria Flor Assis",
+      "team": "Clube de Natação de Torres Novas",
+      "total": "",
+      "gap": ""
+    },
+    {
+      "rank": "DNS",
+      "licence": "106530",
+      "raceNumber": "1429",
+      "name": "Beatriz Pinto",
+      "team": "Pedrógão Triatlo",
+      "total": "",
+      "gap": ""
+    },
+    {
+      "rank": "DNS",
+      "licence": "107892",
+      "raceNumber": "632",
+      "name": "Leonor Branco",
+      "team": "Alhandra Sporting Club",
+      "total": "",
+      "gap": ""
+    },
+    {
+      "rank": "DNS",
+      "licence": "107880",
+      "raceNumber": "617",
+      "name": "Leonor Brandão de Matos",
+      "team": "AmoraSub/Associação Naval Amorense",
+      "total": "",
+      "gap": ""
+    },
+    {
+      "rank": "DNS",
+      "licence": "107898",
+      "raceNumber": "641",
+      "name": "Inês Correia",
+      "team": "Alhandra Sporting Club",
+      "total": "",
+      "gap": ""
+    },
+    {
+      "rank": "DNS",
+      "licence": "107020",
+      "raceNumber": "697",
+      "name": "Francisca Junqueiro",
+      "team": "Pedrógão Triatlo",
+      "total": "",
+      "gap": ""
+    },
+    {
+      "rank": "DNS",
+      "licence": "108228",
+      "raceNumber": "956",
+      "name": "Maria Inês Rodrigues",
+      "team": "Clube 4 Estilos",
+      "total": "",
+      "gap": ""
+    },
+    {
+      "rank": "DNS",
+      "licence": "107224",
+      "raceNumber": "999",
+      "name": "Vitória Duque",
+      "team": "Clube de Natação de Torres Novas",
+      "total": "",
+      "gap": ""
+    }
+  ]
 }

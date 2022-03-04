@@ -126,7 +126,7 @@ function sortResultsByRank(resultsData) {
 function setSequentialRank(resultsData) {
   let rank = 1;
   resultsData.forEach((result) => {
-    if (typeof result.rank == 'number') {
+    if (parseInt(result.rank)) {
       result.rank = rank;
       rank = rank + 1;
     }

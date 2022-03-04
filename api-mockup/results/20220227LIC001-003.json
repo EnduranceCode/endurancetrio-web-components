@@ -1,5 +1,5 @@
 {
-  "id": 29,
+  "id": "29",
   "title": "Campeonato Litoral Interior Centro Jovem",
   "subtitle": "Infantis Femininos",
   "swimDistance": "",
@@ -14,5 +14,171 @@
   "waterTemperature": "",
   "wetSuit": "",
   "raceReference": "20220227LIC001-003",
-  "results": []
+  "results": [
+    {
+      "rank": "1",
+      "licence": "107194",
+      "raceNumber": "947",
+      "name": "Maria Francisca Leal",
+      "ageGroup": "INF",
+      "team": "Pedrógão Triatlo",
+      "total": "00:13:26",
+      "gap": "00:00:00",
+      "points": "150"
+    },
+    {
+      "rank": "2",
+      "licence": "107085",
+      "raceNumber": "208",
+      "name": "Sofia Caldeira Bargão",
+      "ageGroup": "INF",
+      "team": "Pedrógão Triatlo",
+      "total": "00:13:29",
+      "gap": "00:00:03",
+      "points": "140"
+    },
+    {
+      "rank": "3",
+      "licence": "107664",
+      "raceNumber": "307",
+      "name": "Beatriz Carvalho",
+      "ageGroup": "INF",
+      "team": "Clube de Natação de Torres Novas",
+      "total": "00:13:39",
+      "gap": "00:00:13",
+      "points": "130"
+    },
+    {
+      "rank": "4",
+      "licence": "107019",
+      "raceNumber": "696",
+      "name": "Mariana Brito",
+      "ageGroup": "INF",
+      "team": "Clube de Natação de Torres Novas",
+      "total": "00:13:44",
+      "gap": "00:00:18",
+      "points": "125"
+    },
+    {
+      "rank": "5",
+      "licence": "EXTRA",
+      "raceNumber": "5876",
+      "name": "Maria Clara Dias Santos",
+      "ageGroup": "INF",
+      "team": "X Não Federado",
+      "total": "00:15:00",
+      "gap": "00:01:34",
+      "points": ""
+    },
+    {
+      "rank": "6",
+      "licence": "107223",
+      "raceNumber": "990",
+      "name": "Madalena Alves",
+      "ageGroup": "INF",
+      "team": "Clube de Natação de Torres Novas",
+      "total": "00:15:01",
+      "gap": "00:01:35",
+      "points": "120"
+    },
+    {
+      "rank": "7",
+      "licence": "105866",
+      "raceNumber": "1084",
+      "name": "Eva Cardoso",
+      "ageGroup": "INF",
+      "team": "FET-Fátima Escola de Triatlo",
+      "total": "00:15:07",
+      "gap": "00:01:41",
+      "points": "115"
+    },
+    {
+      "rank": "8",
+      "licence": "107825",
+      "raceNumber": "477",
+      "name": "Carlota Branco",
+      "ageGroup": "INF",
+      "team": "Pedrógão Triatlo",
+      "total": "00:15:28",
+      "gap": "00:02:02",
+      "points": "110"
+    },
+    {
+      "rank": "9",
+      "licence": "107934",
+      "raceNumber": "685",
+      "name": "Laura Amaro",
+      "ageGroup": "INF",
+      "team": "FET-Fátima Escola de Triatlo",
+      "total": "00:15:42",
+      "gap": "00:02:16",
+      "points": "108"
+    },
+    {
+      "rank": "10",
+      "licence": "107910",
+      "raceNumber": "652",
+      "name": "Eva Gil",
+      "ageGroup": "INF",
+      "team": "FET-Fátima Escola de Triatlo",
+      "total": "00:15:43",
+      "gap": "00:02:17",
+      "points": "106"
+    },
+    {
+      "rank": "11",
+      "licence": "106668",
+      "raceNumber": "43",
+      "name": "Vera Sokolyk",
+      "ageGroup": "INF",
+      "team": "FET-Fátima Escola de Triatlo",
+      "total": "00:15:49",
+      "gap": "00:02:23",
+      "points": "104"
+    },
+    {
+      "rank": "12",
+      "licence": "107564",
+      "raceNumber": "240",
+      "name": "Eva Coelho",
+      "ageGroup": "INF",
+      "team": "BEST",
+      "total": "00:16:07",
+      "gap": "00:02:41",
+      "points": "102"
+    },
+    {
+      "rank": "13",
+      "licence": "105295",
+      "raceNumber": "1064",
+      "name": "Yara Santos",
+      "ageGroup": "INF",
+      "team": "FET-Fátima Escola de Triatlo",
+      "total": "00:16:10",
+      "gap": "00:02:44",
+      "points": "100"
+    },
+    {
+      "rank": "14",
+      "licence": "107822",
+      "raceNumber": "471",
+      "name": "Camila Pereira",
+      "ageGroup": "INF",
+      "team": "Pedrógão Triatlo",
+      "total": "00:16:48",
+      "gap": "00:03:22",
+      "points": "98"
+    },
+    {
+      "rank": "15",
+      "licence": "106588",
+      "raceNumber": "31",
+      "name": "Ângela Machado",
+      "ageGroup": "INF",
+      "team": "FET-Fátima Escola de Triatlo",
+      "total": "00:17:08",
+      "gap": "00:03:42",
+      "points": "96"
+    }
+  ]
 }

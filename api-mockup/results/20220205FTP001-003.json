@@ -1,5 +1,5 @@
 {
-  "id": 3,
+  "id": "3",
   "title": "Campeonato Nacional Jovem",
   "subtitle": "Infantis Femininos",
   "swimDistance": "",
@@ -14,5 +14,411 @@
   "waterTemperature": "",
   "wetSuit": "",
   "raceReference": "20220205FTP001-003",
-  "results": []
+  "results": [
+    {
+      "rank": "1",
+      "licence": "105187",
+      "raceNumber": "760",
+      "name": "Sofia Margarido",
+      "team": "Sport Lisboa e Benfica",
+      "total": "00:12:16",
+      "gap": "00:00:00"
+    },
+    {
+      "rank": "2",
+      "licence": "107545",
+      "raceNumber": "185",
+      "name": "Maria Beatriz Vicente",
+      "team": "REPSOL TRIATLO",
+      "total": "00:12:43",
+      "gap": "00:00:27"
+    },
+    {
+      "rank": "3",
+      "licence": "105907",
+      "raceNumber": "1108",
+      "name": "Maria Pedra",
+      "team": "CAPGE",
+      "total": "00:12:44",
+      "gap": "00:00:28"
+    },
+    {
+      "rank": "4",
+      "licence": "105123",
+      "raceNumber": "614",
+      "name": "Margarida Magro",
+      "team": "Aminata Triatlo",
+      "total": "00:13:01",
+      "gap": "00:00:45"
+    },
+    {
+      "rank": "5",
+      "licence": "",
+      "raceNumber": "1317",
+      "name": "Beatriz Palma",
+      "team": "Não Federado",
+      "total": "00:13:15",
+      "gap": "00:00:59"
+    },
+    {
+      "rank": "6",
+      "licence": "105703",
+      "raceNumber": "1035",
+      "name": "Leonor Santos",
+      "team": "SFRAA TRIATLO",
+      "total": "00:13:16",
+      "gap": "00:01:00"
+    },
+    {
+      "rank": "7",
+      "licence": "107194",
+      "raceNumber": "947",
+      "name": "Maria Francisca Leal",
+      "team": "Pedrógão Triatlo",
+      "total": "00:13:37",
+      "gap": "00:01:21"
+    },
+    {
+      "rank": "8",
+      "licence": "107085",
+      "raceNumber": "208",
+      "name": "Sofia Caldeira Bargão",
+      "team": "Pedrógão Triatlo",
+      "total": "00:13:44",
+      "gap": "00:01:28"
+    },
+    {
+      "rank": "9",
+      "licence": "107870",
+      "raceNumber": "597",
+      "name": "Diana Pires",
+      "team": "REPSOL TRIATLO",
+      "total": "00:14:18",
+      "gap": "00:02:02"
+    },
+    {
+      "rank": "10",
+      "licence": "107960",
+      "raceNumber": "740",
+      "name": "Eduarda Esperança",
+      "team": "REPSOL TRIATLO",
+      "total": "00:14:25",
+      "gap": "00:02:09"
+    },
+    {
+      "rank": "11",
+      "licence": "106061",
+      "raceNumber": "1198",
+      "name": "Mariana Ferreira",
+      "team": "Paredes Aventura",
+      "total": "00:14:31",
+      "gap": "00:02:15"
+    },
+    {
+      "rank": "12",
+      "licence": "108207",
+      "raceNumber": "915",
+      "name": "Margarida Farinha",
+      "team": "Sporting Clube de Portugal",
+      "total": "00:14:41",
+      "gap": "00:02:25"
+    },
+    {
+      "rank": "13",
+      "licence": "107664",
+      "raceNumber": "307",
+      "name": "Beatriz Carvalho",
+      "team": "Clube de Natação de Torres Novas",
+      "total": "00:14:42",
+      "gap": "00:02:26"
+    },
+    {
+      "rank": "14",
+      "licence": "107521",
+      "raceNumber": "158",
+      "name": "Margarida Ramos",
+      "team": "Escola Triatlo Santo António Évora",
+      "total": "00:14:45",
+      "gap": "00:02:29"
+    },
+    {
+      "rank": "15",
+      "licence": "107546",
+      "raceNumber": "190",
+      "name": "Laura Maria",
+      "team": "REPSOL TRIATLO",
+      "total": "00:15:16",
+      "gap": "00:03:00"
+    },
+    {
+      "rank": "16",
+      "licence": "106987",
+      "raceNumber": "682",
+      "name": "Leonor Fernandes",
+      "team": "CICONIA CICONIA",
+      "total": "00:15:18",
+      "gap": "00:03:02"
+    },
+    {
+      "rank": "17",
+      "licence": "108283",
+      "raceNumber": "1061",
+      "name": "Mafalda Rodrigues",
+      "team": "CICONIA CICONIA",
+      "total": "00:15:22",
+      "gap": "00:03:06"
+    },
+    {
+      "rank": "18",
+      "licence": "105910",
+      "raceNumber": "1112",
+      "name": "Matilde Pinho",
+      "team": "CICONIA CICONIA",
+      "total": "00:15:52",
+      "gap": "00:03:36"
+    },
+    {
+      "rank": "19",
+      "licence": "106802",
+      "raceNumber": "351",
+      "name": "Sofia Paulo",
+      "team": "Alhandra Sporting Club",
+      "total": "00:15:53",
+      "gap": "00:03:37"
+    },
+    {
+      "rank": "20",
+      "licence": "107223",
+      "raceNumber": "990",
+      "name": "Madalena Alves",
+      "team": "Clube de Natação de Torres Novas",
+      "total": "00:16:10",
+      "gap": "00:03:54"
+    },
+    {
+      "rank": "21",
+      "licence": "106766",
+      "raceNumber": "295",
+      "name": "Marta Silva",
+      "team": "SFRAA TRIATLO",
+      "total": "00:16:36",
+      "gap": "00:04:20"
+    },
+    {
+      "rank": "22",
+      "licence": "107817",
+      "raceNumber": "464",
+      "name": "Íris Abreu",
+      "team": "Pedrógão Triatlo",
+      "total": "00:16:39",
+      "gap": "00:04:23"
+    },
+    {
+      "rank": "23",
+      "licence": "108025",
+      "raceNumber": "764",
+      "name": "Matilde Moedas",
+      "team": "TRIATLO - Santo André Sport Club",
+      "total": "00:16:40",
+      "gap": "00:04:24"
+    },
+    {
+      "rank": "24",
+      "licence": "108127",
+      "raceNumber": "845",
+      "name": "Francisca Pato",
+      "team": "CICONIA CICONIA",
+      "total": "00:17:03",
+      "gap": "00:04:47"
+    },
+    {
+      "rank": "25",
+      "licence": "107701",
+      "raceNumber": "345",
+      "name": "Anastasia Shapoval",
+      "team": "TRIATLO - Santo André Sport Club",
+      "total": "00:17:18",
+      "gap": "00:05:02"
+    },
+    {
+      "rank": "26",
+      "licence": "107564",
+      "raceNumber": "240",
+      "name": "Eva Coelho",
+      "team": "BEST",
+      "total": "00:17:41",
+      "gap": "00:05:25"
+    },
+    {
+      "rank": "27",
+      "licence": "106078",
+      "raceNumber": "1208",
+      "name": "Francisca Amaral",
+      "team": "Paredes Aventura",
+      "total": "00:17:47",
+      "gap": "00:05:31"
+    },
+    {
+      "rank": "28",
+      "licence": "105912",
+      "raceNumber": "1114",
+      "name": "Raquel Rocha",
+      "team": "CICONIA CICONIA",
+      "total": "00:19:07",
+      "gap": "00:06:51"
+    },
+    {
+      "rank": "29",
+      "licence": "106807",
+      "raceNumber": "368",
+      "name": "Patrícia Kosovan",
+      "team": "Clube de Natação da Amadora",
+      "total": "00:20:17",
+      "gap": "00:08:01"
+    },
+    {
+      "rank": "30",
+      "licence": "108258",
+      "raceNumber": "995",
+      "name": "Rita Veiga Correia",
+      "team": "Escola Triatlo Santo António Évora",
+      "total": "00:20:51",
+      "gap": "00:08:35"
+    },
+    {
+      "rank": "31",
+      "licence": "105697",
+      "raceNumber": "1026",
+      "name": "Rafaela Pratas",
+      "team": "REPSOL TRIATLO",
+      "total": "00:22:26",
+      "gap": "00:10:10"
+    },
+    {
+      "rank": "32",
+      "licence": "",
+      "raceNumber": "8005",
+      "name": "Beatriz Marchão",
+      "team": "Não Federado",
+      "total": "00:22:59",
+      "gap": "00:10:43"
+    },
+    {
+      "rank": "DNS",
+      "licence": "105866",
+      "raceNumber": "1084",
+      "name": "Eva Cardoso",
+      "team": "FET-Fátima Escola de Triatlo",
+      "total": "",
+      "gap": ""
+    },
+    {
+      "rank": "DNS",
+      "licence": "107961",
+      "raceNumber": "731",
+      "name": "Júlia Seguro",
+      "team": "Palmela Desporto / Tripla Rotação",
+      "total": "",
+      "gap": ""
+    },
+    {
+      "rank": "DNS",
+      "licence": "108278",
+      "raceNumber": "1043",
+      "name": "Carlota Leote Francisco",
+      "team": "Sport Lisboa e Benfica",
+      "total": "",
+      "gap": ""
+    },
+    {
+      "rank": "DNS",
+      "licence": "106278",
+      "raceNumber": "1285",
+      "name": "Mariana Martins Soares",
+      "team": "Escola Triatlo Santo António Évora",
+      "total": "",
+      "gap": ""
+    },
+    {
+      "rank": "DNS",
+      "licence": "104488",
+      "raceNumber": "313",
+      "name": "Vânia Pereira Crispim",
+      "team": "Sport Lisboa e Benfica",
+      "total": "",
+      "gap": ""
+    },
+    {
+      "rank": "DNS",
+      "licence": "",
+      "raceNumber": "8007",
+      "name": "Beatriz Serrote Marchão",
+      "team": "Não Federado",
+      "total": "",
+      "gap": ""
+    },
+    {
+      "rank": "DNS",
+      "licence": "106671",
+      "raceNumber": "120",
+      "name": "Inês Pedro",
+      "team": "SFRAA TRIATLO",
+      "total": "",
+      "gap": ""
+    },
+    {
+      "rank": "DNS",
+      "licence": "",
+      "raceNumber": "8018",
+      "name": "Lara Alberto Januário",
+      "team": "Não Federado",
+      "total": "",
+      "gap": ""
+    },
+    {
+      "rank": "DNS",
+      "licence": "107547",
+      "raceNumber": "193",
+      "name": "Maria Inês",
+      "team": "REPSOL TRIATLO",
+      "total": "",
+      "gap": ""
+    },
+    {
+      "rank": "DNS",
+      "licence": "107822",
+      "raceNumber": "471",
+      "name": "Camila Pereira",
+      "team": "Pedrógão Triatlo",
+      "total": "",
+      "gap": ""
+    },
+    {
+      "rank": "DNS",
+      "licence": "108188",
+      "raceNumber": "884",
+      "name": "Diana Marques",
+      "team": "Clube 4 Estilos",
+      "total": "",
+      "gap": ""
+    },
+    {
+      "rank": "DNS",
+      "licence": "",
+      "raceNumber": "8011",
+      "name": "Inês Canhoto",
+      "team": "Não Federado",
+      "total": "",
+      "gap": ""
+    },
+    {
+      "rank": "DNS",
+      "licence": "",
+      "raceNumber": "8019",
+      "name": "Maria Casimiro",
+      "team": "Não Federado",
+      "total": "",
+      "gap": ""
+    }
+  ]
 }

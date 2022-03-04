@@ -1,5 +1,5 @@
 {
-  "id": 36,
+  "id": "36",
   "title": "Campeonato Litoral Interior Centro Jovem",
   "subtitle": "Cadetes Masculinos",
   "swimDistance": "",
@@ -14,5 +14,39 @@
   "waterTemperature": "",
   "wetSuit": "",
   "raceReference": "20220227LIC001-010",
-  "results": []
+  "results": [
+    {
+      "rank": "1",
+      "licence": "106402",
+      "raceNumber": "1891",
+      "name": "Rafael Assis",
+      "ageGroup": "CAD",
+      "team": "Pimpões Triatlo",
+      "total": "00:44:10",
+      "gap": "00:00:00",
+      "points": "150"
+    },
+    {
+      "rank": "2",
+      "licence": "EXTRA",
+      "raceNumber": "5794",
+      "name": "Bernardo Casado",
+      "ageGroup": "CAD",
+      "team": "X Não Federado",
+      "total": "00:45:02",
+      "gap": "00:00:52",
+      "points": ""
+    },
+    {
+      "rank": "3",
+      "licence": "104777",
+      "raceNumber": "1832",
+      "name": "Francisco Martim",
+      "ageGroup": "CAD",
+      "team": "FET-Fátima Escola de Triatlo",
+      "total": "00:53:33",
+      "gap": "00:09:23",
+      "points": "140"
+    }
+  ]
 }

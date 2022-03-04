@@ -1,5 +1,5 @@
 {
-  "id": 24,
+  "id": "24",
   "title": "Campeonato Lisboa e Alto Alentejo Jovem",
   "subtitle": "Cadetes Masculinos",
   "swimDistance": "",
@@ -14,5 +14,138 @@
   "waterTemperature": "",
   "wetSuit": "",
   "raceReference": "20220226LAA001-010",
-  "results": []
+  "results": [
+    {
+      "rank": "1",
+      "licence": "102225",
+      "raceNumber": "1855",
+      "name": "Tiago Margarido",
+      "ageGroup": "CAD",
+      "team": "Sport Lisboa e Benfica",
+      "total": "00:43:29",
+      "gap": "00:00:00",
+      "points": "150"
+    },
+    {
+      "rank": "2",
+      "licence": "102296",
+      "raceNumber": "1930",
+      "name": "tiago miguel casinha",
+      "ageGroup": "CAD",
+      "team": "CNCVG",
+      "total": "00:43:36",
+      "gap": "00:00:07",
+      "points": "140"
+    },
+    {
+      "rank": "3",
+      "licence": "104185",
+      "raceNumber": "1540",
+      "name": "Francisco Magro",
+      "ageGroup": "CAD",
+      "team": "Aminata Triatlo",
+      "total": "00:44:06",
+      "gap": "00:00:37",
+      "points": "130"
+    },
+    {
+      "rank": "4",
+      "licence": "103201",
+      "raceNumber": "1872",
+      "name": "Diogo Marques",
+      "ageGroup": "CAD",
+      "team": "Escola Triatlo Santo António Évora",
+      "total": "00:44:16",
+      "gap": "00:00:47",
+      "points": "125"
+    },
+    {
+      "rank": "5",
+      "licence": "103109",
+      "raceNumber": "8212",
+      "name": "Tomás Figueiredo",
+      "ageGroup": "CAD",
+      "team": "Outsystems Olímpico de Oeiras",
+      "total": "00:44:59",
+      "gap": "00:01:30",
+      "points": "120"
+    },
+    {
+      "rank": "6",
+      "licence": "103803",
+      "raceNumber": "1517",
+      "name": "Afonso Ferreira",
+      "ageGroup": "CAD",
+      "team": "Sport Lisboa e Benfica",
+      "total": "00:45:11",
+      "gap": "00:01:42",
+      "points": "115"
+    },
+    {
+      "rank": "7",
+      "licence": "106328",
+      "raceNumber": "1519",
+      "name": "Afonso Fazendeiro",
+      "ageGroup": "CAD",
+      "team": "Sport Lisboa e Benfica",
+      "total": "00:46:06",
+      "gap": "00:02:37",
+      "points": "110"
+    },
+    {
+      "rank": "8",
+      "licence": "105677",
+      "raceNumber": "1862",
+      "name": "Miguel Neves",
+      "ageGroup": "CAD",
+      "team": "Sport Lisboa e Benfica",
+      "total": "00:47:14",
+      "gap": "00:03:45",
+      "points": "108"
+    },
+    {
+      "rank": "9",
+      "licence": "102409",
+      "raceNumber": "1513",
+      "name": "André Nepomuceno",
+      "ageGroup": "CAD",
+      "team": "Escola Triatlo Santo António Évora",
+      "total": "00:48:11",
+      "gap": "00:04:42",
+      "points": "106"
+    },
+    {
+      "rank": "10",
+      "licence": "105108",
+      "raceNumber": "1898",
+      "name": "João Gonçalves",
+      "ageGroup": "CAD",
+      "team": "TRIATLO - Santo André Sport Club",
+      "total": "00:48:50",
+      "gap": "00:05:21",
+      "points": "104"
+    },
+    {
+      "rank": "11",
+      "licence": "105735",
+      "raceNumber": "1518",
+      "name": "David Cardoso",
+      "ageGroup": "CAD",
+      "team": "Sport Lisboa e Benfica",
+      "total": "00:49:44",
+      "gap": "00:06:15",
+      "points": "102"
+    },
+    {
+      "rank": "12",
+      "licence": "103261",
+      "raceNumber": "1529",
+      "name": "Vasco Saraiva de Melo",
+      "ageGroup": "CAD",
+      "team": "SFRAA TRIATLO",
+      "total": "00:56:17",
+      "gap": "00:12:48",
+      "points": "100"
+    }
+  ]
 }

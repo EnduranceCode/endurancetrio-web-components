@@ -1,5 +1,5 @@
 {
-  "id": 33,
+  "id": "33",
   "title": "Campeonato Litoral Interior Centro Jovem",
   "subtitle": "Juvenis Femininos",
   "swimDistance": "",
@@ -14,5 +14,94 @@
   "waterTemperature": "",
   "wetSuit": "",
   "raceReference": "20220227LIC001-007",
-  "results": []
+  "results": [
+    {
+      "rank": "1",
+      "licence": "103512",
+      "raceNumber": "371",
+      "name": "Sara Realinho",
+      "ageGroup": "JUV",
+      "team": "Clube 4 Estilos",
+      "total": "00:37:13",
+      "gap": "00:00:00",
+      "points": "150"
+    },
+    {
+      "rank": "2",
+      "licence": "103668",
+      "raceNumber": "602",
+      "name": "Inês Azeitona",
+      "ageGroup": "JUV",
+      "team": "Clube 4 Estilos",
+      "total": "00:38:28",
+      "gap": "00:01:15",
+      "points": "140"
+    },
+    {
+      "rank": "3",
+      "licence": "108392",
+      "raceNumber": "1144",
+      "name": "Maria Inês",
+      "ageGroup": "JUV",
+      "team": "Tramagal Sport União",
+      "total": "00:41:11",
+      "gap": "00:03:58",
+      "points": "130"
+    },
+    {
+      "rank": "4",
+      "licence": "103667",
+      "raceNumber": "600",
+      "name": "Matilde Bilé",
+      "ageGroup": "JUV",
+      "team": "Clube 4 Estilos",
+      "total": "00:44:19",
+      "gap": "00:07:06",
+      "points": "125"
+    },
+    {
+      "rank": "5",
+      "licence": "107213",
+      "raceNumber": "986",
+      "name": "Teresa Gonçalves",
+      "ageGroup": "JUV",
+      "team": "FET-Fátima Escola de Triatlo",
+      "total": "00:47:22",
+      "gap": "00:10:09",
+      "points": "120"
+    },
+    {
+      "rank": "6",
+      "licence": "105250",
+      "raceNumber": "858",
+      "name": "Noa Araújo",
+      "ageGroup": "JUV",
+      "team": "Pedrógão Triatlo",
+      "total": "00:48:04",
+      "gap": "00:10:51",
+      "points": "115"
+    },
+    {
+      "rank": "7",
+      "licence": "108106",
+      "raceNumber": "5868",
+      "name": "Beatriz Mourão",
+      "ageGroup": "JUV",
+      "team": "Pedrógão Triatlo",
+      "total": "00:58:47",
+      "gap": "00:21:34",
+      "points": "110"
+    },
+    {
+      "rank": "DNF",
+      "licence": "104699",
+      "raceNumber": "985",
+      "name": "Inês Caldeira Bargão",
+      "ageGroup": "JUV",
+      "team": "Pedrógão Triatlo",
+      "total": "DNF",
+      "gap": "",
+      "points": ""
+    }
+  ]
 }

@@ -1,5 +1,5 @@
 {
-  "id": 26,
+  "id": "26",
   "title": "Campeonato Lisboa e Alto Alentejo Absoluto",
   "subtitle": "Masculinos",
   "swimDistance": "",
@@ -14,5 +14,436 @@
   "waterTemperature": "",
   "wetSuit": "",
   "raceReference": "20220226LAA001-013",
-  "results": []
+  "results": [
+    {
+      "rank": "1",
+      "licence": "103961",
+      "raceNumber": "3841",
+      "name": "João Bragadeste",
+      "ageGroup": "35-39",
+      "team": "Outsystems Olímpico de Oeiras",
+      "total": "00:57:07",
+      "gap": "00:00:00"
+    },
+    {
+      "rank": "2",
+      "licence": "103079",
+      "raceNumber": "3824",
+      "name": "João Rebelo",
+      "ageGroup": "25-29",
+      "team": "Vasco da Gama Atlético Clube Sines",
+      "total": "00:57:32",
+      "gap": "00:00:25"
+    },
+    {
+      "rank": "3",
+      "licence": "101309",
+      "raceNumber": "2527",
+      "name": "Filipe Marques",
+      "ageGroup": "20-24",
+      "team": "Sporting Clube de Portugal",
+      "total": "00:58:36",
+      "gap": "00:01:29"
+    },
+    {
+      "rank": "4",
+      "licence": "104622",
+      "raceNumber": "3197",
+      "name": "Fábio Faustino",
+      "ageGroup": "35-39",
+      "team": "Vasco da Gama Atlético Clube Sines",
+      "total": "00:59:50",
+      "gap": "00:02:43"
+    },
+    {
+      "rank": "5",
+      "licence": "104329",
+      "raceNumber": "3953",
+      "name": "Pedro Lomba",
+      "ageGroup": "35-39",
+      "team": "Outsystems Olímpico de Oeiras",
+      "total": "00:59:54",
+      "gap": "00:02:47"
+    },
+    {
+      "rank": "6",
+      "licence": "100824",
+      "raceNumber": "4515",
+      "name": "Luis Almeida",
+      "ageGroup": "50-54",
+      "team": "Outsystems Olímpico de Oeiras",
+      "total": "01:01:10",
+      "gap": "00:04:03"
+    },
+    {
+      "rank": "7",
+      "licence": "106925",
+      "raceNumber": "2736",
+      "name": "Rui Martins",
+      "ageGroup": "35-39",
+      "team": "Sporting Clube de Portugal",
+      "total": "01:01:42",
+      "gap": "00:04:35"
+    },
+    {
+      "rank": "8",
+      "licence": "104745",
+      "raceNumber": "3399",
+      "name": "Carlos Matias",
+      "ageGroup": "30-34",
+      "team": "Clube de Futebol Os Belenenses",
+      "total": "01:01:56",
+      "gap": "00:04:49"
+    },
+    {
+      "rank": "9",
+      "licence": "107251",
+      "raceNumber": "2211",
+      "name": "Bernardo Magina",
+      "ageGroup": "JUN",
+      "team": "Clube de Futebol Os Belenenses",
+      "total": "01:01:56",
+      "gap": "00:04:49"
+    },
+    {
+      "rank": "10",
+      "licence": "103874",
+      "raceNumber": "3773",
+      "name": "Adriano Luz Domingos",
+      "ageGroup": "30-34",
+      "team": "Vasco da Gama Atlético Clube Sines",
+      "total": "01:02:10",
+      "gap": "00:05:03"
+    },
+    {
+      "rank": "11",
+      "licence": "100437",
+      "raceNumber": "4773",
+      "name": "Rui Gonçalves",
+      "ageGroup": "45-49",
+      "team": "REPSOL TRIATLO",
+      "total": "01:02:34",
+      "gap": "00:05:27"
+    },
+    {
+      "rank": "12",
+      "licence": "101325",
+      "raceNumber": "3409",
+      "name": "José Luís Virtuoso",
+      "ageGroup": "25-29",
+      "team": "AmoraSub/Associação Naval Amorense",
+      "total": "01:02:48",
+      "gap": "00:05:41"
+    },
+    {
+      "rank": "13",
+      "licence": "103282",
+      "raceNumber": "4843",
+      "name": "Pedro Fernandes",
+      "ageGroup": "45-49",
+      "team": "CNATRIL Triatlo",
+      "total": "01:02:01",
+      "gap": "00:04:54"
+    },
+    {
+      "rank": "14",
+      "licence": "107903",
+      "raceNumber": "3083",
+      "name": "Pedro Neves",
+      "ageGroup": "20-24",
+      "team": "Sporting Clube de Portugal",
+      "total": "01:03:15",
+      "gap": "00:06:08"
+    },
+    {
+      "rank": "15",
+      "licence": "105681",
+      "raceNumber": "3723",
+      "name": "Vasco Damásio",
+      "ageGroup": "35-39",
+      "team": "Outsystems Olímpico de Oeiras",
+      "total": "01:03:31",
+      "gap": "00:06:24"
+    },
+    {
+      "rank": "16",
+      "licence": "100578",
+      "raceNumber": "4703",
+      "name": "Henrique Matias",
+      "ageGroup": "45-49",
+      "team": "CNATRIL Triatlo",
+      "total": "01:04:36",
+      "gap": "00:07:29"
+    },
+    {
+      "rank": "17",
+      "licence": "100793",
+      "raceNumber": "4032",
+      "name": "Carlos Gomes",
+      "ageGroup": "60-64",
+      "team": "Outsystems Olímpico de Oeiras",
+      "total": "01:04:53",
+      "gap": "00:07:46"
+    },
+    {
+      "rank": "18",
+      "licence": "100462",
+      "raceNumber": "2577",
+      "name": "João Canas",
+      "ageGroup": "25-29",
+      "team": "Sporting Clube de Portugal",
+      "total": "01:05:16",
+      "gap": "00:08:09"
+    },
+    {
+      "rank": "19",
+      "licence": "105315",
+      "raceNumber": "5170",
+      "name": "Hugo Gaudêncio",
+      "ageGroup": "45-49",
+      "team": "REPSOL TRIATLO",
+      "total": "01:05:40",
+      "gap": "00:08:33"
+    },
+    {
+      "rank": "20",
+      "licence": "100887",
+      "raceNumber": "3517",
+      "name": "Fábio Pratas",
+      "ageGroup": "35-39",
+      "team": "AmoraSub/Associação Naval Amorense",
+      "total": "01:05:50",
+      "gap": "00:08:43"
+    },
+    {
+      "rank": "21",
+      "licence": "106231",
+      "raceNumber": "5709",
+      "name": "Luis Pereira",
+      "ageGroup": "40-44",
+      "team": "Sporting Clube de Portugal",
+      "total": "01:06:15",
+      "gap": "00:09:08"
+    },
+    {
+      "rank": "22",
+      "licence": "108388",
+      "raceNumber": "8007",
+      "name": "Bruno Bertão",
+      "ageGroup": "40-44",
+      "team": "GRCD Leião Triatlo",
+      "total": "01:06:25",
+      "gap": "00:09:18"
+    },
+    {
+      "rank": "23",
+      "licence": "106917",
+      "raceNumber": "8000",
+      "name": "Lucas Peixoto",
+      "ageGroup": "25-29",
+      "team": "REPSOL TRIATLO",
+      "total": "01:06:37",
+      "gap": "00:09:30"
+    },
+    {
+      "rank": "24",
+      "licence": "106982",
+      "raceNumber": "5759",
+      "name": "Fabiano Vaz",
+      "ageGroup": "40-44",
+      "team": "Vasco da Gama Atlético Clube Sines",
+      "total": "01:06:41",
+      "gap": "00:09:34"
+    },
+    {
+      "rank": "25",
+      "licence": "108396",
+      "raceNumber": "3457",
+      "name": "Mauro Ferreira",
+      "ageGroup": "30-34",
+      "team": "CNATRIL Triatlo",
+      "total": "01:07:04",
+      "gap": "00:09:57"
+    },
+    {
+      "rank": "26",
+      "licence": "102088",
+      "raceNumber": "1503",
+      "name": "Tomás Ribeiro",
+      "ageGroup": "CAD",
+      "team": "GDR Manique de Cima",
+      "total": "01:07:36",
+      "gap": "00:10:29"
+    },
+    {
+      "rank": "27",
+      "licence": "102067",
+      "raceNumber": "1502",
+      "name": "Lourenço Ribeiro",
+      "ageGroup": "CAD",
+      "team": "GDR Manique de Cima",
+      "total": "01:08:36",
+      "gap": "00:11:29"
+    },
+    {
+      "rank": "28",
+      "licence": "108035",
+      "raceNumber": "3153",
+      "name": "Sergio Vicente",
+      "ageGroup": "35-39",
+      "team": "AmoraSub/Associação Naval Amorense",
+      "total": "01:08:52",
+      "gap": "00:11:45"
+    },
+    {
+      "rank": "29",
+      "licence": "104182",
+      "raceNumber": "1501",
+      "name": "André Talento",
+      "ageGroup": "CAD",
+      "team": "GDR Manique de Cima",
+      "total": "01:10:02",
+      "gap": "00:12:55"
+    },
+    {
+      "rank": "30",
+      "licence": "108041",
+      "raceNumber": "5675",
+      "name": "Alberto Dias",
+      "ageGroup": "40-44",
+      "team": "AmoraSub/Associação Naval Amorense",
+      "total": "01:10:39",
+      "gap": "00:13:32"
+    },
+    {
+      "rank": "31",
+      "licence": "103321",
+      "raceNumber": "4860",
+      "name": "Renato Araújo",
+      "ageGroup": "50-54",
+      "team": "AmoraSub/Associação Naval Amorense",
+      "total": "01:13:21",
+      "gap": "00:16:14"
+    },
+    {
+      "rank": "32",
+      "licence": "108015",
+      "raceNumber": "5656",
+      "name": "Artur Alves",
+      "ageGroup": "45-49",
+      "team": "GRCD Leião Triatlo",
+      "total": "01:13:39",
+      "gap": "00:16:32"
+    },
+    {
+      "rank": "33",
+      "licence": "108062",
+      "raceNumber": "3173",
+      "name": "Pedro Sanguino",
+      "ageGroup": "35-39",
+      "team": "CNATRIL Triatlo",
+      "total": "01:13:52",
+      "gap": "00:16:45"
+    },
+    {
+      "rank": "34",
+      "licence": "106736",
+      "raceNumber": "2685",
+      "name": "Rui Silva",
+      "ageGroup": "35-39",
+      "team": "Individual",
+      "total": "01:15:00",
+      "gap": "00:17:53"
+    },
+    {
+      "rank": "35",
+      "licence": "107613",
+      "raceNumber": "2943",
+      "name": "Nuno Arraiano",
+      "ageGroup": "30-34",
+      "team": "Aminata Triatlo",
+      "total": "01:17:28",
+      "gap": "00:20:21"
+    },
+    {
+      "rank": "36",
+      "licence": "",
+      "raceNumber": "8095",
+      "name": "Horácio Oliveira",
+      "ageGroup": "45-49",
+      "team": "X Não Federado",
+      "total": "01:17:52",
+      "gap": "00:20:45"
+    },
+    {
+      "rank": "37",
+      "licence": "102526",
+      "raceNumber": "4263",
+      "name": "Pedro Ribeiro",
+      "ageGroup": "50-54",
+      "team": "GDR Manique de Cima",
+      "total": "01:18:23",
+      "gap": "00:21:16"
+    },
+    {
+      "rank": "38",
+      "licence": "",
+      "raceNumber": "8096",
+      "name": "Hugo Lopes",
+      "ageGroup": "40-44",
+      "team": "X Não Federado",
+      "total": "01:21:59",
+      "gap": "00:24:52"
+    },
+    {
+      "rank": "39",
+      "licence": "",
+      "raceNumber": "8090",
+      "name": "António Vieira",
+      "ageGroup": "55-59",
+      "team": "X Não Federado",
+      "total": "01:22:16",
+      "gap": "00:25:09"
+    },
+    {
+      "rank": "40",
+      "licence": "",
+      "raceNumber": "8092",
+      "name": "Fábio Paulo",
+      "ageGroup": "35-39",
+      "team": "X Não Federado",
+      "total": "01:22:17",
+      "gap": "00:25:10"
+    },
+    {
+      "rank": "41",
+      "licence": "107299",
+      "raceNumber": "2858",
+      "name": "Fábio Coutinho",
+      "ageGroup": "30-34",
+      "team": "Alhandra Sporting Club",
+      "total": "01:25:34",
+      "gap": "00:28:27"
+    },
+    {
+      "rank": "42",
+      "licence": "",
+      "raceNumber": "8098",
+      "name": "Pedro Pericão",
+      "ageGroup": "55-59",
+      "team": "X Não Federado",
+      "total": "01:29:58",
+      "gap": "00:32:51"
+    },
+    {
+      "rank": "43",
+      "licence": "106123",
+      "raceNumber": "5391",
+      "name": "Daniel Leão",
+      "ageGroup": "40-44",
+      "team": "Alhandra Sporting Club",
+      "total": "01:56:09",
+      "gap": "00:59:02"
+    }
+  ]
 }

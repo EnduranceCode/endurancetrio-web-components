@@ -1,5 +1,5 @@
 {
-  "id": 27,
+  "id": "27",
   "title": "Campeonato Litoral Interior Centro Jovem",
   "subtitle": "Benjamins Femininos",
   "swimDistance": "",
@@ -14,5 +14,149 @@
   "waterTemperature": "",
   "wetSuit": "",
   "raceReference": "20220227LIC001-001",
-  "results": []
+  "results": [
+    {
+      "rank": "1",
+      "licence": "106530",
+      "raceNumber": "1429",
+      "name": "Beatriz Pinto",
+      "ageGroup": "BEN",
+      "team": "Pedrógão Triatlo",
+      "total": "00:07:24",
+      "gap": "00:00:00",
+      "points": "150"
+    },
+    {
+      "rank": "2",
+      "licence": "108228",
+      "raceNumber": "956",
+      "name": "Maria Inês Rodrigues",
+      "ageGroup": "BEN",
+      "team": "Clube 4 Estilos",
+      "total": "00:08:40",
+      "gap": "00:01:16",
+      "points": "140"
+    },
+    {
+      "rank": "3",
+      "licence": "107672",
+      "raceNumber": "311",
+      "name": "Sofia Ferreira",
+      "ageGroup": "BEN",
+      "team": "Peniche A. C.",
+      "total": "00:08:41",
+      "gap": "00:01:17",
+      "points": "130"
+    },
+    {
+      "rank": "4",
+      "licence": "107020",
+      "raceNumber": "697",
+      "name": "Francisca Junqueiro",
+      "ageGroup": "BEN",
+      "team": "Pedrógão Triatlo",
+      "total": "00:08:56",
+      "gap": "00:01:32",
+      "points": "125"
+    },
+    {
+      "rank": "5",
+      "licence": "107951",
+      "raceNumber": "710",
+      "name": "Joana Madeira",
+      "ageGroup": "BEN",
+      "team": "BEST",
+      "total": "00:09:18",
+      "gap": "00:01:54",
+      "points": "120"
+    },
+    {
+      "rank": "6",
+      "licence": "107294",
+      "raceNumber": "1202",
+      "name": "Camila Coutinho",
+      "ageGroup": "BEN",
+      "team": "Pimpões Triatlo",
+      "total": "00:09:19",
+      "gap": "00:01:55",
+      "points": "115"
+    },
+    {
+      "rank": "7",
+      "licence": "107821",
+      "raceNumber": "470",
+      "name": "Sara Chamiço",
+      "ageGroup": "BEN",
+      "team": "Pedrógão Triatlo",
+      "total": "00:09:31",
+      "gap": "00:02:07",
+      "points": "110"
+    },
+    {
+      "rank": "8",
+      "licence": "107824",
+      "raceNumber": "474",
+      "name": "Beatriz Maia",
+      "ageGroup": "BEN",
+      "team": "Pedrógão Triatlo",
+      "total": "00:09:44",
+      "gap": "00:02:20",
+      "points": "108"
+    },
+    {
+      "rank": "9",
+      "licence": "107146",
+      "raceNumber": "888",
+      "name": "Sofia Santos",
+      "ageGroup": "BEN",
+      "team": "Peniche A. C.",
+      "total": "00:09:47",
+      "gap": "00:02:23",
+      "points": "106"
+    },
+    {
+      "rank": "10",
+      "licence": "107927",
+      "raceNumber": "680",
+      "name": "Carolina Semeão",
+      "ageGroup": "BEN",
+      "team": "FET-Fátima Escola de Triatlo",
+      "total": "00:09:51",
+      "gap": "00:02:27",
+      "points": "104"
+    },
+    {
+      "rank": "11",
+      "licence": "108343",
+      "raceNumber": "1122",
+      "name": "Leonor Nazário",
+      "ageGroup": "BEN",
+      "team": "BEST",
+      "total": "00:10:23",
+      "gap": "00:02:59",
+      "points": "102"
+    },
+    {
+      "rank": "12",
+      "licence": "107946",
+      "raceNumber": "700",
+      "name": "Laura Coelho",
+      "ageGroup": "BEN",
+      "team": "BEST",
+      "total": "00:10:47",
+      "gap": "00:03:23",
+      "points": "100"
+    },
+    {
+      "rank": "13",
+      "licence": "107936",
+      "raceNumber": "690",
+      "name": "Franccesca Arrieta",
+      "ageGroup": "BEN",
+      "team": "Pimpões Triatlo",
+      "total": "00:11:06",
+      "gap": "00:03:42",
+      "points": "98"
+    }
+  ]
 }

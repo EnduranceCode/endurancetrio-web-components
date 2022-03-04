@@ -14,5 +14,270 @@
   "waterTemperature": "",
   "wetSuit": "",
   "raceReference": "20220226LAA001-002",
-  "results": []
+  "results": [
+    {
+      "rank": "1",
+      "licence": "107210",
+      "raceNumber": "964",
+      "name": "Henrique Esperança",
+      "ageGroup": "BEN",
+      "team": "REPSOL TRIATLO",
+      "total": "00:07:42",
+      "gap": "00:00:00",
+      "points": "150"
+    },
+    {
+      "rank": "2",
+      "licence": "EXTRA",
+      "raceNumber": "8087",
+      "name": "Salvador Cabrita",
+      "ageGroup": "BEN",
+      "team": "X Não Federado",
+      "total": "00:08:02",
+      "gap": "00:00:20",
+      "points": ""
+    },
+    {
+      "rank": "3",
+      "licence": "EXTRA",
+      "raceNumber": "736",
+      "name": "Marco Afonso",
+      "ageGroup": "BEN",
+      "team": "Individual",
+      "total": "08:18:00",
+      "gap": "08:10:18",
+      "points": ""
+    },
+    {
+      "rank": "4",
+      "licence": "107882",
+      "raceNumber": "619",
+      "name": "Filipe Rodrigues",
+      "ageGroup": "BEN",
+      "team": "AmoraSub/Associação Naval Amorense",
+      "total": "00:08:32",
+      "gap": "00:00:50",
+      "points": "140"
+    },
+    {
+      "rank": "5",
+      "licence": "107109",
+      "raceNumber": "1174",
+      "name": "Rafael Rico",
+      "ageGroup": "BEN",
+      "team": "Alhandra Sporting Club",
+      "total": "00:08:34",
+      "gap": "00:00:52",
+      "points": "130"
+    },
+    {
+      "rank": "6",
+      "licence": "107465",
+      "raceNumber": "95",
+      "name": "Gustavo Bernardes",
+      "ageGroup": "BEN",
+      "team": "Escola Triatlo Santo António Évora",
+      "total": "00:08:39",
+      "gap": "00:00:57",
+      "points": "125"
+    },
+    {
+      "rank": "7",
+      "licence": "EXTRA",
+      "raceNumber": "1051",
+      "name": "Diogo Mendonça",
+      "ageGroup": "BEN",
+      "team": "Individual",
+      "total": "00:08:43",
+      "gap": "00:01:01",
+      "points": ""
+    },
+    {
+      "rank": "8",
+      "licence": "108244",
+      "raceNumber": "969",
+      "name": "Martim Carrageta",
+      "ageGroup": "BEN",
+      "team": "Escola Triatlo Santo António Évora",
+      "total": "00:08:49",
+      "gap": "00:01:07",
+      "points": "120"
+    },
+    {
+      "rank": "9",
+      "licence": "107957",
+      "raceNumber": "734",
+      "name": "Guilherme Sequeira",
+      "ageGroup": "BEN",
+      "team": "Palmela Desporto / Tripla Rotação",
+      "total": "00:08:53",
+      "gap": "00:01:11",
+      "points": "115"
+    },
+    {
+      "rank": "10",
+      "licence": "107476",
+      "raceNumber": "108",
+      "name": "Tomás Matias",
+      "ageGroup": "BEN",
+      "team": "CNATRIL Triatlo",
+      "total": "00:08:53",
+      "gap": "00:01:11",
+      "points": "110"
+    },
+    {
+      "rank": "11",
+      "licence": "107921",
+      "raceNumber": "667",
+      "name": "Gonçalo Garcia",
+      "ageGroup": "BEN",
+      "team": "Palmela Desporto / Tripla Rotação",
+      "total": "00:09:05",
+      "gap": "00:01:23",
+      "points": "108"
+    },
+    {
+      "rank": "12",
+      "licence": "107045",
+      "raceNumber": "748",
+      "name": "Eduardo Campante",
+      "ageGroup": "BEN",
+      "team": "AmoraSub/Associação Naval Amorense",
+      "total": "00:09:14",
+      "gap": "00:01:32",
+      "points": "106"
+    },
+    {
+      "rank": "13",
+      "licence": "107706",
+      "raceNumber": "356",
+      "name": "Filipe Pepe",
+      "ageGroup": "BEN",
+      "team": "Palmela Desporto / Tripla Rotação",
+      "total": "00:09:20",
+      "gap": "00:01:38",
+      "points": "104"
+    },
+    {
+      "rank": "14",
+      "licence": "108028",
+      "raceNumber": "769",
+      "name": "Tomás Silva",
+      "ageGroup": "BEN",
+      "team": "TRIATLO - Santo André Sport Club",
+      "total": "00:09:42",
+      "gap": "00:02:00",
+      "points": "102"
+    },
+    {
+      "rank": "15",
+      "licence": "107518",
+      "raceNumber": "151",
+      "name": "Diogo Gomes",
+      "ageGroup": "BEN",
+      "team": "AmoraSub/Associação Naval Amorense",
+      "total": "00:09:42",
+      "gap": "00:02:00",
+      "points": "100"
+    },
+    {
+      "rank": "16",
+      "licence": "107897",
+      "raceNumber": "640",
+      "name": "Rodrigo Vieira",
+      "ageGroup": "BEN",
+      "team": "Alhandra Sporting Club",
+      "total": "00:10:06",
+      "gap": "00:02:24",
+      "points": "98"
+    },
+    {
+      "rank": "17",
+      "licence": "107110",
+      "raceNumber": "3",
+      "name": "Tomas Paulo",
+      "ageGroup": "BEN",
+      "team": "Alhandra Sporting Club",
+      "total": "00:10:46",
+      "gap": "00:03:04",
+      "points": "96"
+    },
+    {
+      "rank": "18",
+      "licence": "107891",
+      "raceNumber": "630",
+      "name": "Gabriel Geldenhuys",
+      "ageGroup": "BEN",
+      "team": "Alhandra Sporting Club",
+      "total": "00:10:50",
+      "gap": "00:03:08",
+      "points": "94"
+    },
+    {
+      "rank": "19",
+      "licence": "107923",
+      "raceNumber": "671",
+      "name": "João Francisco",
+      "ageGroup": "BEN",
+      "team": "Palmela Desporto / Tripla Rotação",
+      "total": "00:11:03",
+      "gap": "00:03:21",
+      "points": "92"
+    },
+    {
+      "rank": "20",
+      "licence": "107406",
+      "raceNumber": "16",
+      "name": "Vicente Fernandes",
+      "ageGroup": "BEN",
+      "team": "Alhandra Sporting Club",
+      "total": "00:11:14",
+      "gap": "00:03:32",
+      "points": "90"
+    },
+    {
+      "rank": "21",
+      "licence": "107881",
+      "raceNumber": "618",
+      "name": "Pedro Brandão de Matos",
+      "ageGroup": "BEN",
+      "team": "AmoraSub/Associação Naval Amorense",
+      "total": "00:11:23",
+      "gap": "00:03:41",
+      "points": "88"
+    },
+    {
+      "rank": "22",
+      "licence": "107023",
+      "raceNumber": "712",
+      "name": "Pedro Alves",
+      "ageGroup": "BEN",
+      "team": "TRIATLO - Santo André Sport Club",
+      "total": "00:11:26",
+      "gap": "00:03:44",
+      "points": "86"
+    },
+    {
+      "rank": "23",
+      "licence": "107104",
+      "raceNumber": "816",
+      "name": "David Leão",
+      "ageGroup": "BEN",
+      "team": "Alhandra Sporting Club",
+      "total": "00:12:18",
+      "gap": "00:04:36",
+      "points": "84"
+    },
+    {
+      "rank": "24",
+      "licence": "108262",
+      "raceNumber": "1020",
+      "name": "Francisco Dias",
+      "ageGroup": "BEN",
+      "team": "Escola Triatlo Santo António Évora",
+      "total": "00:14:25",
+      "gap": "00:06:43",
+      "points": "82"
+    }
+  ]
 }

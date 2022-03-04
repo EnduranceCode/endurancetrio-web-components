@@ -1,5 +1,5 @@
 {
-  "id": 23,
+  "id": "23",
   "title": "Campeonato Lisboa e Alto Alentejo Jovem",
   "subtitle": "Cadetes Femininos",
   "swimDistance": "",
@@ -14,5 +14,116 @@
   "waterTemperature": "",
   "wetSuit": "",
   "raceReference": "20220226LAA001-009",
-  "results": []
+  "results": [
+    {
+      "rank": "1",
+      "licence": "103073",
+      "raceNumber": "1516",
+      "name": "Cassilda Carvalho",
+      "ageGroup": "CAD",
+      "team": "Sport Lisboa e Benfica",
+      "total": "00:47:29",
+      "gap": "00:00:00",
+      "points": "150"
+    },
+    {
+      "rank": "2",
+      "licence": "102210",
+      "raceNumber": "1854",
+      "name": "Luisa Miranda",
+      "ageGroup": "CAD",
+      "team": "Sport Lisboa e Benfica",
+      "total": "00:51:00",
+      "gap": "00:03:31",
+      "points": "140"
+    },
+    {
+      "rank": "3",
+      "licence": "106758",
+      "raceNumber": "1520",
+      "name": "Leonor Fazendeiro",
+      "ageGroup": "CAD",
+      "team": "Sport Lisboa e Benfica",
+      "total": "00:55:56",
+      "gap": "00:08:27",
+      "points": "130"
+    },
+    {
+      "rank": "4",
+      "licence": "106844",
+      "raceNumber": "1863",
+      "name": "Matilde Branco",
+      "ageGroup": "CAD",
+      "team": "Outsystems Olímpico de Oeiras",
+      "total": "00:56:18",
+      "gap": "00:08:49",
+      "points": "125"
+    },
+    {
+      "rank": "5",
+      "licence": "104276",
+      "raceNumber": "1827",
+      "name": "Leonor Medronheira",
+      "ageGroup": "CAD",
+      "team": "Palmela Desporto / Tripla Rotação",
+      "total": "00:56:37",
+      "gap": "00:09:08",
+      "points": "120"
+    },
+    {
+      "rank": "6",
+      "licence": "103688",
+      "raceNumber": "1821",
+      "name": "Mariana Paulino",
+      "ageGroup": "CAD",
+      "team": "CNCVG",
+      "total": "00:59:18",
+      "gap": "00:11:49",
+      "points": "115"
+    },
+    {
+      "rank": "7",
+      "licence": "106151",
+      "raceNumber": "1512",
+      "name": "Diana Galinhola",
+      "ageGroup": "CAD",
+      "team": "Escola Triatlo Santo António Évora",
+      "total": "00:59:38",
+      "gap": "00:12:09",
+      "points": "110"
+    },
+    {
+      "rank": "8",
+      "licence": "106537",
+      "raceNumber": "1921",
+      "name": "Mariana Rodrigues Grilo",
+      "ageGroup": "CAD",
+      "team": "CNCVG",
+      "total": "00:59:51",
+      "gap": "00:12:22",
+      "points": "108"
+    },
+    {
+      "rank": "9",
+      "licence": "100827",
+      "raceNumber": "1870",
+      "name": "Mariana Cabrita",
+      "ageGroup": "CAD",
+      "team": "Outsystems Olímpico de Oeiras",
+      "total": "01:00:41",
+      "gap": "00:13:12",
+      "points": "106"
+    },
+    {
+      "rank": "10",
+      "licence": "103325",
+      "raceNumber": "1903",
+      "name": "Maria Inês Rodrigues",
+      "ageGroup": "CAD",
+      "team": "Outsystems Olímpico de Oeiras",
+      "total": "01:01:43",
+      "gap": "00:14:14",
+      "points": "104"
+    }
+  ]
 }

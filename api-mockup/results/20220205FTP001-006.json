@@ -1,5 +1,5 @@
 {
-  "id": 6,
+  "id": "6",
   "title": "Campeonato Nacional Jovem",
   "subtitle": "Iniciados Masculinos",
   "swimDistance": "",
@@ -14,5 +14,600 @@
   "waterTemperature": "",
   "wetSuit": "",
   "raceReference": "20220205FTP001-006",
-  "results": []
+  "results": [
+    {
+      "rank": "1",
+      "licence": "104683",
+      "raceNumber": "916",
+      "name": "Santiago Pereira Gaspar",
+      "team": "Alhandra Sporting Club",
+      "total": "00:17:27",
+      "gap": "00:00:00"
+    },
+    {
+      "rank": "2",
+      "licence": "107080",
+      "raceNumber": "762",
+      "name": "Dário Cabral",
+      "team": "Individual",
+      "total": "00:18:19",
+      "gap": "00:00:52"
+    },
+    {
+      "rank": "3",
+      "licence": "104191",
+      "raceNumber": "220",
+      "name": "Rafael Pacheco",
+      "team": "SFRAA TRIATLO",
+      "total": "00:18:31",
+      "gap": "00:01:04"
+    },
+    {
+      "rank": "4",
+      "licence": "",
+      "raceNumber": "8016",
+      "name": "José Bancaleiro",
+      "team": "Não Federado",
+      "total": "00:19:04",
+      "gap": "00:01:37"
+    },
+    {
+      "rank": "5",
+      "licence": "103164",
+      "raceNumber": "169",
+      "name": "Denis Fragoso",
+      "team": "AmoraSub/Associação Naval Amorense",
+      "total": "00:19:20",
+      "gap": "00:01:53"
+    },
+    {
+      "rank": "6",
+      "licence": "104701",
+      "raceNumber": "17",
+      "name": "Pedro Rasquilho",
+      "team": "Alhandra Sporting Club",
+      "total": "00:19:30",
+      "gap": "00:02:03"
+    },
+    {
+      "rank": "7",
+      "licence": "104103",
+      "raceNumber": "965",
+      "name": "Nuno Fernandes",
+      "team": "Peniche A. C.",
+      "total": "00:19:46",
+      "gap": "00:02:19"
+    },
+    {
+      "rank": "8",
+      "licence": "105730",
+      "raceNumber": "1039",
+      "name": "Miguel Medronheira",
+      "team": "Palmela Desporto / Tripla Rotação",
+      "total": "00:19:54",
+      "gap": "00:02:27"
+    },
+    {
+      "rank": "9",
+      "licence": "107952",
+      "raceNumber": "717",
+      "name": "Francisco Dias",
+      "team": "Palmela Desporto / Tripla Rotação",
+      "total": "00:20:02",
+      "gap": "00:02:35"
+    },
+    {
+      "rank": "10",
+      "licence": "105568",
+      "raceNumber": "1018",
+      "name": "Tomé Sentieiro",
+      "team": "Pedrógão Triatlo",
+      "total": "00:20:45",
+      "gap": "00:03:18"
+    },
+    {
+      "rank": "11",
+      "licence": "104632",
+      "raceNumber": "852",
+      "name": "Luiz Viriato",
+      "team": "Pedrógão Triatlo",
+      "total": "00:21:15",
+      "gap": "00:03:48"
+    },
+    {
+      "rank": "12",
+      "licence": "107122",
+      "raceNumber": "832",
+      "name": "Artur Leite",
+      "team": "Outsystems Olímpico de Oeiras",
+      "total": "00:21:21",
+      "gap": "00:03:54"
+    },
+    {
+      "rank": "13",
+      "licence": "105737",
+      "raceNumber": "1049",
+      "name": "Francisco Gomes",
+      "team": "Sport Lisboa e Benfica",
+      "total": "00:21:29",
+      "gap": "00:04:02"
+    },
+    {
+      "rank": "14",
+      "licence": "105736",
+      "raceNumber": "1048",
+      "name": "Manuel Gomes",
+      "team": "Sport Lisboa e Benfica",
+      "total": "00:21:32",
+      "gap": "00:04:05"
+    },
+    {
+      "rank": "15",
+      "licence": "107591",
+      "raceNumber": "276",
+      "name": "Tiago Cruz",
+      "team": "Clube 4 Estilos",
+      "total": "00:21:34",
+      "gap": "00:04:07"
+    },
+    {
+      "rank": "16",
+      "licence": "107344",
+      "raceNumber": "1311",
+      "name": "Diogo Durão",
+      "team": "Mirachoro Hotels - CPP - Churrasqueira do Vau",
+      "total": "00:22:03",
+      "gap": "00:04:36"
+    },
+    {
+      "rank": "17",
+      "licence": "105908",
+      "raceNumber": "1109",
+      "name": "Martim Santos",
+      "team": "CICONIA CICONIA",
+      "total": "00:22:15",
+      "gap": "00:04:48"
+    },
+    {
+      "rank": "18",
+      "licence": "105583",
+      "raceNumber": "1031",
+      "name": "Salvador Ribeiro",
+      "team": "Outsystems Olímpico de Oeiras",
+      "total": "00:22:30",
+      "gap": "00:05:03"
+    },
+    {
+      "rank": "19",
+      "licence": "108129",
+      "raceNumber": "850",
+      "name": "Martim Duarte",
+      "team": "CICONIA CICONIA",
+      "total": "00:22:31",
+      "gap": "00:05:04"
+    },
+    {
+      "rank": "20",
+      "licence": "107241",
+      "raceNumber": "1105",
+      "name": "Nicolau Costa",
+      "team": "CAPGE",
+      "total": "00:23:02",
+      "gap": "00:05:35"
+    },
+    {
+      "rank": "21",
+      "licence": "107225",
+      "raceNumber": "1005",
+      "name": "Rodrigo Miranda",
+      "team": "Clube de Natação de Torres Novas",
+      "total": "00:23:06",
+      "gap": "00:05:39"
+    },
+    {
+      "rank": "22",
+      "licence": "104128",
+      "raceNumber": "55",
+      "name": "Martim Nobre",
+      "team": "Alhandra Sporting Club",
+      "total": "00:23:11",
+      "gap": "00:05:44"
+    },
+    {
+      "rank": "23",
+      "licence": "106684",
+      "raceNumber": "165",
+      "name": "Diogo Ribeiro",
+      "team": "SFRAA TRIATLO",
+      "total": "00:23:40",
+      "gap": "00:06:13"
+    },
+    {
+      "rank": "24",
+      "licence": "107171",
+      "raceNumber": "931",
+      "name": "Santiago Ruivo",
+      "team": "Pedrógão Triatlo",
+      "total": "00:23:46",
+      "gap": "00:06:19"
+    },
+    {
+      "rank": "25",
+      "licence": "106895",
+      "raceNumber": "574",
+      "name": "Santiago Faustino",
+      "team": "AmoraSub/Associação Naval Amorense",
+      "total": "00:23:48",
+      "gap": "00:06:21"
+    },
+    {
+      "rank": "26",
+      "licence": "108230",
+      "raceNumber": "958",
+      "name": "Francisco Pires",
+      "team": "Clube 4 Estilos",
+      "total": "00:23:58",
+      "gap": "00:06:31"
+    },
+    {
+      "rank": "27",
+      "licence": "108194",
+      "raceNumber": "893",
+      "name": "Diogo Moreira",
+      "team": "Paredes Aventura",
+      "total": "00:24:04",
+      "gap": "00:06:37"
+    },
+    {
+      "rank": "28",
+      "licence": "107879",
+      "raceNumber": "610",
+      "name": "Tomás Freire",
+      "team": "AmoraSub/Associação Naval Amorense",
+      "total": "00:24:16",
+      "gap": "00:06:49"
+    },
+    {
+      "rank": "29",
+      "licence": "106548",
+      "raceNumber": "1437",
+      "name": "Filipe Souto",
+      "team": "Outsystems Olímpico de Oeiras",
+      "total": "00:24:40",
+      "gap": "00:07:13"
+    },
+    {
+      "rank": "30",
+      "licence": "107872",
+      "raceNumber": "601",
+      "name": "Gonçalo Velho",
+      "team": "CICONIA CICONIA",
+      "total": "00:24:53",
+      "gap": "00:07:26"
+    },
+    {
+      "rank": "31",
+      "licence": "107169",
+      "raceNumber": "902",
+      "name": "Gabriel Ferreira da Silva",
+      "team": "Pedrógão Triatlo",
+      "total": "00:25:01",
+      "gap": "00:07:34"
+    },
+    {
+      "rank": "32",
+      "licence": "105872",
+      "raceNumber": "1086",
+      "name": "Rodrigo Gato",
+      "team": "Clube de Natação da Amadora",
+      "total": "00:25:04",
+      "gap": "00:07:37"
+    },
+    {
+      "rank": "33",
+      "licence": "106066",
+      "raceNumber": "1203",
+      "name": "David Moreira",
+      "team": "Paredes Aventura",
+      "total": "00:25:58",
+      "gap": "00:08:31"
+    },
+    {
+      "rank": "34",
+      "licence": "108050",
+      "raceNumber": "780",
+      "name": "João Lucas Carvalho",
+      "team": "Outsystems Olímpico de Oeiras",
+      "total": "00:26:39",
+      "gap": "00:09:12"
+    },
+    {
+      "rank": "35",
+      "licence": "108276",
+      "raceNumber": "1041",
+      "name": "Vicente Sousa",
+      "team": "Paredes Aventura",
+      "total": "00:26:40",
+      "gap": "00:09:13"
+    },
+    {
+      "rank": "36",
+      "licence": "107887",
+      "raceNumber": "8099",
+      "name": "Dinis Freitas",
+      "team": "Paredes Aventura",
+      "total": "00:26:56",
+      "gap": "00:09:29"
+    },
+    {
+      "rank": "37",
+      "licence": "108245",
+      "raceNumber": "8033",
+      "name": "Rui Pedro",
+      "team": "Escola Triatlo Santo António Évora",
+      "total": "00:26:59",
+      "gap": "00:09:32"
+    },
+    {
+      "rank": "38",
+      "licence": "106077",
+      "raceNumber": "1207",
+      "name": "Tiago Amaral",
+      "team": "Paredes Aventura",
+      "total": "00:27:56",
+      "gap": "00:10:29"
+    },
+    {
+      "rank": "39",
+      "licence": "108102",
+      "raceNumber": "785",
+      "name": "Júlio Duarte",
+      "team": "Sporting Clube de Portugal",
+      "total": "00:28:06",
+      "gap": "00:10:39"
+    },
+    {
+      "rank": "40",
+      "licence": "",
+      "raceNumber": "8022",
+      "name": "Pedro Godinho",
+      "team": "Não Federado",
+      "total": "00:28:10",
+      "gap": "00:10:43"
+    },
+    {
+      "rank": "41",
+      "licence": "106689",
+      "raceNumber": "176",
+      "name": "Francisco Dias Feiteira",
+      "team": "Clube Triatlo de Abrantes",
+      "total": "00:28:22",
+      "gap": "00:10:55"
+    },
+    {
+      "rank": "42",
+      "licence": "104164",
+      "raceNumber": "134",
+      "name": "Edson Tavares",
+      "team": "Clube de Natação da Amadora",
+      "total": "00:29:35",
+      "gap": "00:12:08"
+    },
+    {
+      "rank": "43",
+      "licence": "107562",
+      "raceNumber": "236",
+      "name": "Tomás Cerejo",
+      "team": "BEST",
+      "total": "00:29:39",
+      "gap": "00:12:12"
+    },
+    {
+      "rank": "44",
+      "licence": "108027",
+      "raceNumber": "767",
+      "name": "Diego Cardoso",
+      "team": "TRIATLO - Santo André Sport Club",
+      "total": "00:30:30",
+      "gap": "00:13:03"
+    },
+    {
+      "rank": "45",
+      "licence": "107395",
+      "raceNumber": "8",
+      "name": "Afonso Matos Gomes",
+      "team": "Clube Triatlo de Abrantes",
+      "total": "00:30:36",
+      "gap": "00:13:09"
+    },
+    {
+      "rank": "46",
+      "licence": "106527",
+      "raceNumber": "1426",
+      "name": "Vasco Ferreira",
+      "team": "Peniche A. C.",
+      "total": "00:31:47",
+      "gap": "00:14:20"
+    },
+    {
+      "rank": "47",
+      "licence": "107559",
+      "raceNumber": "223",
+      "name": "Tiago Tavares",
+      "team": "BEST",
+      "total": "00:32:03",
+      "gap": "00:14:36"
+    },
+    {
+      "rank": "48",
+      "licence": "105088",
+      "raceNumber": "409",
+      "name": "Francisco Barreiro",
+      "team": "Clube de Natação da Amadora",
+      "total": "00:32:46",
+      "gap": "00:15:19"
+    },
+    {
+      "rank": "49",
+      "licence": "",
+      "raceNumber": "8026",
+      "name": "Samuel Parisot",
+      "team": "Não Federado",
+      "total": "00:33:36",
+      "gap": "00:16:09"
+    },
+    {
+      "rank": "50",
+      "licence": "",
+      "raceNumber": "937",
+      "name": "Matias Balau",
+      "team": "Não Federado",
+      "total": "00:48:09",
+      "gap": "00:30:42"
+    },
+    {
+      "rank": "DNF",
+      "licence": "107558",
+      "raceNumber": "219",
+      "name": "André Duarte",
+      "team": "BEST",
+      "total": "",
+      "gap": ""
+    },
+    {
+      "rank": "DNS",
+      "licence": "104198",
+      "raceNumber": "246",
+      "name": "Tiago Ferreira",
+      "team": "Sport Lisboa e Benfica",
+      "total": "",
+      "gap": ""
+    },
+    {
+      "rank": "DNS",
+      "licence": "107763",
+      "raceNumber": "437",
+      "name": "João Neves",
+      "team": "FET-Fátima Escola de Triatlo",
+      "total": "",
+      "gap": ""
+    },
+    {
+      "rank": "DNS",
+      "licence": "104076",
+      "raceNumber": "795",
+      "name": "Rodrigo Barreto",
+      "team": "Alhandra Sporting Club",
+      "total": "",
+      "gap": ""
+    },
+    {
+      "rank": "DNS",
+      "licence": "103904",
+      "raceNumber": "836",
+      "name": "Martim Rodrigues",
+      "team": "AmoraSub/Associação Naval Amorense",
+      "total": "",
+      "gap": ""
+    },
+    {
+      "rank": "DNS",
+      "licence": "106222",
+      "raceNumber": "1268",
+      "name": "Eduardo Branco",
+      "team": "Alhandra Sporting Club",
+      "total": "",
+      "gap": ""
+    },
+    {
+      "rank": "DNS",
+      "licence": "106756",
+      "raceNumber": "269",
+      "name": "Hernani Mauricio",
+      "team": "Sport Lisboa e Benfica",
+      "total": "",
+      "gap": ""
+    },
+    {
+      "rank": "DNS",
+      "licence": "106216",
+      "raceNumber": "1266",
+      "name": "Martim Magalhães",
+      "team": "Outsystems Olímpico de Oeiras",
+      "total": "",
+      "gap": ""
+    },
+    {
+      "rank": "DNS",
+      "licence": "104184",
+      "raceNumber": "201",
+      "name": "Luis Filipe",
+      "team": "Escola Triatlo Santo António Évora",
+      "total": "",
+      "gap": ""
+    },
+    {
+      "rank": "DNS",
+      "licence": "107578",
+      "raceNumber": "250",
+      "name": "António Leandro",
+      "team": "BEST",
+      "total": "",
+      "gap": ""
+    },
+    {
+      "rank": "DNS",
+      "licence": "103623",
+      "raceNumber": "568",
+      "name": "Pedro Sardinha",
+      "team": "Alhandra Sporting Club",
+      "total": "",
+      "gap": ""
+    },
+    {
+      "rank": "DNS",
+      "licence": "107894",
+      "raceNumber": "633",
+      "name": "Tomás Silva",
+      "team": "Pedrógão Triatlo",
+      "total": "",
+      "gap": ""
+    },
+    {
+      "rank": "DNS",
+      "licence": "107953",
+      "raceNumber": "719",
+      "name": "Rafael Costa",
+      "team": "Palmela Desporto / Tripla Rotação",
+      "total": "",
+      "gap": ""
+    },
+    {
+      "rank": "DNS",
+      "licence": "107111",
+      "raceNumber": "823",
+      "name": "Diogo Ferreira Santos",
+      "team": "Alhandra Sporting Club",
+      "total": "",
+      "gap": ""
+    },
+    {
+      "rank": "DNS",
+      "licence": "108253",
+      "raceNumber": "980",
+      "name": "Dinis Soeiro",
+      "team": "Escola Triatlo Santo António Évora",
+      "total": "",
+      "gap": ""
+    },
+    {
+      "rank": "DNS",
+      "licence": "105491",
+      "raceNumber": "1375",
+      "name": "José Pedro Mira",
+      "team": "Escola Triatlo Santo António Évora",
+      "total": "",
+      "gap": ""
+    }
+  ]
 }
