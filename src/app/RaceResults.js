@@ -8,6 +8,7 @@ import { LitElement, html, css } from 'lit';
 
 import { appStyles } from './css/app-style';
 import { Utils } from './utils/Utils';
+
 import { EventService } from './service/EventService';
 
 import './components/event-header/EventHeader';
@@ -61,7 +62,7 @@ class RaceResults extends LitElement {
       this.event = result;
     });
 
-    this.addEventListener('change-race', (e) => {
+    this.addEventListener('event-header-change-race', (e) => {
       this.race = e.detail.race;
       this.raceReference = e.detail.race.raceReference;
     });
