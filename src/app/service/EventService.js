@@ -15,7 +15,7 @@ class EventService {
    * @returns the desired event
    */
   static async getEventByReference(eventReference) {
-    const result = await fetch(getEndpoint('events', eventReference))
+    const result = await fetch(getEndpoint('events', eventReference), { cache: 'no-store' })
       .then((response) => {
         if (response.ok) {
           return response.json();
@@ -36,7 +36,7 @@ class EventService {
    * @returns the all events stored on the server
    */
   static async getEvents() {
-    return fetch(getEndpoint('events', 'events'))
+    return fetch(getEndpoint('events', 'events'), { cache: 'no-store' })
       .then((response) => {
         if (response.ok) {
           return response.json();

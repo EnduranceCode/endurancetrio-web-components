@@ -10,19 +10,11 @@ import { Constants } from '../utils/Constants';
 
 class ResultsService {
   /**
-<<<<<<< HEAD
-   * Fetchs the overall results for the given race reference
-   * and sets results for each Age Group present
-   *
-   * @param {String} raceReference The race reference of the desired results
-   * @returns the results of the given race reference
-=======
    * Fetchs the overall results for the given results reference
    * and sets results for each Age Group present.
    *
    * @param {String} resultsReference The results reference of the desired results.
    * @returns the results of the given results reference.
->>>>>>> 2206b3c... Return a message error when the results array is empty
    */
   static async getResultsByReference(raceReference) {
     const apiData = await ResultsService.getResultsByReferenceFromJsonFile(raceReference);
@@ -74,7 +66,7 @@ class ResultsService {
   static async getResultsByReferenceFromJsonFile(raceReference) {
     const url = getEndpoint('results', raceReference);
 
-    return fetch(url)
+    return fetch(url, { cache: 'no-store' })
       .then((response) => {
         if (response.ok) {
           return response.json();
