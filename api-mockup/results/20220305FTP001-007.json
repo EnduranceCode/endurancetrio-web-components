@@ -9,10 +9,67 @@
   "runDistance": "",
   "runLaps": "",
   "actualDate": "2022-03-05",
-  "actualTime": "<ACTUAL_TIME>",
+  "actualTime": "",
   "airTemperature": "",
   "waterTemperature": "",
   "wetSuit": "",
-  "raceReference": "20220305FTP01-007",
-  "results": []
+  "raceReference": "20220305FTP001-007",
+  "results": [
+    {
+      "rank": 1,
+      "raceNumber": "502",
+      "name": "Beatriz Ferreira",
+      "ageGroup": "20-24",
+      "team": "AEISEG",
+      "firstRun": "00:19:59",
+      "t1": "00:00:35",
+      "bike": "00:36:45",
+      "t2": "00:00:55",
+      "secondRun": "00:08:51",
+      "total": "01:07:05",
+      "gap": "00:00:00"
+    },
+    {
+      "rank": 2,
+      "raceNumber": "501",
+      "name": "Joana Tomé",
+      "ageGroup": "20-24",
+      "team": "AEFFUL",
+      "firstRun": "00:20:31",
+      "t1": "00:00:36",
+      "bike": "00:36:47",
+      "t2": "00:01:00",
+      "secondRun": "00:09:23",
+      "total": "01:08:17",
+      "gap": "00:01:12"
+    },
+    {
+      "rank": 3,
+      "raceNumber": "500",
+      "name": "Carolina Boulhosa",
+      "ageGroup": "20-24",
+      "team": "AAUBI",
+      "firstRun": "00:21:51",
+      "t1": "00:00:34",
+      "bike": "00:37:34",
+      "t2": "00:00:47",
+      "secondRun": "00:09:12",
+      "total": "01:09:58",
+      "gap": "00:02:53"
+    },
+    {
+      "rank": 4,
+      "raceNumber": "503",
+      "name": "Sofia Cruz",
+      "ageGroup": "20-24",
+      "team": "AEIST",
+      "firstRun": "00:24:03",
+      "t1": "00:00:42",
+      "bike": "00:39:38",
+      "t2": "00:01:05",
+      "secondRun": "00:10:38",
+      "total": "01:16:06",
+      "gap": "00:09:01"
+    }
+  ]
 }

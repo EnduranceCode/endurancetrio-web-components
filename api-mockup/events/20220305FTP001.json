@@ -40,7 +40,7 @@
   "races": [
     {
       "id": "39",
-      "raceReference": "20220305FTP01-001",
+      "raceReference": "20220305FTP001-001",
       "title": "Campeonato Nacional Individual e Clubes de Duatlo",
       "subtitle": "Femininos",
       "sport": "DUATHLON",
@@ -74,7 +74,7 @@
     },
     {
       "id": "40",
-      "raceReference": "20220305FTP01-002",
+      "raceReference": "20220305FTP001-002",
       "title": "Campeonato Nacional Individual e Clubes de Duatlo",
       "subtitle": "Masculinos",
       "sport": "DUATHLON",
@@ -108,7 +108,7 @@
     },
     {
       "id": "41",
-      "raceReference": "20220305FTP01-007",
+      "raceReference": "20220305FTP001-007",
       "title": "Campeonato Nacional de Desporto Universitário",
       "subtitle": "Femininos",
       "sport": "DUATHLON",
@@ -142,7 +142,7 @@
     },
     {
       "id": "42",
-      "raceReference": "20220305FTP01-008",
+      "raceReference": "20220305FTP001-008",
       "title": "Campeonato Nacional de Desporto Universitário",
       "subtitle": "Masculinos",
       "sport": "DUATHLON",
@@ -150,6 +150,74 @@
       "gender": "FEMALE",
       "ageGroup": "OVERALL",
       "teamRanks": "SIM",
+      "scheduleDate": "2022-03-05",
+      "scheduleTime": "15:00:00",
+      "swimDistance": "",
+      "swimLaps": "",
+      "firstRunDistance": "5150",
+      "firstRunLaps": "2",
+      "cyclingDistance": "20250",
+      "cyclingLaps": "1",
+      "runDistance": "",
+      "runLaps": "",
+      "secondRunDistance": "2500",
+      "secondRunLaps": "1",
+      "actualDate": "2022-03-05",
+      "actualTime": "",
+      "airTemperature": "",
+      "waterTemperature": "",
+      "wetSuit": "",
+      "eventID": "6",
+      "championships": "",
+      "technicalDelegate": "",
+      "headReferee": "",
+      "competitionJury": "",
+      "results": ""
+    },
+    {
+      "id": "43",
+      "raceReference": "20220305FTP001-009",
+      "title": "Prova Aberta",
+      "subtitle": "Femininos",
+      "sport": "DUATHLON",
+      "distanceType": "SPRINT",
+      "gender": "FEMALE",
+      "ageGroup": "OVERALL",
+      "teamRanks": "NÂO",
+      "scheduleDate": "2022-03-05",
+      "scheduleTime": "15:05:00",
+      "swimDistance": "",
+      "swimLaps": "",
+      "firstRunDistance": "5150",
+      "firstRunLaps": "2",
+      "cyclingDistance": "20250",
+      "cyclingLaps": "1",
+      "runDistance": "",
+      "runLaps": "",
+      "secondRunDistance": "2500",
+      "secondRunLaps": "1",
+      "actualDate": "2022-03-05",
+      "actualTime": "",
+      "airTemperature": "",
+      "waterTemperature": "",
+      "wetSuit": "",
+      "eventID": "6",
+      "championships": "",
+      "technicalDelegate": "",
+      "headReferee": "",
+      "competitionJury": "",
+      "results": ""
+    },
+    {
+      "id": "44",
+      "raceReference": "20220305FTP001-010",
+      "title": "Prova Aberta",
+      "subtitle": "Masculinos",
+      "sport": "DUATHLON",
+      "distanceType": "SPRINT",
+      "gender": "FEMALE",
+      "ageGroup": "OVERALL",
+      "teamRanks": "NÂO",
       "scheduleDate": "2022-03-05",
       "scheduleTime": "15:00:00",
       "swimDistance": "",
@@ -181,70 +249,77 @@
       "eventID": "6",
       "title": "Campeonato Nacional Individual e Clubes de Duatlo",
       "subtitle": "Absolutos Femininos",
-      "fileName": "20220305FTP01-001-01.pdf"
+      "fileName": "20220305FTP001-001-01.pdf"
     },
     {
       "id": "59",
       "eventID": "6",
       "title": "Campeonato Nacional Individual e Clubes de Duatlo",
       "subtitle": "Absolutos Masculinos",
-      "fileName": "20220305FTP01-002-01.pdf"
+      "fileName": "20220305FTP001-002-01.pdf"
     },
     {
       "id": "60",
       "eventID": "6",
       "title": "Campeonato Nacional Individual e Clubes de Duatlo",
       "subtitle": "Escalões Femininos",
-      "fileName": "20220305FTP01-003-01.pdf"
+      "fileName": "20220305FTP001-003-01.pdf"
     },
     {
       "id": "61",
       "eventID": "6",
       "title": "Campeonato Nacional Individual e Clubes de Duatlo",
       "subtitle": "Escalões Masculinos",
-      "fileName": "20220305FTP01-004-01.pdf"
+      "fileName": "20220305FTP001-004-01.pdf"
     },
     {
       "id": "62",
       "eventID": "6",
       "title": "Campeonato Nacional Individual e Clubes de Duatlo",
       "subtitle": "Clubes Femininos",
-      "fileName": "20220305FTP01-005-01.pdf"
+      "fileName": "20220305FTP001-005-01.pdf"
     },
     {
       "id": "63",
       "eventID": "6",
       "title": "Campeonato Nacional Individual e Clubes de Duatlo",
       "subtitle": "Clubes Masculinos",
-      "fileName": "20220305FTP01-006-01.pdf"
+      "fileName": "20220305FTP001-006-01.pdf"
     },
     {
       "id": "64",
       "eventID": "6",
       "title": "Campeonato Nacional de Desporto Universitário",
       "subtitle": "Absolutos Femininos",
-      "fileName": "20220305FTP07-001-01.pdf"
+      "fileName": "20220305FTP001-007-01.pdf"
     },
     {
       "id": "65",
       "eventID": "6",
       "title": "Campeonato Nacional de Desporto Universitário",
       "subtitle": "Absolutos Masculinos",
-      "fileName": "20220305FTP08-001-01.pdf"
+      "fileName": "20220305FTP001-008-01.pdf"
     },
     {
       "id": "66",
       "eventID": "6",
-      "title": "Campeonato Nacional de Desporto Universitário",
-      "subtitle": "Universidades Femininos",
-      "fileName": "20220305FTP01-009-01.pdf"
+      "title": "Prova Aberta",
+      "subtitle": "Femininos",
+      "fileName": "20220305FTP001-009-01.pdf"
     },
     {
       "id": "67",
       "eventID": "6",
-      "title": "Campeonato Nacional de Desporto Universitário",
-      "subtitle": "Universidades Masculinos",
-      "fileName": "20220305FTP01-010-01.pdf"
+      "title": "Prova Aberta",
+      "subtitle": "Masculinos",
+      "fileName": "20220305FTP001-010-01.pdf"
+    },
+    {
+      "id": "68",
+      "eventID": "6",
+      "title": "Estafetas",
+      "subtitle": "Masculinos",
+      "fileName": "20220305FTP001-011-01.pdf"
     }
   ]
 }

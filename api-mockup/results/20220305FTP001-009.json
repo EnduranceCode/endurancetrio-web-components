@@ -1,0 +1,33 @@
+{
+  "id": 43,
+  "title": "Prova Aberta",
+  "subtitle": "Femininos",
+  "swimDistance": "",
+  "swimLaps": "",
+  "cynclingDistance": "",
+  "cyclingLaps": "",
+  "runDistance": "",
+  "runLaps": "",
+  "actualDate": "2022-03-05",
+  "actualTime": "",
+  "airTemperature": "",
+  "waterTemperature": "",
+  "wetSuit": "",
+  "raceReference": "20220305FTP001-009",
+  "results": [
+    {
+      "rank": 1,
+      "raceNumber": "5194",
+      "name": "Hanna de Sousa",
+      "ageGroup": "40-44",
+      "team": "Não Federado",
+      "firstRun": "00:20:28",
+      "t1": "00:00:42",
+      "bike": "00:36:07",
+      "t2": "00:00:57",
+      "secondRun": "00:08:55",
+      "total": "01:07:09",
+      "gap": "00:00:00"
+    }
+  ]
+}
