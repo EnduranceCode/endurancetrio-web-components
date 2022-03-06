@@ -1,7 +1,7 @@
 {
-  "name": "endurancetrio-web-components",
-  "version": "1.2.0",
-  "description": "Set of Web Components, built with LitElement, aimed for the EnduranceTrio applications system.",
+  "name": "endurancetrio-race-results",
+  "version": "2.0.0",
+  "description": "Component for race results display",
   "main": "index.js",
   "scripts": {
     "build-dev": "webpack --mode development",
