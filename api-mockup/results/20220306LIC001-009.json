@@ -1,0 +1,30 @@
+{
+  "id": 53,
+  "title": "Campeonato Litoral Interior Centro Jovem",
+  "subtitle": "Cadetes Femininos",
+  "swimDistance": "",
+  "swimLaps": "",
+  "cynclingDistance": "",
+  "cyclingLaps": "",
+  "runDistance": "",
+  "runLaps": "",
+  "actualDate": "2022-03-06",
+  "actualTime": "12:20:00",
+  "airTemperature": "",
+  "waterTemperature": "",
+  "wetSuit": "",
+  "raceReference": "20220306LIC001-009",
+  "results": [
+    {
+      "rank": "1",
+      "licence": "103813",
+      "raceNumber": "1918",
+      "name": "Matilde Moita",
+      "ageGroup": "CAD",
+      "team": "Pedrógão Triatlo",
+      "total": "00:41:54",
+      "gap": "00:00:00",
+      "points": "150"
+    }
+  ]
+}

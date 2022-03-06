@@ -1,0 +1,173 @@
+{
+  "id": 49,
+  "title": "Campeonato Litoral Interior Centro Jovem",
+  "subtitle": "Iniciados Femininos",
+  "swimDistance": "",
+  "swimLaps": "",
+  "cynclingDistance": "",
+  "cyclingLaps": "",
+  "runDistance": "",
+  "runLaps": "",
+  "actualDate": "2022-03-06",
+  "actualTime": "11:00:00",
+  "airTemperature": "",
+  "waterTemperature": "",
+  "wetSuit": "",
+  "raceReference": "20220306LIC001-005",
+  "results": [
+    {
+      "rank": "1",
+      "licence": "103919",
+      "raceNumber": "879",
+      "name": "Francisca Leirião",
+      "ageGroup": "INI",
+      "team": "Clube de Natação de Torres Novas",
+      "total": "00:17:20",
+      "gap": "00:00:00",
+      "points": "150"
+    },
+    {
+      "rank": "2",
+      "licence": "104753",
+      "raceNumber": "96",
+      "name": "Maria Sousa",
+      "ageGroup": "INI",
+      "team": "Pedrógão Triatlo",
+      "total": "00:17:47",
+      "gap": "00:00:27",
+      "points": "140"
+    },
+    {
+      "rank": "3",
+      "licence": "107944",
+      "raceNumber": "695",
+      "name": "Cristina Rilo",
+      "ageGroup": "INI",
+      "team": "Pimpões Triatlo",
+      "total": "00:17:50",
+      "gap": "00:00:30",
+      "points": "130"
+    },
+    {
+      "rank": "4",
+      "licence": "105569",
+      "raceNumber": "5891",
+      "name": "Leonor Gonçalves",
+      "ageGroup": "INI",
+      "team": "Pedrógão Triatlo",
+      "total": "00:18:44",
+      "gap": "00:01:24",
+      "points": "125"
+    },
+    {
+      "rank": "5",
+      "licence": "105589",
+      "raceNumber": "1033",
+      "name": "Matilde Albuquerque",
+      "ageGroup": "INI",
+      "team": "Pedrógão Triatlo",
+      "total": "00:18:55",
+      "gap": "00:01:35",
+      "points": "120"
+    },
+    {
+      "rank": "6",
+      "licence": "108272",
+      "raceNumber": "1022",
+      "name": "Laura Valentim",
+      "ageGroup": "INI",
+      "team": "BEST",
+      "total": "00:19:04",
+      "gap": "00:01:44",
+      "points": "115"
+    },
+    {
+      "rank": "7",
+      "licence": "108236",
+      "raceNumber": "961",
+      "name": "Mariana Lopes",
+      "ageGroup": "INI",
+      "team": "Tramagal Sport União",
+      "total": "00:19:32",
+      "gap": "00:02:12",
+      "points": "110"
+    },
+    {
+      "rank": "8",
+      "licence": "107948",
+      "raceNumber": "703",
+      "name": "Alice Costa",
+      "ageGroup": "INI",
+      "team": "BEST",
+      "total": "00:20:08",
+      "gap": "00:02:48",
+      "points": "108"
+    },
+    {
+      "rank": "9",
+      "licence": "107143",
+      "raceNumber": "867",
+      "name": "Maria Lourenço",
+      "ageGroup": "INI",
+      "team": "Peniche A. C.",
+      "total": "00:20:48",
+      "gap": "00:03:28",
+      "points": "106"
+    },
+    {
+      "rank": "10",
+      "licence": "107926",
+      "raceNumber": "677",
+      "name": "Leonor Santos",
+      "ageGroup": "INI",
+      "team": "Pedrógão Triatlo",
+      "total": "00:21:21",
+      "gap": "00:04:01",
+      "points": "104"
+    },
+    {
+      "rank": "11",
+      "licence": "104751",
+      "raceNumber": "92",
+      "name": "Maria Filipa Sousa",
+      "ageGroup": "INI",
+      "team": "Pedrógão Triatlo",
+      "total": "00:21:22",
+      "gap": "00:04:02",
+      "points": "102"
+    },
+    {
+      "rank": "12",
+      "licence": "107579",
+      "raceNumber": "258",
+      "name": "Margarida Calhau",
+      "ageGroup": "INI",
+      "team": "BEST",
+      "total": "00:22:08",
+      "gap": "00:04:48",
+      "points": "100"
+    },
+    {
+      "rank": "13",
+      "licence": "107695",
+      "raceNumber": "5876",
+      "name": "Mariana Franco",
+      "ageGroup": "INI",
+      "team": "BEST",
+      "total": "00:22:09",
+      "gap": "00:04:49",
+      "points": "98"
+    },
+    {
+      "rank": "14",
+      "licence": "107947",
+      "raceNumber": "701",
+      "name": "Diana Bernardes",
+      "ageGroup": "INI",
+      "team": "BEST",
+      "total": "00:24:11",
+      "gap": "00:06:51",
+      "points": "96"
+    }
+  ]
+}

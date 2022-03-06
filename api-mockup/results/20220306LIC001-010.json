@@ -1,0 +1,63 @@
+{
+  "id": 54,
+  "title": "Campeonato Litoral Interior Centro Jovem",
+  "subtitle": "Cadetes Masculinos",
+  "swimDistance": "",
+  "swimLaps": "",
+  "cynclingDistance": "",
+  "cyclingLaps": "",
+  "runDistance": "",
+  "runLaps": "",
+  "actualDate": "2022-03-06",
+  "actualTime": "12:20:00",
+  "airTemperature": "",
+  "waterTemperature": "",
+  "wetSuit": "",
+  "raceReference": "20220306LIC001-010",
+  "results": [
+    {
+      "rank": "1",
+      "licence": "102822",
+      "raceNumber": "1509",
+      "name": "Duarte Moreira",
+      "ageGroup": "CAD",
+      "team": "FET-Fátima Escola de Triatlo",
+      "total": "00:32:48",
+      "gap": "00:00:00",
+      "points": "150"
+    },
+    {
+      "rank": "2",
+      "licence": "102362",
+      "raceNumber": "1823",
+      "name": "Vasco Santos",
+      "ageGroup": "CAD",
+      "team": "Pedrógão Triatlo",
+      "total": "00:34:56",
+      "gap": "00:02:08",
+      "points": "140"
+    },
+    {
+      "rank": "3",
+      "licence": "106402",
+      "raceNumber": "1891",
+      "name": "Rafael Assis",
+      "ageGroup": "CAD",
+      "team": "Pimpões Triatlo",
+      "total": "00:37:24",
+      "gap": "00:04:36",
+      "points": "130"
+    },
+    {
+      "rank": "4",
+      "licence": "101574",
+      "raceNumber": "1822",
+      "name": "Afonso Mourão",
+      "ageGroup": "CAD",
+      "team": "Pedrógão Triatlo",
+      "total": "00:38:30",
+      "gap": "00:05:42",
+      "points": "125"
+    }
+  ]
+}

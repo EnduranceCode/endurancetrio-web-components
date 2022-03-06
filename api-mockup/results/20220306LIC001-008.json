@@ -1,0 +1,173 @@
+{
+  "id": 52,
+  "title": "Campeonato Litoral Interior Centro Jovem",
+  "subtitle": "Juvenis Masculinos",
+  "swimDistance": "",
+  "swimLaps": "",
+  "cynclingDistance": "",
+  "cyclingLaps": "",
+  "runDistance": "",
+  "runLaps": "",
+  "actualDate": "2022-03-06",
+  "actualTime": "11:30:00",
+  "airTemperature": "",
+  "waterTemperature": "",
+  "wetSuit": "",
+  "raceReference": "20220306LIC001-008",
+  "results": [
+    {
+      "rank": "1",
+      "licence": "103366",
+      "raceNumber": "272",
+      "name": "Dinis Ferreira",
+      "ageGroup": "JUV",
+      "team": "Clube de Natação de Torres Novas",
+      "total": "00:26:12",
+      "gap": "00:00:00",
+      "points": "150"
+    },
+    {
+      "rank": "2",
+      "licence": "101594",
+      "raceNumber": "663",
+      "name": "Francisco Carvalho",
+      "ageGroup": "JUV",
+      "team": "Clube de Natação de Torres Novas",
+      "total": "00:26:46",
+      "gap": "00:00:34",
+      "points": "140"
+    },
+    {
+      "rank": "3",
+      "licence": "102643",
+      "raceNumber": "255",
+      "name": "Guilherme Neves",
+      "ageGroup": "JUV",
+      "team": "Pedrógão Triatlo",
+      "total": "00:28:19",
+      "gap": "00:02:07",
+      "points": "130"
+    },
+    {
+      "rank": "4",
+      "licence": "102636",
+      "raceNumber": "249",
+      "name": "Dinis Carvalhinho",
+      "ageGroup": "JUV",
+      "team": "Pimpões Triatlo",
+      "total": "00:28:43",
+      "gap": "00:02:31",
+      "points": "125"
+    },
+    {
+      "rank": "5",
+      "licence": "103909",
+      "raceNumber": "844",
+      "name": "Mateus Nascimento",
+      "ageGroup": "JUV",
+      "team": "Clube de Natação de Torres Novas",
+      "total": "00:29:26",
+      "gap": "00:03:14",
+      "points": "120"
+    },
+    {
+      "rank": "6",
+      "licence": "104433",
+      "raceNumber": "548",
+      "name": "Simão Vieira",
+      "ageGroup": "JUV",
+      "team": "Pedrógão Triatlo",
+      "total": "00:31:22",
+      "gap": "00:05:10",
+      "points": "115"
+    },
+    {
+      "rank": "7",
+      "licence": "108235",
+      "raceNumber": "960",
+      "name": "João Gabriel Lopes",
+      "ageGroup": "JUV",
+      "team": "Tramagal Sport União",
+      "total": "00:31:48",
+      "gap": "00:05:36",
+      "points": "110"
+    },
+    {
+      "rank": "8",
+      "licence": "106269",
+      "raceNumber": "1280",
+      "name": "António Leão",
+      "ageGroup": "JUV",
+      "team": "Pedrógão Triatlo",
+      "total": "00:32:11",
+      "gap": "00:05:59",
+      "points": "108"
+    },
+    {
+      "rank": "9",
+      "licence": "104910",
+      "raceNumber": "75",
+      "name": "Diogo Cabral",
+      "ageGroup": "JUV",
+      "team": "Clube 4 Estilos",
+      "total": "00:33:15",
+      "gap": "00:07:03",
+      "points": "106"
+    },
+    {
+      "rank": "10",
+      "licence": "107144",
+      "raceNumber": "869",
+      "name": "Martin Lourenço",
+      "ageGroup": "JUV",
+      "team": "Peniche A. C.",
+      "total": "00:34:37",
+      "gap": "00:08:25",
+      "points": "104"
+    },
+    {
+      "rank": "11",
+      "licence": "102147",
+      "raceNumber": "857",
+      "name": "Francisco Frazão",
+      "ageGroup": "JUV",
+      "team": "FET-Fátima Escola de Triatlo",
+      "total": "00:34:45",
+      "gap": "00:08:33",
+      "points": "102"
+    },
+    {
+      "rank": "12",
+      "licence": "108221",
+      "raceNumber": "928",
+      "name": "Simão Menezes",
+      "ageGroup": "JUV",
+      "team": "FET-Fátima Escola de Triatlo",
+      "total": "00:37:38",
+      "gap": "00:11:26",
+      "points": "100"
+    },
+    {
+      "rank": "13",
+      "licence": "106238",
+      "raceNumber": "1273",
+      "name": "Gonçalo Nogueira",
+      "ageGroup": "JUV",
+      "team": "Clube Triatlo de Abrantes",
+      "total": "00:37:41",
+      "gap": "00:11:29",
+      "points": "98"
+    },
+    {
+      "rank": "14",
+      "licence": "EXTRA",
+      "raceNumber": "5886",
+      "name": "Manuel Carvalho",
+      "ageGroup": "JUV",
+      "team": "X Não Federado",
+      "total": "00:42:23",
+      "gap": "00:16:11",
+      "points": ""
+    }
+  ]
+}

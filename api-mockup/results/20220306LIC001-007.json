@@ -1,0 +1,85 @@
+{
+  "id": 51,
+  "title": "Campeonato Litoral Interior Centro Jovem",
+  "subtitle": "Juvenis Femininos",
+  "swimDistance": "",
+  "swimLaps": "",
+  "cynclingDistance": "",
+  "cyclingLaps": "",
+  "runDistance": "",
+  "runLaps": "",
+  "actualDate": "2022-03-06",
+  "actualTime": "11:30:00",
+  "airTemperature": "",
+  "waterTemperature": "",
+  "wetSuit": "",
+  "raceReference": "20220306LIC001-007",
+  "results": [
+    {
+      "rank": "1",
+      "licence": "103512",
+      "raceNumber": "371",
+      "name": "Sara Realinho",
+      "ageGroup": "JUV",
+      "team": "Clube 4 Estilos",
+      "total": "00:30:48",
+      "gap": "00:00:00",
+      "points": "150"
+    },
+    {
+      "rank": "2",
+      "licence": "103668",
+      "raceNumber": "602",
+      "name": "Inês Azeitona",
+      "ageGroup": "JUV",
+      "team": "Clube 4 Estilos",
+      "total": "00:31:43",
+      "gap": "00:00:55",
+      "points": "140"
+    },
+    {
+      "rank": "3",
+      "licence": "102881",
+      "raceNumber": "567",
+      "name": "Júlia Marques",
+      "ageGroup": "JUV",
+      "team": "Clube de Natação de Torres Novas",
+      "total": "00:33:22",
+      "gap": "00:02:34",
+      "points": "130"
+    },
+    {
+      "rank": "4",
+      "licence": "103667",
+      "raceNumber": "600",
+      "name": "Matilde Bilé",
+      "ageGroup": "JUV",
+      "team": "Clube 4 Estilos",
+      "total": "00:35:24",
+      "gap": "00:04:36",
+      "points": "125"
+    },
+    {
+      "rank": "5",
+      "licence": "105250",
+      "raceNumber": "858",
+      "name": "Noa Araújo",
+      "ageGroup": "JUV",
+      "team": "Pedrógão Triatlo",
+      "total": "00:38:36",
+      "gap": "00:07:48",
+      "points": "120"
+    },
+    {
+      "rank": "6",
+      "licence": "108106",
+      "raceNumber": "5802",
+      "name": "Beatriz Mourão",
+      "ageGroup": "JUV",
+      "team": "Pedrógão Triatlo",
+      "total": "00:44:52",
+      "gap": "00:14:04",
+      "points": "115"
+    }
+  ]
+}
