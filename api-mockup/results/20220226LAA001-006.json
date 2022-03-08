@@ -314,6 +314,17 @@
     },
     {
       "rank": "28",
+      "licence": "EXTRA",
+      "raceNumber": "441",
+      "name": "Francisco MIranda",
+      "ageGroup": "INI",
+      "team": "X Não Federado",
+      "total": "00:20:45",
+      "gap": "00:03:38",
+      "points": ""
+    },
+    {
+      "rank": "29",
       "licence": "104206",
       "raceNumber": "266",
       "name": "Duarte Pinho",
@@ -324,7 +335,7 @@
       "points": "75"
     },
     {
-      "rank": "29",
+      "rank": "30",
       "licence": "108050",
       "raceNumber": "780",
       "name": "João Lucas Carvalho",
@@ -335,7 +346,7 @@
       "points": "74"
     },
     {
-      "rank": "30",
+      "rank": "31",
       "licence": "EXTRA",
       "raceNumber": "8036",
       "name": "João Nascimento",
@@ -346,7 +357,7 @@
       "points": ""
     },
     {
-      "rank": "31",
+      "rank": "32",
       "licence": "104198",
       "raceNumber": "246",
       "name": "Tiago Ferreira",
@@ -357,7 +368,7 @@
       "points": "73"
     },
     {
-      "rank": "32",
+      "rank": "33",
       "licence": "105872",
       "raceNumber": "1086",
       "name": "Rodrigo Gato",
@@ -368,7 +379,7 @@
       "points": "72"
     },
     {
-      "rank": "33",
+      "rank": "34",
       "licence": "104184",
       "raceNumber": "201",
       "name": "Luis Filipe",
@@ -379,7 +390,7 @@
       "points": "71"
     },
     {
-      "rank": "34",
+      "rank": "35",
       "licence": "108245",
       "raceNumber": "970",
       "name": "Rui Pedro",
@@ -390,7 +401,7 @@
       "points": "70"
     },
     {
-      "rank": "35",
+      "rank": "36",
       "licence": "106417",
       "raceNumber": "1418",
       "name": "Gabriel Delgado",
@@ -401,7 +412,7 @@
       "points": "69"
     },
     {
-      "rank": "36",
+      "rank": "37",
       "licence": "104166",
       "raceNumber": "8203",
       "name": "Samuel Parisot",
@@ -412,7 +423,7 @@
       "points": "68"
     },
     {
-      "rank": "37",
+      "rank": "38",
       "licence": "107111",
       "raceNumber": "823",
       "name": "Diogo Ferreira Santos",
@@ -423,7 +434,7 @@
       "points": "67"
     },
     {
-      "rank": "38",
+      "rank": "39",
       "licence": "EXTRA",
       "raceNumber": "719",
       "name": "Rafael Costa",
@@ -434,7 +445,7 @@
       "points": ""
     },
     {
-      "rank": "39",
+      "rank": "40",
       "licence": "105088",
       "raceNumber": "409",
       "name": "Francisco Barreiro",
@@ -445,7 +456,7 @@
       "points": "66"
     },
     {
-      "rank": "40",
+      "rank": "41",
       "licence": "104164",
       "raceNumber": "134",
       "name": "Edson Tavares",
@@ -456,7 +467,7 @@
       "points": "65"
     },
     {
-      "rank": "41",
+      "rank": "42",
       "licence": "106727",
       "raceNumber": "225",
       "name": "Luis Antonio",
@@ -467,7 +478,7 @@
       "points": "64"
     },
     {
-      "rank": "42",
+      "rank": "43",
       "licence": "106726",
       "raceNumber": "222",
       "name": "João Antonio",

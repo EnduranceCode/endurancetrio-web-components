@@ -139,6 +139,17 @@
     {
       "rank": 12,
       "licence": "EXTRA",
+      "raceNumber": "1107",
+      "name": "Samuel Vitorino",
+      "ageGroup": "BEN",
+      "team": "X Não Federado",
+      "total": "00:09:45",
+      "gap": "00:01:46",
+      "points": ""
+    },
+    {
+      "rank": 13,
+      "licence": "EXTRA",
       "raceNumber": "5855",
       "name": "António da Luz",
       "ageGroup": "BEN",
@@ -148,7 +159,7 @@
       "points": ""
     },
     {
-      "rank": 13,
+      "rank": 14,
       "licence": "107195",
       "raceNumber": "949",
       "name": "Manuel Sardinha",
@@ -159,7 +170,7 @@
       "points": "106"
     },
     {
-      "rank": 14,
+      "rank": 15,
       "licence": "EXTRA",
       "raceNumber": "213",
       "name": "Miguel Rebola",
@@ -170,7 +181,7 @@
       "points": ""
     },
     {
-      "rank": 15,
+      "rank": 16,
       "licence": "108387",
       "raceNumber": "655",
       "name": "João Moita",
@@ -181,7 +192,7 @@
       "points": "104"
     },
     {
-      "rank": 16,
+      "rank": 17,
       "licence": "107580",
       "raceNumber": "261",
       "name": "Miguel Maduro",
@@ -192,7 +203,7 @@
       "points": "102"
     },
     {
-      "rank": 17,
+      "rank": 18,
       "licence": "107907",
       "raceNumber": "648",
       "name": "Tomás Vieira",
@@ -203,7 +214,7 @@
       "points": "100"
     },
     {
-      "rank": 18,
+      "rank": 19,
       "licence": "108105",
       "raceNumber": "5808",
       "name": "Tiago Vicente",
@@ -214,7 +225,7 @@
       "points": "98"
     },
     {
-      "rank": 19,
+      "rank": 20,
       "licence": "106820",
       "raceNumber": "391",
       "name": "Duarte Felicio",
@@ -225,7 +236,7 @@
       "points": "96"
     },
     {
-      "rank": 20,
+      "rank": 21,
       "licence": "108171",
       "raceNumber": "868",
       "name": "Mikhail Pryshchepa",
@@ -236,7 +247,7 @@
       "points": "94"
     },
     {
-      "rank": 21,
+      "rank": 22,
       "licence": "EXTRA",
       "raceNumber": "5812",
       "name": "Henrique Poupino",
@@ -247,7 +258,7 @@
       "points": ""
     },
     {
-      "rank": 22,
+      "rank": 23,
       "licence": "107071",
       "raceNumber": "746",
       "name": "Pedro Afonso Ferreira",

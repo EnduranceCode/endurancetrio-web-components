@@ -105,17 +105,6 @@
     },
     {
       "rank": "9",
-      "licence": "EXTRA",
-      "raceNumber": "441",
-      "name": "Francisco MIranda",
-      "ageGroup": "INI",
-      "team": "X Não Federado",
-      "total": "00:20:45",
-      "gap": "00:03:38",
-      "points": ""
-    },
-    {
-      "rank": "10",
       "licence": "106343",
       "raceNumber": "1396",
       "name": "Gabriela Ribeiro",
@@ -126,7 +115,7 @@
       "points": "106"
     },
     {
-      "rank": "11",
+      "rank": "10",
       "licence": "104447",
       "raceNumber": "561",
       "name": "Catarina Silva",
@@ -137,7 +126,7 @@
       "points": "104"
     },
     {
-      "rank": "12",
+      "rank": "11",
       "licence": "106876",
       "raceNumber": "527",
       "name": "Matilde Pais",
@@ -148,7 +137,7 @@
       "points": "102"
     },
     {
-      "rank": "13",
+      "rank": "12",
       "licence": "107208",
       "raceNumber": "955",
       "name": "Andreia Stancu",
@@ -159,7 +148,7 @@
       "points": "100"
     },
     {
-      "rank": "14",
+      "rank": "13",
       "licence": "107022",
       "raceNumber": "707",
       "name": "Milena Melim",
@@ -170,7 +159,7 @@
       "points": "98"
     },
     {
-      "rank": "15",
+      "rank": "14",
       "licence": "106413",
       "raceNumber": "1414",
       "name": "Carolina Santos",
@@ -181,7 +170,7 @@
       "points": "96"
     },
     {
-      "rank": "16",
+      "rank": "15",
       "licence": "EXTRA",
       "raceNumber": "871",
       "name": "Helena Lachman",
@@ -192,7 +181,7 @@
       "points": ""
     },
     {
-      "rank": "17",
+      "rank": "16",
       "licence": "106877",
       "raceNumber": "528",
       "name": "Francisca Moreira",
@@ -203,7 +192,7 @@
       "points": "94"
     },
     {
-      "rank": "18",
+      "rank": "17",
       "licence": "106753",
       "raceNumber": "259",
       "name": "Soraia Sobral Lobato",
@@ -214,7 +203,7 @@
       "points": "92"
     },
     {
-      "rank": "19",
+      "rank": "18",
       "licence": "106401",
       "raceNumber": "1405",
       "name": "Mel Vasconcelos",
@@ -225,7 +214,7 @@
       "points": "90"
     },
     {
-      "rank": "20",
+      "rank": "19",
       "licence": "106414",
       "raceNumber": "1415",
       "name": "Beatrice Mazilu",
@@ -236,7 +225,7 @@
       "points": "88"
     },
     {
-      "rank": "21",
+      "rank": "20",
       "licence": "EXTRA",
       "raceNumber": "873",
       "name": "Luna de Sousa",
@@ -247,7 +236,7 @@
       "points": ""
     },
     {
-      "rank": "22",
+      "rank": "21",
       "licence": "107568",
       "raceNumber": "244",
       "name": "Camila Franco",
@@ -258,7 +247,7 @@
       "points": "86"
     },
     {
-      "rank": "23",
+      "rank": "22",
       "licence": "106724",
       "raceNumber": "217",
       "name": "Sofia Alexandra Pereira",
@@ -269,7 +258,7 @@
       "points": "84"
     },
     {
-      "rank": "24",
+      "rank": "23",
       "licence": "107491",
       "raceNumber": "127",
       "name": "Margarida Barros",
@@ -280,7 +269,7 @@
       "points": "82"
     },
     {
-      "rank": "25",
+      "rank": "24",
       "licence": "106725",
       "raceNumber": "8201",
       "name": "Maria Rufino",
@@ -291,7 +280,7 @@
       "points": "80"
     },
     {
-      "rank": "26",
+      "rank": "25",
       "licence": "108368",
       "raceNumber": "70",
       "name": "Diana Stashkevych",
@@ -302,7 +291,7 @@
       "points": "78"
     },
     {
-      "rank": "27",
+      "rank": "26",
       "licence": "104299",
       "raceNumber": "414",
       "name": "Mafalda Cabrita",

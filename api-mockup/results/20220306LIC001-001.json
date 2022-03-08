@@ -61,17 +61,6 @@
     },
     {
       "rank": 5,
-      "licence": "EXTRA",
-      "raceNumber": "1107",
-      "name": "Samuel Vitorino",
-      "ageGroup": "BEN",
-      "team": "X Não Federado",
-      "total": "00:09:45",
-      "gap": "00:01:46",
-      "points": ""
-    },
-    {
-      "rank": 6,
       "licence": "107224",
       "raceNumber": "999",
       "name": "Vitória Duque",
@@ -82,7 +71,7 @@
       "points": "125"
     },
     {
-      "rank": 7,
+      "rank": 6,
       "licence": "108228",
       "raceNumber": "956",
       "name": "Maria Inês Rodrigues",
@@ -93,7 +82,7 @@
       "points": "120"
     },
     {
-      "rank": 8,
+      "rank": 7,
       "licence": "107951",
       "raceNumber": "710",
       "name": "Joana Madeira",
@@ -104,7 +93,7 @@
       "points": "115"
     },
     {
-      "rank": 9,
+      "rank": 8,
       "licence": "107294",
       "raceNumber": "1202",
       "name": "Camila Coutinho",
@@ -115,7 +104,7 @@
       "points": "110"
     },
     {
-      "rank": 10,
+      "rank": 9,
       "licence": "107146",
       "raceNumber": "888",
       "name": "Sofia Santos",
@@ -126,7 +115,7 @@
       "points": "108"
     },
     {
-      "rank": 11,
+      "rank": 10,
       "licence": "107672",
       "raceNumber": "311",
       "name": "Sofia Ferreira",
@@ -137,7 +126,7 @@
       "points": "106"
     },
     {
-      "rank": 12,
+      "rank": 11,
       "licence": "107821",
       "raceNumber": "470",
       "name": "Sara Chamiço",
@@ -148,7 +137,7 @@
       "points": "104"
     },
     {
-      "rank": 13,
+      "rank": 12,
       "licence": "107526",
       "raceNumber": "159",
       "name": "Maria Inês Bilé",
@@ -159,7 +148,7 @@
       "points": "102"
     },
     {
-      "rank": 14,
+      "rank": 13,
       "licence": "107824",
       "raceNumber": "474",
       "name": "Beatriz Maia",
@@ -170,7 +159,7 @@
       "points": "100"
     },
     {
-      "rank": 15,
+      "rank": 14,
       "licence": "107946",
       "raceNumber": "700",
       "name": "Laura Coelho",
@@ -181,7 +170,7 @@
       "points": "98"
     },
     {
-      "rank": 16,
+      "rank": 15,
       "licence": "107927",
       "raceNumber": "680",
       "name": "Carolina Semeão",
@@ -192,7 +181,7 @@
       "points": "96"
     },
     {
-      "rank": 17,
+      "rank": 16,
       "licence": "EXTRA",
       "raceNumber": "5894",
       "name": "Sofia Mafra",
@@ -203,7 +192,7 @@
       "points": ""
     },
     {
-      "rank": 18,
+      "rank": 17,
       "licence": "108343",
       "raceNumber": "1122",
       "name": "Leonor Nazário",
@@ -214,7 +203,7 @@
       "points": "94"
     },
     {
-      "rank": 19,
+      "rank": 18,
       "licence": "EXTRA",
       "raceNumber": "776",
       "name": "Diana Brito",
@@ -225,7 +214,7 @@
       "points": ""
     },
     {
-      "rank": 20,
+      "rank": 19,
       "licence": "107936",
       "raceNumber": "5840",
       "name": "Franccesca Arrieta",
