@@ -96,5 +96,61 @@
     "organizers": [],
     "races": [],
     "resultsFiles": []
+  },
+  {
+    "id": "8",
+    "eventReference": "20220312RDN001",
+    "title": "Duatlo de São José 2022",
+    "startDate": "2022-03-12",
+    "endDate": "2022-03-12",
+    "city": "Póvoa de Lanhoso",
+    "county": "Póvoa de Lanhoso",
+    "district": "Braga",
+    "eventFiles": [],
+    "organizers": [],
+    "races": [],
+    "resultsFiles": []
+  },
+  {
+    "id": "9",
+    "eventReference": "20220312LAA001",
+    "title": "Duatlo Jovem de Santo André",
+    "startDate": "2022-03-12",
+    "endDate": "2022-03-12",
+    "city": "Vila Nova de Santo André",
+    "county": "Santiago do Cacém",
+    "district": "Setúbal",
+    "eventFiles": [],
+    "organizers": [],
+    "races": [],
+    "resultsFiles": []
+  },
+  {
+    "id": "10",
+    "eventReference": "20220312FTP001",
+    "title": "Triatlo Montemor-o-Velho ",
+    "startDate": "2022-03-12",
+    "endDate": "2022-03-12",
+    "city": "Montemor-o-Velho",
+    "county": "Montemor-o-Velho",
+    "district": "Coimbra",
+    "eventFiles": [],
+    "organizers": [],
+    "races": [],
+    "resultsFiles": []
+  },
+  {
+    "id": "11",
+    "eventReference": "20220313FTP001",
+    "title": "VI Duatlo de Vila Nova de Cerveira",
+    "startDate": "2022-03-13",
+    "endDate": "2022-03-13",
+    "city": "Vila Nova de Cerveira",
+    "county": "Vila Nova de Cerveira",
+    "district": "Viana do Castelo",
+    "eventFiles": [],
+    "organizers": [],
+    "races": [],
+    "resultsFiles": []
   }
 ]

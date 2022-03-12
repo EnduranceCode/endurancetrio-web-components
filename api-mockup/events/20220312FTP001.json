@@ -1,0 +1,154 @@
+{
+  "id": "10",
+  "eventReference": "20220312FTP001",
+  "title": "Triatlo Montemor-o-Velho ",
+  "startDate": "2022-03-12",
+  "endDate": "2022-03-12",
+  "city": "Montemor-o-Velho",
+  "county": "Montemor-o-Velho",
+  "district": "Coimbra",
+  "eventFiles": [
+    {
+      "id": "36",
+      "eventID": "10",
+      "title": "Regulamento",
+      "revision": "1",
+      "active": "SIM",
+      "filename": "20220312FTP001-REG001-01.pdf",
+      "fileType": "RULES"
+    },
+    {
+      "id": "37",
+      "eventID": "10",
+      "title": "Percursos",
+      "revision": "1",
+      "active": "SIM",
+      "filename": "20220312FTP001-MAP001-01.pdf",
+      "fileType": "COURSE_MAPS"
+    },
+    {
+      "id": "38",
+      "eventID": "10",
+      "title": "Cartaz",
+      "revision": "1",
+      "active": "SIM",
+      "filename": "20220312FTP001-IMG001-01.png",
+      "fileType": "COVER_IMAGE"
+    }
+  ],
+  "organizers": [],
+  "races": [
+    {
+      "id": "77",
+      "eventID": "10",
+      "raceReference": "20220312FTP001-001",
+      "title": "Prova de Apuramento Youth",
+      "subtitle": "Femininos",
+      "sport": "TRIATHLON",
+      "distanceType": "SUPER_SPRINT",
+      "gender": "MALE",
+      "ageGroup": "OVERALL",
+      "teamRanks": "NÂO",
+      "scheduleDate": "2022-03-12",
+      "scheduleTime": "15:00:00",
+      "swimDistance": "300",
+      "swimLaps": "1",
+      "firstRunDistance": "",
+      "firstRunLaps": "",
+      "cyclingDistance": "8000",
+      "cyclingLaps": "1",
+      "runDistance": "2000",
+      "runLaps": "1",
+      "secondRunDistance": "",
+      "secondRunLaps": "",
+      "actualDate": "",
+      "actualTime": "",
+      "airTemperature": "",
+      "waterTemperature": "",
+      "wetSuit": "",
+      "championships": "",
+      "technicalDelegate": "",
+      "headReferee": "",
+      "competitionJury": "",
+      "results": ""
+    },
+    {
+      "id": "78",
+      "eventID": "10",
+      "raceReference": "20220312FTP001-002",
+      "title": "Prova de Apuramento Youth",
+      "subtitle": "Masculinos",
+      "sport": "TRIATHLON",
+      "distanceType": "SUPER_SPRINT",
+      "gender": "FEMALE",
+      "ageGroup": "OVERALL",
+      "teamRanks": "NÂO",
+      "scheduleDate": "2022-03-12",
+      "scheduleTime": "15:10:00",
+      "swimDistance": "300",
+      "swimLaps": "1",
+      "firstRunDistance": "",
+      "firstRunLaps": "",
+      "cyclingDistance": "8000",
+      "cyclingLaps": "1",
+      "runDistance": "2000",
+      "runLaps": "1",
+      "secondRunDistance": "",
+      "secondRunLaps": "",
+      "actualDate": "",
+      "actualTime": "",
+      "airTemperature": "",
+      "waterTemperature": "",
+      "wetSuit": "",
+      "championships": "",
+      "technicalDelegate": "",
+      "headReferee": "",
+      "competitionJury": "",
+      "results": ""
+    }
+  ],
+  "resultsFiles": [
+    {
+      "id": "104",
+      "eventID": "10",
+      "title": "Prova de Apuramento Youth",
+      "subtitle": "Femininos",
+      "fileName": "20220312FTP001-001-01.pdf"
+    },
+    {
+      "id": "105",
+      "eventID": "10",
+      "title": "Prova de Apuramento Youth",
+      "subtitle": "Masculinos",
+      "fileName": "20220312FTP001-002-01.pdf"
+    },
+    {
+      "id": "106",
+      "eventID": "10",
+      "title": "Campeonato Nacional de Clubes de Duatlo",
+      "subtitle": "Femininos",
+      "fileName": "20220313FTP001-001-01.pdf"
+    },
+    {
+      "id": "107",
+      "eventID": "10",
+      "title": "Campeonato Nacional de Clubes de Duatlo",
+      "subtitle": "Masculinos",
+      "fileName": "20220313FTP001-002-01.pdf"
+    },
+    {
+      "id": "108",
+      "eventID": "10",
+      "title": "Prova Aberta",
+      "subtitle": "Femininos",
+      "fileName": "20220313FTP001-003-01.pdf"
+    },
+    {
+      "id": "109",
+      "eventID": "10",
+      "title": "Prova Aberta",
+      "subtitle": "Masculinos",
+      "fileName": "20220313FTP001-004-01.pdf"
+    }
+  ]
+}
