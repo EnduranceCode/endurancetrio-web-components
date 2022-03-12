@@ -49,6 +49,7 @@
   "races": [
     {
       "id": "27",
+      "eventID": "5",
       "raceReference": "20220227LIC001-001",
       "title": "Campeonato Litoral Interior Centro Jovem",
       "subtitle": "Benjamins Femininos",
@@ -74,7 +75,6 @@
       "airTemperature": "",
       "waterTemperature": "",
       "wetSuit": "",
-      "eventID": "5",
       "championships": "",
       "technicalDelegate": "",
       "headReferee": "",
@@ -83,6 +83,7 @@
     },
     {
       "id": "28",
+      "eventID": "5",
       "raceReference": "20220227LIC001-002",
       "title": "Campeonato Litoral Interior Centro Jovem",
       "subtitle": "Benjamins Masculinos",
@@ -108,7 +109,6 @@
       "airTemperature": "",
       "waterTemperature": "",
       "wetSuit": "",
-      "eventID": "5",
       "championships": "",
       "technicalDelegate": "",
       "headReferee": "",
@@ -117,6 +117,7 @@
     },
     {
       "id": "29",
+      "eventID": "5",
       "raceReference": "20220227LIC001-003",
       "title": "Campeonato Litoral Interior Centro Jovem",
       "subtitle": "Infantis Femininos",
@@ -142,7 +143,6 @@
       "airTemperature": "",
       "waterTemperature": "",
       "wetSuit": "",
-      "eventID": "5",
       "championships": "",
       "technicalDelegate": "",
       "headReferee": "",
@@ -151,6 +151,7 @@
     },
     {
       "id": "30",
+      "eventID": "5",
       "raceReference": "20220227LIC001-004",
       "title": "Campeonato Litoral Interior Centro Jovem",
       "subtitle": "Infantis Masculinos",
@@ -176,7 +177,6 @@
       "airTemperature": "",
       "waterTemperature": "",
       "wetSuit": "",
-      "eventID": "5",
       "championships": "",
       "technicalDelegate": "",
       "headReferee": "",
@@ -185,6 +185,7 @@
     },
     {
       "id": "31",
+      "eventID": "5",
       "raceReference": "20220227LIC001-005",
       "title": "Campeonato Litoral Interior Centro Jovem",
       "subtitle": "Iniciados Femininos",
@@ -210,7 +211,6 @@
       "airTemperature": "",
       "waterTemperature": "",
       "wetSuit": "",
-      "eventID": "5",
       "championships": "",
       "technicalDelegate": "",
       "headReferee": "",
@@ -219,6 +219,7 @@
     },
     {
       "id": "32",
+      "eventID": "5",
       "raceReference": "20220227LIC001-006",
       "title": "Campeonato Litoral Interior Centro Jovem",
       "subtitle": "Iniciados Masculinos",
@@ -244,7 +245,6 @@
       "airTemperature": "",
       "waterTemperature": "",
       "wetSuit": "",
-      "eventID": "5",
       "championships": "",
       "technicalDelegate": "",
       "headReferee": "",
@@ -253,6 +253,7 @@
     },
     {
       "id": "33",
+      "eventID": "5",
       "raceReference": "20220227LIC001-007",
       "title": "Campeonato Litoral Interior Centro Jovem",
       "subtitle": "Juvenis Femininos",
@@ -278,7 +279,6 @@
       "airTemperature": "",
       "waterTemperature": "",
       "wetSuit": "",
-      "eventID": "5",
       "championships": "",
       "technicalDelegate": "",
       "headReferee": "",
@@ -287,6 +287,7 @@
     },
     {
       "id": "34",
+      "eventID": "5",
       "raceReference": "20220227LIC001-008",
       "title": "Campeonato Litoral Interior Centro Jovem",
       "subtitle": "Juvenis Masculinos",
@@ -312,7 +313,6 @@
       "airTemperature": "",
       "waterTemperature": "",
       "wetSuit": "",
-      "eventID": "5",
       "championships": "",
       "technicalDelegate": "",
       "headReferee": "",
@@ -321,6 +321,7 @@
     },
     {
       "id": "35",
+      "eventID": "5",
       "raceReference": "20220227LIC001-009",
       "title": "Campeonato Litoral Interior Centro Jovem",
       "subtitle": "Cadetes Femininos",
@@ -346,7 +347,6 @@
       "airTemperature": "",
       "waterTemperature": "",
       "wetSuit": "",
-      "eventID": "5",
       "championships": "",
       "technicalDelegate": "",
       "headReferee": "",
@@ -355,6 +355,7 @@
     },
     {
       "id": "36",
+      "eventID": "5",
       "raceReference": "20220227LIC001-010",
       "title": "Campeonato Litoral Interior Centro Jovem",
       "subtitle": "Cadetes Masculinos",
@@ -380,7 +381,6 @@
       "airTemperature": "",
       "waterTemperature": "",
       "wetSuit": "",
-      "eventID": "5",
       "championships": "",
       "technicalDelegate": "",
       "headReferee": "",
@@ -389,7 +389,8 @@
     },
     {
       "id": "37",
-      "raceReference": "20220227LIC001-012",
+      "eventID": "5",
+      "raceReference": "20220227LIC001-011",
       "title": "Campeonato Litoral Interior Centro Absoluto",
       "subtitle": "Femininos",
       "sport": "DUATHLON",
@@ -414,7 +415,6 @@
       "airTemperature": "",
       "waterTemperature": "",
       "wetSuit": "",
-      "eventID": "5",
       "championships": "",
       "technicalDelegate": "",
       "headReferee": "",
@@ -423,7 +423,8 @@
     },
     {
       "id": "38",
-      "raceReference": "20220227LIC001-013",
+      "eventID": "5",
+      "raceReference": "20220227LIC001-012",
       "title": "Campeonato Litoral Interior Centro Absoluto",
       "subtitle": "Masculinos",
       "sport": "DUATHLON",
@@ -448,7 +449,6 @@
       "airTemperature": "",
       "waterTemperature": "",
       "wetSuit": "",
-      "eventID": "5",
       "championships": "",
       "technicalDelegate": "",
       "headReferee": "",
@@ -532,21 +532,21 @@
       "eventID": "5",
       "title": "Campeonato Litoral Interior Centro Jovem",
       "subtitle": "Clubes",
-      "fileName": "20220227LIC001-011-01.pdf"
+      "fileName": "20220227LIC001-013-01.pdf"
     },
     {
       "id": "52",
       "eventID": "5",
       "title": "Campeonato Litoral Interior Centro Absoluto",
       "subtitle": "Absolutos Femininos",
-      "fileName": "20220227LIC001-012-01.pdf"
+      "fileName": "20220227LIC001-011-01.pdf"
     },
     {
       "id": "53",
       "eventID": "5",
       "title": "Campeonato Litoral Interior Centro Absoluto",
       "subtitle": "Absolutos Masculinos",
-      "fileName": "20220227LIC001-013-01.pdf"
+      "fileName": "20220227LIC001-012-01.pdf"
     },
     {
       "id": "54",

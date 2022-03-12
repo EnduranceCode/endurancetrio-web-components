@@ -40,6 +40,7 @@
   "races": [
     {
       "id": "9",
+      "eventID": "2",
       "raceReference": "20220213FTP001-001",
       "title": "Campeonato Nacional de Clubes Cross",
       "subtitle": "Femininos",
@@ -65,7 +66,6 @@
       "airTemperature": "",
       "waterTemperature": "",
       "wetSuit": "",
-      "eventID": "2",
       "championships": "",
       "technicalDelegate": "",
       "headReferee": "",
@@ -74,6 +74,7 @@
     },
     {
       "id": "10",
+      "eventID": "2",
       "raceReference": "20220213FTP001-002",
       "title": "Campeonato Nacional de Clubes Cross",
       "subtitle": "Masculinos",
@@ -99,7 +100,6 @@
       "airTemperature": "",
       "waterTemperature": "",
       "wetSuit": "",
-      "eventID": "2",
       "championships": "",
       "technicalDelegate": "",
       "headReferee": "",
@@ -108,14 +108,15 @@
     },
     {
       "id": "11",
-      "raceReference": "20220213FTP001-007",
+      "eventID": "2",
+      "raceReference": "20220213FTP001-003",
       "title": "Prova Aberta",
       "subtitle": "Femininos",
       "sport": "DUATHLON",
       "distanceType": "SPRINT",
       "gender": "FEMALE",
       "ageGroup": "OVERALL",
-      "teamRanks": "SIM",
+      "teamRanks": "NÂO",
       "scheduleDate": "2022-02-13",
       "scheduleTime": "10:30:00",
       "swimDistance": "",
@@ -133,7 +134,6 @@
       "airTemperature": "",
       "waterTemperature": "",
       "wetSuit": "",
-      "eventID": "2",
       "championships": "",
       "technicalDelegate": "",
       "headReferee": "",
@@ -142,14 +142,15 @@
     },
     {
       "id": "12",
-      "raceReference": "20220213FTP001-008",
+      "eventID": "2",
+      "raceReference": "20220213FTP001-004",
       "title": "Prova Aberta",
       "subtitle": "Masculinos",
       "sport": "DUATHLON",
       "distanceType": "SPRINT",
       "gender": "MALE",
       "ageGroup": "OVERALL",
-      "teamRanks": "SIM",
+      "teamRanks": "NÂO",
       "scheduleDate": "2022-02-13",
       "scheduleTime": "10:30:00",
       "swimDistance": "",
@@ -167,7 +168,6 @@
       "airTemperature": "",
       "waterTemperature": "",
       "wetSuit": "",
-      "eventID": "2",
       "championships": "",
       "technicalDelegate": "",
       "headReferee": "",
@@ -195,42 +195,42 @@
       "eventID": "2",
       "title": "Campeonato Nacional de Clubes Cross",
       "subtitle": "Escalões Femininos",
-      "fileName": "20220213FTP001-003-01.pdf"
+      "fileName": "20220213FTP001-005-01.pdf"
     },
     {
       "id": "13",
       "eventID": "2",
       "title": "Campeonato Nacional de Clubes Cross",
       "subtitle": "Escalões Masculinos",
-      "fileName": "20220213FTP001-004-01.pdf"
+      "fileName": "20220213FTP001-006-01.pdf"
     },
     {
       "id": "14",
       "eventID": "2",
       "title": "Campeonato Nacional de Clubes Cross",
       "subtitle": "Clubes Femininos",
-      "fileName": "20220213FTP001-005-01.pdf"
+      "fileName": "20220213FTP001-007-01.pdf"
     },
     {
       "id": "15",
       "eventID": "2",
       "title": "Campeonato Nacional de Clubes Cross",
       "subtitle": "Clubes Masculinos",
-      "fileName": "20220213FTP001-006-01.pdf"
+      "fileName": "20220213FTP001-008-01.pdf"
     },
     {
       "id": "16",
       "eventID": "2",
       "title": "Prova Aberta",
       "subtitle": "Femininos",
-      "fileName": "20220213FTP001-007-01.pdf"
+      "fileName": "20220213FTP001-003-01.pdf"
     },
     {
       "id": "17",
       "eventID": "2",
       "title": "Prova Aberta",
       "subtitle": "Masculinos",
-      "fileName": "20220213FTP001-008-01.pdf"
+      "fileName": "20220213FTP001-004-01.pdf"
     }
   ]
 }

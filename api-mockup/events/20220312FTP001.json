@@ -39,7 +39,7 @@
   "organizers": [],
   "races": [
     {
-      "id": "77",
+      "id": "78",
       "eventID": "10",
       "raceReference": "20220312FTP001-001",
       "title": "Prova de Apuramento Youth",
@@ -73,7 +73,7 @@
       "results": ""
     },
     {
-      "id": "78",
+      "id": "79",
       "eventID": "10",
       "raceReference": "20220312FTP001-002",
       "title": "Prova de Apuramento Youth",
@@ -121,34 +121,6 @@
       "title": "Prova de Apuramento Youth",
       "subtitle": "Masculinos",
       "fileName": "20220312FTP001-002-01.pdf"
-    },
-    {
-      "id": "106",
-      "eventID": "10",
-      "title": "Campeonato Nacional de Clubes de Duatlo",
-      "subtitle": "Femininos",
-      "fileName": "20220313FTP001-001-01.pdf"
-    },
-    {
-      "id": "107",
-      "eventID": "10",
-      "title": "Campeonato Nacional de Clubes de Duatlo",
-      "subtitle": "Masculinos",
-      "fileName": "20220313FTP001-002-01.pdf"
-    },
-    {
-      "id": "108",
-      "eventID": "10",
-      "title": "Prova Aberta",
-      "subtitle": "Femininos",
-      "fileName": "20220313FTP001-003-01.pdf"
-    },
-    {
-      "id": "109",
-      "eventID": "10",
-      "title": "Prova Aberta",
-      "subtitle": "Masculinos",
-      "fileName": "20220313FTP001-004-01.pdf"
     }
   ]
 }

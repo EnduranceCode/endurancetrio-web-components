@@ -40,6 +40,7 @@
   "races": [
     {
       "id": "15",
+      "eventID": "4",
       "raceReference": "20220226LAA001-001",
       "title": "Campeonato Lisboa e Alto Alentejo Jovem",
       "subtitle": "Benjamins Femininos",
@@ -65,7 +66,6 @@
       "airTemperature": "",
       "waterTemperature": "",
       "wetSuit": "",
-      "eventID": "4",
       "championships": "",
       "technicalDelegate": "",
       "headReferee": "",
@@ -74,6 +74,7 @@
     },
     {
       "id": "16",
+      "eventID": "4",
       "raceReference": "20220226LAA001-002",
       "title": "Campeonato Lisboa e Alto Alentejo Jovem",
       "subtitle": "Benjamins Masculinos",
@@ -99,7 +100,6 @@
       "airTemperature": "",
       "waterTemperature": "",
       "wetSuit": "",
-      "eventID": "4",
       "championships": "",
       "technicalDelegate": "",
       "headReferee": "",
@@ -108,6 +108,7 @@
     },
     {
       "id": "17",
+      "eventID": "4",
       "raceReference": "20220226LAA001-003",
       "title": "Campeonato Lisboa e Alto Alentejo Jovem",
       "subtitle": "Infantis Femininos",
@@ -133,7 +134,6 @@
       "airTemperature": "",
       "waterTemperature": "",
       "wetSuit": "",
-      "eventID": "4",
       "championships": "",
       "technicalDelegate": "",
       "headReferee": "",
@@ -142,6 +142,7 @@
     },
     {
       "id": "18",
+      "eventID": "4",
       "raceReference": "20220226LAA001-004",
       "title": "Campeonato Lisboa e Alto Alentejo Jovem",
       "subtitle": "Infantis Masculinos",
@@ -167,7 +168,6 @@
       "airTemperature": "",
       "waterTemperature": "",
       "wetSuit": "",
-      "eventID": "4",
       "championships": "",
       "technicalDelegate": "",
       "headReferee": "",
@@ -176,6 +176,7 @@
     },
     {
       "id": "19",
+      "eventID": "4",
       "raceReference": "20220226LAA001-005",
       "title": "Campeonato Lisboa e Alto Alentejo Jovem",
       "subtitle": "Iniciados Femininos",
@@ -201,7 +202,6 @@
       "airTemperature": "",
       "waterTemperature": "",
       "wetSuit": "",
-      "eventID": "4",
       "championships": "",
       "technicalDelegate": "",
       "headReferee": "",
@@ -210,6 +210,7 @@
     },
     {
       "id": "20",
+      "eventID": "4",
       "raceReference": "20220226LAA001-006",
       "title": "Campeonato Lisboa e Alto Alentejo Jovem",
       "subtitle": "Iniciados Masculinos",
@@ -235,7 +236,6 @@
       "airTemperature": "",
       "waterTemperature": "",
       "wetSuit": "",
-      "eventID": "4",
       "championships": "",
       "technicalDelegate": "",
       "headReferee": "",
@@ -244,6 +244,7 @@
     },
     {
       "id": "21",
+      "eventID": "4",
       "raceReference": "20220226LAA001-007",
       "title": "Campeonato Lisboa e Alto Alentejo Jovem",
       "subtitle": "Juvenis Femininos",
@@ -269,7 +270,6 @@
       "airTemperature": "",
       "waterTemperature": "",
       "wetSuit": "",
-      "eventID": "4",
       "championships": "",
       "technicalDelegate": "",
       "headReferee": "",
@@ -278,6 +278,7 @@
     },
     {
       "id": "22",
+      "eventID": "4",
       "raceReference": "20220226LAA001-008",
       "title": "Campeonato Lisboa e Alto Alentejo Jovem",
       "subtitle": "Juvenis Masculinos",
@@ -303,7 +304,6 @@
       "airTemperature": "",
       "waterTemperature": "",
       "wetSuit": "",
-      "eventID": "4",
       "championships": "",
       "technicalDelegate": "",
       "headReferee": "",
@@ -312,6 +312,7 @@
     },
     {
       "id": "23",
+      "eventID": "4",
       "raceReference": "20220226LAA001-009",
       "title": "Campeonato Lisboa e Alto Alentejo Jovem",
       "subtitle": "Cadetes Femininos",
@@ -337,7 +338,6 @@
       "airTemperature": "",
       "waterTemperature": "",
       "wetSuit": "",
-      "eventID": "4",
       "championships": "",
       "technicalDelegate": "",
       "headReferee": "",
@@ -346,6 +346,7 @@
     },
     {
       "id": "24",
+      "eventID": "4",
       "raceReference": "20220226LAA001-010",
       "title": "Campeonato Lisboa e Alto Alentejo Jovem",
       "subtitle": "Cadetes Masculinos",
@@ -371,7 +372,6 @@
       "airTemperature": "",
       "waterTemperature": "",
       "wetSuit": "",
-      "eventID": "4",
       "championships": "",
       "technicalDelegate": "",
       "headReferee": "",
@@ -380,7 +380,8 @@
     },
     {
       "id": "25",
-      "raceReference": "20220226LAA001-012",
+      "eventID": "4",
+      "raceReference": "20220226LAA001-011",
       "title": "Campeonato Lisboa e Alto Alentejo Absoluto",
       "subtitle": "Femininos",
       "sport": "DUATHLON",
@@ -405,7 +406,6 @@
       "airTemperature": "",
       "waterTemperature": "",
       "wetSuit": "",
-      "eventID": "4",
       "championships": "",
       "technicalDelegate": "",
       "headReferee": "",
@@ -414,7 +414,8 @@
     },
     {
       "id": "26",
-      "raceReference": "20220226LAA001-013",
+      "eventID": "4",
+      "raceReference": "20220226LAA001-012",
       "title": "Campeonato Lisboa e Alto Alentejo Absoluto",
       "subtitle": "Masculinos",
       "sport": "DUATHLON",
@@ -439,7 +440,6 @@
       "airTemperature": "",
       "waterTemperature": "",
       "wetSuit": "",
-      "eventID": "4",
       "championships": "",
       "technicalDelegate": "",
       "headReferee": "",
@@ -523,21 +523,21 @@
       "eventID": "4",
       "title": "Campeonato Lisboa e Alto Alentejo Jovem",
       "subtitle": "Clubes",
-      "fileName": "20220226LAA001-011-01.pdf"
+      "fileName": "20220226LAA001-013-01.pdf"
     },
     {
       "id": "35",
       "eventID": "4",
       "title": "Campeonato Lisboa e Alto Alentejo Absoluto",
       "subtitle": "Absolutos Femininos",
-      "fileName": "20220226LAA001-012-01.pdf"
+      "fileName": "20220226LAA001-011-01.pdf"
     },
     {
       "id": "36",
       "eventID": "4",
       "title": "Campeonato Lisboa e Alto Alentejo Absoluto",
       "subtitle": "Absolutos Masculinos",
-      "fileName": "20220226LAA001-013-01.pdf"
+      "fileName": "20220226LAA001-012-01.pdf"
     },
     {
       "id": "37",
