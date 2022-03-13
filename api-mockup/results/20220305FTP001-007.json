@@ -1,0 +1,32 @@
+{
+  "id": 45,
+  "title": "20220305FTP001-007",
+  "subtitle": "Estafetas",
+  "swimDistance": "",
+  "swimLaps": "",
+  "cynclingDistance": "",
+  "cyclingLaps": "",
+  "runDistance": "",
+  "runLaps": "",
+  "actualDate": "1",
+  "actualTime": "2022-03-05",
+  "airTemperature": "",
+  "waterTemperature": "",
+  "wetSuit": "",
+  "raceReference": "20220305FTP001-007",
+  "results": [
+    {
+      "rank": 1,
+      "raceNumber": "8081",
+      "name": "Audaces",
+      "team": "Estafeta",
+      "firstRun": "00:21:56",
+      "t1": "00:01:15",
+      "bike": "00:40:57",
+      "t2": "00:01:30",
+      "secondRun": "00:10:22",
+      "total": "01:16:00",
+      "gap": "00:00:00"
+    }
+  ]
+}

@@ -79,8 +79,8 @@
       "runLaps": "",
       "secondRunDistance": "2500",
       "secondRunLaps": "1",
-      "actualDate": "",
-      "actualTime": "",
+      "actualDate": "2022-03-13",
+      "actualTime": "10:08:05",
       "airTemperature": "",
       "waterTemperature": "",
       "wetSuit": "",
@@ -113,8 +113,8 @@
       "runLaps": "",
       "secondRunDistance": "2500",
       "secondRunLaps": "1",
-      "actualDate": "",
-      "actualTime": "",
+      "actualDate": "2022-03-13",
+      "actualTime": "10:03:05",
       "airTemperature": "",
       "waterTemperature": "",
       "wetSuit": "",
@@ -147,8 +147,8 @@
       "runLaps": "",
       "secondRunDistance": "2500",
       "secondRunLaps": "1",
-      "actualDate": "",
-      "actualTime": "",
+      "actualDate": "2022-03-13",
+      "actualTime": "10:13:04",
       "airTemperature": "",
       "waterTemperature": "",
       "wetSuit": "",
@@ -181,8 +181,42 @@
       "runLaps": "",
       "secondRunDistance": "2500",
       "secondRunLaps": "1",
-      "actualDate": "",
-      "actualTime": "",
+      "actualDate": "2022-03-13",
+      "actualTime": "10:13:04",
+      "airTemperature": "",
+      "waterTemperature": "",
+      "wetSuit": "",
+      "championships": "",
+      "technicalDelegate": "",
+      "headReferee": "",
+      "competitionJury": "",
+      "results": ""
+    },
+    {
+      "id": "84",
+      "eventID": "11",
+      "raceReference": "20220313FTP001-005",
+      "title": "Estafetas",
+      "subtitle": "Masculinos",
+      "sport": "DUATHLON",
+      "distanceType": "SPRINT",
+      "gender": "MALE",
+      "ageGroup": "OVERALL",
+      "teamRanks": "NÂO",
+      "scheduleDate": "2022-03-13",
+      "scheduleTime": "10:00:00",
+      "swimDistance": "",
+      "swimLaps": "",
+      "firstRunDistance": "5000",
+      "firstRunLaps": "2",
+      "cyclingDistance": "19000",
+      "cyclingLaps": "3",
+      "runDistance": "",
+      "runLaps": "",
+      "secondRunDistance": "2500",
+      "secondRunLaps": "1",
+      "actualDate": "2022-03-13",
+      "actualTime": "10:13:04",
       "airTemperature": "",
       "waterTemperature": "",
       "wetSuit": "",
@@ -211,58 +245,51 @@
     {
       "id": "108",
       "eventID": "11",
-      "title": "Campeonato Nacional de Clubes de Duatlo",
-      "subtitle": "Escalões Femininos",
-      "fileName": "20220313FTP001-005-01.pdf"
-    },
-    {
-      "id": "109",
-      "eventID": "11",
-      "title": "Campeonato Nacional de Clubes de Duatlo",
-      "subtitle": "Escalões Masculinos",
-      "fileName": "20220313FTP001-006-01.pdf"
-    },
-    {
-      "id": "110",
-      "eventID": "11",
-      "title": "Campeonato Nacional de Clubes de Duatlo",
-      "subtitle": "Clubes Femininos",
-      "fileName": "20220313FTP001-007-01.pdf"
-    },
-    {
-      "id": "111",
-      "eventID": "11",
-      "title": "Campeonato Nacional de Clubes de Duatlo",
-      "subtitle": "Clubes Masculinos",
-      "fileName": "20220313FTP001-008-01.pdf"
-    },
-    {
-      "id": "112",
-      "eventID": "11",
       "title": "Prova Aberta",
       "subtitle": "Femininos",
       "fileName": "20220313FTP001-003-01.pdf"
     },
     {
-      "id": "113",
+      "id": "109",
       "eventID": "11",
       "title": "Prova Aberta",
       "subtitle": "Masculinos",
       "fileName": "20220313FTP001-004-01.pdf"
     },
     {
-      "id": "114",
+      "id": "110",
       "eventID": "11",
-      "title": "Prova Aberta",
-      "subtitle": "Escalões Femininos",
-      "fileName": "20220313FTP001-009-01.pdf"
+      "title": "Estafetas",
+      "subtitle": "Masculinos",
+      "fileName": "20220313FTP001-005-01.pdf"
     },
     {
-      "id": "115",
+      "id": "111",
       "eventID": "11",
-      "title": "Prova Aberta",
+      "title": "Campeonato Nacional de Clubes de Duatlo",
+      "subtitle": "Escalões Femininos",
+      "fileName": "20220313FTP001-006-01.pdf"
+    },
+    {
+      "id": "112",
+      "eventID": "11",
+      "title": "Campeonato Nacional de Clubes de Duatlo",
       "subtitle": "Escalões Masculinos",
-      "fileName": "20220313FTP001-010-01.pdf"
+      "fileName": "20220313FTP001-007-01.pdf"
+    },
+    {
+      "id": "113",
+      "eventID": "11",
+      "title": "Campeonato Nacional de Clubes de Duatlo",
+      "subtitle": "Clubes Femininos",
+      "fileName": "20220313FTP001-008-01.pdf"
+    },
+    {
+      "id": "114",
+      "eventID": "11",
+      "title": "Campeonato Nacional de Clubes de Duatlo",
+      "subtitle": "Clubes Masculinos",
+      "fileName": "20220313FTP001-009-01.pdf"
     }
   ]
 }

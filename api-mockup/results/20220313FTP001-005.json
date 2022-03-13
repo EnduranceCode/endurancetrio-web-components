@@ -1,0 +1,58 @@
+{
+  "id": 84,
+  "title": "Estafetas",
+  "subtitle": "Masculinos",
+  "swimDistance": "",
+  "swimLaps": "",
+  "cynclingDistance": "",
+  "cyclingLaps": "",
+  "runDistance": "",
+  "runLaps": "",
+  "actualDate": "2022-03-13",
+  "actualTime": "10:13:04",
+  "airTemperature": "",
+  "waterTemperature": "",
+  "wetSuit": "",
+  "raceReference": "20220313FTP001-005",
+  "results": [
+    {
+      "rank": 1,
+      "raceNumber": "8359",
+      "name": "Crossfit Viana",
+      "team": "Estafeta",
+      "firstRun": "00:18:13",
+      "t1": "00:00:39",
+      "bike": "00:31:06",
+      "t2": "00:00:45",
+      "secondRun": "00:09:02",
+      "total": "00:59:45",
+      "gap": "00:00:00"
+    },
+    {
+      "rank": 2,
+      "raceNumber": "8361",
+      "name": "RUNNING ESPINHO",
+      "team": "Estafeta",
+      "firstRun": "00:20:33",
+      "t1": "00:00:34",
+      "bike": "00:32:32",
+      "t2": "00:00:37",
+      "secondRun": "00:10:17",
+      "total": "01:04:33",
+      "gap": "00:04:48"
+    },
+    {
+      "rank": 3,
+      "raceNumber": "8362",
+      "name": "Segadães/Cunha",
+      "team": "Estafeta",
+      "firstRun": "00:24:46",
+      "t1": "00:00:37",
+      "bike": "00:35:39",
+      "t2": "",
+      "secondRun": "",
+      "total": "01:14:31",
+      "gap": "00:14:46"
+    }
+  ]
+}
