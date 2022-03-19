@@ -40,6 +40,7 @@
   "races": [
     {
       "id": "1",
+      "eventID": "1",
       "raceReference": "20220205FTP001-001",
       "title": "Campeonato Nacional Jovem",
       "subtitle": "Benjamins Femininos",
@@ -65,7 +66,6 @@
       "airTemperature": "",
       "waterTemperature": "",
       "wetSuit": "",
-      "eventID": "1",
       "championships": "",
       "technicalDelegate": "",
       "headReferee": "",
@@ -74,6 +74,7 @@
     },
     {
       "id": "2",
+      "eventID": "1",
       "raceReference": "20220205FTP001-002",
       "title": "Campeonato Nacional Jovem",
       "subtitle": "Benjamins Masculinos",
@@ -99,7 +100,6 @@
       "airTemperature": "",
       "waterTemperature": "",
       "wetSuit": "",
-      "eventID": "1",
       "championships": "",
       "technicalDelegate": "",
       "headReferee": "",
@@ -108,6 +108,7 @@
     },
     {
       "id": "3",
+      "eventID": "1",
       "raceReference": "20220205FTP001-003",
       "title": "Campeonato Nacional Jovem",
       "subtitle": "Infantis Femininos",
@@ -133,7 +134,6 @@
       "airTemperature": "",
       "waterTemperature": "",
       "wetSuit": "",
-      "eventID": "1",
       "championships": "",
       "technicalDelegate": "",
       "headReferee": "",
@@ -142,6 +142,7 @@
     },
     {
       "id": "4",
+      "eventID": "1",
       "raceReference": "20220205FTP001-004",
       "title": "Campeonato Nacional Jovem",
       "subtitle": "Infantis Masculinos",
@@ -167,7 +168,6 @@
       "airTemperature": "",
       "waterTemperature": "",
       "wetSuit": "",
-      "eventID": "1",
       "championships": "",
       "technicalDelegate": "",
       "headReferee": "",
@@ -176,6 +176,7 @@
     },
     {
       "id": "5",
+      "eventID": "1",
       "raceReference": "20220205FTP001-005",
       "title": "Campeonato Nacional Jovem",
       "subtitle": "Iniciados Femininos",
@@ -201,7 +202,6 @@
       "airTemperature": "",
       "waterTemperature": "",
       "wetSuit": "",
-      "eventID": "1",
       "championships": "",
       "technicalDelegate": "",
       "headReferee": "",
@@ -210,6 +210,7 @@
     },
     {
       "id": "6",
+      "eventID": "1",
       "raceReference": "20220205FTP001-006",
       "title": "Campeonato Nacional Jovem",
       "subtitle": "Iniciados Masculinos",
@@ -235,7 +236,6 @@
       "airTemperature": "",
       "waterTemperature": "",
       "wetSuit": "",
-      "eventID": "1",
       "championships": "",
       "technicalDelegate": "",
       "headReferee": "",
@@ -244,6 +244,7 @@
     },
     {
       "id": "7",
+      "eventID": "1",
       "raceReference": "20220205FTP001-007",
       "title": "Campeonato Nacional Jovem",
       "subtitle": "Juvenis Femininos",
@@ -269,7 +270,6 @@
       "airTemperature": "",
       "waterTemperature": "",
       "wetSuit": "",
-      "eventID": "1",
       "championships": "",
       "technicalDelegate": "",
       "headReferee": "",
@@ -278,6 +278,7 @@
     },
     {
       "id": "8",
+      "eventID": "1",
       "raceReference": "20220205FTP001-008",
       "title": "Campeonato Nacional Jovem",
       "subtitle": "Juvenis Masculinos",
@@ -303,7 +304,6 @@
       "airTemperature": "",
       "waterTemperature": "",
       "wetSuit": "",
-      "eventID": "1",
       "championships": "",
       "technicalDelegate": "",
       "headReferee": "",
@@ -317,6 +317,8 @@
       "eventID": "1",
       "title": "Campeonato Nacional Jovem",
       "subtitle": "Benjamins Femininos",
+      "revision": "1",
+      "active": "SIM",
       "fileName": "20220205FTP001-001-01.pdf"
     },
     {
@@ -324,6 +326,8 @@
       "eventID": "1",
       "title": "Campeonato Nacional Jovem",
       "subtitle": "Benjamins Masculinos",
+      "revision": "1",
+      "active": "SIM",
       "fileName": "20220205FTP001-002-01.pdf"
     },
     {
@@ -331,6 +335,8 @@
       "eventID": "1",
       "title": "Campeonato Nacional Jovem",
       "subtitle": "Infantis Femininos",
+      "revision": "1",
+      "active": "SIM",
       "fileName": "20220205FTP001-003-01.pdf"
     },
     {
@@ -338,6 +344,8 @@
       "eventID": "1",
       "title": "Campeonato Nacional Jovem",
       "subtitle": "Infantis Masculinos",
+      "revision": "1",
+      "active": "SIM",
       "fileName": "20220205FTP001-004-01.pdf"
     },
     {
@@ -345,6 +353,8 @@
       "eventID": "1",
       "title": "Campeonato Nacional Jovem",
       "subtitle": "Iniciados Femininos",
+      "revision": "1",
+      "active": "SIM",
       "fileName": "20220205FTP001-005-01.pdf"
     },
     {
@@ -352,6 +362,8 @@
       "eventID": "1",
       "title": "Campeonato Nacional Jovem",
       "subtitle": "Iniciados Masculinos",
+      "revision": "1",
+      "active": "SIM",
       "fileName": "20220205FTP001-006-01.pdf"
     },
     {
@@ -359,6 +371,8 @@
       "eventID": "1",
       "title": "Campeonato Nacional Jovem",
       "subtitle": "Juvenis Femininos",
+      "revision": "1",
+      "active": "SIM",
       "fileName": "20220205FTP001-007-01.pdf"
     },
     {
@@ -366,6 +380,8 @@
       "eventID": "1",
       "title": "Campeonato Nacional Jovem",
       "subtitle": "Juvenis Masculinos",
+      "revision": "1",
+      "active": "SIM",
       "fileName": "20220205FTP001-008-01.pdf"
     },
     {
@@ -373,6 +389,8 @@
       "eventID": "1",
       "title": "Campeonato Nacional Jovem",
       "subtitle": "Clubes",
+      "revision": "1",
+      "active": "SIM",
       "fileName": "20220205FTP001-009-01.pdf"
     }
   ]

@@ -381,80 +381,102 @@
   ],
   "resultsFiles": [
     {
-      "id": "93",
+      "id": "109",
       "eventID": "9",
       "title": "Campeonato Lisboa e Alto Alentejo Jovem",
       "subtitle": "Benjamins Femininos",
+      "revision": "1",
+      "active": "SIM",
       "fileName": "20220312LAA001-001-01.pdf"
     },
     {
-      "id": "94",
+      "id": "110",
       "eventID": "9",
       "title": "Campeonato Lisboa e Alto Alentejo Jovem",
       "subtitle": "Benjamins Masculinos",
+      "revision": "1",
+      "active": "SIM",
       "fileName": "20220312LAA001-002-01.pdf"
     },
     {
-      "id": "95",
+      "id": "111",
       "eventID": "9",
       "title": "Campeonato Lisboa e Alto Alentejo Jovem",
       "subtitle": "Infantis Femininos",
+      "revision": "1",
+      "active": "SIM",
       "fileName": "20220312LAA001-003-01.pdf"
     },
     {
-      "id": "96",
+      "id": "112",
       "eventID": "9",
       "title": "Campeonato Lisboa e Alto Alentejo Jovem",
       "subtitle": "Infantis Masculinos",
+      "revision": "1",
+      "active": "SIM",
       "fileName": "20220312LAA001-004-01.pdf"
     },
     {
-      "id": "97",
+      "id": "113",
       "eventID": "9",
       "title": "Campeonato Lisboa e Alto Alentejo Jovem",
       "subtitle": "Iniciados Femininos",
+      "revision": "1",
+      "active": "SIM",
       "fileName": "20220312LAA001-005-01.pdf"
     },
     {
-      "id": "98",
+      "id": "114",
       "eventID": "9",
       "title": "Campeonato Lisboa e Alto Alentejo Jovem",
       "subtitle": "Iniciados Masculinos",
+      "revision": "1",
+      "active": "SIM",
       "fileName": "20220312LAA001-006-01.pdf"
     },
     {
-      "id": "99",
+      "id": "115",
       "eventID": "9",
       "title": "Campeonato Lisboa e Alto Alentejo Jovem",
       "subtitle": "Juvenis Femininos",
+      "revision": "1",
+      "active": "SIM",
       "fileName": "20220312LAA001-007-01.pdf"
     },
     {
-      "id": "100",
+      "id": "116",
       "eventID": "9",
       "title": "Campeonato Lisboa e Alto Alentejo Jovem",
       "subtitle": "Juvenis Masculinos",
+      "revision": "1",
+      "active": "SIM",
       "fileName": "20220312LAA001-008-01.pdf"
     },
     {
-      "id": "101",
+      "id": "117",
       "eventID": "9",
       "title": "Campeonato Lisboa e Alto Alentejo Jovem",
       "subtitle": "Cadetes Femininos",
+      "revision": "1",
+      "active": "SIM",
       "fileName": "20220312LAA001-009-01.pdf"
     },
     {
-      "id": "102",
+      "id": "118",
       "eventID": "9",
       "title": "Campeonato Lisboa e Alto Alentejo Jovem",
       "subtitle": "Cadetes Masculinos",
+      "revision": "1",
+      "active": "SIM",
       "fileName": "20220312LAA001-010-01.pdf"
     },
     {
-      "id": "103",
+      "id": "119",
       "eventID": "9",
       "title": "Campeonato Lisboa e Alto Alentejo Jovem",
       "subtitle": "Clubes",
+      "revision": "1",
+      "active": "SIM",
       "fileName": "20220312LAA001-011-01.pdf"
     }
   ]

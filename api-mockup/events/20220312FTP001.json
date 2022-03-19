@@ -61,8 +61,8 @@
       "runLaps": "1",
       "secondRunDistance": "",
       "secondRunLaps": "",
-      "actualDate": "",
-      "actualTime": "",
+      "actualDate": "2022-03-12",
+      "actualTime": "15:12:01",
       "airTemperature": "",
       "waterTemperature": "",
       "wetSuit": "",
@@ -95,8 +95,8 @@
       "runLaps": "1",
       "secondRunDistance": "",
       "secondRunLaps": "",
-      "actualDate": "",
-      "actualTime": "",
+      "actualDate": "2022-03-12",
+      "actualTime": "15:01:59",
       "airTemperature": "",
       "waterTemperature": "",
       "wetSuit": "",
@@ -109,17 +109,21 @@
   ],
   "resultsFiles": [
     {
-      "id": "104",
+      "id": "120",
       "eventID": "10",
       "title": "Prova de Apuramento Youth",
       "subtitle": "Femininos",
+      "revision": "1",
+      "active": "SIM",
       "fileName": "20220312FTP001-001-01.pdf"
     },
     {
-      "id": "105",
+      "id": "121",
       "eventID": "10",
       "title": "Prova de Apuramento Youth",
       "subtitle": "Masculinos",
+      "revision": "1",
+      "active": "SIM",
       "fileName": "20220312FTP001-002-01.pdf"
     }
   ]

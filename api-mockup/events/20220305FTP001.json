@@ -279,81 +279,103 @@
   ],
   "resultsFiles": [
     {
-      "id": "58",
+      "id": "72",
       "eventID": "6",
       "title": "Campeonato Nacional Individual e Clubes de Duatlo",
       "subtitle": "Absolutos Femininos",
+      "revision": "1",
+      "active": "SIM",
       "fileName": "20220305FTP001-001-01.pdf"
     },
     {
-      "id": "59",
+      "id": "73",
       "eventID": "6",
       "title": "Campeonato Nacional Individual e Clubes de Duatlo",
       "subtitle": "Absolutos Masculinos",
+      "revision": "1",
+      "active": "SIM",
       "fileName": "20220305FTP001-002-01.pdf"
     },
     {
-      "id": "60",
-      "eventID": "6",
-      "title": "Campeonato Nacional Individual e Clubes de Duatlo",
-      "subtitle": "Escalões Femininos",
-      "fileName": "20220305FTP001-008-01.pdf"
-    },
-    {
-      "id": "61",
-      "eventID": "6",
-      "title": "Campeonato Nacional Individual e Clubes de Duatlo",
-      "subtitle": "Escalões Masculinos",
-      "fileName": "20220305FTP001-009-01.pdf"
-    },
-    {
-      "id": "62",
-      "eventID": "6",
-      "title": "Campeonato Nacional Individual e Clubes de Duatlo",
-      "subtitle": "Clubes Femininos",
-      "fileName": "20220305FTP001-010-01.pdf"
-    },
-    {
-      "id": "63",
-      "eventID": "6",
-      "title": "Campeonato Nacional Individual e Clubes de Duatlo",
-      "subtitle": "Clubes Masculinos",
-      "fileName": "20220305FTP001-011-01.pdf"
-    },
-    {
-      "id": "64",
+      "id": "74",
       "eventID": "6",
       "title": "Campeonato Nacional de Desporto Universitário",
       "subtitle": "Absolutos Femininos",
+      "revision": "1",
+      "active": "SIM",
       "fileName": "20220305FTP001-003-01.pdf"
     },
     {
-      "id": "65",
+      "id": "75",
       "eventID": "6",
       "title": "Campeonato Nacional de Desporto Universitário",
       "subtitle": "Absolutos Masculinos",
+      "revision": "1",
+      "active": "SIM",
       "fileName": "20220305FTP001-004-01.pdf"
     },
     {
-      "id": "66",
+      "id": "76",
       "eventID": "6",
       "title": "Prova Aberta",
       "subtitle": "Femininos",
+      "revision": "1",
+      "active": "SIM",
       "fileName": "20220305FTP001-005-01.pdf"
     },
     {
-      "id": "67",
+      "id": "77",
       "eventID": "6",
       "title": "Prova Aberta",
       "subtitle": "Masculinos",
+      "revision": "1",
+      "active": "SIM",
       "fileName": "20220305FTP001-006-01.pdf"
     },
     {
-      "id": "68",
+      "id": "78",
       "eventID": "6",
       "title": "Estafetas",
       "subtitle": "Masculinos",
+      "revision": "1",
+      "active": "SIM",
       "fileName": "20220305FTP001-007-01.pdf"
+    },
+    {
+      "id": "79",
+      "eventID": "6",
+      "title": "Campeonato Nacional Individual e Clubes de Duatlo",
+      "subtitle": "Escalões Femininos",
+      "revision": "1",
+      "active": "SIM",
+      "fileName": "20220305FTP001-008-01.pdf"
+    },
+    {
+      "id": "80",
+      "eventID": "6",
+      "title": "Campeonato Nacional Individual e Clubes de Duatlo",
+      "subtitle": "Escalões Masculinos",
+      "revision": "1",
+      "active": "SIM",
+      "fileName": "20220305FTP001-009-01.pdf"
+    },
+    {
+      "id": "81",
+      "eventID": "6",
+      "title": "Campeonato Nacional Individual e Clubes de Duatlo",
+      "subtitle": "Clubes Femininos",
+      "revision": "1",
+      "active": "SIM",
+      "fileName": "20220305FTP001-010-01.pdf"
+    },
+    {
+      "id": "82",
+      "eventID": "6",
+      "title": "Campeonato Nacional Individual e Clubes de Duatlo",
+      "subtitle": "Clubes Masculinos",
+      "revision": "1",
+      "active": "SIM",
+      "fileName": "20220305FTP001-011-01.pdf"
     }
   ]
 }

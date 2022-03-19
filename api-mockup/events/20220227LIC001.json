@@ -458,123 +458,139 @@
   ],
   "resultsFiles": [
     {
-      "id": "41",
+      "id": "57",
       "eventID": "5",
       "title": "Campeonato Litoral Interior Centro Jovem",
       "subtitle": "Benjamins Femininos",
+      "revision": "1",
+      "active": "SIM",
       "fileName": "20220227LIC001-001-01.pdf"
     },
     {
-      "id": "42",
+      "id": "58",
       "eventID": "5",
       "title": "Campeonato Litoral Interior Centro Jovem",
       "subtitle": "Benjamins Masculinos",
+      "revision": "1",
+      "active": "SIM",
       "fileName": "20220227LIC001-002-01.pdf"
     },
     {
-      "id": "43",
+      "id": "59",
       "eventID": "5",
       "title": "Campeonato Litoral Interior Centro Jovem",
       "subtitle": "Infantis Femininos",
+      "revision": "1",
+      "active": "SIM",
       "fileName": "20220227LIC001-003-01.pdf"
     },
     {
-      "id": "44",
+      "id": "60",
       "eventID": "5",
       "title": "Campeonato Litoral Interior Centro Jovem",
       "subtitle": "Infantis Masculinos",
+      "revision": "1",
+      "active": "SIM",
       "fileName": "20220227LIC001-004-01.pdf"
     },
     {
-      "id": "45",
+      "id": "61",
       "eventID": "5",
       "title": "Campeonato Litoral Interior Centro Jovem",
       "subtitle": "Iniciados Femininos",
+      "revision": "1",
+      "active": "SIM",
       "fileName": "20220227LIC001-005-01.pdf"
     },
     {
-      "id": "46",
+      "id": "62",
       "eventID": "5",
       "title": "Campeonato Litoral Interior Centro Jovem",
       "subtitle": "Iniciados Masculinos",
+      "revision": "1",
+      "active": "SIM",
       "fileName": "20220227LIC001-006-01.pdf"
     },
     {
-      "id": "47",
+      "id": "63",
       "eventID": "5",
       "title": "Campeonato Litoral Interior Centro Jovem",
       "subtitle": "Juvenis Femininos",
+      "revision": "1",
+      "active": "SIM",
       "fileName": "20220227LIC001-007-01.pdf"
     },
     {
-      "id": "48",
+      "id": "64",
       "eventID": "5",
       "title": "Campeonato Litoral Interior Centro Jovem",
       "subtitle": "Juvenis Masculinos",
+      "revision": "1",
+      "active": "SIM",
       "fileName": "20220227LIC001-008-01.pdf"
     },
     {
-      "id": "49",
+      "id": "65",
       "eventID": "5",
       "title": "Campeonato Litoral Interior Centro Jovem",
       "subtitle": "Cadetes Femininos",
+      "revision": "1",
+      "active": "SIM",
       "fileName": "20220227LIC001-009-01.pdf"
     },
     {
-      "id": "50",
+      "id": "66",
       "eventID": "5",
       "title": "Campeonato Litoral Interior Centro Jovem",
       "subtitle": "Cadetes Masculinos",
+      "revision": "1",
+      "active": "SIM",
       "fileName": "20220227LIC001-010-01.pdf"
     },
     {
-      "id": "51",
-      "eventID": "5",
-      "title": "Campeonato Litoral Interior Centro Jovem",
-      "subtitle": "Clubes",
-      "fileName": "20220227LIC001-013-01.pdf"
-    },
-    {
-      "id": "52",
+      "id": "67",
       "eventID": "5",
       "title": "Campeonato Litoral Interior Centro Absoluto",
       "subtitle": "Absolutos Femininos",
+      "revision": "1",
+      "active": "SIM",
       "fileName": "20220227LIC001-011-01.pdf"
     },
     {
-      "id": "53",
+      "id": "68",
       "eventID": "5",
       "title": "Campeonato Litoral Interior Centro Absoluto",
       "subtitle": "Absolutos Masculinos",
+      "revision": "1",
+      "active": "SIM",
       "fileName": "20220227LIC001-012-01.pdf"
     },
     {
-      "id": "54",
+      "id": "69",
       "eventID": "5",
-      "title": "Campeonato Litoral Interior Centro Absoluto",
-      "subtitle": "Escalões Femininos",
-      "fileName": "20220227LIC001-014-01.pdf"
+      "title": "Campeonato Litoral Interior Centro Jovem",
+      "subtitle": "Clubes",
+      "revision": "1",
+      "active": "SIM",
+      "fileName": "20220227LIC001-013-01.pdf"
     },
     {
-      "id": "55",
-      "eventID": "5",
-      "title": "Campeonato Litoral Interior Centro Absoluto",
-      "subtitle": "Escalões Masculinos",
-      "fileName": "20220227LIC001-015-01.pdf"
-    },
-    {
-      "id": "56",
+      "id": "70",
       "eventID": "5",
       "title": "Campeonato Litoral Interior Centro Absoluto",
       "subtitle": "Clubes Femininos",
-      "fileName": "20220227LIC001-016-01.pdf"
+      "revision": "1",
+      "active": "SIM",
+      "fileName": "20220227LIC001-014-01.pdf"
     },
     {
-      "id": "57",
+      "id": "71",
       "eventID": "5",
       "title": "Campeonato Litoral Interior Centro Absoluto",
       "subtitle": "Clubes Masculinos",
-      "fileName": "20220227LIC001-017-01.pdf"
+      "revision": "1",
+      "active": "SIM",
+      "fileName": "20220227LIC001-015-01.pdf"
     }
   ]
 }

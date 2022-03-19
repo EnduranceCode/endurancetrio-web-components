@@ -181,6 +181,8 @@
       "eventID": "2",
       "title": "Campeonato Nacional de Clubes Cross",
       "subtitle": "Absolutos Femininos",
+      "revision": "1",
+      "active": "SIM",
       "fileName": "20220213FTP001-001-01.pdf"
     },
     {
@@ -188,49 +190,63 @@
       "eventID": "2",
       "title": "Campeonato Nacional de Clubes Cross",
       "subtitle": "Absolutos Masculinos",
+      "revision": "1",
+      "active": "SIM",
       "fileName": "20220213FTP001-002-01.pdf"
     },
     {
       "id": "12",
       "eventID": "2",
-      "title": "Campeonato Nacional de Clubes Cross",
-      "subtitle": "Escalões Femininos",
-      "fileName": "20220213FTP001-005-01.pdf"
+      "title": "Prova Aberta",
+      "subtitle": "Femininos",
+      "revision": "1",
+      "active": "SIM",
+      "fileName": "20220213FTP001-003-01.pdf"
     },
     {
       "id": "13",
       "eventID": "2",
-      "title": "Campeonato Nacional de Clubes Cross",
-      "subtitle": "Escalões Masculinos",
-      "fileName": "20220213FTP001-006-01.pdf"
+      "title": "Prova Aberta",
+      "subtitle": "Masculinos",
+      "revision": "1",
+      "active": "SIM",
+      "fileName": "20220213FTP001-004-01.pdf"
     },
     {
       "id": "14",
       "eventID": "2",
       "title": "Campeonato Nacional de Clubes Cross",
-      "subtitle": "Clubes Femininos",
-      "fileName": "20220213FTP001-007-01.pdf"
+      "subtitle": "Escalões Femininos",
+      "revision": "1",
+      "active": "SIM",
+      "fileName": "20220213FTP001-005-01.pdf"
     },
     {
       "id": "15",
       "eventID": "2",
       "title": "Campeonato Nacional de Clubes Cross",
-      "subtitle": "Clubes Masculinos",
-      "fileName": "20220213FTP001-008-01.pdf"
+      "subtitle": "Escalões Masculinos",
+      "revision": "1",
+      "active": "SIM",
+      "fileName": "20220213FTP001-006-01.pdf"
     },
     {
       "id": "16",
       "eventID": "2",
-      "title": "Prova Aberta",
-      "subtitle": "Femininos",
-      "fileName": "20220213FTP001-003-01.pdf"
+      "title": "Campeonato Nacional de Clubes Cross",
+      "subtitle": "Clubes Femininos",
+      "revision": "1",
+      "active": "SIM",
+      "fileName": "20220213FTP001-007-01.pdf"
     },
     {
       "id": "17",
       "eventID": "2",
-      "title": "Prova Aberta",
-      "subtitle": "Masculinos",
-      "fileName": "20220213FTP001-004-01.pdf"
+      "title": "Campeonato Nacional de Clubes Cross",
+      "subtitle": "Clubes Masculinos",
+      "revision": "1",
+      "active": "SIM",
+      "fileName": "20220213FTP001-008-01.pdf"
     }
   ]
 }

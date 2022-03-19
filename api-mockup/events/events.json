@@ -152,5 +152,33 @@
     "organizers": [],
     "races": [],
     "resultsFiles": []
+  },
+  {
+    "id": "12",
+    "eventReference": "20220319ABA001",
+    "title": "IV Aquatlo Jovem de Alavor",
+    "startDate": "2022-03-19",
+    "endDate": "2022-03-19",
+    "city": "Alvor",
+    "county": "Portimão",
+    "district": "Faro",
+    "eventFiles": [],
+    "organizers": [],
+    "races": [],
+    "resultsFiles": []
+  },
+  {
+    "id": "13",
+    "eventReference": "20220320FTP001",
+    "title": "Duatlo de Famalicão",
+    "startDate": "2022-03-20",
+    "endDate": "2022-03-20",
+    "city": "Vila Nova de Famalicão",
+    "county": "Vila Nova de Famalicão",
+    "district": "Braga",
+    "eventFiles": [],
+    "organizers": [],
+    "races": [],
+    "resultsFiles": []
   }
 ]

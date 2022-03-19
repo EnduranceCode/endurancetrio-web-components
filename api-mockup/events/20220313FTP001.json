@@ -229,66 +229,84 @@
   ],
   "resultsFiles": [
     {
-      "id": "106",
+      "id": "122",
       "eventID": "11",
       "title": "Campeonato Nacional de Clubes de Duatlo",
       "subtitle": "Femininos",
+      "revision": "1",
+      "active": "SIM",
       "fileName": "20220313FTP001-001-01.pdf"
     },
     {
-      "id": "107",
+      "id": "123",
       "eventID": "11",
       "title": "Campeonato Nacional de Clubes de Duatlo",
       "subtitle": "Masculinos",
+      "revision": "1",
+      "active": "SIM",
       "fileName": "20220313FTP001-002-01.pdf"
     },
     {
-      "id": "108",
+      "id": "124",
       "eventID": "11",
       "title": "Prova Aberta",
       "subtitle": "Femininos",
+      "revision": "1",
+      "active": "SIM",
       "fileName": "20220313FTP001-003-01.pdf"
     },
     {
-      "id": "109",
+      "id": "125",
       "eventID": "11",
       "title": "Prova Aberta",
       "subtitle": "Masculinos",
+      "revision": "1",
+      "active": "SIM",
       "fileName": "20220313FTP001-004-01.pdf"
     },
     {
-      "id": "110",
+      "id": "126",
       "eventID": "11",
       "title": "Estafetas",
       "subtitle": "Masculinos",
+      "revision": "1",
+      "active": "SIM",
       "fileName": "20220313FTP001-005-01.pdf"
     },
     {
-      "id": "111",
+      "id": "127",
       "eventID": "11",
       "title": "Campeonato Nacional de Clubes de Duatlo",
       "subtitle": "Escalões Femininos",
+      "revision": "1",
+      "active": "SIM",
       "fileName": "20220313FTP001-006-01.pdf"
     },
     {
-      "id": "112",
+      "id": "128",
       "eventID": "11",
       "title": "Campeonato Nacional de Clubes de Duatlo",
       "subtitle": "Escalões Masculinos",
+      "revision": "1",
+      "active": "SIM",
       "fileName": "20220313FTP001-007-01.pdf"
     },
     {
-      "id": "113",
+      "id": "129",
       "eventID": "11",
       "title": "Campeonato Nacional de Clubes de Duatlo",
       "subtitle": "Clubes Femininos",
+      "revision": "1",
+      "active": "SIM",
       "fileName": "20220313FTP001-008-01.pdf"
     },
     {
-      "id": "114",
+      "id": "130",
       "eventID": "11",
       "title": "Campeonato Nacional de Clubes de Duatlo",
       "subtitle": "Clubes Masculinos",
+      "revision": "1",
+      "active": "SIM",
       "fileName": "20220313FTP001-009-01.pdf"
     }
   ]

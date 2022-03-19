@@ -40,6 +40,7 @@
   "races": [
     {
       "id": "13",
+      "eventID": "3",
       "raceReference": "20220220FTP001-001",
       "title": "Taça de Portugal",
       "subtitle": "Femininos",
@@ -65,7 +66,6 @@
       "airTemperature": "",
       "waterTemperature": "",
       "wetSuit": "",
-      "eventID": "3",
       "championships": "",
       "technicalDelegate": "",
       "headReferee": "",
@@ -74,6 +74,7 @@
     },
     {
       "id": "14",
+      "eventID": "3",
       "raceReference": "20220220FTP001-002",
       "title": "Taça de Portugal",
       "subtitle": "Masculinos",
@@ -99,7 +100,6 @@
       "airTemperature": "",
       "waterTemperature": "",
       "wetSuit": "",
-      "eventID": "3",
       "championships": "",
       "technicalDelegate": "",
       "headReferee": "",
@@ -113,6 +113,8 @@
       "eventID": "3",
       "title": "Taça de Portugal",
       "subtitle": "Absolutos Femininos",
+      "revision": "1",
+      "active": "SIM",
       "fileName": "20220220FTP001-001-01.pdf"
     },
     {
@@ -120,6 +122,8 @@
       "eventID": "3",
       "title": "Taça de Portugal",
       "subtitle": "Absolutos Masculinos",
+      "revision": "1",
+      "active": "SIM",
       "fileName": "20220220FTP001-002-01.pdf"
     },
     {
@@ -127,6 +131,8 @@
       "eventID": "3",
       "title": "Taça de Portugal",
       "subtitle": "Escalões Femininos",
+      "revision": "1",
+      "active": "SIM",
       "fileName": "20220220FTP001-003-01.pdf"
     },
     {
@@ -134,6 +140,8 @@
       "eventID": "3",
       "title": "Taça de Portugal",
       "subtitle": "Escalões Masculinos",
+      "revision": "1",
+      "active": "SIM",
       "fileName": "20220220FTP001-004-01.pdf"
     },
     {
@@ -141,6 +149,8 @@
       "eventID": "3",
       "title": "Taça de Portugal",
       "subtitle": "Clubes Femininos",
+      "revision": "1",
+      "active": "SIM",
       "fileName": "20220220FTP001-005-01.pdf"
     },
     {
@@ -148,6 +158,8 @@
       "eventID": "3",
       "title": "Taça de Portugal",
       "subtitle": "Clubes Masculinos",
+      "revision": "1",
+      "active": "SIM",
       "fileName": "20220220FTP001-006-01.pdf"
     }
   ]
