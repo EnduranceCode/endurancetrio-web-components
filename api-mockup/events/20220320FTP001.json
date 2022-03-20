@@ -42,7 +42,7 @@
       "id": "95",
       "eventID": "13",
       "raceReference": "20220320FTP001-001",
-      "title": "Campeonato Nacional Individual de Duatlo Cross",
+      "title": "Campeonato Nacional de Clubes Cross e Individual de Duatlo Cross",
       "subtitle": "Femininos",
       "sport": "DUATHLON",
       "distanceType": "SPRINT",
@@ -76,7 +76,7 @@
       "id": "96",
       "eventID": "13",
       "raceReference": "20220320FTP001-002",
-      "title": "Campeonato Nacional Individual de Duatlo Cross",
+      "title": "Campeonato Nacional de Clubes Cross e Individual de Duatlo Cross",
       "subtitle": "Masculinos",
       "sport": "DUATHLON",
       "distanceType": "SPRINT",
@@ -110,8 +110,8 @@
       "id": "97",
       "eventID": "13",
       "raceReference": "20220320FTP001-003",
-      "title": "Prova Aberta",
-      "subtitle": "Femininos",
+      "title": "Campeonato Nacional Individual de Paratriatlo Duatlo Cross",
+      "subtitle": "Masculinos",
       "sport": "DUATHLON",
       "distanceType": "SPRINT",
       "gender": "MALE",
@@ -145,7 +145,7 @@
       "eventID": "13",
       "raceReference": "20220320FTP001-004",
       "title": "Prova Aberta",
-      "subtitle": "Masculinos",
+      "subtitle": "Femininos",
       "sport": "DUATHLON",
       "distanceType": "SPRINT",
       "gender": "FEMALE",
@@ -178,6 +178,40 @@
       "id": "99",
       "eventID": "13",
       "raceReference": "20220320FTP001-005",
+      "title": "Prova Aberta",
+      "subtitle": "Masculinos",
+      "sport": "DUATHLON",
+      "distanceType": "SPRINT",
+      "gender": "MALE",
+      "ageGroup": "OVERALL",
+      "teamRanks": "NÂO",
+      "scheduleDate": "2022-03-20",
+      "scheduleTime": "10:00:00",
+      "swimDistance": "",
+      "swimLaps": "",
+      "firstRunDistance": "5000",
+      "firstRunLaps": "1",
+      "cyclingDistance": "18000",
+      "cyclingLaps": "2",
+      "runDistance": "",
+      "runLaps": "",
+      "secondRunDistance": "2100",
+      "secondRunLaps": "1",
+      "actualDate": "2022-03-20",
+      "actualTime": "",
+      "airTemperature": "",
+      "waterTemperature": "",
+      "wetSuit": "",
+      "championships": "",
+      "technicalDelegate": "",
+      "headReferee": "",
+      "competitionJury": "",
+      "results": ""
+    },
+    {
+      "id": "100",
+      "eventID": "13",
+      "raceReference": "20220320FTP001-006",
       "title": "Estafetas",
       "subtitle": "Femininos",
       "sport": "DUATHLON",
@@ -209,9 +243,9 @@
       "results": ""
     },
     {
-      "id": "100",
+      "id": "101",
       "eventID": "13",
-      "raceReference": "20220320FTP001-006",
+      "raceReference": "20220320FTP001-007",
       "title": "Estafetas",
       "subtitle": "Masculinos",
       "sport": "DUATHLON",
@@ -243,9 +277,9 @@
       "results": ""
     },
     {
-      "id": "101",
+      "id": "102",
       "eventID": "13",
-      "raceReference": "20220320FTP001-007",
+      "raceReference": "20220320FTP001-008",
       "title": "Estafetas",
       "subtitle": "Mistas",
       "sport": "DUATHLON",
@@ -281,7 +315,7 @@
     {
       "id": "142",
       "eventID": "13",
-      "title": "Campeonato Nacional Individual de Duatlo Cross",
+      "title": "Campeonato Nacional de Clubes Cross e Individual de Duatlo Cross",
       "subtitle": "Femininos",
       "revision": "1",
       "active": "SIM",
@@ -290,7 +324,7 @@
     {
       "id": "143",
       "eventID": "13",
-      "title": "Campeonato Nacional Individual de Duatlo Cross",
+      "title": "Campeonato Nacional de Clubes Cross e Individual de Duatlo Cross",
       "subtitle": "Masculinos",
       "revision": "1",
       "active": "SIM",
@@ -299,8 +333,8 @@
     {
       "id": "144",
       "eventID": "13",
-      "title": "Prova Aberta",
-      "subtitle": "Femininos",
+      "title": "Campeonato Nacional Individual de Paratriatlo Duatlo Cross",
+      "subtitle": "Masculinos",
       "revision": "1",
       "active": "SIM",
       "fileName": "20220320FTP001-003-01.pdf"
@@ -309,7 +343,7 @@
       "id": "145",
       "eventID": "13",
       "title": "Prova Aberta",
-      "subtitle": "Masculinos",
+      "subtitle": "Femininos",
       "revision": "1",
       "active": "SIM",
       "fileName": "20220320FTP001-004-01.pdf"
@@ -317,8 +351,8 @@
     {
       "id": "146",
       "eventID": "13",
-      "title": "Estafetas",
-      "subtitle": "Femininos",
+      "title": "Prova Aberta",
+      "subtitle": "Masculinos",
       "revision": "1",
       "active": "SIM",
       "fileName": "20220320FTP001-005-01.pdf"
@@ -327,7 +361,7 @@
       "id": "147",
       "eventID": "13",
       "title": "Estafetas",
-      "subtitle": "Masculinos",
+      "subtitle": "Femininos",
       "revision": "1",
       "active": "SIM",
       "fileName": "20220320FTP001-006-01.pdf"
@@ -336,7 +370,7 @@
       "id": "148",
       "eventID": "13",
       "title": "Estafetas",
-      "subtitle": "Mistas",
+      "subtitle": "Masculinos",
       "revision": "1",
       "active": "SIM",
       "fileName": "20220320FTP001-007-01.pdf"
@@ -344,8 +378,8 @@
     {
       "id": "149",
       "eventID": "13",
-      "title": "Campeonato Nacional Individual de Duatlo Cross",
-      "subtitle": "Escalões Femininos",
+      "title": "Estafetas",
+      "subtitle": "Mistas",
       "revision": "1",
       "active": "SIM",
       "fileName": "20220320FTP001-008-01.pdf"
@@ -353,8 +387,8 @@
     {
       "id": "150",
       "eventID": "13",
-      "title": "Campeonato Nacional Individual de Duatlo Cross",
-      "subtitle": "Escalões Masculinos",
+      "title": "Campeonato Nacional de Clubes Cross e Individual de Duatlo Cross",
+      "subtitle": "Escalões Femininos",
       "revision": "1",
       "active": "SIM",
       "fileName": "20220320FTP001-009-01.pdf"
@@ -362,8 +396,8 @@
     {
       "id": "151",
       "eventID": "13",
-      "title": "Campeonato Nacional Individual de Duatlo Cross",
-      "subtitle": "Clubes Femininos",
+      "title": "Campeonato Nacional de Clubes Cross e Individual de Duatlo Cross",
+      "subtitle": "Escalões Masculinos",
       "revision": "1",
       "active": "SIM",
       "fileName": "20220320FTP001-010-01.pdf"
@@ -371,11 +405,20 @@
     {
       "id": "152",
       "eventID": "13",
-      "title": "Campeonato Nacional Individual de Duatlo Cross",
-      "subtitle": "Clubes Masculinos",
+      "title": "Campeonato Nacional de Clubes Cross",
+      "subtitle": "Clubes Femininos",
       "revision": "1",
       "active": "SIM",
       "fileName": "20220320FTP001-011-01.pdf"
+    },
+    {
+      "id": "153",
+      "eventID": "13",
+      "title": "Campeonato Nacional de Clubes Cross",
+      "subtitle": "Clubes Masculinos",
+      "revision": "1",
+      "active": "SIM",
+      "fileName": "20220320FTP001-012-01.pdf"
     }
   ]
 }
