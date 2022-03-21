@@ -1,0 +1,55 @@
+{
+  "id": 100,
+  "title": "Estafetas",
+  "subtitle": "Femininos",
+  "swimDistance": "",
+  "swimLaps": "",
+  "cynclingDistance": "",
+  "cyclingLaps": "",
+  "runDistance": "",
+  "runLaps": "",
+  "actualDate": "2022-03-20",
+  "actualTime": "10:09:52",
+  "airTemperature": "",
+  "waterTemperature": "",
+  "wetSuit": "",
+  "raceReference": "20220320FTP001-006",
+  "results": [
+    {
+      "rank": 1,
+      "raceNumber": "6042",
+      "name": "Bikemania Famalicão",
+      "firstRun": "00:17:23",
+      "t1": "00:01:03",
+      "bike": "00:52:21",
+      "t2": "00:01:03",
+      "secondRun": "00:08:44",
+      "total": "01:20:34",
+      "gap": "00:00:00"
+    },
+    {
+      "rank": 2,
+      "raceNumber": "6020",
+      "name": "B&M",
+      "firstRun": "00:25:44",
+      "t1": "00:01:07",
+      "bike": "00:49:22",
+      "t2": "00:01:01",
+      "secondRun": "00:11:45",
+      "total": "01:28:59",
+      "gap": "00:08:25"
+    },
+    {
+      "rank": 3,
+      "raceNumber": "6145",
+      "name": "SC Cabeçudense",
+      "firstRun": "00:24:28",
+      "t1": "00:01:44",
+      "bike": "01:07:18",
+      "t2": "00:01:02",
+      "secondRun": "00:12:11",
+      "total": "01:46:43",
+      "gap": "00:26:09"
+    }
+  ]
+}
