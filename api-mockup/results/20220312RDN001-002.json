@@ -1,0 +1,140 @@
+{
+  "id": 57,
+  "title": "Campeonato Douro Norte Jovem",
+  "subtitle": "Benjamins Masculinos",
+  "swimDistance": "",
+  "swimLaps": "",
+  "cynclingDistance": "",
+  "cyclingLaps": "",
+  "runDistance": "",
+  "runLaps": "",
+  "actualDate": "",
+  "actualTime": "",
+  "airTemperature": "",
+  "waterTemperature": "",
+  "wetSuit": "",
+  "raceReference": "20220312RDN001-002",
+  "results": [
+    {
+      "rank": 1,
+      "licence": "108225",
+      "raceNumber": "948",
+      "name": "Rodrigo Pinto",
+      "ageGroup": "BEN",
+      "team": "Associação Beat Your Limit!",
+      "total": "00:07:30",
+      "gap": "00:00:00",
+      "points": "150"
+    },
+    {
+      "rank": 2,
+      "licence": "108226",
+      "raceNumber": "950",
+      "name": "Lourenço Pinto",
+      "ageGroup": "BEN",
+      "team": "Associação Beat Your Limit!",
+      "total": "00:07:36",
+      "gap": "00:00:06",
+      "points": "140"
+    },
+    {
+      "rank": 3,
+      "licence": "107499",
+      "raceNumber": "145",
+      "name": "Gabriel Fernandes",
+      "ageGroup": "BEN",
+      "team": "Pedalarte",
+      "total": "00:07:48",
+      "gap": "00:00:18",
+      "points": "130"
+    },
+    {
+      "rank": 4,
+      "licence": "108444",
+      "raceNumber": "1229",
+      "name": "Vicente Outeiro",
+      "ageGroup": "BEN",
+      "team": "G.D.GOMA",
+      "total": "00:08:02",
+      "gap": "00:00:32",
+      "points": "125"
+    },
+    {
+      "rank": 5,
+      "licence": "107963",
+      "raceNumber": "744",
+      "name": "Martim Fernandes",
+      "ageGroup": "BEN",
+      "team": "Pedalarte",
+      "total": "00:08:19",
+      "gap": "00:00:49",
+      "points": "120"
+    },
+    {
+      "rank": 6,
+      "licence": "107232",
+      "raceNumber": "1052",
+      "name": "Jaime Ferreira",
+      "ageGroup": "BEN",
+      "team": "Associação Académica de São Mamede",
+      "total": "00:09:52",
+      "gap": "00:02:22",
+      "points": "115"
+    },
+    {
+      "rank": 7,
+      "licence": "107884",
+      "raceNumber": "624",
+      "name": "Rui Costa",
+      "ageGroup": "BEN",
+      "team": "Pedalarte",
+      "total": "00:10:02",
+      "gap": "00:02:32",
+      "points": "110"
+    },
+    {
+      "rank": 8,
+      "licence": "106804",
+      "raceNumber": "363",
+      "name": "Gabriel Bouça",
+      "ageGroup": "BEN",
+      "team": "Pedalarte",
+      "total": "00:10:13",
+      "gap": "00:02:43",
+      "points": "108"
+    },
+    {
+      "rank": 9,
+      "licence": "108442",
+      "raceNumber": "1226",
+      "name": "Duarte Amorim",
+      "ageGroup": "BEN",
+      "team": "G.D.GOMA",
+      "total": "00:10:27",
+      "gap": "00:02:57",
+      "points": "106"
+    },
+    {
+      "rank": 10,
+      "licence": "107800",
+      "raceNumber": "457",
+      "name": "Gonçalo Pereira",
+      "ageGroup": "BEN",
+      "team": "Pedalarte",
+      "total": "00:10:54",
+      "gap": "00:03:24",
+      "points": "104"
+    },
+    {
+      "rank": 11,
+      "licence": "108208",
+      "raceNumber": "919",
+      "name": "Tiago Nunes",
+      "ageGroup": "BEN",
+      "team": "Paredes Aventura",
+      "total": "00:11:24",
+      "gap": "00:03:54",
+      "points": "102"
+    }
+  ]
+}

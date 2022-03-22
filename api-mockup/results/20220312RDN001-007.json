@@ -1,0 +1,85 @@
+{
+  "id": 62,
+  "title": "Campeonato Douro Norte Jovem",
+  "subtitle": "Juvenis Femininos",
+  "swimDistance": "",
+  "swimLaps": "",
+  "cynclingDistance": "",
+  "cyclingLaps": "",
+  "runDistance": "",
+  "runLaps": "",
+  "actualDate": "",
+  "actualTime": "",
+  "airTemperature": "",
+  "waterTemperature": "",
+  "wetSuit": "",
+  "raceReference": "20220312RDN001-007",
+  "results": [
+    {
+      "rank": 1,
+      "licence": "105563",
+      "raceNumber": "1016",
+      "name": "Leonor Quarteu",
+      "ageGroup": "JUV",
+      "team": "Pedalarte",
+      "total": "00:31:04",
+      "gap": "00:00:00",
+      "points": "150"
+    },
+    {
+      "rank": 2,
+      "licence": "103026",
+      "raceNumber": "781",
+      "name": "Beatriz Cardoso",
+      "ageGroup": "JUV",
+      "team": "Associação Académica de São Mamede",
+      "total": "00:31:18",
+      "gap": "00:00:14",
+      "points": "140"
+    },
+    {
+      "rank": 3,
+      "licence": "106309",
+      "raceNumber": "1382",
+      "name": "Fabiana Ferreira",
+      "ageGroup": "JUV",
+      "team": "Paredes Aventura",
+      "total": "00:32:18",
+      "gap": "00:01:14",
+      "points": "130"
+    },
+    {
+      "rank": 4,
+      "licence": "107801",
+      "raceNumber": "459",
+      "name": "Leonor Pereira",
+      "ageGroup": "JUV",
+      "team": "Pedalarte",
+      "total": "00:36:01",
+      "gap": "00:04:57",
+      "points": "125"
+    },
+    {
+      "rank": 5,
+      "licence": "106089",
+      "raceNumber": "1219",
+      "name": "Margarida Monteiro",
+      "ageGroup": "JUV",
+      "team": "Associação Beat Your Limit!",
+      "total": "00:36:11",
+      "gap": "00:05:07",
+      "points": "120"
+    },
+    {
+      "rank": 6,
+      "licence": "108410",
+      "raceNumber": "1158",
+      "name": "Raquel Silva",
+      "ageGroup": "JUV",
+      "team": "Associação Beat Your Limit!",
+      "total": "00:47:18",
+      "gap": "00:16:14",
+      "points": "115"
+    }
+  ]
+}

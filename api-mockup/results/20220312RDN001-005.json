@@ -1,0 +1,85 @@
+{
+  "id": 60,
+  "title": "Campeonato Douro Norte Jovem",
+  "subtitle": "Iniciados Femininos",
+  "swimDistance": "",
+  "swimLaps": "",
+  "cynclingDistance": "",
+  "cyclingLaps": "",
+  "runDistance": "",
+  "runLaps": "",
+  "actualDate": "",
+  "actualTime": "",
+  "airTemperature": "",
+  "waterTemperature": "",
+  "wetSuit": "",
+  "raceReference": "20220312RDN001-005",
+  "results": [
+    {
+      "rank": 1,
+      "licence": "106049",
+      "raceNumber": "1188",
+      "name": "Letícia Lopes",
+      "ageGroup": "INI",
+      "team": "G.D.GOMA",
+      "total": "00:21:04",
+      "gap": "00:00:00",
+      "points": "150"
+    },
+    {
+      "rank": 2,
+      "licence": "105564",
+      "raceNumber": "1017",
+      "name": "Maria Quarteu",
+      "ageGroup": "INI",
+      "team": "Pedalarte",
+      "total": "00:21:04",
+      "gap": "00:00:00",
+      "points": "140"
+    },
+    {
+      "rank": 3,
+      "licence": "107345",
+      "raceNumber": "1315",
+      "name": "Matilde Gomes",
+      "ageGroup": "INI",
+      "team": "Associação Beat Your Limit!",
+      "total": "00:21:22",
+      "gap": "00:00:18",
+      "points": "130"
+    },
+    {
+      "rank": 4,
+      "licence": "106063",
+      "raceNumber": "1200",
+      "name": "Carolina Ribeiro",
+      "ageGroup": "INI",
+      "team": "Paredes Aventura",
+      "total": "00:21:30",
+      "gap": "00:00:26",
+      "points": "125"
+    },
+    {
+      "rank": 5,
+      "licence": "108411",
+      "raceNumber": "1167",
+      "name": "Beatriz",
+      "ageGroup": "INI",
+      "team": "Associação Beat Your Limit!",
+      "total": "00:21:40",
+      "gap": "00:00:36",
+      "points": "120"
+    },
+    {
+      "rank": 6,
+      "licence": "106090",
+      "raceNumber": "1220",
+      "name": "Carolina Ribeiro",
+      "ageGroup": "INI",
+      "team": "Associação Beat Your Limit!",
+      "total": "00:21:50",
+      "gap": "00:00:46",
+      "points": "115"
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "id": 64,
+  "title": "Campeonato Douro Norte Jovem",
+  "subtitle": "Cadetes Masculinos",
+  "swimDistance": "",
+  "swimLaps": "",
+  "cynclingDistance": "",
+  "cyclingLaps": "",
+  "runDistance": "",
+  "runLaps": "",
+  "actualDate": "",
+  "actualTime": "",
+  "airTemperature": "",
+  "waterTemperature": "",
+  "wetSuit": "",
+  "raceReference": "20220312RDN001-009",
+  "results": [
+    {
+      "rank": 1,
+      "licence": "105513",
+      "raceNumber": "1548",
+      "name": "Guilherme Fernandes",
+      "ageGroup": "CAD",
+      "team": "Pedalarte",
+      "total": "00:50:46",
+      "gap": "00:00:00",
+      "points": "150"
+    },
+    {
+      "rank": 2,
+      "licence": "105434",
+      "raceNumber": "1936",
+      "name": "David Ferreira",
+      "ageGroup": "CAD",
+      "team": "Paredes Aventura",
+      "total": "00:50:54",
+      "gap": "00:00:08",
+      "points": "140"
+    },
+    {
+      "rank": 3,
+      "licence": "105484",
+      "raceNumber": "1937",
+      "name": "Emanuel Gonçalves",
+      "ageGroup": "CAD",
+      "team": "Paredes Aventura",
+      "total": "00:54:08",
+      "gap": "00:03:22",
+      "points": "130"
+    },
+    {
+      "rank": 4,
+      "licence": "105511",
+      "raceNumber": "1550",
+      "name": "Tiago Gonçalves",
+      "ageGroup": "CAD",
+      "team": "Pedalarte",
+      "total": "01:02:00",
+      "gap": "00:11:14",
+      "points": "125"
+    },
+    {
+      "rank": 5,
+      "licence": "105439",
+      "raceNumber": "1893",
+      "name": "Rodrigo Silva",
+      "ageGroup": "CAD",
+      "team": "Paredes Aventura",
+      "total": "01:08:00",
+      "gap": "00:17:14",
+      "points": "120"
+    }
+  ]
+}

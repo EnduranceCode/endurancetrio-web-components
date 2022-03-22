@@ -1,0 +1,52 @@
+{
+  "id": 58,
+  "title": "Campeonato Douro Norte Jovem",
+  "subtitle": "Infantis Femininos",
+  "swimDistance": "",
+  "swimLaps": "",
+  "cynclingDistance": "",
+  "cyclingLaps": "",
+  "runDistance": "",
+  "runLaps": "",
+  "actualDate": "",
+  "actualTime": "",
+  "airTemperature": "",
+  "waterTemperature": "",
+  "wetSuit": "",
+  "raceReference": "20220312RDN001-003",
+  "results": [
+    {
+      "rank": 1,
+      "licence": "106061",
+      "raceNumber": "1198",
+      "name": "Mariana Ferreira",
+      "ageGroup": "INF",
+      "team": "Paredes Aventura",
+      "total": "00:14:37",
+      "gap": "00:00:00",
+      "points": "150"
+    },
+    {
+      "rank": 2,
+      "licence": "106813",
+      "raceNumber": "377",
+      "name": "Lara Silva",
+      "ageGroup": "INF",
+      "team": "G.D.GOMA",
+      "total": "00:16:04",
+      "gap": "00:01:27",
+      "points": "140"
+    },
+    {
+      "rank": 3,
+      "licence": "106078",
+      "raceNumber": "1208",
+      "name": "Francisca Amaral",
+      "ageGroup": "INF",
+      "team": "Paredes Aventura",
+      "total": "00:16:35",
+      "gap": "00:01:58",
+      "points": "130"
+    }
+  ]
+}

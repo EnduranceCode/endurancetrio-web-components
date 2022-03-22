@@ -378,40 +378,6 @@
       "eventID": "8",
       "raceReference": "20220312RDN001-009",
       "title": "Campeonato Douro Norte Jovem",
-      "subtitle": "Cadetes Femininos",
-      "sport": "DUATHLON",
-      "distanceType": "YOUTH",
-      "gender": "FEMALE",
-      "ageGroup": "CAD",
-      "teamRanks": "SIM",
-      "scheduleDate": "2022-03-12",
-      "scheduleTime": "14:00:00",
-      "swimDistance": "",
-      "swimLaps": "",
-      "firstRunDistance": "3000",
-      "firstRunLaps": "2",
-      "cyclingDistance": "12000",
-      "cyclingLaps": "4",
-      "runDistance": "",
-      "runLaps": "",
-      "secondRunDistance": "1500",
-      "secondRunLaps": "1",
-      "actualDate": "",
-      "actualTime": "",
-      "airTemperature": "",
-      "waterTemperature": "",
-      "wetSuit": "",
-      "championships": "",
-      "technicalDelegate": "",
-      "headReferee": "",
-      "competitionJury": "",
-      "results": ""
-    },
-    {
-      "id": "65",
-      "eventID": "8",
-      "raceReference": "20220312RDN001-010",
-      "title": "Campeonato Douro Norte Jovem",
       "subtitle": "Cadetes Masculinos",
       "sport": "DUATHLON",
       "distanceType": "YOUTH",
@@ -442,9 +408,9 @@
       "results": ""
     },
     {
-      "id": "66",
+      "id": "65",
       "eventID": "8",
-      "raceReference": "20220312RDN001-011",
+      "raceReference": "20220312RDN001-010",
       "title": "Prova Aberta",
       "subtitle": "Masculinos",
       "sport": "DUATHLON",
@@ -476,9 +442,9 @@
       "results": ""
     },
     {
-      "id": "67",
+      "id": "66",
       "eventID": "8",
-      "raceReference": "20220312RDN001-012",
+      "raceReference": "20220312RDN001-011",
       "title": "Prova Aberta",
       "subtitle": "Femininos",
       "sport": "DUATHLON",
@@ -587,7 +553,7 @@
       "id": "104",
       "eventID": "8",
       "title": "Campeonato Douro Norte Jovem",
-      "subtitle": "Cadetes Femininos",
+      "subtitle": "Cadetes Masculinos",
       "revision": "1",
       "active": "SIM",
       "fileName": "20220312RDN001-009-01.pdf"
@@ -595,8 +561,8 @@
     {
       "id": "105",
       "eventID": "8",
-      "title": "Campeonato Douro Norte Jovem",
-      "subtitle": "Cadetes Masculinos",
+      "title": "Prova Aberta",
+      "subtitle": "Femininos",
       "revision": "1",
       "active": "SIM",
       "fileName": "20220312RDN001-010-01.pdf"
@@ -605,7 +571,7 @@
       "id": "106",
       "eventID": "8",
       "title": "Prova Aberta",
-      "subtitle": "Femininos",
+      "subtitle": "Masculinos",
       "revision": "1",
       "active": "SIM",
       "fileName": "20220312RDN001-011-01.pdf"
@@ -613,20 +579,11 @@
     {
       "id": "107",
       "eventID": "8",
-      "title": "Prova Aberta",
-      "subtitle": "Masculinos",
-      "revision": "1",
-      "active": "SIM",
-      "fileName": "20220312RDN001-012-01.pdf"
-    },
-    {
-      "id": "108",
-      "eventID": "8",
       "title": "Campeonato Douro Norte Jovem",
       "subtitle": "Clubes",
       "revision": "1",
       "active": "SIM",
-      "fileName": "20220312RDN001-013-01.pdf"
+      "fileName": "20220312RDN001-012-01.pdf"
     }
   ]
 }

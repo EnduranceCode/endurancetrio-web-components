@@ -1,0 +1,107 @@
+{
+  "id": 59,
+  "title": "Campeonato Douro Norte Jovem",
+  "subtitle": "Infantis Masculinos",
+  "swimDistance": "",
+  "swimLaps": "",
+  "cynclingDistance": "",
+  "cyclingLaps": "",
+  "runDistance": "",
+  "runLaps": "",
+  "actualDate": "",
+  "actualTime": "",
+  "airTemperature": "",
+  "waterTemperature": "",
+  "wetSuit": "",
+  "raceReference": "20220312RDN001-004",
+  "results": [
+    {
+      "rank": 1,
+      "licence": "107856",
+      "raceNumber": "580",
+      "name": "Tomás Costa",
+      "ageGroup": "INF",
+      "team": "Pedalarte",
+      "total": "00:12:02",
+      "gap": "00:00:00",
+      "points": "150"
+    },
+    {
+      "rank": 2,
+      "licence": "106086",
+      "raceNumber": "1216",
+      "name": "Rodrigo Yü Santos",
+      "ageGroup": "INF",
+      "team": "Associação Beat Your Limit!",
+      "total": "00:13:31",
+      "gap": "00:01:29",
+      "points": "140"
+    },
+    {
+      "rank": 3,
+      "licence": "107094",
+      "raceNumber": "791",
+      "name": "Henrique Araújo",
+      "ageGroup": "INF",
+      "team": "Associação Académica de São Mamede",
+      "total": "00:13:35",
+      "gap": "00:01:33",
+      "points": "130"
+    },
+    {
+      "rank": 4,
+      "licence": "NF",
+      "raceNumber": "1264",
+      "name": "Santiago F. Silva",
+      "ageGroup": "INF",
+      "team": "X Não Federado",
+      "total": "00:13:36",
+      "gap": "00:01:34",
+      "points": ""
+    },
+    {
+      "rank": 5,
+      "licence": "108443",
+      "raceNumber": "1228",
+      "name": "Tiago Esteves",
+      "ageGroup": "INF",
+      "team": "G.D.GOMA",
+      "total": "00:15:01",
+      "gap": "00:02:59",
+      "points": "125"
+    },
+    {
+      "rank": 6,
+      "licence": "107500",
+      "raceNumber": "135",
+      "name": "Gonçalo Gonçalves",
+      "ageGroup": "INF",
+      "team": "Pedalarte",
+      "total": "00:15:12",
+      "gap": "00:03:10",
+      "points": "120"
+    },
+    {
+      "rank": 7,
+      "licence": "NF",
+      "raceNumber": "835",
+      "name": "Alexandre Coutinho",
+      "ageGroup": "INF",
+      "team": "X Não Federado",
+      "total": "00:15:54",
+      "gap": "00:03:52",
+      "points": ""
+    },
+    {
+      "rank": 8,
+      "licence": "108202",
+      "raceNumber": "910",
+      "name": "Duarte Moreira",
+      "ageGroup": "INF",
+      "team": "Paredes Aventura",
+      "total": "00:18:02",
+      "gap": "00:06:00",
+      "points": "115"
+    }
+  ]
+}

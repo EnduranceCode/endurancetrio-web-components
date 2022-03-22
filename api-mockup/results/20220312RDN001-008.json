@@ -1,0 +1,85 @@
+{
+  "id": 63,
+  "title": "Campeonato Douro Norte Jovem",
+  "subtitle": "Juvenis Masculinos",
+  "swimDistance": "",
+  "swimLaps": "",
+  "cynclingDistance": "",
+  "cyclingLaps": "",
+  "runDistance": "",
+  "runLaps": "",
+  "actualDate": "",
+  "actualTime": "",
+  "airTemperature": "",
+  "waterTemperature": "",
+  "wetSuit": "",
+  "raceReference": "20220312RDN001-008",
+  "results": [
+    {
+      "rank": 1,
+      "licence": "107966",
+      "raceNumber": "1190",
+      "name": "Gabriel Saraiva",
+      "ageGroup": "JUV",
+      "team": "Pedalarte",
+      "total": "00:27:27",
+      "gap": "00:00:00",
+      "points": "150"
+    },
+    {
+      "rank": 2,
+      "licence": "105545",
+      "raceNumber": "1011",
+      "name": "Caetano Pereira",
+      "ageGroup": "JUV",
+      "team": "Pedalarte",
+      "total": "00:27:41",
+      "gap": "00:00:14",
+      "points": "140"
+    },
+    {
+      "rank": 3,
+      "licence": "108149",
+      "raceNumber": "863",
+      "name": "Sebastião Gomes",
+      "ageGroup": "JUV",
+      "team": "Associação Académica de São Mamede",
+      "total": "00:30:01",
+      "gap": "00:02:34",
+      "points": "130"
+    },
+    {
+      "rank": 4,
+      "licence": "NF",
+      "raceNumber": "382",
+      "name": "Gonçalo Oliveira",
+      "ageGroup": "JUV",
+      "team": "X Não Federado",
+      "total": "00:31:59",
+      "gap": "00:04:32",
+      "points": ""
+    },
+    {
+      "rank": 5,
+      "licence": "108440",
+      "raceNumber": "1214",
+      "name": "José Pedro",
+      "ageGroup": "JUV",
+      "team": "Associação Beat Your Limit!",
+      "total": "00:33:08",
+      "gap": "00:05:41",
+      "points": "125"
+    },
+    {
+      "rank": 6,
+      "licence": "108453",
+      "raceNumber": "1372",
+      "name": "Afonso Lima",
+      "ageGroup": "JUV",
+      "team": "Pedalarte",
+      "total": "00:37:35",
+      "gap": "00:10:08",
+      "points": "120"
+    }
+  ]
+}

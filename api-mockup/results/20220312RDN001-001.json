@@ -1,0 +1,63 @@
+{
+  "id": 56,
+  "title": "Campeonato Douro Norte Jovem",
+  "subtitle": "Benjamins Femininos",
+  "swimDistance": "",
+  "swimLaps": "",
+  "cynclingDistance": "",
+  "cyclingLaps": "",
+  "runDistance": "",
+  "runLaps": "",
+  "actualDate": "",
+  "actualTime": "",
+  "airTemperature": "",
+  "waterTemperature": "",
+  "wetSuit": "",
+  "raceReference": "20220312RDN001-001",
+  "results": [
+    {
+      "rank": 1,
+      "licence": "108445",
+      "raceNumber": "1233",
+      "name": "Nádia Rodrigues",
+      "ageGroup": "BEN",
+      "team": "G.D.GOMA",
+      "total": "00:10:36",
+      "gap": "00:00:00",
+      "points": "150"
+    },
+    {
+      "rank": 2,
+      "licence": "107855",
+      "raceNumber": "578",
+      "name": "Maria Salgueiro Pereira",
+      "ageGroup": "BEN",
+      "team": "Pedalarte",
+      "total": "00:11:51",
+      "gap": "00:01:15",
+      "points": "140"
+    },
+    {
+      "rank": 3,
+      "licence": "107501",
+      "raceNumber": "147",
+      "name": "Benedita Covinha",
+      "ageGroup": "BEN",
+      "team": "Pedalarte",
+      "total": "00:13:12",
+      "gap": "00:02:36",
+      "points": "130"
+    },
+    {
+      "rank": 4,
+      "licence": "106814",
+      "raceNumber": "380",
+      "name": "Leonor Rito",
+      "ageGroup": "BEN",
+      "team": "G.D.GOMA",
+      "total": "00:13:17",
+      "gap": "00:02:41",
+      "points": "125"
+    }
+  ]
+}
