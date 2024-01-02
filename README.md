@@ -39,7 +39,7 @@ For the development of **EnduranceTrio Web Components**, [Webpack](https://webpa
 
 #### Build
 
-**EnduranceTrio Web Components** is built with [LitElement](https://lit.dev/). The styling of the its components is based on [Bulma](https://bulma.io/) and the used icon library is [Material Design Icons](https://pictogrammers.com/library/mdi/). [Bulma](https://bulma.io/) is also used for the styling of **EnduranceTrio Web Components** sample page. Therefore, the following [npm](https://www.npmjs.com/) are used to build **EnduranceTrio Web Components**:
+**EnduranceTrio Web Components** is built with [LitElement](https://lit.dev/). The styling of the its components is based on [Bulma](https://bulma.io/) and the used icon library is [Material Design Icons](https://pictogrammers.com/library/mdi/). [Bulma](https://bulma.io/) is also used for the styling of **EnduranceTrio Web Components** sample page. Therefore, the following [npm](https://www.npmjs.com/) packages are used to build **EnduranceTrio Web Components**:
 
 + [lit](https://www.npmjs.com/package/lit);
 + [bulma](https://www.npmjs.com/package/bulma);
