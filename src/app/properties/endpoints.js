@@ -5,15 +5,15 @@
  */
 
 /**
- * Base URL of the API in use on the development phase
- */
-const MOCKUP_API_URL_DEV =
-  'https://raw.githubusercontent.com/EnduranceCode/endurancetrio-race-results/master/api-mockup/';
-
-/**
  * Base URL of the API is use
  */
-const BASE_URL = MOCKUP_API_URL_DEV;
+const BASE_URL = process.env.BASE_URL;
+
+/**
+ * The flag that defines if a mocked API is in use, i.e., JSON files are used to simulate a REST API response. When set
+ * to 'true', the suffix '.json' will be added to all endpoints.
+ */
+const IS_MOCKED_API = process.env.IS_MOCKED_API === 'true';
 
 /**
  * Object that stores the API endpoints
@@ -32,5 +32,11 @@ const endpoints = {
  * @returns the endpoint to be queried
  */
 export function getEndpoint(key, filename) {
-  return BASE_URL.concat(endpoints[key], filename, '.json');
+  const url = BASE_URL.concat(endpoints[key], filename);
+
+  if (IS_MOCKED_API) {
+    return url.concat('.json');
+  }
+
+  return url;
 }

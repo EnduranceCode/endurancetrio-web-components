@@ -25,6 +25,7 @@ For the development of **EnduranceTrio Web Components**, [Webpack](https://webpa
 **EnduranceTrio Web Components** uses the following [npm](https://www.npmjs.com/) packages for its development:
 
 + [css-loader](https://www.npmjs.com/package/css-loader);
++ [dotenv](https://www.npmjs.com/package/dotenv);
 + [eslint](https://www.npmjs.com/package/eslint);
 + [eslint-config-prettier](https://www.npmjs.com/package/eslint-config-prettier);
 + [eslint-plugin-prettier](https://www.npmjs.com/package/eslint-plugin-prettier);
@@ -52,6 +53,8 @@ To start developing **EnduranceTrio  Web Components**, clone this repository and
     git clone git@github.com:EnduranceCode/endurancetrio-web-components.git
     cd endurancetrio-web-components
     npm install
+
+To setup the environment variables file, copy the file [`.env.template`](.env.template) as `.env.development`and then define the variables values for the ***development*** environment. Repeat the process for the ***production*** environment, naming the correspondent environmnet variables file as `.env.production`.
 
 ## License
 
