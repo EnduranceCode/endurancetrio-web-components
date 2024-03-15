@@ -13,7 +13,7 @@ const envKeys = Object.keys(env).reduce((prev, next) => {
 }, {});
 
 module.exports = {
-  entry: { index: path.resolve(__dirname, 'src', 'app', 'RaceResults.js') },
+  entry: { index: path.resolve(__dirname, 'src', 'app', 'index.js') },
 
   output: {
     clean: true,

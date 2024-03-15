@@ -6,15 +6,15 @@
 
 import { LitElement, html, css } from 'lit';
 
-import { appStyles } from './css/app-style';
-import { Utils } from './utils/Utils';
+import { appStyles } from '../../css/app-style';
+import { Utils } from '../../utils/Utils';
 
-import { EventService } from './service/EventService';
+import { EventService } from '../../service/EventService';
 
-import './components/event-header/EventHeader';
-import './components/results-data/RaceData';
+import '../event-header/EventHeader';
+import '../results-data/RaceData';
 
-class RaceResults extends LitElement {
+class EventResults extends LitElement {
   static styles = [
     css`
       :host {
@@ -69,4 +69,4 @@ class RaceResults extends LitElement {
   }
 }
 
-customElements.define('race-results', RaceResults);
+customElements.define('event-results', EventResults);
