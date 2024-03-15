@@ -53,7 +53,7 @@ const uiMessages = {
     licence: 'Licença',
     location: 'Local',
     name: 'Nome',
-    overall: 'Absolutos',
+    overall: 'Geral',
     points: 'Pontos',
     raceNumber: 'Dorsal',
     rank: '#',

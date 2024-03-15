@@ -5,7 +5,7 @@
  */
 
 import { getErrorMessage, errorMessagesKeys } from '../i18n/error-messages';
-import { getEndpoint } from '../properties/endpoints';
+import { getEndpoint, getLiveResultsEndpoint } from '../properties/endpoints';
 import { Constants } from '../utils/Constants';
 
 class ResultsService {
@@ -28,21 +28,58 @@ class ResultsService {
     }
 
     apiData.results = results.set('overall', apiData.results);
-    const resultsAgeGroups = getAgeGroups(apiData.results.get('overall'));
+    const ageGroups = getAgeGroups(apiData.results.get('overall'));
 
-    if (resultsAgeGroups.length <= 1) {
+    if (ageGroups.length <= 1) {
       return apiData;
     }
 
-    /*
-     * Get a clone of the API Results to be able to prepare a list of results for each Age Group present
-     * The clone is made following the sugestion at https://stackoverflow.com/a/40283265
-     */
-    const overallResults = apiData.results.get('overall').map((result) => {
-      return Object.assign({}, result);
+    const overallResults = cloneResults(apiData.results.get('overall'));
+
+    ageGroups.forEach((ageGroup) => {
+      const ageGroupResults = overallResults.filter((result) => {
+        return result.ageGroup == ageGroup.shortName;
+      });
+
+      sortResultsByRank(ageGroupResults);
+      setSequentialRank(ageGroupResults);
+      calculateAgeGroupGaps(ageGroupResults);
+
+      results.set(ageGroup.shortName, ageGroupResults);
     });
 
-    resultsAgeGroups.forEach((ageGroup) => {
+    return apiData;
+  }
+
+  /**
+   * Fetchs the overall live results, from a Live Results API, for the given range name
+   * and sets results for each Age Group present.
+   *
+   * @param {String} rangeName the given range name that contains the required results
+   * @returns the results of the given range name
+   */
+  static async getLiveRaceResultsByRangeName(rangeName) {
+    const apiData = await ResultsService.getLiveResultsByRangeName(rangeName);
+
+    const results = new Map();
+
+    if (apiData.error) {
+      results.set('error', apiData.error);
+      const errorResponse = { results: results };
+      return errorResponse;
+    }
+
+    apiData.raceReference = rangeName.toUpperCase(rangeName);
+    apiData.results = results.set('overall', apiData.data);
+    const ageGroups = getAgeGroups(apiData.results.get('overall'));
+
+    if (ageGroups.length <= 1) {
+      return apiData;
+    }
+
+    const overallResults = cloneResults(apiData.results.get('overall'));
+
+    ageGroups.forEach((ageGroup) => {
       const ageGroupResults = overallResults.filter((result) => {
         return result.ageGroup == ageGroup.shortName;
       });
@@ -65,6 +102,28 @@ class ResultsService {
    */
   static async getResultsByReferenceFromJsonFile(raceReference) {
     const url = getEndpoint('results', raceReference);
+
+    return fetch(url, { cache: 'no-store' })
+      .then((response) => {
+        if (response.ok) {
+          return response.json();
+        } else {
+          return { error: getErrorMessage(errorMessagesKeys.resultsNotFound) };
+        }
+      })
+      .catch(() => {
+        return { error: getErrorMessage(errorMessagesKeys.networkError) };
+      });
+  }
+
+  /**
+   * Fetchs the overall live results, from a Live Results API, for the given range name.
+   *
+   * @param {String} rangeName The race reference of the desired results.
+   * @returns The overall results of the given race reference.
+   */
+  static async getLiveResultsByRangeName(rangeName) {
+    const url = getLiveResultsEndpoint(rangeName);
 
     return fetch(url, { cache: 'no-store' })
       .then((response) => {
@@ -107,6 +166,19 @@ function getAgeGroups(overallResultsData) {
 }
 
 /**
+ * Creates a clone of the given API Results array to be used to prepare a list of results for each Age Group present
+ * The clone is made following the sugestion at https://stackoverflow.com/a/40283265
+ *
+ * @param results the given API Results array
+ * @returns the clone of the given API Results array
+ */
+function cloneResults(results) {
+  return results.map((result) => {
+    return Object.assign({}, result);
+  });
+}
+
+/**
  * Sorts the given results by rank.
  *
  * @param {Array} resultsData Results array to be sorted by rank.
@@ -138,14 +210,28 @@ function setSequentialRank(resultsData) {
  * @param {Array} resultsData Results array to be set with the correct time gap for the Age Groups results.
  */
 function calculateAgeGroupGaps(resultsData) {
-  const winnerTotal = new Date(Date.parse('1984-08-15T' + resultsData[0].total + 'Z'));
+  const arrayWinnerTotal = resultsData[0].total.split(':');
+  const winnerTotal = arrayWinnerTotal.length === 3 ? new Date() : null;
+
+  if (winnerTotal) {
+    winnerTotal.setHours(arrayWinnerTotal[0]);
+    winnerTotal.setMinutes(arrayWinnerTotal[1]);
+    winnerTotal.setSeconds(arrayWinnerTotal[2]);
+  }
+
   const hourInMiliseconds = 60 * 60 * 1000;
   const minuteInMiliseconds = 60 * 1000;
 
   resultsData.map((result) => {
-    const resultTotalTime = Date.parse('1984-08-15T' + result.total + 'Z');
-    if (resultTotalTime) {
-      const gapMilisecons = new Date(resultTotalTime) - winnerTotal;
+    const arrayResultTotal = result.total.split(':');
+    const resultTotal = arrayResultTotal.length === 3 ? new Date() : null;
+
+    if (resultTotal) {
+      resultTotal.setHours(arrayResultTotal[0]);
+      resultTotal.setMinutes(arrayResultTotal[1]);
+      resultTotal.setSeconds(arrayResultTotal[2]);
+
+      const gapMilisecons = resultTotal - winnerTotal;
 
       const numberFormart = new Intl.NumberFormat('pt-PT', { minimumIntegerDigits: 2 });
       const diffHours = numberFormart.format(Math.floor(gapMilisecons / hourInMiliseconds));

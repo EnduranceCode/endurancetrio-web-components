@@ -10,6 +10,11 @@
 const BASE_URL = process.env.BASE_URL;
 
 /**
+ * Base URL of the Live Results API is use
+ */
+const LIVE_RESULTS_BASE_URL = process.env.LIVE_RESULTS_BASE_URL;
+
+/**
  * The flag that defines if a mocked API is in use, i.e., JSON files are used to simulate a REST API response. When set
  * to 'true', the suffix '.json' will be added to all endpoints.
  */
@@ -37,6 +42,18 @@ export function getEndpoint(key, filename) {
   if (IS_MOCKED_API) {
     return url.concat('.json');
   }
+
+  return url;
+}
+
+/**
+ * Returns the URL of the endpoint to perform the live results query
+ *
+ * @param {String} rangeName the given range name of the required results
+ * @returns the endpoint to query the results of the given range name
+ */
+export function getLiveResultsEndpoint(rangeName) {
+  const url = LIVE_RESULTS_BASE_URL.concat(rangeName);
 
   return url;
 }
