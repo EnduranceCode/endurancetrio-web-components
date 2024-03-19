@@ -6,9 +6,7 @@
 
 import { LitElement, html, css } from 'lit';
 
-import { mdiArrowUpDownBold } from '@mdi/js';
-import { mdiArrowUpBold } from '@mdi/js';
-import { mdiArrowDownBold } from '@mdi/js';
+import { mdiArrowUpDownBold, mdiArrowUpBold, mdiArrowDownBold } from '@mdi/js';
 
 import '../md-icon/MdIcon';
 

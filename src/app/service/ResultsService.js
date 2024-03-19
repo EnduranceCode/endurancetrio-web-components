@@ -222,7 +222,7 @@ function calculateAgeGroupGaps(resultsData) {
   const hourInMiliseconds = 60 * 60 * 1000;
   const minuteInMiliseconds = 60 * 1000;
 
-  resultsData.map((result) => {
+  resultsData.forEach((result) => {
     const arrayResultTotal = result.total.split(':');
     const resultTotal = arrayResultTotal.length === 3 ? new Date() : null;
 

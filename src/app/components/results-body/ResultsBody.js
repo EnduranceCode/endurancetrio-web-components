@@ -149,7 +149,7 @@ function getResultsTableColumnLabels(results) {
   const labels = [];
   const resultKeys = Object.keys(results[0]);
 
-  resultKeys.map((key) => {
+  resultKeys.forEach((key) => {
     labels.push({ key: key, label: getUiMessage(uiMessagesKeys[key]) });
   });
 
