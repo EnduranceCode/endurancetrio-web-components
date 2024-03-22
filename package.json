@@ -37,6 +37,8 @@
   "dependencies": {
     "@mdi/js": "^7.4.47",
     "bulma": "^0.9.4",
+    "jspdf": "^2.5.1",
+    "jspdf-autotable": "^3.8.2",
     "lit": "^2.8.0"
   }
 }
