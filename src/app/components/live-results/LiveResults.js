@@ -79,9 +79,13 @@ class LiveResults extends LitElement {
    * @returns the PDF icon/button template
    */
   renderPdfIcon() {
-    if (Utils.isObjectEmpty(this.race)) {
-      return null;
-    } else {
+    const hasResults =
+      !Utils.isObjectEmpty(this.race) &&
+      !Utils.isObjectEmpty(this.race.results) &&
+      this.race.results instanceof Map &&
+      !this.race.results.has('error');
+
+    if (hasResults) {
       return html`<p class="has-text-right">
         <md-icon
           path=${mdiEnduranceTrioFilePdf}
@@ -90,6 +94,8 @@ class LiveResults extends LitElement {
           class="is-clickable"
         ></md-icon>
       </p>`;
+    } else {
+      return null;
     }
   }
 
