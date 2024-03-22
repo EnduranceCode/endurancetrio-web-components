@@ -9,6 +9,10 @@ import { uiMessagesKeys, getUiMessage } from '../i18n/ui-messages';
 
 import 'jspdf-autotable';
 
+/**
+ * Generate a PDF file with the given race live results
+ * @param race the given race
+ */
 export function generateLiveResultsPDF(race) {
   const pdf = new jsPDF({
     orientation: 'portrait',
@@ -41,6 +45,12 @@ export function generateLiveResultsPDF(race) {
   pdf.save(fileName);
 }
 
+/**
+ * Formats the the given date as a YYYY-MM-DD hh:mm:ss string
+ *
+ * @param date the given date to be formatted
+ * @returns the given date as a YYYY-MM-DD hh:mm:ss string
+ */
 function formatDate(date) {
   return (
     [date.getFullYear(), padTo2Digits(date.getMonth() + 1), padTo2Digits(date.getDate())].join('-') +
@@ -49,10 +59,22 @@ function formatDate(date) {
   );
 }
 
+/**
+ * Pads the given number with a two digits format
+ *
+ * @param num the given number
+ * @returns the given number padded with a two digits format
+ */
 function padTo2Digits(num) {
   return num.toString().padStart(2, '0');
 }
 
+/**
+ * Creates the file name for the given race reference live results
+ *
+ * @param raceReference the given race reference
+ * @returns the file name for the given race reference live results
+ */
 function createFileName(raceReference) {
   return raceReference.concat('.pdf');
 }
