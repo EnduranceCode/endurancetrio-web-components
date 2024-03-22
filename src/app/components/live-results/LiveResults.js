@@ -80,6 +80,8 @@ class LiveResults extends LitElement {
    */
   renderPdfIcon() {
     if (Utils.isObjectEmpty(this.race)) {
+      return null;
+    } else {
       return html`<p class="has-text-right">
         <md-icon
           path=${mdiEnduranceTrioFilePdf}
@@ -88,8 +90,6 @@ class LiveResults extends LitElement {
           class="is-clickable"
         ></md-icon>
       </p>`;
-    } else {
-      return null;
     }
   }
 
