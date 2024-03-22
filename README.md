@@ -44,7 +44,9 @@ For the development of **EnduranceTrio Web Components**, [Webpack](https://webpa
 
 + [lit](https://www.npmjs.com/package/lit);
 + [bulma](https://www.npmjs.com/package/bulma);
-+ [@mdi/js](https://www.npmjs.com/package/@mdi/js).
++ [@mdi/js](https://www.npmjs.com/package/@mdi/js);
++ [jsPDF](https://www.npmjs.com/package/jspdf);
++ [jsPDF-AutoTable](https://www.npmjs.com/package/jspdf-autotable).
 
 ### Installation
 
