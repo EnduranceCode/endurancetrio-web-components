@@ -83,7 +83,8 @@ class LiveResults extends LitElement {
       !Utils.isObjectEmpty(this.race) &&
       !Utils.isObjectEmpty(this.race.results) &&
       this.race.results instanceof Map &&
-      !this.race.results.has('error');
+      !this.race.results.has('error') &&
+      this.race.results.get('overall').length > 1;
 
     if (hasResults) {
       return html`<p class="has-text-right">
@@ -108,7 +109,7 @@ class LiveResults extends LitElement {
 
   connectedCallback() {
     super.connectedCallback();
-    ResultsService.getLiveRaceResultsByRangeName(this.rangeName).then((result) => {
+    ResultsService.getRaceLiveResultsByRangeName(this.rangeName).then((result) => {
       this.race = result;
     });
   }

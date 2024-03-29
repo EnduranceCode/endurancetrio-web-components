@@ -58,7 +58,10 @@ class ResultsService {
    * @param {String} rangeName the given range name that contains the required results
    * @returns the results of the given range name
    */
-  static async getLiveRaceResultsByRangeName(rangeName) {
+  static async getRaceLiveResultsByRangeName(rangeName) {
+    const race = {};
+    race.raceReference = rangeName.toUpperCase(rangeName);
+
     const apiData = await ResultsService.getLiveResultsByRangeName(rangeName);
 
     const results = new Map();
@@ -69,15 +72,14 @@ class ResultsService {
       return errorResponse;
     }
 
-    apiData.raceReference = rangeName.toUpperCase(rangeName);
-    apiData.results = results.set('overall', apiData.data);
-    const ageGroups = getAgeGroups(apiData.results.get('overall'));
+    race.results = results.set('overall', apiData.data);
+    const ageGroups = getAgeGroups(race.results.get('overall'));
 
     if (ageGroups.length <= 1) {
-      return apiData;
+      return race;
     }
 
-    const overallResults = cloneResults(apiData.results.get('overall'));
+    const overallResults = cloneResults(race.results.get('overall'));
 
     ageGroups.forEach((ageGroup) => {
       const ageGroupResults = overallResults.filter((result) => {
@@ -91,7 +93,7 @@ class ResultsService {
       results.set(ageGroup.shortName, ageGroupResults);
     });
 
-    return apiData;
+    return race;
   }
 
   /**
