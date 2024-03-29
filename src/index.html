@@ -26,7 +26,20 @@
     </section>
 
     <main class="container is-fullhd">
-      <live-results range-name="table001"></live-results>
+      <div class="tabs is-toggle is-small is-fullwidth">
+        <ul class="tabs-menu" style="margin-left: 0">
+          <li data-target="table001" class="is-active"><a>LiveResults</a></li>
+          <li data-target="table002"><a>EventResults</a></li>
+        </ul>
+      </div>
+      <div>
+        <section id="table001" class="tab-content">
+          <live-results range-name="table003"></live-results>
+        </section>
+        <section id="table002" class="tab-content">
+          <event-results event-reference="20220220FTP001"></event-results>
+        </section>
+      </div>
     </main>
 
     <footer class="footer">
@@ -40,5 +53,35 @@
         </p>
       </div>
     </footer>
+    <script>
+      const tabSystem = {
+        init() {
+          document.querySelectorAll(".tabs-menu").forEach((tabMenu) => {
+            Array.from(tabMenu.children).forEach((child) => {
+              child.addEventListener("click", () => {
+                tabSystem.toggle(child.dataset.target);
+              });
+              if (child.className.includes("is-active")) {
+                tabSystem.toggle(child.dataset.target);
+              }
+            });
+          });
+        },
+        toggle(targetId) {
+          document
+            .querySelectorAll(".tab-content")
+            .forEach((contentElement) => {
+              contentElement.style.display =
+                contentElement.id === targetId ? "block" : "none";
+              document
+                .querySelector(`[data-target="${contentElement.id}"]`)
+                .classList[contentElement.id === targetId ? "add" : "remove"](
+                  "is-active"
+                );
+            });
+        },
+      };
+      tabSystem.init();
+    </script>
   </body>
 </html>
