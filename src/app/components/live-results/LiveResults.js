@@ -79,6 +79,8 @@ class LiveResults extends LitElement {
    * @returns the PDF icon/button template
    */
   renderPdfIcon() {
+    // For the Moura triathlon presentation we are removing the PDF icon,
+    // therefore the use of the hasResults variable will be replaces with the showIcon variable
     const hasResults =
       !Utils.isObjectEmpty(this.race) &&
       !Utils.isObjectEmpty(this.race.results) &&
@@ -86,8 +88,10 @@ class LiveResults extends LitElement {
       !this.race.results.has('error') &&
       this.race.results.get('overall').length > 1;
 
-    if (hasResults) {
-      return html`<p class="has-text-right">
+    // For the Moura triathlon presentation we are removing the PDF icon
+    const showIcon = false;
+    if (showIcon) {
+      return html`<p id="pdf-icon" class="has-text-right">
         <md-icon
           path=${mdiEnduranceTrioFilePdf}
           icon-size="3x"
