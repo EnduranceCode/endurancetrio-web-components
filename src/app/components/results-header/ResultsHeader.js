@@ -78,7 +78,7 @@ class ResultsHeader extends LitElement {
 
         <div class="tile is-ancestor">
           ${this.renderSwimDistance(distanceNumberFormat)} ${this.renderFirstRunDistance(distanceNumberFormat)}
-          ${this.renderCyclingDistance(distanceNumberFormat)} ${this.renderRunDistance(distanceNumberFormat)}
+          ${this.renderBikeDistance(distanceNumberFormat)} ${this.renderRunDistance(distanceNumberFormat)}
           ${this.renderSecondRunDistance(distanceNumberFormat)}
         </div>
       </section>
@@ -189,13 +189,13 @@ class ResultsHeader extends LitElement {
    * @param {NumberFormat} distanceNumberFormat The Number Format to be used for the race cycling distance.
    * @returns The Cycling Distance template.
    */
-  renderCyclingDistance(distanceNumberFormat) {
-    if (this.race.cyclingDistance) {
+  renderBikeDistance(distanceNumberFormat) {
+    if (this.race.bikeDistance) {
       return html`
         <div class="tile is-parent">
           <dl class="tile is-child has-text-centered">
             <dt class="heading">${getUiMessage(uiMessagesKeys.cycling)}</dt>
-            <dd class="title is-6">${distanceNumberFormat.format(this.race.cyclingDistance)}</dd>
+            <dd class="title is-6">${distanceNumberFormat.format(this.race.bikeDistance)}</dd>
           </dl>
         </div>
       `;
