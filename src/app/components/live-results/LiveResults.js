@@ -116,6 +116,18 @@ class LiveResults extends LitElement {
     ResultsService.getRaceLiveResultsByRangeName(this.rangeName).then((result) => {
       this.race = result;
     });
+
+    // For the Moura triathlon presentation we are calling the API in within a 2 minutes interval
+    this.job = setInterval(() => {
+      ResultsService.getRaceLiveResultsByRangeName(this.rangeName).then((result) => {
+        this.race = result;
+      });
+    }, 2 * 60 * 1000);
+  }
+
+  disconnectedCallback() {
+    clearInterval(this.job);
+    super.disconnectedCallback();
   }
 }
 
