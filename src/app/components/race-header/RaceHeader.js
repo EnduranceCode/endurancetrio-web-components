@@ -10,7 +10,7 @@ import { appStyles } from '../../css/app-style';
 import { getUiMessage, uiMessagesKeys } from '../../i18n/ui-messages';
 import { Utils } from '../../utils/Utils';
 
-class ResultsHeader extends LitElement {
+class RaceHeader extends LitElement {
   static styles = [
     css`
       :host {
@@ -243,4 +243,4 @@ class ResultsHeader extends LitElement {
   }
 }
 
-customElements.define('results-header', ResultsHeader);
+customElements.define('race-header', RaceHeader);
