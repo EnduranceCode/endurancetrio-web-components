@@ -8,8 +8,8 @@ import { LitElement, html, css } from 'lit';
 
 import { appStyles } from '../../css/app-style';
 
-import '../results-header/ResultsHeader';
-import '../results-body/ResultsBody';
+import '../race-header/RaceHeader';
+import '../race-results/RaceResults';
 
 class RaceData extends LitElement {
   static styles = [
@@ -38,8 +38,8 @@ class RaceData extends LitElement {
 
   render() {
     return html`
-      <results-header location="${this.location}" .race="${this.race}" }></results-header>
-      <results-body .race="${this.race}"></results-body>
+      <race-header location="${this.location}" .race="${this.race}" }></race-header>
+      <race-results .race="${this.race}"></race-results>
     `;
   }
 }

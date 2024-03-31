@@ -13,7 +13,7 @@ import { generateLiveResultsPDF } from '../../utils/pdf-generator';
 
 import { ResultsService } from '../../service/ResultsService';
 
-import '../results-body/ResultsBody';
+import '../race-results/RaceResults';
 
 class LiveResults extends LitElement {
   static styles = [
@@ -61,7 +61,7 @@ class LiveResults extends LitElement {
    */
   renderLiveRaceResults() {
     return html`${this.renderPdfIcon()}
-      <results-body .race="${this.race}"></results-body> `;
+      <race-results .race="${this.race}"></race-results> `;
   }
 
   /**

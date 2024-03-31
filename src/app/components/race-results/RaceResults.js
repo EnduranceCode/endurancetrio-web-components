@@ -16,7 +16,7 @@ import { ResultsService } from '../../service/ResultsService';
 import '../results-tab/ResultsTab';
 import '../results-table/ResultsTable';
 
-class ResultsBody extends LitElement {
+class RaceResults extends LitElement {
   static styles = [
     css`
       :host {
@@ -156,4 +156,4 @@ function getResultsTableColumnLabels(results) {
   return labels;
 }
 
-customElements.define('results-body', ResultsBody);
+customElements.define('race-results', RaceResults);

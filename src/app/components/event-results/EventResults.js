@@ -12,7 +12,7 @@ import { Utils } from '../../utils/Utils';
 import { EventService } from '../../service/EventService';
 
 import '../event-header/EventHeader';
-import '../results-data/RaceData';
+import '../race-data/RaceData';
 
 class EventResults extends LitElement {
   static styles = [
