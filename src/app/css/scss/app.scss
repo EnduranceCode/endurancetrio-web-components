@@ -24,76 +24,57 @@
 
 /* Elements */
 @import 'bulma/sass/elements/box';
-/*
-"bulma/sass/elements/button";
-'bulma/sass/elements/container';
-"bulma/sass/elements/content";
-"bulma/sass/elements/icon";
-"bulma/sass/elements/image";
-*/
+@import 'bulma/sass/elements/button';
+// 'bulma/sass/elements/container';
+// 'bulma/sass/elements/content';
+// 'bulma/sass/elements/icon';
+// 'bulma/sass/elements/image';
 @import 'bulma/sass/elements/notification';
 @import 'bulma/sass/elements/progress';
 @import 'bulma/sass/elements/table';
-/*
-"bulma/sass/elements/tag";
-*/
+// "bulma/sass/elements/tag";
 @import 'bulma/sass/elements/title';
-/*
-'bulma/sass/elements/other'
-*(
+@import 'bulma/sass/elements/other';
 
 /* Form */
 @import 'bulma/sass/form/shared';
-/*
-'bulma/sass/form/input-textarea';
-'bulma/sass/form/checkbox-radio';
-*/
+// 'bulma/sass/form/input-textarea';
+// 'bulma/sass/form/checkbox-radio';
 @import 'bulma/sass/form/select';
-/*
-'bulma/sass/form/file';
-*/
+// 'bulma/sass/form/file';
 @import 'bulma/sass/form/tools';
 
 /* Components */
-/*
-'bulma/sass/components/breadcrumb';
-'bulma/sass/components/card';
-'bulma/sass/components/dropdown';
-'bulma/sass/components/level';
-'bulma/sass/components/media';
-'bulma/sass/components/menu';
-'bulma/sass/components/message';
-'bulma/sass/components/modal';
-'bulma/sass/components/navbar';
-'bulma/sass/components/pagination';
-'bulma/sass/components/panel';
-*/
+// 'bulma/sass/components/breadcrumb';
+// 'bulma/sass/components/card';
+// 'bulma/sass/components/dropdown';
+// 'bulma/sass/components/level';
+// 'bulma/sass/components/media';
+// 'bulma/sass/components/menu';
+// 'bulma/sass/components/message';
+// 'bulma/sass/components/modal';
+// 'bulma/sass/components/navbar';
+// 'bulma/sass/components/pagination';
+// 'bulma/sass/components/panel';
 @import 'bulma/sass/components/tabs';
+@import 'components/documents-list';
 
 /* Grid */
-/*
-'bulma/sass/grid/columns';
-*/
+// 'bulma/sass/grid/columns';
 @import 'bulma/sass/grid/tiles';
 
 /* Helpers */
 @import 'bulma/sass/helpers/color';
-/*
-'bulma/sass/helpers/flexbox';
-'bulma/sass/helpers/float';
-'bulma/sass/helpers/other';
-'bulma/sass/helpers/overflow';
-'bulma/sass/helpers/position';
-*/
+// 'bulma/sass/helpers/flexbox';
+// 'bulma/sass/helpers/float';
+// 'bulma/sass/helpers/other';
+// 'bulma/sass/helpers/overflow';
+// 'bulma/sass/helpers/position';
 @import 'bulma/sass/helpers/spacing';
 @import 'bulma/sass/helpers/typography';
-/*
-'bulma/sass/helpers/visibility';
-*/
+// 'bulma/sass/helpers/visibility';
 
 /* Layout */
-/*
-'bulma/sass/layout/hero';
-'bulma/sass/layout/section';
-"bulma/sass/layout/footer"
-*/
+// 'bulma/sass/layout/hero';
+// 'bulma/sass/layout/section';
+// "bulma/sass/layout/footer"

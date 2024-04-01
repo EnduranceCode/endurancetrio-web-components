@@ -3,20 +3,28 @@
  * Copyright Ricardo do Canto
  * Licensed under MIT (https://github.com/EnduranceCode/endurancetrio-race-results/blob/master/LICENSE)
  *
- * @file Generates the endpoints for the resources for the FILES API
+ * @file Generates the endpoints for the resources on the FILES API
  */
 
 /**
- * Base URL of the API is use
+ * Base URL of the API is use.
  */
 const FILES_API_BASE_URL = process.env.FILES_API_BASE_URL;
 
 /**
- * Object that contais the resources available on the FILES API
+ * Object that contais the resources paths available on the FILES API.
  */
-const filesApiResources = {
+const filesApiResourcesPaths = {
   events: 'events/',
   races: 'races/',
+};
+
+/**
+ * Object that contais the files paths available on the FILES API.
+ */
+const filesApiPaths = {
+  'event-files': 'event-files/',
+  'results-files': 'results-files/',
 };
 
 /**
@@ -28,7 +36,75 @@ const filesApiResources = {
  * @returns the requested endpoint
  */
 export function getResourceFilesApiEndpoint(resource, resourceReference) {
-  const yearParameter = resourceReference.substring(0, 4).concat('/');
+  return FILES_API_BASE_URL.concat(
+    getYearParameter(resourceReference),
+    filesApiResourcesPaths[resource],
+    resourceReference,
+    '.json'
+  );
+}
 
-  return FILES_API_BASE_URL.concat(yearParameter, filesApiResources[resource], resourceReference, '.json');
+/**
+ * Gets the url for the given file in the FILES API.
+ *
+ * @param {*} fileResource the given file resource
+ * @param {*} fileName the given filename
+ *
+ * @returns the url for the given file
+ */
+export function getFilesApiUrl(fileResource, fileName) {
+  return FILES_API_BASE_URL.concat(
+    getYearParameter(fileName),
+    getResourceFromFile(fileResource),
+    getResourceReferenceFromFile(fileResource, fileName),
+    filesApiPaths[fileResource],
+    fileName
+  );
+}
+
+/**
+ * Gets the year path parameter for the given asset.
+ * @param asset the given asset
+ * @returns the year path parameter for the given asset
+ */
+function getYearParameter(asset) {
+  return asset.substring(0, 4).concat('/');
+}
+
+/**
+ * Gets the resource reference value for the givem file.
+ *
+ * @param fileResource the given file resource
+ * @param fileName the given file name
+ *
+ * @returns the resource path reference for the givem file
+ */
+function getResourceReferenceFromFile(fileResource, fileName) {
+  switch (fileResource) {
+    case 'event-file':
+      return fileName.substring(0, 12).concat('/');
+    case 'results-files':
+      return fileName.substring(0, 18).concat('/');
+    default:
+      break;
+  }
+}
+
+/**
+ * Gets the resource path value for the givem file.
+ *
+ * @param fileResource the given file resource
+ * @param fileName the given file name
+ *
+ * @returns the resource path value for the givem file
+ */
+function getResourceFromFile(fileResource) {
+  switch (fileResource) {
+    case 'event-file':
+      return filesApiResourcesPaths.events;
+    case 'results-files':
+      return filesApiResourcesPaths.races;
+    default:
+      break;
+  }
 }

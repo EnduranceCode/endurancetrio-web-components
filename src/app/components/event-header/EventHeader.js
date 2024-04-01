@@ -10,6 +10,8 @@ import { appStyles } from '../../css/app-style';
 import { uiMessagesKeys, getUiMessage } from '../../i18n/ui-messages';
 import { Utils } from '../../utils/Utils';
 
+import '../results-files/ResultsFiles';
+
 class EventHeader extends LitElement {
   static styles = [
     css`
@@ -61,28 +63,32 @@ class EventHeader extends LitElement {
           <span>${composedEventLocation}</span>
         </p>
 
-        <form>
-          <fieldset class="field is-horizontal">
-            <div class="field-label is-normal">
-              <label class="label">${getUiMessage(uiMessagesKeys.results)}</label>
-            </div>
-            <div class="field-body">
-              <div class="field">
-                <div class="control">
-                  <div class="select is-normal is-fullwidth">
-                    <select @change="${this.handleChangeSelection}">
-                      <option disabled selected>-- ${getUiMessage(uiMessagesKeys.resultsPlaceholder)} --</option>
-                      ${this.event.races.map((race) => {
-                        const optionText = race.subtitle ? race.title.concat(' - ', race.subtitle) : race.title;
-                        return html`<option value="${race.raceReference}">${optionText}</option>`;
-                      })}
-                    </select>
+        <div class="block">
+          <form>
+            <fieldset class="field is-horizontal">
+              <div class="field-label is-normal">
+                <label class="label">${getUiMessage(uiMessagesKeys.results)}</label>
+              </div>
+              <div class="field-body">
+                <div class="field">
+                  <div class="control">
+                    <div class="select is-normal is-fullwidth">
+                      <select @change="${this.handleChangeSelection}">
+                        <option disabled selected>-- ${getUiMessage(uiMessagesKeys.resultsPlaceholder)} --</option>
+                        ${this.event.races.map((race) => {
+                          const optionText = race.subtitle ? race.title.concat(' - ', race.subtitle) : race.title;
+                          return html`<option value="${race.raceReference}">${optionText}</option>`;
+                        })}
+                      </select>
+                    </div>
                   </div>
                 </div>
               </div>
-            </div>
-          </fieldset>
-        </form>
+            </fieldset>
+          </form>
+        </div>
+
+        <results-files .resultsFiles="${this.event.resultsFiles}"></results-files>
       `;
     }
   }
