@@ -111,12 +111,12 @@ class RaceHeader extends LitElement {
    * @returns The Race Date template
    */
   renderRaceDate() {
-    if (this.race.scheduleDate || this.race.actualDate) {
+    if (this.race.date) {
       return html`
         <div class="tile is-parent">
           <dl class="tile is-child has-text-centered">
             <dt class="heading">${getUiMessage(uiMessagesKeys.date)}</dt>
-            <dd class="title is-6">${this.race.actualDate ? this.race.actualDate : this.race.scheduleDate}</dd>
+            <dd class="title is-6">${this.race.date}</dd>
           </dl>
         </div>
       `;
@@ -130,12 +130,12 @@ class RaceHeader extends LitElement {
    * @returns The Race Time template.
    */
   renderRaceTime() {
-    if (this.race.scheduleTime || this.race.actualTime) {
+    if (this.race.time || this.race.gunTime) {
       return html`
         <div class="tile is-parent">
           <dl class="tile is-child has-text-centered">
             <dt class="heading">${getUiMessage(uiMessagesKeys.time)}</dt>
-            <dd class="title is-6">${this.race.actualTime ? this.race.actualTime : this.race.scheduleTime}</dd>
+            <dd class="title is-6">${this.race.time ? this.race.time : this.race.gunTime}</dd>
           </dl>
         </div>
       `;
