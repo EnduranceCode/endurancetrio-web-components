@@ -47,8 +47,8 @@ export function getResourceFilesApiEndpoint(resource, resourceReference) {
 /**
  * Gets the url for the given file in the FILES API.
  *
- * @param {*} fileResource the given file resource
- * @param {*} fileName the given filename
+ * @param fileResource the given file resource
+ * @param fileName the given filename
  *
  * @returns the url for the given file
  */
@@ -72,31 +72,12 @@ function getYearParameter(asset) {
 }
 
 /**
- * Gets the resource reference value for the givem file.
+ * Gets the resource path value for the given file.
  *
  * @param fileResource the given file resource
  * @param fileName the given file name
  *
- * @returns the resource path reference for the givem file
- */
-function getResourceReferenceFromFile(fileResource, fileName) {
-  switch (fileResource) {
-    case 'event-file':
-      return fileName.substring(0, 12).concat('/');
-    case 'results-files':
-      return fileName.substring(0, 18).concat('/');
-    default:
-      break;
-  }
-}
-
-/**
- * Gets the resource path value for the givem file.
- *
- * @param fileResource the given file resource
- * @param fileName the given file name
- *
- * @returns the resource path value for the givem file
+ * @returns the resource path value for the given file
  */
 function getResourceFromFile(fileResource) {
   switch (fileResource) {
@@ -104,6 +85,25 @@ function getResourceFromFile(fileResource) {
       return filesApiResourcesPaths.events;
     case 'results-files':
       return filesApiResourcesPaths.races;
+    default:
+      break;
+  }
+}
+
+/**
+ * Gets the resource reference value for the given file.
+ *
+ * @param fileResource the given file resource
+ * @param fileName the given file name
+ *
+ * @returns the resource path reference for the given file
+ */
+function getResourceReferenceFromFile(fileResource, fileName) {
+  switch (fileResource) {
+    case 'event-file':
+      return fileName.substring(0, 12).concat('/');
+    case 'results-files':
+      return fileName.substring(0, 18).concat('/');
     default:
       break;
   }
