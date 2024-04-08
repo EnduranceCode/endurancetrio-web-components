@@ -4,7 +4,7 @@
  * Licensed under MIT (https://github.com/EnduranceCode/endurancetrio-race-results/blob/master/LICENSE)
  */
 
-import { getResourceFilesApiEndpoint } from '../properties/files-api-endpoints';
+import { getResourceEndpointOnFilesApi as getResourceEndpoint } from '../properties/files-api-endpoints';
 import { getErrorMessage, errorMessagesKeys } from '../i18n/error-messages';
 
 class EventService {
@@ -15,7 +15,7 @@ class EventService {
    * @returns the desired event
    */
   static async getEventByReference(eventReference) {
-    const result = await fetch(getResourceFilesApiEndpoint('events', eventReference), { cache: 'no-store' })
+    const result = await fetch(getResourceEndpoint('events', eventReference), { cache: 'no-store' })
       .then((response) => {
         if (response.ok) {
           return response.json();

@@ -14,7 +14,7 @@ const FILES_API_BASE_URL = process.env.FILES_API_BASE_URL;
 /**
  * Object that contais the resources paths available on the FILES API.
  */
-const filesApiResourcesPaths = {
+const resourcePathsOnFilesApi = {
   events: 'events/',
   races: 'races/',
 };
@@ -22,7 +22,7 @@ const filesApiResourcesPaths = {
 /**
  * Object that contais the files paths available on the FILES API.
  */
-const filesApiPaths = {
+const filesPathsOnFilesApi = {
   'event-files': 'event-files/',
   'results-files': 'results-files/',
 };
@@ -35,10 +35,10 @@ const filesApiPaths = {
  *
  * @returns the requested endpoint
  */
-export function getResourceFilesApiEndpoint(resource, resourceReference) {
+export function getResourceEndpointOnFilesApi(resource, resourceReference) {
   return FILES_API_BASE_URL.concat(
     getYearParameter(resourceReference),
-    filesApiResourcesPaths[resource],
+    resourcePathsOnFilesApi[resource],
     resourceReference,
     '.json'
   );
@@ -52,12 +52,12 @@ export function getResourceFilesApiEndpoint(resource, resourceReference) {
  *
  * @returns the url for the given file
  */
-export function getFilesApiUrl(fileResource, fileName) {
+export function getFileUrlOnFilesApi(fileResource, fileName) {
   return FILES_API_BASE_URL.concat(
     getYearParameter(fileName),
     getResourceFromFile(fileResource),
     getResourceReferenceFromFile(fileResource, fileName),
-    filesApiPaths[fileResource],
+    filesPathsOnFilesApi[fileResource],
     fileName
   );
 }
@@ -82,9 +82,9 @@ function getYearParameter(asset) {
 function getResourceFromFile(fileResource) {
   switch (fileResource) {
     case 'event-file':
-      return filesApiResourcesPaths.events;
+      return resourcePathsOnFilesApi.events;
     case 'results-files':
-      return filesApiResourcesPaths.races;
+      return resourcePathsOnFilesApi.races;
     default:
       break;
   }

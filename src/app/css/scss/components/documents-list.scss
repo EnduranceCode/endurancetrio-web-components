@@ -11,8 +11,13 @@
  .documents-list {
   display: none;
 
-  &.documents-list a:link {
+  &.documents-list a:any-link {
+    color: $text;
     text-decoration: none;
+  }
+
+  &.documents-list a:hover {
+    color: $link;
   }
 
   &.documents-list--visible {

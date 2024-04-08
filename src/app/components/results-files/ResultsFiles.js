@@ -9,7 +9,7 @@ import { LitElement, html, css } from 'lit';
 import { appStyles } from '../../css/app-style';
 import { mdiFileMultiple } from '@mdi/js';
 import { mdiEnduranceTrioFilePdf } from '../../icons/mdi-endurancetrio';
-import { getFilesApiUrl } from '../../properties/files-api-endpoints';
+import { getFileUrlOnFilesApi as getFileUrl } from '../../properties/files-api-endpoints';
 
 import '../md-icon/MdIcon';
 
@@ -37,7 +37,7 @@ class ResultsFiles extends LitElement {
   }
 
   render() {
-    return html`<div class="container">
+    return html`<section class="container">
       <p class="has-text-right">
         <a @click="${this.toggleFilesListVisibility}" class="button is-ghost has-text-black"
           ><md-icon path=${mdiFileMultiple} icon-size="2x"></md-icon
@@ -46,29 +46,44 @@ class ResultsFiles extends LitElement {
       <div id="files-list" class="documents-list has-background-info-light">
         ${this.resultsFiles.map((file) => {
           return html`<div class="documents-list__item">
-            <a href="${getFilesApiUrl('results-files', file.fileName)}" target="_blank" class="has-text-black"
+            <a href="${getFileUrl('results-files', file.fileName)}" target="_blank"
               ><md-icon path=${mdiEnduranceTrioFilePdf} icon-size="2x"></md-icon
               ><span class="documents-list__title">${file.title} - ${file.subtitle}</span></a
             >
           </div>`;
         })}
       </div>
-    </div> `;
+    </section> `;
   }
 
   connectedCallback() {
     super.connectedCallback();
     this.resultsFiles = this.resultsFiles
       .filter((file) => {
-        return file.active === 'TRUE';
+        return file.active;
       })
       .sort((a, b) => {
         return a.displayOrder > b.displayOrder;
       });
+
+    document.addEventListener('results-body-update-race', () => {
+      this.removeFilesListVisibility();
+    });
+  }
+
+  disconnectedCallback() {
+    document.removeEventListener('results-body-update-race', () => {
+      this.removeFilesListVisibility();
+    });
+    super.disconnectedCallback();
   }
 
   toggleFilesListVisibility() {
     this.shadowRoot.getElementById('files-list').classList.toggle('documents-list--visible');
+  }
+
+  removeFilesListVisibility() {
+    this.shadowRoot.getElementById('files-list').classList.remove('documents-list--visible');
   }
 }
 
