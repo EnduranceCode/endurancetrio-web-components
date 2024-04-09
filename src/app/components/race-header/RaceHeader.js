@@ -6,6 +6,8 @@
 
 import { LitElement, html, css } from 'lit';
 
+import { mdiFileExcel } from '@mdi/js';
+
 import { appStyles } from '../../css/app-style';
 import { getUiMessage, uiMessagesKeys } from '../../i18n/ui-messages';
 
@@ -82,6 +84,8 @@ class RaceHeader extends LitElement {
           ${this.renderBikeDistance(distanceNumberFormat)} ${this.renderRunDistance(distanceNumberFormat)}
           ${this.renderSecondRunDistance(distanceNumberFormat)}
         </div>
+
+        ${this.renderCsvIcon()}
       </section>
     `;
   }
@@ -246,6 +250,52 @@ class RaceHeader extends LitElement {
         </div>
       `;
     }
+  }
+
+  /**
+   * Renders the CSV icon/button template
+   *
+   * @returns the CSV icon/button template
+   */
+  renderCsvIcon() {
+    const hasResults =
+      !Utils.isObjectEmpty(this.race) &&
+      !Utils.isObjectEmpty(this.race.results) &&
+      this.race.results instanceof Map &&
+      !this.race.results.has('error') &&
+      this.race.results.get('overall').length > 1;
+
+    if (hasResults) {
+      return html`
+        <p class="has-text-right">
+          <a id="csv" href="javascript:void(0)" @click="${this.createCsv}" class="button is-ghost has-text-black"
+            ><md-icon path=${mdiFileExcel} icon-size="2x"></md-icon
+          ></a>
+        </p>
+      `;
+    } else {
+      return null;
+    }
+  }
+
+  /**
+   * Creates a CSV file with the Race's results.
+   */
+  createCsv() {
+    const raceResults = this.race.results.get('overall');
+
+    const headers = Object.keys(raceResults[0]).map((key) => {
+      return getUiMessage(uiMessagesKeys[key]);
+    });
+
+    let csv = headers.join(',') + '\n';
+    csv += raceResults.map((row) => Object.values(row).join(',')).join('\n');
+
+    const blob = new Blob([csv], { type: 'text/csv;charset=utf-8;' });
+
+    const csvLink = this.shadowRoot.getElementById('csv');
+    csvLink.href = window.URL.createObjectURL(blob);
+    csvLink.setAttribute('download', this.race.raceReference + '.csv');
   }
 }
 
