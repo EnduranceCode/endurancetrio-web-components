@@ -8,6 +8,7 @@ import { LitElement, html, css } from 'lit';
 
 import { appStyles } from '../../css/app-style';
 import { getUiMessage, uiMessagesKeys } from '../../i18n/ui-messages';
+
 import { Utils } from '../../utils/Utils';
 
 class RaceHeader extends LitElement {
@@ -55,9 +56,9 @@ class RaceHeader extends LitElement {
   }
 
   /**
-   * Renders the Race Header template
+   * Renders the Race Header template.
    *
-   * @returns The Race Header template
+   * @returns the Race Header template
    */
   renderRaceHeader() {
     const distanceNumberFormat = new Intl.NumberFormat('pt-PT', {
@@ -89,7 +90,7 @@ class RaceHeader extends LitElement {
    * Renders the Race Location template.
    * The template is rendered only when the race data includes a location.
    *
-   * @returns The Race Location template.
+   * @returns the Race Location template
    */
   renderRaceLocation() {
     if (this.location) {
@@ -108,7 +109,7 @@ class RaceHeader extends LitElement {
    * Renders the Race Date template.
    * The template is rendered only when the race data includes a date.
    *
-   * @returns The Race Date template
+   * @returns the Race Date template
    */
   renderRaceDate() {
     if (this.race.date) {
@@ -127,7 +128,7 @@ class RaceHeader extends LitElement {
    * Renders the Race Time template.
    * The template is rendered only when the race data includes a time.
    *
-   * @returns The Race Time template.
+   * @returns the Race Time template.
    */
   renderRaceTime() {
     if (this.race.time || this.race.gunTime) {
@@ -135,7 +136,7 @@ class RaceHeader extends LitElement {
         <div class="tile is-parent">
           <dl class="tile is-child has-text-centered">
             <dt class="heading">${getUiMessage(uiMessagesKeys.time)}</dt>
-            <dd class="title is-6">${this.race.time ? this.race.time : this.race.gunTime}</dd>
+            <dd class="title is-6">${this.race.gunTime ? this.race.gunTime : this.race.time}</dd>
           </dl>
         </div>
       `;
@@ -146,8 +147,9 @@ class RaceHeader extends LitElement {
    * Renders the race's Swim Distance template.
    * The template is rendered only when the race data includes a swim distance.
    *
-   * @param {NumberFormat} distanceNumberFormat The Number Format to be used for the race swim distance.
-   * @returns The Swim Distance template.
+   * @param {NumberFormat} distanceNumberFormat the Number Format to be used for the race swim distance
+   *
+   * @returns the Swim Distance template.
    */
   renderSwimDistance(distanceNumberFormat) {
     if (this.race.swimDistance) {
@@ -166,8 +168,9 @@ class RaceHeader extends LitElement {
    * Renders the race's First Run Distance template.
    * The template is rendered only when the race data includes a first run distance.
    *
-   * @param {NumberFormat} distanceNumberFormat The Number Format to be used for the race first run distance.
-   * @returns The First Run Distance template
+   * @param {NumberFormat} distanceNumberFormat the Number Format to be used for the race first run distance
+   *
+   * @returns the First Run Distance template
    */
   renderFirstRunDistance(distanceNumberFormat) {
     if (this.race.firstRunDistance) {
@@ -186,8 +189,9 @@ class RaceHeader extends LitElement {
    * Renders the race's Cycling Distance template.
    * The template is rendered only when the race data includes a cycling distance.
    *
-   * @param {NumberFormat} distanceNumberFormat The Number Format to be used for the race cycling distance.
-   * @returns The Cycling Distance template.
+   * @param {NumberFormat} distanceNumberFormat The Number Format to be used for the race cycling distance
+   *
+   * @returns the Bike Distance template.
    */
   renderBikeDistance(distanceNumberFormat) {
     if (this.race.bikeDistance) {
@@ -206,8 +210,9 @@ class RaceHeader extends LitElement {
    * Renders the race's Run Distance template.
    * The template is rendered only when the race data includes a run distance.
    *
-   * @param {NumberFormat} distanceNumberFormat The Number Format to be used for the race run distance.
-   * @returns The race's run distance template.
+   * @param {NumberFormat} distanceNumberFormat The Number Format to be used for the race run distance
+   *
+   * @returns the race's run distance template.
    */
   renderRunDistance(distanceNumberFormat) {
     if (this.race.runDistance) {
@@ -226,8 +231,9 @@ class RaceHeader extends LitElement {
    * Renders the race's Second Run Distance template.
    * The template is rendered only when the race data includes a second run distance.
    *
-   * @param {NumberFormat} distanceNumberFormat The Number Format to be used for the race second run distance.
-   * @returns The race's second run distance template.
+   * @param {NumberFormat} distanceNumberFormat The Number Format to be used for the race second run distance
+   *
+   * @returns the race's second run distance template.
    */
   renderSecondRunDistance(distanceNumberFormat) {
     if (this.race.secondRunDistance) {

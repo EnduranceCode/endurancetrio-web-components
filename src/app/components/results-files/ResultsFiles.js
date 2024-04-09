@@ -6,8 +6,10 @@
 
 import { LitElement, html, css } from 'lit';
 
-import { appStyles } from '../../css/app-style';
 import { mdiFileMultiple } from '@mdi/js';
+
+import { appStyles } from '../../css/app-style';
+
 import { mdiEnduranceTrioFilePdf } from '../../icons/mdi-endurancetrio';
 import { getFileUrlOnFilesApi as getFileUrl } from '../../properties/files-api-endpoints';
 

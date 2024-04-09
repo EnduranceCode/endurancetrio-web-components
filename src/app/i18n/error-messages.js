@@ -18,6 +18,7 @@ export const errorMessagesKeys = {
   eventNotFound: 'eventNotFound',
   eventsListNotFound: 'eventsListNotFound',
   networkError: 'networkError',
+  raceNotFound: 'raceNotFound',
   resultsNotFound: 'resultsNotFound',
 };
 
@@ -29,6 +30,7 @@ const errorMessages = {
     eventNotFound: 'O evento escolhido não existe.',
     eventsListNotFound: 'Não foi possível obter a lista de eventos.',
     networkError: 'Erro de conexão, não foi possível ligar ao servidor.',
+    raceNotFound: 'Não foi possível os dados da prova pretendida.',
     resultsNotFound: 'Não foi possível obter os resultados pretendidos, ainda não estão disponíveis.',
   },
 };
@@ -36,8 +38,9 @@ const errorMessages = {
 /**
  * Returns the error message for the given key.
  *
- * @param {String} key of the error.
- * @returns the fetched error message.
+ * @param {String} key of the error
+ *
+ * @returns the fetched error message
  */
 export function getErrorMessage(key) {
   switch (navigatorLanguages) {

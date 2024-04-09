@@ -5,124 +5,42 @@
  */
 
 import { getErrorMessage, errorMessagesKeys } from '../i18n/error-messages';
-import { getEndpoint, getLiveResultsEndpoint } from '../properties/endpoints';
+import { getLiveResultsEndpoint } from '../properties/live-results-api-endpoints';
+
 import { Constants } from '../utils/Constants';
 
 class ResultsService {
   /**
-   * Fetchs the overall results for the given results reference
-   * and sets results for each Age Group present.
-   *
-   * @param {String} resultsReference The results reference of the desired results.
-   * @returns the results of the given results reference.
-   */
-  static async getResultsByReference(raceReference) {
-    const apiData = await ResultsService.getResultsByReferenceFromJsonFile(raceReference);
-
-    const results = new Map();
-
-    if (apiData.error) {
-      results.set('error', apiData.error);
-      const errorResponse = { results: results };
-      return errorResponse;
-    }
-
-    apiData.results = results.set('overall', apiData.results);
-    const ageGroups = getAgeGroups(apiData.results.get('overall'));
-
-    if (ageGroups.length <= 1) {
-      return apiData;
-    }
-
-    const overallResults = cloneResults(apiData.results.get('overall'));
-
-    ageGroups.forEach((ageGroup) => {
-      const ageGroupResults = overallResults.filter((result) => {
-        return result.ageGroup == ageGroup.shortName;
-      });
-
-      sortResultsByRank(ageGroupResults);
-      setSequentialRank(ageGroupResults);
-      calculateAgeGroupGaps(ageGroupResults);
-
-      results.set(ageGroup.shortName, ageGroupResults);
-    });
-
-    return apiData;
-  }
-
-  /**
-   * Fetchs the overall live results, from a Live Results API, for the given range name
-   * and sets results for each Age Group present.
+   * Gets the overall live results, from a Live Results API, processes those results.
+   * and then returns it included in a Race object.
    *
    * @param {String} rangeName the given range name that contains the required results
+   *
    * @returns the results of the given range name
    */
   static async getRaceLiveResultsByRangeName(rangeName) {
-    const race = {};
-    race.raceReference = rangeName.toUpperCase(rangeName);
+    const response = await ResultsService.getLiveResultsByRangeName(rangeName);
 
-    const apiData = await ResultsService.getLiveResultsByRangeName(rangeName);
-
-    const results = new Map();
-
-    if (apiData.error) {
-      results.set('error', apiData.error);
+    if (response.error) {
+      const results = new Map();
+      results.set('error', response.error);
       const errorResponse = { results: results };
       return errorResponse;
     }
 
-    race.results = results.set('overall', apiData.data);
-    const ageGroups = getAgeGroups(race.results.get('overall'));
+    const race = {};
+    race.raceReference = rangeName.toUpperCase(rangeName);
+    race.results = response.data;
 
-    if (ageGroups.length <= 1) {
-      return race;
-    }
-
-    const overallResults = cloneResults(race.results.get('overall'));
-
-    ageGroups.forEach((ageGroup) => {
-      const ageGroupResults = overallResults.filter((result) => {
-        return result.ageGroup == ageGroup.shortName;
-      });
-
-      sortResultsByRank(ageGroupResults);
-      setSequentialRank(ageGroupResults);
-      calculateAgeGroupGaps(ageGroupResults);
-
-      results.set(ageGroup.shortName, ageGroupResults);
-    });
-
-    return race;
-  }
-
-  /**
-   * Fetchs, from a JSON file, the overall results for the given race reference.
-   *
-   * @param {String} raceReference The race reference of the desired results.
-   * @returns The overall results of the given race reference.
-   */
-  static async getResultsByReferenceFromJsonFile(raceReference) {
-    const url = getEndpoint('results', raceReference);
-
-    return fetch(url, { cache: 'no-store' })
-      .then((response) => {
-        if (response.ok) {
-          return response.json();
-        } else {
-          return { error: getErrorMessage(errorMessagesKeys.resultsNotFound) };
-        }
-      })
-      .catch(() => {
-        return { error: getErrorMessage(errorMessagesKeys.networkError) };
-      });
+    return this.processRacesResults(race);
   }
 
   /**
    * Fetchs the overall live results, from a Live Results API, for the given range name.
    *
-   * @param {String} rangeName The race reference of the desired results.
-   * @returns The overall results of the given race reference.
+   * @param {String} rangeName the race reference of the desired results
+   *
+   * @returns The overall results of the given race reference
    */
   static async getLiveResultsByRangeName(rangeName) {
     const url = getLiveResultsEndpoint(rangeName);
@@ -139,13 +57,50 @@ class ResultsService {
         return { error: getErrorMessage(errorMessagesKeys.networkError) };
       });
   }
+
+  /**
+   * Processes the results of the given race and returns the race with the processed results.
+   *
+   * @param {Race} race the given race
+   *
+   * @returns the given race with the processed results
+   */
+  static processRacesResults(race) {
+    const results = new Map();
+
+    race.results = results.set('overall', race.results);
+
+    const ageGroups = getAgeGroups(race.results.get('overall'));
+
+    if (ageGroups.length <= 1) {
+      return race;
+    }
+
+    const processedRace = race;
+    const overallResults = cloneResults(processedRace.results.get('overall'));
+
+    ageGroups.forEach((ageGroup) => {
+      const ageGroupResults = overallResults.filter((result) => {
+        return result.ageGroup == ageGroup.shortName;
+      });
+
+      sortResultsByRank(ageGroupResults);
+      setSequentialRank(ageGroupResults);
+      calculateAgeGroupGaps(ageGroupResults);
+
+      results.set(ageGroup.shortName, ageGroupResults);
+    });
+
+    return processedRace;
+  }
 }
 
 /**
  * Gets the list ao all Age Groups on the overall results.
  *
- * @param {Array} overallResultsData The overall results of the race.
- * @returns The list of all Age Groups on the overall results.
+ * @param {Array} overallResultsData the overall results of the race
+ *
+ * @returns the list of all Age Groups on the overall results
  */
 function getAgeGroups(overallResultsData) {
   const ageGroupsList = [];
@@ -168,10 +123,11 @@ function getAgeGroups(overallResultsData) {
 }
 
 /**
- * Creates a clone of the given API Results array to be used to prepare a list of results for each Age Group present
- * The clone is made following the sugestion at https://stackoverflow.com/a/40283265
+ * Creates a clone of the given API Results array to be used to prepare a list of results for each Age Group present.
+ * The clone is made following the sugestion at https://stackoverflow.com/a/40283265.
  *
  * @param results the given API Results array
+ *
  * @returns the clone of the given API Results array
  */
 function cloneResults(results) {
@@ -183,7 +139,7 @@ function cloneResults(results) {
 /**
  * Sorts the given results by rank.
  *
- * @param {Array} resultsData Results array to be sorted by rank.
+ * @param {Array} resultsData the given results array to be sorted by rank
  */
 function sortResultsByRank(resultsData) {
   resultsData.sort((a, b) => {
@@ -194,7 +150,7 @@ function sortResultsByRank(resultsData) {
 /**
  * Sets the given results rank with sequential numbers.
  *
- * @param {Array} resultsData Results array to be set with a sequential rank.
+ * @param {Array} resultsData yhe given results array to be set with a sequential rank
  */
 function setSequentialRank(resultsData) {
   let rank = 1;
@@ -209,7 +165,7 @@ function setSequentialRank(resultsData) {
 /**
  * Sets the correct time gap in the Age Groups results.
  *
- * @param {Array} resultsData Results array to be set with the correct time gap for the Age Groups results.
+ * @param {Array} resultsData the given results array to be set with the correct time gap for the Age Groups results
  */
 function calculateAgeGroupGaps(resultsData) {
   const arrayWinnerTotal = resultsData[0].total.split(':');
