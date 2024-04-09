@@ -7,7 +7,8 @@
 import { LitElement, html, css } from 'lit';
 
 import { appStyles } from '../../css/app-style';
-import naturalSort from '../../vendor/naturalSort';
+
+import { default as naturalSort } from '../../vendor/naturalSort';
 
 import '../table-header/TableHeader';
 

@@ -7,7 +7,9 @@
 import { LitElement, html, css } from 'lit';
 
 import { appStyles } from '../../css/app-style';
+
 import { uiMessagesKeys, getUiMessage } from '../../i18n/ui-messages';
+
 import { Utils } from '../../utils/Utils';
 
 import '../results-files/ResultsFiles';
@@ -44,9 +46,9 @@ class EventHeader extends LitElement {
   }
 
   /**
-   * Renders the Event Header template
+   * Renders the Event Header template.
    *
-   * @returns The Event Header template
+   * @returns the Event Header template
    */
   renderEventHeader() {
     const composedEventDate = getComposedEventDate(this.event.startDate, this.event.endDate);
@@ -94,9 +96,9 @@ class EventHeader extends LitElement {
   }
 
   /**
-   * Renders the Error Message template
+   * Renders the Error Message template.
    *
-   * @returns The Error Message template
+   * @returns the Error Message template
    */
   renderErrorMessage() {
     return html`
@@ -108,7 +110,7 @@ class EventHeader extends LitElement {
   }
 
   /**
-   * Renders the Progress Bar template
+   * Renders the Progress Bar template.
    *
    * @returns The Progress Bar template
    */
@@ -117,15 +119,15 @@ class EventHeader extends LitElement {
   }
 
   /**
-   * Handles the change of the option on the race's dropdown
+   * Handles the change of the option on the race's dropdown.
    *
-   * @param {Event} e The event to be handled
+   * @param {Event} event the event to be handled
    */
-  handleChangeSelection(e) {
+  handleChangeSelection(event) {
     let selectedRace = {};
     if (this.event.races && this.event.races.length > 0) {
       this.event.races.map((race) => {
-        if (race.raceReference == e.target.value) {
+        if (race.raceReference == event.target.value) {
           selectedRace = race;
         }
       });
@@ -138,10 +140,11 @@ class EventHeader extends LitElement {
 }
 
 /**
- * Gets the composed event's date in a well formatted string
+ * Gets the composed event's date in a well formatted string.
  *
- * @param {String} eventStartDate The event start date
- * @param {String} eventEndDate The event end date
+ * @param {String} eventStartDate the givenevent start date
+ * @param {String} eventEndDate the event end date
+ *
  * @returns The event's composed date in a and well formatted string
  */
 function getComposedEventDate(eventStartDate, eventEndDate) {

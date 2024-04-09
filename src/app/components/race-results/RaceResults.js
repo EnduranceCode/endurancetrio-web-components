@@ -7,11 +7,11 @@
 import { LitElement, html, css } from 'lit';
 
 import { appStyles } from '../../css/app-style';
+
 import { getErrorMessage, errorMessagesKeys } from '../../i18n/error-messages';
 import { getUiMessage, uiMessagesKeys } from '../../i18n/ui-messages';
-import { Utils } from '../../utils/Utils';
 
-import { ResultsService } from '../../service/ResultsService';
+import { Utils } from '../../utils/Utils';
 
 import '../results-tab/ResultsTab';
 import '../results-table/ResultsTable';
@@ -32,37 +32,15 @@ class RaceResults extends LitElement {
 
   static properties = {
     race: {},
-    _lastFetchedRaceReference: { attribute: false, state: true },
   };
 
   constructor() {
     super();
     this.race = {};
-    this._lastFetchedRaceReference = '';
   }
 
   render() {
     const hasRace = !Utils.isObjectEmpty(this.race);
-    const hasResults =
-      hasRace &&
-      !Utils.isObjectEmpty(this.race.results) &&
-      this.race.results instanceof Map &&
-      !this.race.results.has('error');
-
-    if (hasRace && !hasResults && this._lastFetchedRaceReference != this.race.raceReference) {
-      ResultsService.getResultsByReference(this.race.raceReference).then((apiData) => {
-        updateRaceWithActualData(this.race, apiData);
-        this.race.results = apiData.results;
-        this.dispatchEvent(
-          new CustomEvent('results-body-update-race', { bubbles: true, composed: true, detail: { race: this.race } })
-        );
-        this._lastFetchedRaceReference = this.race.raceReference;
-      });
-    }
-
-    if (hasRace && !('results' in this.race)) {
-      return html`${this.renderProgressBar()}`;
-    }
 
     if (hasRace && this.race.results instanceof Map) {
       if (this.race.results.has('error')) {
@@ -96,7 +74,7 @@ class RaceResults extends LitElement {
   /**
    * Renders the Progress Bar template.
    *
-   * @returns The Progress Bar template.
+   * @returns the Progress Bar template
    */
   renderProgressBar() {
     return html`<progress class="progress is-info"></progress>`;
@@ -105,7 +83,7 @@ class RaceResults extends LitElement {
   /**
    * Renders the Error Message template.
    *
-   * @returns The Error Message template.
+   * @returns the Error Message template
    */
   renderErrorMessage() {
     return html`
@@ -118,7 +96,7 @@ class RaceResults extends LitElement {
   /**
    * Renders the Results Not found Message template.
    *
-   * @returns the Results Not Found Message Template.
+   * @returns the Results Not Found Message Template
    */
   renderNoResultsMessage() {
     return html`
@@ -130,20 +108,10 @@ class RaceResults extends LitElement {
 }
 
 /**
- * Updates the Race data with the data retrieved from the API Backend.
- *
- * @param {Object} apiData the Race data retrieved from the API Backend.
- */
-function updateRaceWithActualData(race, apiData) {
-  race.actualDate = apiData.actualDate ? apiData.actualDate : race.actualDate;
-  race.actualTime = apiData.actualTime ? apiData.actualTime : race.actualTime;
-}
-
-/**
  * Gets the labels for the columns of the results table.
  *
  * @param {Array} results
- * @returns The labels for the columns of the results table.
+ * @returns the labels for the columns of the results table
  */
 function getResultsTableColumnLabels(results) {
   const labels = [];

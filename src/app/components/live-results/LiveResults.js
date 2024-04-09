@@ -7,11 +7,12 @@
 import { LitElement, html, css } from 'lit';
 
 import { appStyles } from '../../css/app-style';
+
 import { mdiEnduranceTrioFilePdf } from '../../icons/mdi-endurancetrio';
-import { Utils } from '../../utils/Utils';
 import { generateLiveResultsPDF } from '../../utils/pdf-generator';
 
 import { ResultsService } from '../../service/ResultsService';
+import { Utils } from '../../utils/Utils';
 
 import '../race-results/RaceResults';
 

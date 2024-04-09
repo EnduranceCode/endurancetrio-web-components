@@ -7,9 +7,9 @@
 import { LitElement, html, css } from 'lit';
 
 import { appStyles } from '../../css/app-style';
-import { Utils } from '../../utils/Utils';
 
 import { EventService } from '../../service/EventService';
+import { Utils } from '../../utils/Utils';
 
 import '../event-header/EventHeader';
 import '../race-data/RaceData';
@@ -32,7 +32,6 @@ class EventResults extends LitElement {
     event: {},
     eventReference: { attribute: 'event-reference' },
     race: {},
-    raceReference: {},
   };
 
   constructor() {
@@ -40,7 +39,6 @@ class EventResults extends LitElement {
     this.event = {};
     this.eventReference = '';
     this.race = {};
-    this.raceReference = '';
   }
 
   render() {
@@ -64,7 +62,6 @@ class EventResults extends LitElement {
 
     this.addEventListener('event-header-change-race', (e) => {
       this.race = e.detail.race;
-      this.raceReference = e.detail.race.raceReference;
     });
   }
 }

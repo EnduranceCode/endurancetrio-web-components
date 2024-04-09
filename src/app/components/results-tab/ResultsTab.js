@@ -9,6 +9,7 @@ import { ifDefined } from 'lit/directives/if-defined.js';
 import { styleMap } from 'lit/directives/style-map.js';
 
 import { appStyles } from '../../css/app-style';
+
 import { uiMessagesKeys, getUiMessage } from '../../i18n/ui-messages';
 
 class ResultsTab extends LitElement {
