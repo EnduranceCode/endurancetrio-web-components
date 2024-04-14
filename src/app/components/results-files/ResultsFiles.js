@@ -65,7 +65,7 @@ class ResultsFiles extends LitElement {
         return file.active;
       })
       .sort((a, b) => {
-        return a.displayOrder > b.displayOrder;
+        return a.displayOrder - b.displayOrder;
       });
 
     document.addEventListener('results-body-update-race', () => {
