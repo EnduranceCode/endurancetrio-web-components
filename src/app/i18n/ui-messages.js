@@ -16,6 +16,7 @@ export const uiMessagesKeys = {
   ageGroup: 'ageGroup',
   bike: 'cycling',
   bib: 'bib',
+  class: 'class',
   cycling: 'cycling',
   date: 'date',
   error: 'error',
@@ -48,6 +49,7 @@ const uiMessages = {
   pt_PT: {
     ageGroup: 'Escalão',
     bib: 'Dorsal',
+    class: 'Classe',
     cycling: 'Ciclismo',
     date: 'Data',
     error: 'Erro',
