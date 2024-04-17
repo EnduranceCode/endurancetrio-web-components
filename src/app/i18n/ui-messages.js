@@ -14,6 +14,7 @@ const navigatorLanguages = window.navigator.language;
  */
 export const uiMessagesKeys = {
   ageGroup: 'ageGroup',
+  athletes: 'athletes',
   bike: 'cycling',
   bib: 'bib',
   class: 'class',
@@ -48,6 +49,7 @@ export const uiMessagesKeys = {
 const uiMessages = {
   pt_PT: {
     ageGroup: 'Escalão',
+    athletes: 'Atletas',
     bib: 'Dorsal',
     class: 'Classe',
     cycling: 'Ciclismo',
