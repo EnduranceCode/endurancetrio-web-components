@@ -43,6 +43,7 @@ class Constants {
     { order: 35, nameSigular: 'Grupo de Idade 90-94', namePlural: 'Grupos de Idade 90-94', shortName: '90-94' },
     { order: 36, nameSigular: 'Grupo de Idade 95-99', namePlural: 'Grupos de Idade 95-99', shortName: '95-99' },
     { order: 37, nameSigular: 'Absoluto', namePlural: 'Absolutos', shortName: 'ABS' },
+    { order: 38, nameSigular: 'Estafeta', namePlural: 'Estafetas', shortName: 'EST' },
   ];
 }
 
