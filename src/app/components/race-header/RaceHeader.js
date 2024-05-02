@@ -63,13 +63,6 @@ class RaceHeader extends LitElement {
    * @returns the Race Header template
    */
   renderRaceHeader() {
-    const distanceNumberFormat = new Intl.NumberFormat('pt-PT', {
-      locales: 'lookup',
-      style: 'unit',
-      unit: 'meter',
-      useGrouping: 'always',
-    });
-
     return html`
       <section class="box has-text-link">
         <h4 class="title is-4 has-text-centered has-text-link">${this.race.title}</h4>
@@ -79,13 +72,7 @@ class RaceHeader extends LitElement {
           ${this.renderRaceLocation()} ${this.renderRaceDate()} ${this.renderRaceTime()}
         </div>
 
-        <div class="tile is-ancestor">
-          ${this.renderSwimDistance(distanceNumberFormat)} ${this.renderFirstRunDistance(distanceNumberFormat)}
-          ${this.renderBikeDistance(distanceNumberFormat)} ${this.renderRunDistance(distanceNumberFormat)}
-          ${this.renderSecondRunDistance(distanceNumberFormat)}
-        </div>
-
-        ${this.renderCsvIcon()}
+        ${this.renderProgramData()} ${this.renderCsvIcon()}
       </section>
     `;
   }
@@ -148,6 +135,33 @@ class RaceHeader extends LitElement {
   }
 
   /**
+   * Renders the Program data template.
+   * The Program data is only displayed when the Race only has one program.
+   *
+   * @returns the Program data template
+   */
+  renderProgramData() {
+    if (this.race.programs.length != 1) {
+      return null;
+    }
+
+    const distanceNumberFormat = new Intl.NumberFormat('pt-PT', {
+      locales: 'lookup',
+      style: 'unit',
+      unit: 'meter',
+      useGrouping: 'always',
+    });
+
+    return html`
+      <div class="tile is-ancestor">
+        ${this.renderSwimDistance(distanceNumberFormat)} ${this.renderFirstRunDistance(distanceNumberFormat)}
+        ${this.renderBikeDistance(distanceNumberFormat)} ${this.renderRunDistance(distanceNumberFormat)}
+        ${this.renderSecondRunDistance(distanceNumberFormat)}
+      </div>
+    `;
+  }
+
+  /**
    * Renders the race's Swim Distance template.
    * The template is rendered only when the race data includes a swim distance.
    *
@@ -156,12 +170,12 @@ class RaceHeader extends LitElement {
    * @returns the Swim Distance template.
    */
   renderSwimDistance(distanceNumberFormat) {
-    if (this.race.swimDistance) {
+    if (this.race.programs[0].swimDistance) {
       return html`
         <div class="tile is-parent">
           <dl class="tile is-child has-text-centered">
             <dt class="heading">${getUiMessage(uiMessagesKeys.swim)}</dt>
-            <dd class="title is-6">${distanceNumberFormat.format(this.race.swimDistance)}</dd>
+            <dd class="title is-6">${distanceNumberFormat.format(this.race.programs[0].swimDistance)}</dd>
           </dl>
         </div>
       `;
@@ -177,12 +191,12 @@ class RaceHeader extends LitElement {
    * @returns the First Run Distance template
    */
   renderFirstRunDistance(distanceNumberFormat) {
-    if (this.race.firstRunDistance) {
+    if (this.race.programs[0].firstRunDistance) {
       return html`
         <div class="tile is-parent">
           <dl class="tile is-child has-text-centered">
             <dt class="heading">${getUiMessage(uiMessagesKeys.firstRun)}</dt>
-            <dd class="title is-6">${distanceNumberFormat.format(this.race.firstRunDistance)}</dd>
+            <dd class="title is-6">${distanceNumberFormat.format(this.race.programs[0].firstRunDistance)}</dd>
           </dl>
         </div>
       `;
@@ -198,12 +212,12 @@ class RaceHeader extends LitElement {
    * @returns the Bike Distance template.
    */
   renderBikeDistance(distanceNumberFormat) {
-    if (this.race.bikeDistance) {
+    if (this.race.programs[0].bikeDistance) {
       return html`
         <div class="tile is-parent">
           <dl class="tile is-child has-text-centered">
             <dt class="heading">${getUiMessage(uiMessagesKeys.cycling)}</dt>
-            <dd class="title is-6">${distanceNumberFormat.format(this.race.bikeDistance)}</dd>
+            <dd class="title is-6">${distanceNumberFormat.format(this.race.programs[0].bikeDistance)}</dd>
           </dl>
         </div>
       `;
@@ -219,12 +233,12 @@ class RaceHeader extends LitElement {
    * @returns the race's run distance template.
    */
   renderRunDistance(distanceNumberFormat) {
-    if (this.race.runDistance) {
+    if (this.race.programs[0].runDistance) {
       return html`
         <div class="tile is-parent">
           <dl class="tile is-child has-text-centered">
             <dt class="heading">${getUiMessage(uiMessagesKeys.run)}</dt>
-            <dd class="title is-6">${distanceNumberFormat.format(this.race.runDistance)}</dd>
+            <dd class="title is-6">${distanceNumberFormat.format(this.race.programs[0].runDistance)}</dd>
           </dl>
         </div>
       `;
@@ -240,12 +254,12 @@ class RaceHeader extends LitElement {
    * @returns the race's second run distance template.
    */
   renderSecondRunDistance(distanceNumberFormat) {
-    if (this.race.secondRunDistance) {
+    if (this.race.programs[0].secondRunDistance) {
       return html`
         <div class="tile is-parent">
           <dl class="tile is-child has-text-centered">
             <dt class="heading">${getUiMessage(uiMessagesKeys.secondRun)}</dt>
-            <dd class="title is-6">${distanceNumberFormat.format(this.race.secondRunDistance)}</dd>
+            <dd class="title is-6">${distanceNumberFormat.format(this.race.programs[0].secondRunDistance)}</dd>
           </dl>
         </div>
       `;
