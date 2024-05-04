@@ -141,7 +141,7 @@ class RaceHeader extends LitElement {
    * @returns the Program data template
    */
   renderProgramData() {
-    if (this.race.programs.length != 1) {
+    if (!this.race.programs && this.race.programs.length != 1) {
       return null;
     }
 
