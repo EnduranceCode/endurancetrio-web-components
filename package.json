@@ -1,6 +1,6 @@
 {
   "name": "endurancetrio-web-components",
-  "version": "1.6.1",
+  "version": "1.6.2",
   "description": "Set of Web Components, built with LitElement, aimed for the EnduranceTrio applications system.",
   "main": "index.js",
   "scripts": {
